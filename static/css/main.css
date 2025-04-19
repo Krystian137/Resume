@@ -1,0 +1,132 @@
+/* Color pallete */
+
+.celeste {
+    background-color: #BCF4F5;
+}
+
+.celadon {
+    background-color: #B4EBCA;
+}
+
+.tea-green {
+    background-color: #D9F2B4;
+}
+
+.tea-green-light {
+    background-color: #D3FAC7;
+}
+
+.cherry-blossom-pink {
+    background-color: #FFB7C3;
+}
+
+/* Buttons */
+
+.cherry-blossom-pink:hover {
+    background-color: #ff99aa;
+    color: white;
+}
+
+.btn.cherry-blossom-pink:active {
+    background-color: #e17a8b;
+    color: white;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+/* Navbar animations */
+#mainNav {
+    transition: top 0.3s ease;
+}
+
+#mainNav.is-fixed {
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    z-index: 1030;
+}
+
+#mainNav.is-fixed.is-visible {
+    top: 0;
+}
+
+/* Main section slide */
+#main {
+    transform: translateY(-50%);
+    animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Main img slide */
+#main img {
+    transform: translateY(-50%);
+    animation: slideInImage 1s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes slideInImage {
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* hover animation */
+.btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Animacje ogólne */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Klasy animacji */
+.fade-up {
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+.fade-left {
+    opacity: 0;
+    animation: fadeLeft 1s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+/* Dla ikon technologii z lekkim hoverem */
+.tech-icon {
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tech-icon:hover {
+    transform: scale(1.1);
+    color: #d63384; /* lub cherry-blossom-pink jeśli masz w palecie */
+}
