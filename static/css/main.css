@@ -20,6 +20,10 @@
     background-color: #FFB7C3;
 }
 
+.link-hover:hover {
+    color: #ff99aa;
+}
+
 /* Buttons */
 
 .cherry-blossom-pink:hover {
@@ -128,5 +132,14 @@
 
 .tech-icon:hover {
     transform: scale(1.1);
-    color: #d63384; /* lub cherry-blossom-pink jeśli masz w palecie */
+    color: #d63384;
+}
+
+/* Dla img */
+.img-zoom {
+    transition: transform 0.3s ease;
+}
+
+.img-zoom:hover {
+    transform: scale(1.1);
 }

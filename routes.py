@@ -12,14 +12,14 @@ def index():
     return render_template("index.html")
 
 
-@main.route('/resume')
-def resume():
-    return render_template("resume.html")
+@main.route('/moviereviewers')
+def movie_reviewers():
+    return render_template("moviereviewers.html")
 
 
-@main.route('/projects')
-def projects():
-    return render_template("projects.html")
+@main.route('/steamchests')
+def steam_chests():
+    return render_template("steamchests.html")
 
 
 MAIL_ADDRESS = os.environ.get("EMAIL_KEY")
