@@ -16,7 +16,8 @@
 <body class="celeste">
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand fw-bold text-primary" href="#main">Krystian Puch</a>
+            <a class="navbar-brand" href="{{ url_for('main.index') }}"><i class="fa-solid fa-arrow-left"></i> Go back</a>
+            <a class="navbar-brand fw-bold text-primary" href="{{ url_for('main.index') }}">Krystian Puch</a>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -32,47 +33,93 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#resume">Resume</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="{{ url_for('main.index') }}#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#projects">Projects</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="{{ url_for('main.index') }}#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#contact">Contact</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="{{ url_for('main.index') }}#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="main" class="container d-flex align-items-center" style="min-height: 100vh;">
-        <div class="col-md-6 text-md-start">
-            <a href="{{ url_for('main.movie_reviewers') }}" class="text-decoration-none link-hover">
-                <h3>Movie Reviewers</h3>
-            </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-            <div>
-                <a href="{{ url_for('main.movie_reviewers') }}" class="text-decoration-none link-hover">
-                    See More
-                </a>
+    <section id="pages-preview" class="py-5 animate-section mt-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-5 fw-bold">Odkryj funkcje projektu</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <a href="#home" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}" class="card-img-top" alt="Strona główna">
+                            <div class="card-body">
+                                <h5 class="card-title">Strona główna</h5>
+                                <p class="card-text text-muted small">Szybki przegląd projektu i aktualne dane.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#user-chests" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}" class="card-img-top" alt="Twoje skrzynie">
+                            <div class="card-body">
+                                <h5 class="card-title">Twoje skrzynie</h5>
+                                <p class="card-text text-muted small">Zarządzanie twoim inwentarzem skrzyń.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#analytics" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}" class="card-img-top" alt="Analiza cen">
+                            <div class="card-body">
+                                <h5 class="card-title">Analiza cen</h5>
+                                <p class="card-text text-muted small">Historia, trendy i procentowe zmiany.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#alerts" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}" class="card-img-top" alt="Alerty">
+                            <div class="card-body">
+                                <h5 class="card-title">Alerty</h5>
+                                <p class="card-text text-muted small">Ustaw progi cenowe i otrzymuj powiadomienia.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#profile" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}" class="card-img-top" alt="Profil użytkownika">
+                            <div class="card-body">
+                                <h5 class="card-title">Profil użytkownika</h5>
+                                <p class="card-text text-muted small">Zarządzanie kontem i ustawieniami.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 text-center">
-            <a href="{{ url_for('main.movie_reviewers') }}">
-            <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieReviewersRepresentative.png') }}"
-                 alt="Movie Reviewers Project"
-                 class="img-fluid rounded shadow-lg img-zoom">
-            </a>
         </div>
     </section>
 
-    <section>
+
+
+    <section id="technologies" class="py-5">
         <div class="row mt-5">
             <div class="col text-center fade-up">
                 <h1 class="display-3">Technologies</h1>
-                <p>Technologies I know:</p>
+                <p>Technologies used:</p>
             </div>
         </div>
         <div class="row justify-content-center fade-up">
@@ -101,6 +148,7 @@
             </div>
         </div>
     </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
