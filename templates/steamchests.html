@@ -180,33 +180,43 @@
                 </div>
             </div>
 
-            <div class="row align-items-center my-5 ">
-                <div class="col-md-6 text-center order-md-2 fade-up">
-                    <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}" alt="More About Project" class="img-fluid w-75 rounded shadow img-zoom">
-                </div>
-                <div class="col-md-6 order-md-1 fade-up">
-                    <h2 class="display-5 mb-3 text-primary">More about the project</h2>
-                    <p class="lead" style="text-align: justify;">
-                        This web application was built using the Flask framework and serves as a tool for monitoring the
-                        prices of CS2 in-game cases available on the Steam market. Users can view historical price charts,
-                        track day-to-day, week-to-week, month-to-month and total value changes, and register accounts to
-                        manage their personal inventories. The platform automatically calculates the total value of owned
-                        cases and visualizes market fluctuations to assist in identifying optimal selling times.
-                    </p>
-                    <p class="lead" style="text-align: justify;">
-                        The project utilizes a combination of <strong>Python (Flask)</strong> for backend logic and routing,
-                        <strong>SQLAlchemy</strong> for database interactions, and <strong>HTML5</strong>, <strong>CSS3</strong>,
-                        <strong>JavaScript</strong>, and <strong>Bootstrap</strong> for a responsive and user-friendly frontend.
-                        For data visualization, it uses <strong>Chart.js</strong>. Price data is collected via the <strong>Steam Marketplace API</strong>
-                        and stored in <strong>JSON</strong> files to allow flexible access and to practice working with structured data formats.
-                        The application includes a <strong>user authentication system</strong> with <strong>registration</strong> and
-                        <strong>login functionality</strong>, where passwords are protected through <strong>secure hashing</strong>.
-                        It also features <strong>interactive forms</strong> that allow users to track their owned cases,
-                        monitor value changes over time, and calculate their potential profit.
-                        Version control is managed using <strong>Git</strong> and <strong>GitHub</strong>.
-                        This project not only addresses a real-world need for players but also served as a comprehensive
-                        learning experience in <strong>full-stack web development</strong>.
-                    </p>
+            <div class="row align-items-center my-5">
+                <div class="row align-items-center my-5">
+                    <div class="col-md-12 text-center fade-up">
+                        <h2 class="display-5 mb-3 text-primary">More about the project</h2>
+
+                        <h6 class="text-muted mt-4">Overview</h6>
+                        <p style="text-align: justify;">
+                            This web application was developed using the <strong>Flask</strong> framework and provides tools
+                            for tracking the prices of CS2 in-game cases listed on the Steam market. Users can view historical
+                            price charts, monitor daily, weekly, monthly, and total value changes, and create accounts to manage
+                            their personal inventories. The system automatically calculates the total value of owned cases and
+                            visualizes market trends to help identify optimal selling moments.
+                        </p>
+
+                        <h6 class="text-muted mt-4">Technologies Used</h6>
+                        <ul class="list-unstyled">
+                            <li><strong>Backend:</strong> <strong>Python (Flask)</strong> for backend logic and routing</li>
+                            <li><strong>Database:</strong> <strong>SQLAlchemy</strong> for ORM-based database interactions</li>
+                            <li><strong>Frontend:</strong> <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, and <strong>Bootstrap</strong> for a responsive design</li>
+                            <li><strong>Charts:</strong> <strong>Chart.js</strong> for visualizing price data</li>
+                            <li><strong>Data:</strong> <strong>Steam Marketplace API</strong> for fetching price data, stored in <strong>JSON</strong> format</li>
+                        </ul>
+
+                        <h6 class="text-muted mt-4">Key Features</h6>
+                        <ul class="list-unstyled">
+                            <li><strong>User authentication system</strong> with registration, login, and password hashing</li>
+                            <li><strong>Interactive forms</strong> for managing inventories and tracking price changes</li>
+                            <li><strong>Automated daily updates</strong> via <strong>GitHub Actions</strong></li>
+                            <li>Managed with <strong>Git</strong> and hosted on <strong>GitHub</strong></li>
+                            <li><strong>Full-stack development</strong> project serving a real-world use case</li>
+                        </ul>
+
+                        <div class="col-md-6 text-center order-md-2 fade-up">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}" alt="More About Project"
+                                 class="img-fluid w-75 rounded shadow img-zoom">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
