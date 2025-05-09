@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-md-6 order-md-1">
                     <h2 class="display-5 mb-3 text-primary">Idea that started the project</h2>
-                    <p class="lead">
+                    <p  class="lead" style="text-align: justify;">
                         My friends and I used to play a lot of Counter-Strike 2, and during that time we purchased various
                         in-game cases, which could later be sold for profit. I wanted to create a platform where we could
                         track the value of our inventories, monitor price changes over time, and determine the best moment
@@ -186,14 +186,14 @@
                 </div>
                 <div class="col-md-6 order-md-1">
                     <h2 class="display-5 mb-3 text-primary">More about the project</h2>
-                    <p class="lead">
+                    <p class="lead" style="text-align: justify;">
                         This web application was built using the Flask framework and serves as a tool for monitoring the
                         prices of CS2 in-game cases available on the Steam market. Users can view historical price charts,
                         track day-to-day, week-to-week, month-to-month and total value changes, and register accounts to
                         manage their personal inventories. The platform automatically calculates the total value of owned
                         cases and visualizes market fluctuations to assist in identifying optimal selling times.
                     </p>
-                    <p class="lead">
+                    <p class="lead" style="text-align: justify;">
                         The project utilizes a combination of <strong>Python (Flask)</strong> for backend logic and routing,
                         <strong>SQLAlchemy</strong> for database interactions, and <strong>HTML5</strong>, <strong>CSS3</strong>,
                         <strong>JavaScript</strong>, and <strong>Bootstrap</strong> for a responsive and user-friendly frontend.
@@ -216,9 +216,11 @@
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">Home</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.</p>
+                <p class="lead" style="text-align: justify;">The homepage displays a dynamically generated list of all
+                    Counter-Strike 2 cases available on the Steam Market, each represented by a card containing the case
+                    name, image fetched from the Steam API, and the latest market price. Clicking on a case redirects
+                    the user to a detailed subpage showing a historical price chart and metadata. Data is regularly fetched
+                    and stored in JSON format for performance optimization and to demonstrate API handling and data processing.</p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
@@ -232,9 +234,12 @@
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">User Chests</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.</p>
+                <p class="lead" style="text-align: justify;">The user dashboard enables authenticated users to input and
+                    manage their owned Counter-Strike 2 cases along with quantities. Each entry is displayed in a dynamic,
+                    responsive table that includes the case’s latest market price, total value (with and without Steam
+                    transaction fees), and percentage change from the previous day. Users can update or remove individual
+                    case records. Below the table, the application calculates and displays the cumulative value of all
+                    listed cases, both pre- and post-tax.</p>
             </div>
             <div class="col-md-6 text-center order-md-1">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}"
@@ -248,9 +253,11 @@
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">Chest Page</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.</p>
+                <p class="lead" style="text-align: justify;">The chest detail page presents an interactive price history
+                    chart powered by Chart.js, allowing users to analyze case price fluctuations over various time ranges,
+                    including the past week, month, year, and all-time. Users can dynamically select the desired time frame.
+                    Below the chart, a data table displays historical prices by date along with the corresponding percentage
+                    change compared to the previous recorded value.</p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}"
@@ -264,9 +271,11 @@
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Calculator</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.</p>
+                <p class="lead" style="text-align: justify;">The calculator is designed for users who prefer not to create
+                    an account. It offers similar functionality to the user inventory page, allowing users to input the
+                    cases they own and their respective quantities. However, it does not persist any data — once the session
+                    ends or the page is refreshed, all information is cleared. This tool provides a quick way to estimate
+                    the total value of owned cases, both before and after Steam transaction fees.</p>
             </div>
             <div class="col-md-6 text-center order-md-1">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}"
@@ -280,9 +289,12 @@
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">Login/Register</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.</p>
+                <p class="lead" style="text-align: justify;">The project includes a secure user authentication system featuring
+                    user registration and login functionality. During registration, user credentials are validated and
+                    passwords are securely hashed using industry-standard techniques before being stored in the database.
+                    Upon logging in, users gain access to personalized features such as managing their own case inventory.
+                    Session management is handled via Flask’s session mechanism to maintain user state throughout the visit.
+                </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}"
