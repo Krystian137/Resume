@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="updated steamchests.html">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="movie reviewers pngs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/steamchests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/steamchests.html" afterDir="false" />
     </list>
@@ -155,6 +155,7 @@
     <MESSAGE value="Technologies updated, projects updated" />
     <MESSAGE value="added steamchests.html and moviereviewers.html" />
     <MESSAGE value="updated steamchests.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated steamchests.html" />
+    <MESSAGE value="movie reviewers pngs" />
+    <option name="LAST_COMMIT_MESSAGE" value="movie reviewers pngs" />
   </component>
 </project>
