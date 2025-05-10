@@ -75,11 +75,11 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#home" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
-                                 class="card-img-top" alt="All chests">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieReviewersRepresentative.png') }}"
+                                 class="card-img-top" alt="home">
                             <div class="card-body">
                                 <h5 class="card-title">Home</h5>
-                                <p class="card-text text-muted small">Overview of all available cases and their latest prices.</p>
+                                <p class="card-text text-muted small">Overview of all available movies.</p>
                             </div>
                         </div>
                     </a>
@@ -88,10 +88,10 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#user-chests" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}" class="card-img-top" alt="User Chests">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/movieSiteTop.png') }}" class="card-img-top" alt="Movie Site">
                             <div class="card-body">
-                                <h5 class="card-title">User Chests</h5>
-                                <p class="card-text text-muted small">List of user chests and their price</p>
+                                <h5 class="card-title">Movie Site</h5>
+                                <p class="card-text text-muted small">All informations about movie and comments</p>
                             </div>
                         </div>
                     </a>
@@ -100,10 +100,10 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#chest-page" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}" class="card-img-top" alt="Chest Page">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/addingAMovie.png') }}" class="card-img-top" alt="Add Movie">
                             <div class="card-body">
-                                <h5 class="card-title">Chest Page</h5>
-                                <p class="card-text text-muted small">Track price history, spot trends, and see percentage changes.</p>
+                                <h5 class="card-title">Add Movie</h5>
+                                <p class="card-text text-muted small">Adding a new movie to the site</p>
                             </div>
                         </div>
                     </a>
@@ -112,10 +112,46 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#calculator" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}" class="card-img-top" alt="Calculator">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/userProfile.png') }}" class="card-img-top" alt="User Profile">
                             <div class="card-body">
-                                <h5 class="card-title">Calculator</h5>
-                                <p class="card-text text-muted small">Use the calculator without the need for an account.</p>
+                                <h5 class="card-title">User Profile</h5>
+                                <p class="card-text text-muted small">Monitoring user activity</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#calculator" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/allUsers.png') }}" class="card-img-top" alt="All Users">
+                            <div class="card-body">
+                                <h5 class="card-title">Admin and moderator page</h5>
+                                <p class="card-text text-muted small">Deleting users and adding roles</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#calculator" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/aboutMe.png') }}" class="card-img-top" alt="About Me">
+                            <div class="card-body">
+                                <h5 class="card-title">About me</h5>
+                                <p class="card-text text-muted small">Informations for other users about author</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#calculator" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/contact.png') }}" class="card-img-top" alt="Contact Me">
+                            <div class="card-body">
+                                <h5 class="card-title">Contact Me</h5>
+                                <p class="card-text text-muted small">Easy way to contact admins</p>
                             </div>
                         </div>
                     </a>
@@ -124,7 +160,7 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#login" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}" class="card-img-top" alt="Login">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/login.png') }}" class="card-img-top" alt="Login">
                             <div class="card-body">
                                 <h5 class="card-title">Login and Register</h5>
                                 <p class="card-text text-muted small">Login or Register new account</p>
@@ -180,23 +216,101 @@
             </div>
 
             <div class="row align-items-center my-5">
-                <div class="col-md-6 text-center order-md-2 fade-up">
-                    <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}" alt="More About Project" class="img-fluid w-75 rounded shadow img-zoom">
-                </div>
-                <div class="col-md-6 order-md-1 fade-up">
-                    <h2 class="display-5 mb-3 text-primary">More about the project</h2>
-                    <p class="lead" style="text-align: justify;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                    <p class="lead" style="text-align: justify;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.
-                    </p>
+                <div class="row align-items-center my-5">
+                    <div class="row my-5 fade-up">
+                        <div class="col-md-12 text-center">
+                            <h2 class="display-5 mb-3 text-primary">More about the project</h2>
+                            <p>Overview<p>
+                            <p style="text-align: justify;">
+                                This web application was developed using the <strong>Flask</strong> framework and provides tools
+                                for tracking the prices of CS2 in-game cases listed on the Steam market. Users can view historical
+                                price charts, monitor daily, weekly, monthly, and total value changes, and create accounts to manage
+                                their personal inventories. The system automatically calculates the total value of owned cases and
+                                visualizes market trends to help identify optimal selling moments.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="container my-5">
+                        <div class="row align-items-center mb-5">
+                            <div class="col-md-5 text-center">
+                                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}"
+                                     alt="More About Project"
+                                     class="img-fluid rounded shadow img-zoom w-100">
+                            </div>
+
+                            <div class="col-md-7">
+                                <p>Technologies Used</p>
+                                <div class="row g-3">
+                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                        <i class="bi bi-server text-primary fs-4 me-3"></i>
+                                        <span><strong>Backend:</strong> Python (Flask)</span>
+                                    </div>
+                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                        <i class="bi bi-database text-success fs-4 me-3"></i>
+                                        <span><strong>Database:</strong> SQLAlchemy</span>
+                                    </div>
+                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                        <i class="bi bi-window text-info fs-4 me-3"></i>
+                                        <span><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap</span>
+                                    </div>
+                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                        <i class="bi bi-bar-chart-line text-warning fs-4 me-3"></i>
+                                        <span><strong>Charts:</strong> Chart.js</span>
+                                    </div>
+                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                        <i class="bi bi-cloud-download text-secondary fs-4 me-3"></i>
+                                        <span><strong>Data:</strong> Steam Marketplace API, JSON</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="display-5 mb-3 text-primary text-center">Key Features</h2>
+                        <div class="row text-center g-4">
+                            <div class="col-md-4">
+                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                    <i class="bi bi-person-lock text-primary fs-2 mb-3"></i>
+                                    <h6>User Authentication</h6>
+                                    <p class="text-muted small">Secure registration, login, and password hashing</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                    <i class="bi bi-pencil-square text-success fs-2 mb-3"></i>
+                                    <h6>Inventory Forms</h6>
+                                    <p class="text-muted small">Manage case quantities and view value changes</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                    <i class="bi bi-clock-history text-warning fs-2 mb-3"></i>
+                                    <h6>Daily Updates</h6>
+                                    <p class="text-muted small">Automated updates using GitHub Actions</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                    <i class="bi bi-git text-danger fs-2 mb-3"></i>
+                                    <h6>Git Integration</h6>
+                                    <p class="text-muted small">Version control and GitHub hosting</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                    <i class="bi bi-layers text-info fs-2 mb-3"></i>
+                                    <h6>Full-Stack Project</h6>
+                                    <p class="text-muted small">Real-world stack for modern web apps</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                    <i class="bi bi-layers text-info fs-2 mb-3"></i>
+                                    <h6>Case Value Charts</h6>
+                                    <p class="text-muted small">Visualize price fluctuations over time</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
