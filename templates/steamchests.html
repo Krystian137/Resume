@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Steam Chests Prices</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
           integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -55,9 +55,9 @@
         </div>
     </nav>
 
-    <section id="pages-preview" class="py-5 animate-section mt-5">
+    <section id="pages-preview" class="py-5 animate-section mt-5 fade-up">
         <div class="container">
-            <h2 class="text-center mb-5 display-4">Steam Chests Prices</h2>
+            <h2 class="text-center mb-5 display-4 text-primary">Steam Chests Prices</h2>
             <div class="row g-4 fade-up">
                 <div class="col-md-6 col-lg-4">
                     <a href="#about" class="text-decoration-none">
@@ -136,11 +136,11 @@
         </div>
     </section>
 
-    <section id="about" class="py-5">
+    <section id="about" class="py-5 fade-up">
         <div class="container">
             <div class="row mt-5">
                 <div class="col text-center fade-up">
-                    <h1 class="display-3">Technologies</h1>
+                    <h1 class="display-3 text-primary">Technologies</h1>
                     <p>Technologies used:</p>
                 </div>
             </div>
@@ -153,65 +153,232 @@
                         <li class="m-3 tech-icon"><i class="fab fa-python fa-3x"></i><br>Python</li>
                         <li class="m-3 tech-icon"><i class="fab fa-github fa-3x"></i><br>GitHub</li>
                         <li class="m-3 tech-icon"><i class="fab fa-bootstrap fa-3x"></i><br>Bootstrap</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-node fa-3x"></i><br>Node.js</li>
                         <li class="m-3 tech-icon"><i class="fab fa-git fa-3x"></i><br>Git</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-docker fa-3x"></i><br>Docker</li>
-                        <li class="m-3 tech-icon text-center">
-                            <i class="devicon-mongodb-plain fa-3x"></i><br>MongoDB
-                        </li>
-                        <li class="m-3 tech-icon text-center">
-                            <i class="devicon-django-plain fa-3x"></i><br>Django
-                        </li>
                         <li class="m-3 tech-icon text-center">
                             <i class="devicon-flask-original-wordmark fa-3x"></i><br>Flask
                         </li>
+                        <li class="m-3 tech-icon text-center">
+                        <i class="devicon-sqlalchemy-plain fa-3x"></i><br>SQLAlchemy
+                    </li>
                     </ul>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col text-center fade-up">
-                    <h1 class="display-3">Idea that started the project</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.</p>
+
+            <div class="row align-items-center my-5">
+                <div class="col-md-6 text-center order-md-2 fade-up">
+                    <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/idea.png') }}" alt="Idea" class="img-fluid w-75 rounded shadow img-zoom">
+                </div>
+                <div class="col-md-6 order-md-1 fade-up">
+                    <h2 class="display-5 mb-3 text-primary">Idea that started the project</h2>
+                    <p  class="lead" style="text-align: justify;">
+                        My friends and I used to play a lot of Counter-Strike 2, and during that time we purchased various
+                        in-game cases, which could later be sold for profit. I wanted to create a platform where we could
+                        track the value of our inventories, monitor price changes over time, and determine the best moment
+                        to sell. This project also served as a valuable opportunity for me to improve my development skills
+                        and learn new technologies.
+                    </p>
                 </div>
             </div>
 
-            <div class="row mt-5">
-                <div class="col text-center fade-up">
-                    <h1 class="display-3">More about the project</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.</p>
+            <div class="row align-items-center my-5">
+                <div class="row align-items-center my-5">
+                    <div class="col-md-12 text-center fade-up">
+                        <h2 class="display-5 mb-3 text-primary">More about the project</h2>
+
+                        <h6 class="text-muted mt-4">Overview</h6>
+                        <p style="text-align: justify;">
+                            This web application was developed using the <strong>Flask</strong> framework and provides tools
+                            for tracking the prices of CS2 in-game cases listed on the Steam market. Users can view historical
+                            price charts, monitor daily, weekly, monthly, and total value changes, and create accounts to manage
+                            their personal inventories. The system automatically calculates the total value of owned cases and
+                            visualizes market trends to help identify optimal selling moments.
+                        </p>
+
+                        <h6 class="text-muted mt-4">Technologies Used</h6>
+                        <ul class="list-unstyled">
+                            <li><strong>Backend:</strong> <strong>Python (Flask)</strong> for backend logic and routing</li>
+                            <li><strong>Database:</strong> <strong>SQLAlchemy</strong> for ORM-based database interactions</li>
+                            <li><strong>Frontend:</strong> <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, and <strong>Bootstrap</strong> for a responsive design</li>
+                            <li><strong>Charts:</strong> <strong>Chart.js</strong> for visualizing price data</li>
+                            <li><strong>Data:</strong> <strong>Steam Marketplace API</strong> for fetching price data, stored in <strong>JSON</strong> format</li>
+                        </ul>
+
+                        <h6 class="text-muted mt-4">Key Features</h6>
+                        <ul class="list-unstyled">
+                            <li><strong>User authentication system</strong> with registration, login, and password hashing</li>
+                            <li><strong>Interactive forms</strong> for managing inventories and tracking price changes</li>
+                            <li><strong>Automated daily updates</strong> via <strong>GitHub Actions</strong></li>
+                            <li>Managed with <strong>Git</strong> and hosted on <strong>GitHub</strong></li>
+                            <li><strong>Full-stack development</strong> project serving a real-world use case</li>
+                        </ul>
+
+                        <div class="col-md-6 text-center order-md-2 fade-up">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}" alt="More About Project"
+                                 class="img-fluid w-75 rounded shadow img-zoom">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="home" class="py-5">
-
+    <section id="home" class="container py-5 fade-up">
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-end order-md-1">
+                <h3 class="display-4 mb-4 text-primary">Home</h3>
+                <p class="lead" style="text-align: justify;">The homepage displays a dynamically generated list of all
+                    Counter-Strike 2 cases available on the Steam Market, each represented by a card containing the case
+                    name, image fetched from the Steam API, and the latest market price. Clicking on a case redirects
+                    the user to a detailed subpage showing a historical price chart and metadata. Data is regularly fetched
+                    and stored in JSON format for performance optimization and to demonstrate API handling and data processing.</p>
+            </div>
+            <div class="col-md-6 text-center order-md-2">
+                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+            </div>
+        </div>
     </section>
 
-    <section id="user-chests" class="py-5">
-
+    <section id="user-chests" class="container py-5 fade-up">
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-start order-md-2">
+                <h3 class="display-4 mb-4 text-primary">User Chests</h3>
+                <p class="lead" style="text-align: justify;">The user dashboard enables authenticated users to input and
+                    manage their owned Counter-Strike 2 cases along with quantities. Each entry is displayed in a dynamic,
+                    responsive table that includes the case’s latest market price, total value (with and without Steam
+                    transaction fees), and percentage change from the previous day. Users can update or remove individual
+                    case records. Below the table, the application calculates and displays the cumulative value of all
+                    listed cases, both pre- and post-tax.</p>
+            </div>
+            <div class="col-md-6 text-center order-md-1">
+                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+            </div>
+        </div>
     </section>
 
-    <section id="chest-page" class="py-5">
-
+    <section id="chest-page" class="container py-5 fade-up">
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-end order-md-1">
+                <h3 class="display-4 mb-4 text-primary">Chest Page</h3>
+                <p class="lead" style="text-align: justify;">The chest detail page presents an interactive price history
+                    chart powered by Chart.js, allowing users to analyze case price fluctuations over various time ranges,
+                    including the past week, month, year, and all-time. Users can dynamically select the desired time frame.
+                    Below the chart, a data table displays historical prices by date along with the corresponding percentage
+                    change compared to the previous recorded value.</p>
+            </div>
+            <div class="col-md-6 text-center order-md-2">
+                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+            </div>
+        </div>
     </section>
 
-    <section id="calculator" class="py-5">
-
+    <section id="calculator" class="container py-5 fade-up">
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-start order-md-2">
+                <h3 class="display-4 mb-4 text-primary">Calculator</h3>
+                <p class="lead" style="text-align: justify;">The calculator is designed for users who prefer not to create
+                    an account. It offers similar functionality to the user inventory page, allowing users to input the
+                    cases they own and their respective quantities. However, it does not persist any data — once the session
+                    ends or the page is refreshed, all information is cleared. This tool provides a quick way to estimate
+                    the total value of owned cases, both before and after Steam transaction fees.</p>
+            </div>
+            <div class="col-md-6 text-center order-md-1">
+                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+            </div>
+        </div>
     </section>
 
-    <section id="login" class="py-5">
-
+    <section id="login" class="container py-5 fade-up">
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-end order-md-1">
+                <h3 class="display-4 mb-4 text-primary">Login/Register</h3>
+                <p class="lead" style="text-align: justify;">The project includes a secure user authentication system featuring
+                    user registration and login functionality. During registration, user credentials are validated and
+                    passwords are securely hashed using industry-standard techniques before being stored in the database.
+                    Upon logging in, users gain access to personalized features such as managing their own case inventory.
+                    Session management is handled via Flask’s session mechanism to maintain user state throughout the visit.
+                </p>
+            </div>
+            <div class="col-md-6 text-center order-md-2">
+                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+            </div>
+        </div>
     </section>
 
+    <footer class="py-5 mt-5 bg-white">
+        <div class="container px-4 px-lg-5">
+            <div class="row text-center text-md-start">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-3">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-envelope me-2 text-primary"></i>
+                            <a href="mailto:twojemail@example.com" class="text-dark text-decoration-none">
+                                twojemail@example.com
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-phone me-2 text-primary"></i>
+                            <a href="tel:+48123456789" class="text-dark text-decoration-none">
+                                +48 123 456 789
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-map-marker-alt me-2 text-primary"></i>
+                            Kraków, Polska
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 d-flex flex-column align-items-center align-items-md-end">
+                    <h5 class="mb-3">Socials</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item mx-2">
+                            <a href="https://twitter.com" target="_blank" class="text-dark text-decoration-none">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mx-2">
+                            <a href="https://facebook.com" target="_blank" class="text-dark text-decoration-none">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mx-2">
+                            <a href="https://github.com" target="_blank" class="text-dark text-decoration-none">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4" />
+
+            <div class="row">
+                <div class="col text-center small text-muted fst-italic">
+                    &copy; 2025 Krystian Puch. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
