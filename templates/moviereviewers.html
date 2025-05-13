@@ -406,13 +406,22 @@
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">Comment Section</h3>
                 <p class="lead" style="text-align: justify;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.
+                    Allows users to engage with others by leaving feedback on the movie. Each comment displays the <strong>
+                    author's rating</strong> and the <strong>date and time</strong> it was posted. Additionally, users can
+                    see the <strong>upvotes</strong> and <strong>downvotes</strong> each comment has received from other
+                    logged-in users.
+                    Registered users can <strong>post comments</strong> and <strong>rate</strong> them based on their
+                    experience, giving a numerical score that reflects their opinion.
+                    Users are also able to <strong>respond</strong> to other comments, creating a threaded discussion that
+                    allows for deeper engagement and conversation. This encourages active participation and the sharing of thoughts on the movie.
+                    <br><br>
+                    The <strong>author</strong> of a comment has the ability to <strong>edit</strong> or <strong>delete</strong>
+                    their own comment at any time, providing control over their contributions. However, <strong>admins and
+                    moderators</strong> have the privilege to <strong>delete any comment</strong>, regardless of its author,
+                    to maintain the integrity of the platform and ensure the conversation stays respectful.
                 </p>
             </div>
-            <div class="col-md-6 text-center order-md-2">
+            <div class="col-md-6 text-center order-md-2 d-flex align-items-center justify-content-center">
                 <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieCommentSection.png') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
@@ -423,12 +432,20 @@
     <section id="add-movie" class="container py-5 fade-up">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Add and Edit a movie</h3>
+                <h3 class="display-4 mb-4 text-primary">Add & Edit Movie</h3>
                 <p class="lead" style="text-align: justify;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.
+                    This section is dedicated to <strong>adding and editing movies</strong> in the database and is accessible
+                    only to users with <strong>admin</strong> or <strong>moderator</strong> privileges.
+                    <br><br>
+                    The process starts on the <strong>Add Movie</strong> page, where an authorized user can enter a film
+                    title into the search bar. A list of matching and similar titles is displayed, allowing the user to
+                    <strong>select the correct movie</strong> from the results.
+                    <br><br>
+                    Upon selection, the user is redirected to a shared interface that also serves as the <strong>Edit Movie
+                    </strong> page. Here, a form is pre-filled with all relevant movie data, <strong>fetched dynamically from
+                    the TMDB API</strong> — including title, release year, genres, director, writer, poster, rating, and overview.
+                    <br><br>
+                    Before final submission, the user has the opportunity to <strong>review and correct the information</strong> to ensure accuracy. Once confirmed, the movie is <strong>added to the platform</strong> and becomes accessible to all users on the main page and in search results.
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
