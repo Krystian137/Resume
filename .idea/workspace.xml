@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="updated steamchests.html design">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="uppdates, updates...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/moviereviewers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moviereviewers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/steamchests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/steamchests.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,15 +148,63 @@
       <option name="project" value="LOCAL" />
       <updated>1746527703259</updated>
     </task>
-    <task id="LOCAL-00008" summary="updated steamchests.html design">
+    <task id="LOCAL-00008" summary="added sections">
       <option name="closed" value="true" />
-      <created>1746881352874</created>
+      <created>1746529066231</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1746881352874</updated>
+      <updated>1746529066231</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="icons and sections updated on steamchests.html">
+      <option name="closed" value="true" />
+      <created>1746700497448</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746700497448</updated>
+    </task>
+    <task id="LOCAL-00010" summary="just updates">
+      <option name="closed" value="true" />
+      <created>1746702365522</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746702365522</updated>
+    </task>
+    <task id="LOCAL-00011" summary="finally adding desciptions">
+      <option name="closed" value="true" />
+      <created>1746705220714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746705220714</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finished steamchest.html and index.html except footer">
+      <option name="closed" value="true" />
+      <created>1746786299055</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746786299055</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added fade up to some sections">
+      <option name="closed" value="true" />
+      <created>1746786477477</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746786477477</updated>
+    </task>
+    <task id="LOCAL-00014" summary="uppdates, updates...">
+      <option name="closed" value="true" />
+      <created>1746792253995</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746792253995</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,8 +212,13 @@
     <MESSAGE value="Technologies updated, projects updated" />
     <MESSAGE value="added steamchests.html and moviereviewers.html" />
     <MESSAGE value="updated steamchests.html" />
-    <MESSAGE value="movie reviewers pngs" />
-    <MESSAGE value="updated steamchests.html design" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated steamchests.html design" />
+    <MESSAGE value="added sections" />
+    <MESSAGE value="icons and sections updated on steamchests.html" />
+    <MESSAGE value="just updates" />
+    <MESSAGE value="finally adding desciptions" />
+    <MESSAGE value="finished steamchest.html and index.html except footer" />
+    <MESSAGE value="added fade up to some sections" />
+    <MESSAGE value="uppdates, updates..." />
+    <option name="LAST_COMMIT_MESSAGE" value="uppdates, updates..." />
   </component>
 </project>
