@@ -42,19 +42,19 @@
                         <a class="nav-link text-dark px-3 fw-semibold" href="#movie-site">Movie</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#comments">Comments</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-dark px-3 fw-semibold" href="#add-movie">Add/Edit</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark px-3 fw-semibold" href="#user-profile">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#admin-moderator">Admin/moderator</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#admin">Admin/moderator</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark px-3 fw-semibold" href="#aboutme">About/contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#comments">Comments</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark px-3 fw-semibold" href="#login">Login/Register</a>
@@ -386,9 +386,9 @@
                 <p class="lead" style="text-align: justify;">
                     Provides a comprehensive view of a selected film. It features the <strong>movie poster</strong>, alongside
                     a <strong>progress circle</strong> that fills up according to the movie's rating, the percentage
-                    value is displayed at the center of the circle. Essential movie details such as the <strong>title</strong>,
+                    value is displayed at the center of the circle, movie details such as the <strong>title</strong>,
                     <strong>release year</strong>, <strong>genre</strong>, <strong>director</strong>, <strong>writer</strong>,
-                    and all <strong>overview</strong> retrieved from the <strong>TMDB API</strong> and stored in the database.
+                    and <strong>overview</strong> retrieved from the <strong>TMDB API</strong> and stored in the database.
                     Additionally, if the user is an <strong>admin</strong> or <strong>moderator</strong>, they are given
                     the option to <strong>edit</strong> the movie details.
                 </p>
@@ -421,8 +421,12 @@
                     to maintain the integrity of the platform and ensure the conversation stays respectful.
                 </p>
             </div>
-            <div class="col-md-6 text-center order-md-2 d-flex align-items-center justify-content-center">
+            <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieCommentSection.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom mb-3">
+
+                <img src="{{ url_for('static', filename='assets/img/movieReviewers/comments.png') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
@@ -465,10 +469,13 @@
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">User Profile</h3>
                 <p class="lead" style="text-align: justify;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.</p>
+                    <strong>Admins</strong> and <strong>moderators</strong> have access to user profile pages in order
+                    to <strong>monitor user activity</strong> within the comment sections. This includes reviewing all
+                    comments posted by a user and assessing their behavior on the platform.
+                    If necessary, they can <strong>remove any inappropriate or disruptive comments</strong> directly from
+                    the user’s profile view. This functionality ensures a <strong>safe and respectful environment</strong>
+                    for all users and gives moderators the tools needed to enforce community standards.
+            </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/movieReviewers/userProfile.png') }}"
@@ -483,10 +490,12 @@
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Admin and moderator</h3>
                 <p class="lead" style="text-align: justify;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.
+                    <strong>Admins</strong> and <strong>moderators</strong> have access to a dedicated user management
+                    page, where they can view a complete list of registered accounts. From this panel, they can <strong>
+                    promote or demote user roles</strong>, <strong>remove users</strong> from the platform, and <strong>
+                    access individual user profiles</strong> to monitor activity or take necessary moderation actions.
+                    This feature provides full control over user administration, ensuring that only trusted members hold
+                    higher privileges and that the platform remains well-moderated.
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
@@ -502,10 +511,21 @@
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">About me and contact</h3>
                 <p class="lead" style="text-align: justify;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.
+                    The <strong>About Me</strong> page offers an overview of the <strong>Movie Reviewers</strong>, its
+                    goals, and the technologies used during development. It also includes insights into the creator’s
+                    background and motivation behind building the platform. In addition to showcasing the project’s vision,
+                    this section is optimized as a <strong>SEO-friendly subpage</strong> to enhance discoverability and
+                    answer common user questions, such as how the site works, where data is sourced from, and who manages
+                    content and moderation.
+                <br><br>
+                    The <strong>Contact Me</strong> page provides a direct line of communication for <strong>users and
+                    potential collaborators</strong> to reach out to the site administrators. Whether it's for reporting
+                    bugs, sharing feedback, business inquiries, or collaboration proposals, this form allows messages to
+                    be sent securely and efficiently via email. It reinforces transparency and keeps the community engaged
+                    and connected with the development team.
+                <br><br>
+                    Both sections are designed to strengthen user trust, provide transparency, and foster community
+                    interaction around the project.
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
@@ -525,10 +545,17 @@
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Login/Register</h3>
                 <p class="lead" style="text-align: justify;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.
+                    The platform includes a secure <strong>login</strong> and <strong>registration</strong> system that allows
+                    users to create personalized accounts. Upon registration, user passwords are <strong>safely hashed
+                    </strong> before being stored in the database, ensuring data protection and user privacy.
+                <br><br>
+                    Once logged in, users unlock full access to interactive features such as <strong>writing and replying
+                    to comments</strong>, <strong>rating movies</strong>, and voting on the usefulness of other users
+                    opinions. This authentication layer helps maintain the quality of content and fosters meaningful
+                    discussions by holding users accountable for their activity.
+                <br><br>
+                    The system lays the groundwork for role-based access control, ensuring that only authenticated users
+                    can engage with content and that higher privileges are granted only to moderators and administrators.
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
