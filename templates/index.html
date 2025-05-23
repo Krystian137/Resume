@@ -253,7 +253,6 @@
             </div>
         </div>
 
-        <!-- Projekt 1 -->
         <div class="row mb-5">
             <div class="col-md-6 text-md-start">
                 <a href="{{ url_for('main.movie_reviewers') }}" class="text-decoration-none link-hover">
@@ -293,6 +292,29 @@
             </div>
             <div class="col-md-6 text-center">
                 <a href="{{ url_for('main.steam_chests') }}">
+                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+                </a>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-start">
+                <a href="{{ url_for('main.other_projects') }}" class="text-decoration-none link-hover">
+                    <h3>Technical Practice Projects</h3>
+                </a>
+                <p class="lead" style="text-align: justify;">A selection of smaller projects developed to enhance my
+                    proficiency in Python and gain hands-on experience with a variety of technologies. Each project
+                    served as a learning opportunity, allowing me to explore new tools, frameworks, and programming
+                    paradigms in a practical context.
+                </p>
+                <a href="{{ url_for('main.other_projects') }}" class="text-decoration-none link-hover">
+                    See More
+                </a>
+            </div>
+            <div class="col-md-6 text-center">
+                <a href="{{ url_for('main.other_projects') }}">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">

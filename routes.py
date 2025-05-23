@@ -22,6 +22,11 @@ def steam_chests():
     return render_template("steamchests.html")
 
 
+@main.route('/otherprojects')
+def other_projects():
+    return render_template("otherprojects.html")
+
+
 MAIL_ADDRESS = os.environ.get("EMAIL_KEY")
 MAIL_main_PW = os.environ.get("PASSWORD_KEY")
 
