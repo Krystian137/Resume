@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="finished moviereviewers.html">
-      <change afterPath="$PROJECT_DIR$/templates/otherprojects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_05_2025_14_13_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_05_2025_14_13__Changes_.xml" beforeDir="false" />
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="added otherprojects.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/otherprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/otherprojects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/steamchests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/steamchests.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747389439745</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added otherprojects.html">
+      <option name="closed" value="true" />
+      <created>1748001454747</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748001454747</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +255,7 @@
     <MESSAGE value="visual updates to steamchests.html, and updates to moviereviewers.html" />
     <MESSAGE value="updates to moviereviewers.html" />
     <MESSAGE value="finished moviereviewers.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished moviereviewers.html" />
+    <MESSAGE value="added otherprojects.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added otherprojects.html" />
   </component>
 </project>

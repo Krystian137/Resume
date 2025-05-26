@@ -33,39 +33,39 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#about">Snake Game (flask)</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#snakeFlask">Snake Game (Flask)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#home">US States Game</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#usStates">US States Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#user-chests">Pong Game</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#pong">Pong Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#chest-page">Snake Game</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#snakeTurtle">Snake Game (Turtle)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#calculator">Quiz Game</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#quiz">Quiz Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#login">Login/Register</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#turtleCrossing">Turtle Crossing Game</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="pages-preview" class="py-5 animate-section mt-5 fade-up">
+    <section id="pages-preview" class="py-5 animate-section mt-5" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
             <h2 class="text-center mb-5 display-4 text-primary">Technical Practice Projects</h2>
             <div class="row g-4 fade-up">
                 <div class="col-md-6 col-lg-4">
-                    <a href="#about" class="text-decoration-none">
+                    <a href="#snakeFlask" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/feedback.png') }}"
-                                 class="card-img-top" alt="About Project">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/snakeGameFlask.png') }}"
+                                 class="card-img-top" alt="Snake Flask">
                             <div class="card-body">
-                                <h5 class="card-title">Snake Game (flask)</h5>
+                                <h5 class="card-title">Snake Game (Flask)</h5>
                                 <p class="card-text text-muted small">Snake Game made in flask</p>
                             </div>
                         </div>
@@ -73,10 +73,10 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <a href="#home" class="text-decoration-none">
+                    <a href="#usStates" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
                             <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
-                                 class="card-img-top" alt="All chests">
+                                 class="card-img-top" alt="US States Game">
                             <div class="card-body">
                                 <h5 class="card-title">US States Game</h5>
                                 <p class="card-text text-muted small">Memory game: type U.S. states to fill the map</p>
@@ -86,9 +86,10 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <a href="#user-chests" class="text-decoration-none">
+                    <a href="#pong" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}" class="card-img-top" alt="User Chests">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}"
+                                 class="card-img-top" alt="Pong Game">
                             <div class="card-body">
                                 <h5 class="card-title">Pong Game</h5>
                                 <p class="card-text text-muted small">Pong game built in Python using Turtle and Pandas</p>
@@ -98,11 +99,12 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <a href="#chest-page" class="text-decoration-none">
+                    <a href="#snakeTurtle" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}" class="card-img-top" alt="Chest Page">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}"
+                                 class="card-img-top" alt="Snake (Turtle)">
                             <div class="card-body">
-                                <h5 class="card-title">Snake Game</h5>
+                                <h5 class="card-title">Snake Game (Turtle)</h5>
                                 <p class="card-text text-muted small">Snake game in Python with Turtle</p>
                             </div>
                         </div>
@@ -110,12 +112,13 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <a href="#calculator" class="text-decoration-none">
+                    <a href="#turtleCrossing" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}" class="card-img-top" alt="Calculator">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}"
+                                 class="card-img-top" alt="Turtle Crossing Game">
                             <div class="card-body">
-                                <h5 class="card-title">Calculator</h5>
-                                <p class="card-text text-muted small">Use the calculator without the need for an account.</p>
+                                <h5 class="card-title">Turtle Crossing Game</h5>
+                                <p class="card-text text-muted small">Cross a road as a turtle</p>
                             </div>
                         </div>
                     </a>
@@ -136,244 +139,60 @@
         </div>
     </section>
 
-    <section id="about" class="py-5 fade-up">
+    <section id="about" class="py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
             <div class="row mt-5">
                 <div class="col text-center fade-up">
-                    <h1 class="display-3 text-primary">Technologies</h1>
-                    <p>Technologies used:</p>
+                    <h1 class="display-3 text-primary">Why I made this projects?</h1>
                 </div>
             </div>
-            <div class="row justify-content-center fade-up">
-                <div class="col-md-10">
-                    <ul class="list-unstyled d-flex flex-wrap justify-content-center">
-                        <li class="m-3 tech-icon"><i class="fab fa-html5 fa-3x"></i><br>HTML5</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-css3-alt fa-3x"></i><br>CSS3</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-js fa-3x"></i><br>JavaScript</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-python fa-3x"></i><br>Python</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-github fa-3x"></i><br>GitHub</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-bootstrap fa-3x"></i><br>Bootstrap</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-git fa-3x"></i><br>Git</li>
-                        <li class="m-3 tech-icon text-center">
-                            <i class="devicon-flask-original-wordmark fa-3x"></i><br>Flask
-                        </li>
-                        <li class="m-3 tech-icon text-center">
-                        <i class="devicon-sqlalchemy-plain fa-3x"></i><br>SQLAlchemy
-                    </li>
-                    </ul>
-                </div>
-            </div>
-
             <div class="row align-items-center my-5">
                 <div class="col-md-6 text-center order-md-2 fade-up">
                     <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/idea.png') }}" alt="Idea" class="img-fluid w-75 rounded shadow img-zoom">
                 </div>
                 <div class="col-md-6 order-md-1 fade-up">
-                    <h2 class="display-5 mb-3 text-primary">Idea that started the project</h2>
                     <p class="lead" style="text-align: justify;">
-                        My friends and I used to play a lot of Counter-Strike 2, and during that time we purchased various
-                        in-game cases, which could later be sold for profit. I wanted to create a platform where we could
-                        track the value of our inventories, monitor price changes over time, and determine the best moment
-                        to sell. This project also served as a valuable opportunity for me to improve my development skills
-                        and learn new technologies.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="row align-items-center my-5">
-                <div class="row align-items-center my-5">
-                    <div class="row my-5 fade-up">
-                        <div class="col-md-12 text-center">
-                            <h2 class="display-5 mb-3 text-primary">More about the project</h2>
-                            <p>Overview<p>
-                            <p class="lead" style="text-align: justify;">
-                                This web application was developed using the <strong>Flask</strong> framework and provides tools
-                                for tracking the prices of CS2 in-game cases listed on the Steam market. Users can view historical
-                                price charts, monitor daily, weekly, monthly, and total value changes, and create accounts to manage
-                                their personal inventories. The system automatically calculates the total value of owned cases and
-                                visualizes market trends to help identify optimal selling moments.
-                            </p>
-                        </div>
-                    </div>
+    <div class="row mt-5 my-5" data-aos="fade-up" data-aos-duration="800">
+        <div class="col text-center fade-up">
+            <h1 class="display-3 text-primary">All Projects</h1>
+        </div>
+    </div>
 
-                    <div class="container my-5">
-                        <div class="row align-items-center mb-5">
-                            <div class="col-md-5 text-center">
-                                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}"
-                                     alt="More About Project"
-                                     class="img-fluid rounded shadow img-zoom w-100">
-                            </div>
-
-                            <div class="col-md-7">
-                                <p class="mb-3">Technologies Used</p>
-                                <div class="row g-3">
-                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                        <i class="fas fa-server text-primary fs-4 me-3"></i>
-                                        <span><strong>Backend:</strong> Python (Flask)</span>
-                                    </div>
-                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                        <i class="fas fa-database text-success fs-4 me-3"></i>
-                                        <span><strong>Database:</strong> SQLAlchemy</span>
-                                    </div>
-                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                        <i class="fas fa-desktop text-info fs-4 me-3"></i>
-                                        <span><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap</span>
-                                    </div>
-                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                        <i class="fas fa-lock text-danger fs-4 me-3"></i>
-                                        <span><strong>Authentication:</strong> Flask-Login, Flask-WTF</span>
-                                    </div>
-                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                        <i class="fas fa-chart-line text-warning fs-4 me-3"></i>
-                                        <span><strong>Charts:</strong> Chart.js</span>
-                                    </div>
-                                    <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                        <i class="fas fa-cloud-download-alt text-secondary fs-4 me-3"></i>
-                                        <span><strong>Data:</strong> Steam Marketplace API, JSON</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h2 class="display-5 mb-3 text-primary text-center">Key Features</h2>
-                        <div class="row text-center g-4">
-                            <div class="col-md-4">
-                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                    <i class="fas fa-user-lock text-primary fs-2 mb-3"></i>
-                                    <h6>User Authentication</h6>
-                                    <p class="text-muted small">Secure registration, login, and password hashing</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                    <i class="fas fa-clipboard-list text-success fs-2 mb-3"></i>
-                                    <h6>Inventory Forms</h6>
-                                    <p class="text-muted small">Manage case quantities and view value changes</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                    <i class="fas fa-history text-warning fs-2 mb-3"></i>
-                                    <h6>Daily Updates</h6>
-                                    <p class="text-muted small">Automated updates using GitHub Actions</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                    <i class="fab fa-git-alt text-danger fs-2 mb-3"></i>
-                                    <h6>Git Integration</h6>
-                                    <p class="text-muted small">Version control and GitHub hosting</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                    <i class="fas fa-layer-group text-info fs-2 mb-3"></i>
-                                    <h6>Full-Stack Project</h6>
-                                    <p class="text-muted small">Real-world stack for modern web apps</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                    <i class="fas fa-chart-line text-info fs-2 mb-3"></i>
-                                    <h6>Case Value Charts</h6>
-                                    <p class="text-muted small">Visualize price fluctuations over time</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <section id="snakeFlask" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/snakeGameFlask.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Snake Game Flask">
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="home" class="container py-5 fade-up">
-        <div class="row mb-5">
-            <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Home</h3>
-                <p class="lead" style="text-align: justify;">The homepage displays a dynamically generated list of all
-                    Counter-Strike 2 cases available on the Steam Market, each represented by a card containing the case
-                    name, image fetched from the Steam API, and the latest market price. Clicking on a case redirects
-                    the user to a detailed subpage showing a historical price chart and metadata. Data is regularly fetched
-                    and stored in JSON format for performance optimization and to demonstrate API handling and data processing.</p>
-            </div>
-            <div class="col-md-6 text-center order-md-2">
-                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
-                     alt="Movie Reviewers Project"
-                     class="img-fluid rounded shadow-lg img-zoom">
-            </div>
-        </div>
-    </section>
-
-    <section id="user-chests" class="container py-5 fade-up">
-        <div class="row mb-5">
-            <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">User Chests</h3>
-                <p class="lead" style="text-align: justify;">The user dashboard enables authenticated users to input and
-                    manage their owned Counter-Strike 2 cases along with quantities. Each entry is displayed in a dynamic,
-                    responsive table that includes the case’s latest market price, total value (with and without Steam
-                    transaction fees), and percentage change from the previous day. Users can update or remove individual
-                    case records. Below the table, the application calculates and displays the cumulative value of all
-                    listed cases, both pre- and post-tax.</p>
-            </div>
-            <div class="col-md-6 text-center order-md-1">
-                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}"
-                     alt="Movie Reviewers Project"
-                     class="img-fluid rounded shadow-lg img-zoom">
-            </div>
-        </div>
-    </section>
-
-    <section id="chest-page" class="container py-5 fade-up">
-        <div class="row mb-5">
-            <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Chest Page</h3>
-                <p class="lead" style="text-align: justify;">The chest detail page presents an interactive price history
-                    chart powered by Chart.js, allowing users to analyze case price fluctuations over various time ranges,
-                    including the past week, month, year, and all-time. Users can dynamically select the desired time frame.
-                    Below the chart, a data table displays historical prices by date along with the corresponding percentage
-                    change compared to the previous recorded value.</p>
-            </div>
-            <div class="col-md-6 text-center order-md-2">
-                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}"
-                     alt="Movie Reviewers Project"
-                     class="img-fluid rounded shadow-lg img-zoom">
-            </div>
-        </div>
-    </section>
-
-    <section id="calculator" class="container py-5 fade-up">
-        <div class="row mb-5">
-            <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Calculator</h3>
-                <p class="lead" style="text-align: justify;">The calculator is designed for users who prefer not to create
-                    an account. It offers similar functionality to the user inventory page, allowing users to input the
-                    cases they own and their respective quantities. However, it does not persist any data — once the session
-                    ends or the page is refreshed, all information is cleared. This tool provides a quick way to estimate
-                    the total value of owned cases, both before and after Steam transaction fees.</p>
-            </div>
-            <div class="col-md-6 text-center order-md-1">
-                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}"
-                     alt="Movie Reviewers Project"
-                     class="img-fluid rounded shadow-lg img-zoom">
-            </div>
-        </div>
-    </section>
-
-    <section id="login" class="container py-5 fade-up">
-        <div class="row mb-5">
-            <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Login/Register</h3>
-                <p class="lead" style="text-align: justify;">The project includes a secure user authentication system featuring
-                    user registration and login functionality. During registration, user credentials are validated and
-                    passwords are securely hashed using industry-standard techniques before being stored in the database.
-                    Upon logging in, users gain access to personalized features such as managing their own case inventory.
-                    Session management is handled via Flask’s session mechanism to maintain user state throughout the visit.
-                </p>
-            </div>
-            <div class="col-md-6 text-center order-md-2">
-                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}"
-                     alt="Movie Reviewers Project"
-                     class="img-fluid rounded shadow-lg img-zoom">
+                <div class="col-md-6">
+                    <h2 class="text-primary">Snake Game (Flask)</h2>
+                    <p class="lead">
+                        Klasyczny Snake w nowoczesnym wydaniu – gra stworzona przy użyciu <strong>Flaska</strong> i <strong>JavaScriptu</strong>,
+                        z systemem poziomów trudności, zapisem wyników i lokalną bazą danych w formacie JSON.
+                        Gracz podaje swój nick, a najlepsze wyniki trafiają na tablicę top 10.
+                        Cała logika rozgrywki działa po stronie przeglądarki, co zapewnia płynne i dynamiczne doświadczenie.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                        <i class="devicon-flask-original-wordmark colored fs-4 me-2" title="Flask"></i>
+                        <i class="devicon-html5-plain-wordmark colored fs-4 me-2" title="HTML5"></i>
+                        <i class="devicon-javascript-plain colored fs-4 me-2" title="JavaScript"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> Zobacz na GitHubie
+                    </a>
+                </div>
             </div>
         </div>
     </section>
