@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="added otherprojects.html">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="visual changes in otherprojects.html, fixed fade up in steamchests.html">
+      <change afterPath="$PROJECT_DIR$/babel.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/datascience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/otherprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/otherprojects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/steamchests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/steamchests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748001454747</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="visual changes in otherprojects.html, fixed fade up in steamchests.html">
+      <option name="closed" value="true" />
+      <created>1748260344022</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1748260344022</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,6 +266,7 @@
     <MESSAGE value="updates to moviereviewers.html" />
     <MESSAGE value="finished moviereviewers.html" />
     <MESSAGE value="added otherprojects.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="added otherprojects.html" />
+    <MESSAGE value="visual changes in otherprojects.html, fixed fade up in steamchests.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="visual changes in otherprojects.html, fixed fade up in steamchests.html" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ g.get('babel_locale', 'en') }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,13 +30,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#resume">Resume</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#resume">{{ _('Resume') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#projects">Projects</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#projects">{{ _('Projects') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#contact">Contact</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#contact">{{ _('Contact') }}</a>
                     </li>
                 </ul>
             </div>
@@ -51,17 +51,19 @@
                      class="img-fluid rounded-circle w-75 shadow-lg">
             </div>
             <div class="col-md-6 text-md-start text-center px-0">
-                <h1 class="display-3 text-primary">Hello!</h1>
-                <h3 class="text-muted">About Me</h3>
+                <h1 class="display-3 text-primary">{{ _('Hello!') }}</h1>
+                <h3 class="text-muted">{{ _('Hello!') }}</h3>
                 <p  class="lead" style="text-align: justify;">
-                    IT student (3rd year) focused on Web Engineering, with a strong interest in front-end and back-end
+                    {{ _('IT student (3rd year) focused on Web Engineering, with a strong interest in front-end and back-end
                     development. Comfortable working with Python. Looking for my first opportunity to apply my skills
-                    in a real-world development environment.
+                    in a real-world development environment.') }}
                 </p>
+                <a href="{{ url_for('main.set_language', lang_code='en') }}">EN</a> |
+                <a href="{{ url_for('main.set_language', lang_code='pl') }}">PL</a>
                 <div class="mt-4">
-                    <a href="#resume" class="btn cherry-blossom-pink m-1 btn-lg">Resume</a>
-                    <a href="#projects" class="btn cherry-blossom-pink m-1 btn-lg">Projects</a>
-                    <a href="#contact" class="btn cherry-blossom-pink m-1 btn-lg">Contact</a>
+                    <a href="#resume" class="btn cherry-blossom-pink m-1 btn-lg">{{ _('Resume') }}</a>
+                    <a href="#projects" class="btn cherry-blossom-pink m-1 btn-lg">{{ _('Projects') }}</a>
+                    <a href="#contact" class="btn cherry-blossom-pink m-1 btn-lg">{{ _('Contact') }}</a>
                 </div>
             </div>
         </div>
@@ -73,8 +75,8 @@
         <!-- Technologies Section -->
         <div class="row mt-5">
             <div class="col text-center fade-up">
-                <h1 class="display-3 text-primary">Technologies</h1>
-                <p>Technologies I know:</p>
+                <h1 class="display-3 text-primary">{{ _('Technologies') }}</h1>
+                <p>{{ _('Technologies I know:') }}</p>
             </div>
         </div>
         <div class="row justify-content-center fade-up">
@@ -113,29 +115,31 @@
 
         <div class="row mb-5">
             <div class="col text-center fade-up">
-                <h1 class="display-3 text-primary">Resume</h1>
+                <h1 class="display-3 text-primary">{{ _('Resume') }}</h1>
             </div>
         </div>
 
         <div class="row">
             <!-- Education Section -->
             <div class="col-md-3 mb-4 mb-md-0 fade-left">
-                <h3>Education</h3>
+                <h3>{{ _('Education') }}</h3>
             </div>
 
             <div class="col-md-9">
                 <!-- Wroclaw Business University -->
                 <div class="row mb-4 fade-up">
                     <div class="col-md-3 text-md-end text-center">
-                        <strong>2022 – Present</strong>
+                        <strong>2022 – {{ _('Present') }}</strong>
                     </div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Wroclaw Business University of Applied Sciences</h5>
-                        <p class="lead" style="text-align: justify;">Bachelor's degree in Computer Science, specializing in Web Engineering. Gained practical
+                        <h5>{{ _('Wroclaw Business University of Applied Sciences') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('Bachelor's degree in Computer Science,
+                            specializing in Web Engineering. Gained practical
                             knowledge in programming, database design and integration, computer networks, and IT project
                             management. Covered full-stack web development — from front-end technologies and frameworks
                             to back-end solutions and database connectivity. Additional focus on web application documentation,
-                            understanding copyright and licensing, and development best practices.</p>
+                            understanding copyright and licensing, and development best practices.') }}</p>
                     </div>
                 </div>
 
@@ -145,11 +149,12 @@
                         <strong>2017 – 2021</strong>
                     </div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Technical Secondary School No. 1 (Kemal Mustafa Atatürk)</h5>
-                        <p class="lead" style="text-align: justify;">Specialized in Computer Science with an extended curriculum in Mathematics and Physics. Gained
+                        <h5>{{ _('Technical Secondary School No. 1 (Kemal Mustafa Atatürk)') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('Specialized in Computer Science with an extended curriculum in Mathematics and Physics. Gained
                             foundational knowledge in databases, computer networks, and server management on both Linux
                             and Windows systems. Learned the basics of programming and web development, including building
-                            and maintaining websites. Developed strong problem-solving skills and a passion for technology.</p>
+                            and maintaining websites. Developed strong problem-solving skills and a passion for technology.') }}</p>
                     </div>
                 </div>
 
@@ -159,17 +164,18 @@
                         <strong>2014 – 2017</strong>
                     </div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Additional Programming Courses (Middle School)</h5>
-                        <p class="lead" style="text-align: justify;">Attended extracurricular programming classes during middle school, which laid the foundation
+                        <h5>{{ _('Additional Programming Courses (Middle School)') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('Attended extracurricular programming classes during middle school, which laid the foundation
                             for my interest in technology and software development. Gained early experience with basic
-                            programming concepts and problem-solving techniques.</p>
+                            programming concepts and problem-solving techniques.') }}</p>
                     </div>
                 </div>
             </div>
             <hr class="my-4">
             <!-- Courses Section -->
             <div class="col-md-3 mb-4 mb-md-0 fade-left">
-                <h3>Courses (Udemy)</h3>
+                <h3>{{ _('Courses (Udemy)') }}</h3>
             </div>
 
             <div class="col-md-9">
@@ -177,13 +183,14 @@
                 <div class="row mb-4 fade-up">
                     <div class="col-md-3 text-md-end text-center"></div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Master Python by Building 100 Projects in 100 Days. Learn Data Science, Automation,
-                            Build Websites, Games, and Apps!</h5>
-                        <p class="lead" style="text-align: justify;">In this comprehensive course, you'll learn Python by working on 100 diverse projects over
+                        <h5>{{ _('Master Python by Building 100 Projects in 100 Days. Learn Data Science, Automation,
+                            Build Websites, Games, and Apps!') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('In this comprehensive course, you'll learn Python by working on 100 diverse projects over
                             100 days. Covering essential topics such as data science, automation, web development, game
                             creation, and app building, this course is designed to help you gain hands-on experience and
                             become proficient in Python. You'll tackle real-world problems, enhance your coding skills,
-                            and create a portfolio of projects that showcase your abilities to potential employers or clients.</p>
+                            and create a portfolio of projects that showcase your abilities to potential employers or clients.') }}</p>
                     </div>
                 </div>
 
@@ -191,13 +198,14 @@
                 <div class="row mb-4 fade-up">
                     <div class="col-md-3 text-md-end text-center"></div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, JavaScript, Node, React,
-                            PostgreSQL, Web3, and DApps</h5>
-                        <p class="lead" style="text-align: justify;">This all-in-one course is your gateway to becoming a full-stack web developer. Covering a
+                        <h5>{{ _('Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, JavaScript, Node, React,
+                            PostgreSQL, Web3, and DApps') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('This all-in-one course is your gateway to becoming a full-stack web developer. Covering a
                             wide array of essential technologies such as HTML, CSS, JavaScript, Node.js, React, and PostgreSQL,
                             you'll gain both front-end and back-end development skills. Learn how to build dynamic, interactive
                             websites and apps, while also diving into modern concepts like Web3 and decentralized applications
-                            (DApps). Perfect for those looking to master full-stack development and build real-world projects from scratch.</p>
+                            (DApps). Perfect for those looking to master full-stack development and build real-world projects from scratch.') }}</p>
                     </div>
                 </div>
 
@@ -205,10 +213,11 @@
                 <div class="row mb-4 fade-up">
                     <div class="col-md-3 text-md-end text-center"></div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Build Your First Website from Scratch and Learn the Key Principles of UX</h5>
-                        <p class="lead" style="text-align: justify;">Basic UX concepts and principles. Drawing inspiration and the first stages of the project.
+                        <h5>{{ _('Build Your First Website from Scratch and Learn the Key Principles of UX') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('Basic UX concepts and principles. Drawing inspiration and the first stages of the project.
                             Designing the layout in Photoshop. Coding the HTML structure. Further project stages and working
-                            with CSS. Automating the workflow and finalizing the project elements.</p>
+                            with CSS. Automating the workflow and finalizing the project elements.') }}</p>
                     </div>
                 </div>
 
@@ -216,10 +225,11 @@
                 <div class="row mb-4 fade-up">
                     <div class="col-md-3 text-md-end text-center"></div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Learning the Basics of Photoshop CC for Web Design Beginners</h5>
-                        <p class="lead" style="text-align: justify;">Understanding the User Interface; Working with Tools and Layers; Creating Shapes; Organizing
+                        <h5>{{ _('Learning the Basics of Photoshop CC for Web Design Beginners') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('Understanding the User Interface; Working with Tools and Layers; Creating Shapes; Organizing
                             Layers & Groups; Moving and Resizing Elements; Zooming and Panning Techniques; Using Blend Modes
-                            and Adding Effects; Inserting and Styling Text; Designing with Photoshop.</p>
+                            and Adding Effects; Inserting and Styling Text; Designing with Photoshop.') }}</p>
                     </div>
                 </div>
 
@@ -227,8 +237,9 @@
                 <div class="row mb-4 fade-up">
                     <div class="col-md-3 text-md-end text-center"></div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Get to Know Formats, Resolutions, DPI, and More</h5>
-                        <p class="lead" style="text-align: justify;">Screen Basics; Scaling on Devices; Graphic File Formats; Platform Specifics.</p>
+                        <h5>{{ _('Get to Know Formats, Resolutions, DPI, and More') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('Screen Basics; Scaling on Devices; Graphic File Formats; Platform Specifics.') }}</p>
                     </div>
                 </div>
 
@@ -236,8 +247,9 @@
                 <div class="row mb-4 fade-up">
                     <div class="col-md-3 text-md-end text-center"></div>
                     <div class="col-md-9 text-md-start text-center">
-                        <h5>Everything You Need to Know About Adobe XD to Start Designing & Prototyping Awesome Apps</h5>
-                        <p class="lead" style="text-align: justify;">Basic Tools; Advanced Tools; Designing Assets; Prototyping.</p>
+                        <h5>{{ _('Everything You Need to Know About Adobe XD to Start Designing & Prototyping Awesome Apps') }}</h5>
+                        <p class="lead" style="text-align: justify;">
+                            {{ _('Basic Tools; Advanced Tools; Designing Assets; Prototyping.') }}</p>
                     </div>
                 </div>
 
@@ -248,8 +260,8 @@
     <section class="container py-5" id="projects" data-aos="fade-up">
         <div class="row mb-5">
             <div class="col text-center">
-                <h1 class="display-3 text-primary">Projects</h1>
-                <p class="lead">Explore some of the exciting projects I have worked on!</p>
+                <h1 class="display-3 text-primary">{{ _('Projects') }}</h1>
+                <p class="lead">{{ _('Explore some of the exciting projects I have worked on!') }}</p>
             </div>
         </div>
 
@@ -258,13 +270,14 @@
                 <a href="{{ url_for('main.movie_reviewers') }}" class="text-decoration-none link-hover">
                     <h3>Movie Reviewers</h3>
                 </a>
-                <p class="lead" style="text-align: justify;">Movie Reviewers is a learning-focused web application that allows users to explore community opinions
+                <p class="lead" style="text-align: justify;">
+                    {{ _('Movie Reviewers is a learning-focused web application that allows users to explore community opinions
                     on specific movies. The platform fetches movie details such as title, rating, description, and poster
                     via the IMDb API. Users can post their own reviews, rate movies independently, and engage in conversations
-                    through comment threads.</p>
+                    through comment threads.') }}</p>
                 <div>
                     <a href="{{ url_for('main.movie_reviewers') }}" class="text-decoration-none link-hover">
-                        See More
+                        {{ _('See More') }}
                     </a>
                 </div>
             </div>
@@ -280,14 +293,15 @@
         <div class="row mb-5">
             <div class="col-md-6 text-md-start">
                 <a href="{{ url_for('main.steam_chests') }}" class="text-decoration-none link-hover">
-                    <h3>Steam Chest Prices</h3>
+                    <h3>{{ _('Steam Chest Prices') }}</h3>
                 </a>
-                <p class="lead" style="text-align: justify;">Steam Chest Prices is a web application designed for monitoring the prices of CS2 (Counter-Strike 2)
+                <p class="lead" style="text-align: justify;">
+                    {{ _('Steam Chest Prices is a web application designed for monitoring the prices of CS2 (Counter-Strike 2)
                     weapon cases on the Steam Market. Users can view historical price charts for each case and create an
                     account to track their own collection. By adding owned cases to their profile, users can automatically
-                    calculate the total value of their inventory and see daily price changes.</p>
+                    calculate the total value of their inventory and see daily price changes.') }}</p>
                 <a href="{{ url_for('main.steam_chests') }}" class="text-decoration-none link-hover">
-                    See More
+                    {{ _('See More') }}
                 </a>
             </div>
             <div class="col-md-6 text-center">
@@ -302,19 +316,43 @@
         <div class="row mb-5">
             <div class="col-md-6 text-md-start">
                 <a href="{{ url_for('main.other_projects') }}" class="text-decoration-none link-hover">
-                    <h3>Technical Practice Projects</h3>
+                    <h3>{{ _('Technical Practice Projects') }}</h3>
                 </a>
-                <p class="lead" style="text-align: justify;">A selection of smaller projects developed to enhance my
+                <p class="lead" style="text-align: justify;">
+                    {{ _('A selection of smaller projects developed to enhance my
                     proficiency in Python and gain hands-on experience with a variety of technologies. Each project
                     served as a learning opportunity, allowing me to explore new tools, frameworks, and programming
-                    paradigms in a practical context.
+                    paradigms in a practical context.') }}
                 </p>
                 <a href="{{ url_for('main.other_projects') }}" class="text-decoration-none link-hover">
-                    See More
+                    {{ _('See More') }}
                 </a>
             </div>
             <div class="col-md-6 text-center">
                 <a href="{{ url_for('main.other_projects') }}">
+                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+                </a>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-start">
+                <a href="{{ url_for('main.data_science') }}" class="text-decoration-none link-hover">
+                    <h3>{{ _('Data Science Practice') }}</h3>
+                </a>
+                <p class="lead" style="text-align: justify;">
+                     {{ _('A curated collection of exercises, notebooks, and projects created during my journey of learning data science.
+                    This section highlights key concepts such as data cleaning, visualization, statistical modeling, and
+                    machine learning — all approached through practical, hands-on experimentation using real-world datasets.') }}
+                </p>
+                <a href="{{ url_for('main.data_science') }}" class="text-decoration-none link-hover">
+                    {{ _('See More') }}
+                </a>
+            </div>
+            <div class="col-md-6 text-center">
+                <a href="{{ url_for('main.data_science') }}">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
@@ -326,9 +364,9 @@
     <section class="container py-5" id="contact" data-aos="fade-up">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
-                <h2 class="text-center mb-4 display-3 text-primary">Contact Me</h2>
+                <h2 class="text-center mb-4 display-3 text-primary">{{ _('Contact Me') }}</h2>
                 <p class="text-center mb-5">
-                    Want to get in touch? Fill out the form below and I'll respond as soon as possible!
+                    {{ _('Want to get in touch? Fill out the form below and I'll respond as soon as possible!') }}
                 </p>
                 <form
                     id="contactForm"
@@ -345,7 +383,7 @@
                             placeholder="Enter your name..."
                             required
                         />
-                        <label for="name">Name</label>
+                        <label for="name">{{ _('Name') }}</label>
                     </div>
 
                     <div class="form-floating mb-4">
@@ -357,7 +395,7 @@
                             placeholder="Enter your email..."
                             required
                         />
-                        <label for="email">Email address</label>
+                        <label for="email">{{ _('Email address') }}</label>
                     </div>
 
                     <div class="form-floating mb-4">
@@ -369,7 +407,7 @@
                             placeholder="Enter your phone number..."
                             required
                         />
-                        <label for="phone">Phone Number</label>
+                        <label for="phone">{{ _('Phone Number') }}</label>
                     </div>
 
                     <div class="form-floating mb-4">
@@ -381,7 +419,7 @@
                             required
                             style="height: 12rem;"
                         ></textarea>
-                        <label for="message">Message</label>
+                        <label for="message">{{ _('Message') }}</label>
                     </div>
 
                     <div class="text-center">
@@ -390,7 +428,7 @@
                             id="submitButton"
                             type="submit"
                         >
-                            Send
+                            {{ _('Send') }}
                         </button>
                     </div>
                 </form>
@@ -402,7 +440,7 @@
         <div class="container px-4 px-lg-5">
             <div class="row text-center text-md-start">
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <h5 class="mb-3">Contact</h5>
+                    <h5 class="mb-3">{{ _('Contact') }}</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2">
                             <i class="fas fa-envelope me-2 text-primary"></i>
@@ -424,7 +462,7 @@
                 </div>
 
                 <div class="col-md-6 d-flex flex-column align-items-center align-items-md-end">
-                    <h5 class="mb-3">Socials</h5>
+                    <h5 class="mb-3">{{ _('Socials') }}</h5>
                     <ul class="list-inline">
                         <li class="list-inline-item mx-2">
                             <a href="https://twitter.com" target="_blank" class="text-dark text-decoration-none">
@@ -458,7 +496,7 @@
 
             <div class="row">
                 <div class="col text-center small text-muted fst-italic">
-                    &copy; 2025 Krystian Puch. All rights reserved.
+                    &copy; 2025 Krystian Puch. {{ _('All rights reserved.') }}
                 </div>
             </div>
         </div>

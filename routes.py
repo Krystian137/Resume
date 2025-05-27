@@ -1,11 +1,16 @@
 import os
 import smtplib
-from flask import Blueprint, render_template, request, flash, redirect, url_for
+from flask import Blueprint, render_template, request, flash, redirect, url_for, session
 
 main = Blueprint('main', __name__)
 
 EMAIL_KEY = ""
 PASSWORD_KEY = ""
+
+@main.route('/set_language/<lang_code>')
+def set_language(lang_code):
+    session['lang'] = lang_code
+    return redirect(request.referrer or url_for('main.index'))
 
 @main.route('/')
 def index():
@@ -25,6 +30,11 @@ def steam_chests():
 @main.route('/otherprojects')
 def other_projects():
     return render_template("otherprojects.html")
+
+
+@main.route('/datascience')
+def data_science():
+    return render_template("datascience.html")
 
 
 MAIL_ADDRESS = os.environ.get("EMAIL_KEY")
