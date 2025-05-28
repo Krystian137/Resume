@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-27 10:49+0200\n"
-"PO-Revision-Date: 2025-05-27 10:49+0200\n"
+"POT-Creation-Date: 2025-05-28 18:12+0200\n"
+"PO-Revision-Date: 2025-05-28 18:13+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
 "Language-Team: pl <LL@li.org>\n"
@@ -18,4 +18,335 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:33 templates/index.html:64 templates/index.html:118
+msgid "Resume"
+msgstr "CV"
+
+#: templates/index.html:36 templates/index.html:65 templates/index.html:263
+msgid "Projects"
+msgstr "Projekty"
+
+#: templates/index.html:39 templates/index.html:66 templates/index.html:443
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/index.html:54 templates/index.html:55
+msgid "Hello!"
+msgstr "Cześć!"
+
+#: templates/index.html:57
+msgid ""
+"IT student (3rd year) focused on Web Engineering, with a strong interest "
+"in front-end and back-end\n"
+"                    development. Comfortable working with Python. Looking"
+" for my first opportunity to apply my skills\n"
+"                    in a real-world development environment."
+msgstr ""
+"Student informatyki (3. rok) ze specjalizacją w inżynierii aplikacji internetowych, "
+"z dużym zainteresowaniem front-endem i back-endem. Dobrze odnajduję się w pracy z Pythonem. "
+"Poszukuję pierwszej okazji, by wykorzystać zdobyte umiejętności w praktycznym środowisku programistycznym."
+
+#: templates/index.html:78
+msgid "Technologies"
+msgstr "Technologie"
+
+#: templates/index.html:79
+msgid "Technologies I know:"
+msgstr "Technologie, które znam:"
+
+#: templates/index.html:125
+msgid "Education"
+msgstr "Wykształcenie"
+
+#: templates/index.html:132
+msgid "Present"
+msgstr "Obecnie"
+
+#: templates/index.html:135
+msgid "Wroclaw Business University of Applied Sciences"
+msgstr "Wrocławska Akademia Biznesu w Naukach Stosowanych"
+
+#: templates/index.html:137
+msgid ""
+"Bachelor's degree in Computer Science,\n"
+"                            specializing in Web Engineering. Gained "
+"practical\n"
+"                            knowledge in programming, database design and"
+" integration, computer networks, and IT project\n"
+"                            management. Covered full-stack web "
+"development — from front-end technologies and frameworks\n"
+"                            to back-end solutions and database "
+"connectivity. Additional focus on web application documentation,\n"
+"                            understanding copyright and licensing, and "
+"development best practices."
+msgstr ""
+"Studia licencjackie na kierunku Informatyka ze specjalizacją Inżynieria Aplikacji Internetowych. "
+"Zdobyta wiedza praktyczna z zakresu programowania, projektowania i integracji baz danych, "
+"sieci komputerowych oraz zarządzania projektami IT. Program obejmował pełny zakres tworzenia aplikacji webowych — "
+"od technologii front-end i frameworków po rozwiązania back-endowe i łączenie z bazami danych. "
+"Dodatkowy nacisk położono na dokumentację aplikacji, prawa autorskie i licencje oraz dobre praktyki developerskie."
+
+#: templates/index.html:152
+msgid "Technical Secondary School No. 1 (Kemal Mustafa Atatürk)"
+msgstr "Technikum nr 1 im. Kemala Mustafy Atatürka"
+
+#: templates/index.html:154
+msgid ""
+"Specialized in Computer Science with an extended curriculum in "
+"Mathematics and Physics. Gained\n"
+"                            foundational knowledge in databases, computer"
+" networks, and server management on both Linux\n"
+"                            and Windows systems. Learned the basics of "
+"programming and web development, including building\n"
+"                            and maintaining websites. Developed strong "
+"problem-solving skills and a passion for technology."
+msgstr ""
+"Kierunek: technik informatyk z rozszerzonym programem matematyki i fizyki. "
+"Zdobyta wiedza podstawowa z zakresu baz danych, sieci komputerowych i zarządzania serwerami "
+"w systemach Linux i Windows. Opanowane podstawy programowania i tworzenia stron internetowych. "
+"Rozwinięte umiejętności rozwiązywania problemów oraz zamiłowanie do nowych technologii."
+
+#: templates/index.html:167
+msgid "Additional Programming Courses (Middle School)"
+msgstr "Dodatkowe zajęcia z programowania (szkoła podstawowa/gimnazjum)"
+
+#: templates/index.html:169
+msgid ""
+"Attended extracurricular programming classes during middle school, which "
+"laid the foundation\n"
+"                            for my interest in technology and software "
+"development. Gained early experience with basic\n"
+"                            programming concepts and problem-solving "
+"techniques."
+msgstr ""
+"Uczestniczyłem w zajęciach pozalekcyjnych z programowania w szkole podstawowej/gimnazjum, "
+"co zapoczątkowało moje zainteresowanie technologią i tworzeniem oprogramowania. "
+"Zdobyłem wczesne doświadczenie w zakresie podstawowych pojęć programistycznych i technik rozwiązywania problemów."
+
+#: templates/index.html:178
+msgid "Courses (Udemy)"
+msgstr "Kursy (Udemy)"
+
+#: templates/index.html:186
+msgid ""
+"Master Python by Building 100 Projects in 100 Days. Learn Data Science, "
+"Automation,\n"
+"                            Build Websites, Games, and Apps!"
+msgstr ""
+"Opanuj Pythona, tworząc 100 projektów w 100 dni. Naucz się Data Science, automatyzacji, "
+"tworzenia stron, gier i aplikacji!"
+
+#: templates/index.html:189
+msgid ""
+"In this comprehensive course, you'll learn Python by working on 100 "
+"diverse projects over\n"
+"                            100 days. Covering essential topics such as "
+"data science, automation, web development, game\n"
+"                            creation, and app building, this course is "
+"designed to help you gain hands-on experience and\n"
+"                            become proficient in Python. You'll tackle "
+"real-world problems, enhance your coding skills,\n"
+"                            and create a portfolio of projects that "
+"showcase your abilities to potential employers or clients."
+msgstr ""
+"Kompleksowy kurs Pythona poprzez realizację 100 zróżnicowanych projektów w 100 dni. "
+"Zakres obejmuje m.in. data science, automatyzację, tworzenie stron WWW, gier i aplikacji. "
+"Kurs nastawiony jest na praktykę — umożliwia rozwój umiejętności kodowania poprzez rozwiązywanie realnych problemów. "
+"Efektem końcowym jest bogate portfolio, które można zaprezentować pracodawcy lub klientowi."
+
+#: templates/index.html:201
+msgid ""
+"Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, "
+"JavaScript, Node, React,\n"
+"                            PostgreSQL, Web3, and DApps"
+msgstr ""
+"Zostań full-stack developerem dzięki jednemu kursowi: HTML, CSS, JavaScript, Node.js, React, "
+"PostgreSQL, Web3 i DApps"
+
+#: templates/index.html:204
+msgid ""
+"This all-in-one course is your gateway to becoming a full-stack web "
+"developer. Covering a\n"
+"                            wide array of essential technologies such as "
+"HTML, CSS, JavaScript, Node.js, React, and PostgreSQL,\n"
+"                            you'll gain both front-end and back-end "
+"development skills. Learn how to build dynamic, interactive\n"
+"                            websites and apps, while also diving into "
+"modern concepts like Web3 and decentralized applications\n"
+"                            (DApps). Perfect for those looking to master "
+"full-stack development and build real-world projects from scratch."
+msgstr ""
+"Kurs typu „wszystko w jednym”, idealny dla osób dążących do zostania full-stack developerem. "
+"Obejmuje HTML, CSS, JavaScript, Node.js, React, PostgreSQL oraz zagadnienia związane z Web3 i aplikacjami zdecentralizowanymi (DApps). "
+"Uczy budowy dynamicznych i interaktywnych stron oraz aplikacji — od podstaw do gotowych projektów."
+
+#: templates/index.html:216
+msgid "Build Your First Website from Scratch and Learn the Key Principles of UX"
+msgstr "Zbuduj swoją pierwszą stronę od podstaw i poznaj kluczowe zasady UX"
+
+#: templates/index.html:218
+msgid ""
+"Basic UX concepts and principles. Drawing inspiration and the first "
+"stages of the project.\n"
+"                            Designing the layout in Photoshop. Coding the"
+" HTML structure. Further project stages and working\n"
+"                            with CSS. Automating the workflow and "
+"finalizing the project elements."
+msgstr ""
+"Podstawy UX. Inspiracje i pierwsze etapy projektu. Projektowanie układu w Photoshopie. "
+"Tworzenie struktury HTML, dalsze etapy z użyciem CSS. Automatyzacja pracy i finalizacja elementów projektu."
+
+#: templates/index.html:228
+msgid "Learning the Basics of Photoshop CC for Web Design Beginners"
+msgstr "Podstawy Adobe Photoshop CC dla początkujących projektantów stron WWW"
+
+#: templates/index.html:230
+msgid ""
+"Understanding the User Interface; Working with Tools and Layers; Creating"
+" Shapes; Organizing\n"
+"                            Layers & Groups; Moving and Resizing "
+"Elements; Zooming and Panning Techniques; Using Blend Modes\n"
+"                            and Adding Effects; Inserting and Styling "
+"Text; Designing with Photoshop."
+msgstr ""
+"Zrozumienie interfejsu użytkownika; praca z narzędziami i warstwami; tworzenie kształtów; "
+"organizacja grup i warstw; przemieszczanie i zmiana rozmiaru elementów; techniki powiększania i przesuwania; "
+"tryby mieszania i efekty; wstawianie i stylizacja tekstu; projektowanie w Photoshopie."
+
+#: templates/index.html:240
+msgid "Get to Know Formats, Resolutions, DPI, and More"
+msgstr "Poznaj formaty, rozdzielczości, DPI i inne zagadnienia"
+
+#: templates/index.html:242
+msgid ""
+"Screen Basics; Scaling on Devices; Graphic File Formats; Platform "
+"Specifics."
+msgstr ""
+"Podstawy ekranów; skalowanie na różnych urządzeniach; formaty plików graficznych; specyfika platform."
+
+#: templates/index.html:250
+msgid ""
+"Everything You Need to Know About Adobe XD to Start Designing & "
+"Prototyping Awesome Apps"
+msgstr ""
+"Wszystko, co musisz wiedzieć o Adobe XD, by rozpocząć projektowanie i prototypowanie świetnych aplikacji"
+
+#: templates/index.html:252
+msgid "Basic Tools; Advanced Tools; Designing Assets; Prototyping."
+msgstr "Podstawowe i zaawansowane narzędzia; projektowanie zasobów; prototypowanie."
+
+#: templates/index.html:264
+msgid "Explore some of the exciting projects I have worked on!"
+msgstr "Poznaj ciekawe projekty, nad którymi pracowałem!"
+
+#: templates/index.html:274
+msgid ""
+"Movie Reviewers is a learning-focused web application that allows users "
+"to explore community opinions\n"
+"                    on specific movies. The platform fetches movie "
+"details such as title, rating, description, and poster\n"
+"                    via the IMDb API. Users can post their own reviews, "
+"rate movies independently, and engage in conversations\n"
+"                    through comment threads."
+msgstr ""
+"Movie Reviewers to edukacyjna aplikacja webowa umożliwiająca użytkownikom poznanie opinii społeczności "
+"na temat konkretnych filmów. Szczegóły filmów (tytuł, ocena, opis, plakat) są pobierane za pomocą API IMDb. "
+"Użytkownicy mogą publikować własne recenzje, oceniać filmy i brać udział w dyskusjach poprzez system komentarzy."
+
+#: templates/index.html:280 templates/index.html:304 templates/index.html:328
+#: templates/index.html:351
+msgid "See More"
+msgstr "Zobacz Więcej"
+
+#: templates/index.html:296
+msgid "Steam Chest Prices"
+msgstr "Steam Chest Prices"
+
+#: templates/index.html:299
+msgid ""
+"Steam Chest Prices is a web application designed for monitoring the "
+"prices of CS2 (Counter-Strike 2)\n"
+"                    weapon cases on the Steam Market. Users can view "
+"historical price charts for each case and create an\n"
+"                    account to track their own collection. By adding "
+"owned cases to their profile, users can automatically\n"
+"                    calculate the total value of their inventory and see "
+"daily price changes."
+msgstr ""
+"Steam Chest Prices to aplikacja webowa służąca do monitorowania cen skrzynek z bronią z gry CS2 (Counter-Strike 2) "
+"na rynku Steam. Umożliwia przeglądanie wykresów cenowych oraz tworzenie kont użytkownika w celu śledzenia własnej kolekcji. "
+"Po dodaniu skrzynek do profilu użytkownik może automatycznie obliczyć łączną wartość inwentarza i obserwować dzienne zmiany cen."
+
+#: templates/index.html:319
+msgid "Technical Practice Projects"
+msgstr "Projekty ćwiczeniowe"
+
+#: templates/index.html:322
+msgid ""
+"A selection of smaller projects developed to enhance my\n"
+"                    proficiency in Python and gain hands-on experience "
+"with a variety of technologies. Each project\n"
+"                    served as a learning opportunity, allowing me to "
+"explore new tools, frameworks, and programming\n"
+"                    paradigms in a practical context."
+msgstr ""
+"Zbiór mniejszych projektów stworzonych w celu rozwinięcia umiejętności programowania w Pythonie "
+"oraz zdobycia praktycznego doświadczenia z różnymi technologiami. Każdy projekt stanowił okazję "
+"do nauki i eksploracji nowych narzędzi, frameworków oraz paradygmatów programowania."
+
+#: templates/index.html:343
+msgid "Data Science Practice"
+msgstr "Ćwiczenia z Data Science"
+
+#: templates/index.html:346
+msgid ""
+"A curated collection of exercises, notebooks, and projects created during"
+" my journey of learning data science.\n"
+"                    This section highlights key concepts such as data "
+"cleaning, visualization, statistical modeling, and\n"
+"                    machine learning — all approached through practical, "
+"hands-on experimentation using real-world datasets."
+msgstr ""
+"Wybrane ćwiczenia, notatniki i projekty stworzone podczas nauki data science. "
+"Sekcja obejmuje najważniejsze zagadnienia, takie jak czyszczenie danych, wizualizacja, modelowanie statystyczne "
+"oraz uczenie maszynowe — wszystko w oparciu o praktyczne eksperymenty z rzeczywistymi zbiorami danych."
+
+#: templates/index.html:367
+msgid "Contact Me"
+msgstr "Skontaktuj się ze mną"
+
+#: templates/index.html:369
+msgid ""
+"Want to get in touch? Fill out the form below and I'll respond as soon as"
+" possible!"
+msgstr "Chcesz się skontaktować? Wypełnij formularz poniżej — odpowiem najszybciej jak to możliwe!"
+
+#: templates/index.html:386
+msgid "Name"
+msgstr "Imię"
+
+#: templates/index.html:398
+msgid "Email address"
+msgstr "Adres e-mail"
+
+#: templates/index.html:410
+msgid "Phone Number"
+msgstr "Numer telefonu"
+
+#: templates/index.html:422
+msgid "Message"
+msgstr "Wiadomość"
+
+#: templates/index.html:431
+msgid "Send"
+msgstr "Wyślij"
+
+#: templates/index.html:465
+msgid "Socials"
+msgstr "Social media"
+
+#: templates/index.html:499
+msgid "All rights reserved."
+msgstr "Wszelkie prawa zastrzeżone."
 

@@ -32,11 +32,24 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark px-3 fw-semibold" href="#resume">{{ _('Resume') }}</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link text-dark px-3 fw-semibold" href="#projects">{{ _('Projects') }}</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link text-dark px-3 fw-semibold" href="#contact">{{ _('Contact') }}</a>
+                    </li>
+
+                    <li class="nav-item d-flex align-items-center px-2">
+                        <a class="nav-link" href="{{ url_for('main.set_language', lang_code='en') }}">
+                            <img src="https://flagcdn.com/gb.svg" alt="English" width="24" height="18" class="rounded">
+                            English
+                        </a>
+                        <a class="nav-link" href="{{ url_for('main.set_language', lang_code='pl') }}">
+                            <img src="https://flagcdn.com/pl.svg" alt="Polski" width="24" height="18" class="rounded">
+                            Polski
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -58,8 +71,14 @@
                     development. Comfortable working with Python. Looking for my first opportunity to apply my skills
                     in a real-world development environment.') }}
                 </p>
-                <a href="{{ url_for('main.set_language', lang_code='en') }}">EN</a> |
-                <a href="{{ url_for('main.set_language', lang_code='pl') }}">PL</a>
+                <div class="mt-3 d-flex justify-content-center justify-content-md-start gap-2">
+                    <a href="{{ url_for('main.set_language', lang_code='en') }}">
+                        <img src="https://flagcdn.com/gb.svg" alt="English" width="32" height="24" class="rounded shadow-sm">
+                    </a>
+                    <a href="{{ url_for('main.set_language', lang_code='pl') }}">
+                        <img src="https://flagcdn.com/pl.svg" alt="Polski" width="32" height="24" class="rounded shadow-sm">
+                    </a>
+                </div>
                 <div class="mt-4">
                     <a href="#resume" class="btn cherry-blossom-pink m-1 btn-lg">{{ _('Resume') }}</a>
                     <a href="#projects" class="btn cherry-blossom-pink m-1 btn-lg">{{ _('Projects') }}</a>
@@ -134,12 +153,12 @@
                     <div class="col-md-9 text-md-start text-center">
                         <h5>{{ _('Wroclaw Business University of Applied Sciences') }}</h5>
                         <p class="lead" style="text-align: justify;">
-                            {{ _('Bachelor's degree in Computer Science,
+                            {{ _("Bachelor's degree in Computer Science,
                             specializing in Web Engineering. Gained practical
                             knowledge in programming, database design and integration, computer networks, and IT project
                             management. Covered full-stack web development — from front-end technologies and frameworks
                             to back-end solutions and database connectivity. Additional focus on web application documentation,
-                            understanding copyright and licensing, and development best practices.') }}</p>
+                            understanding copyright and licensing, and development best practices.") }}</p>
                     </div>
                 </div>
 
@@ -186,11 +205,11 @@
                         <h5>{{ _('Master Python by Building 100 Projects in 100 Days. Learn Data Science, Automation,
                             Build Websites, Games, and Apps!') }}</h5>
                         <p class="lead" style="text-align: justify;">
-                            {{ _('In this comprehensive course, you'll learn Python by working on 100 diverse projects over
+                            {{ _("In this comprehensive course, you'll learn Python by working on 100 diverse projects over
                             100 days. Covering essential topics such as data science, automation, web development, game
                             creation, and app building, this course is designed to help you gain hands-on experience and
                             become proficient in Python. You'll tackle real-world problems, enhance your coding skills,
-                            and create a portfolio of projects that showcase your abilities to potential employers or clients.') }}</p>
+                            and create a portfolio of projects that showcase your abilities to potential employers or clients.") }}</p>
                     </div>
                 </div>
 
@@ -201,11 +220,11 @@
                         <h5>{{ _('Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, JavaScript, Node, React,
                             PostgreSQL, Web3, and DApps') }}</h5>
                         <p class="lead" style="text-align: justify;">
-                            {{ _('This all-in-one course is your gateway to becoming a full-stack web developer. Covering a
+                            {{ _("This all-in-one course is your gateway to becoming a full-stack web developer. Covering a
                             wide array of essential technologies such as HTML, CSS, JavaScript, Node.js, React, and PostgreSQL,
                             you'll gain both front-end and back-end development skills. Learn how to build dynamic, interactive
                             websites and apps, while also diving into modern concepts like Web3 and decentralized applications
-                            (DApps). Perfect for those looking to master full-stack development and build real-world projects from scratch.') }}</p>
+                            (DApps). Perfect for those looking to master full-stack development and build real-world projects from scratch.") }}</p>
                     </div>
                 </div>
 
@@ -366,7 +385,7 @@
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <h2 class="text-center mb-4 display-3 text-primary">{{ _('Contact Me') }}</h2>
                 <p class="text-center mb-5">
-                    {{ _('Want to get in touch? Fill out the form below and I'll respond as soon as possible!') }}
+                    {{ _("Want to get in touch? Fill out the form below and I'll respond as soon as possible!") }}
                 </p>
                 <form
                     id="contactForm"

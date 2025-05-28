@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="visual changes in otherprojects.html, fixed fade up in steamchests.html">
-      <change afterPath="$PROJECT_DIR$/babel.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/datascience.html" afterDir="false" />
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="updated steamchests.html design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages.pot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +24,12 @@
     &quot;assignee&quot;: &quot;Krystian137&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Krystian137/Resume.git&quot;,
-    &quot;accountId&quot;: &quot;ebf5243b-e080-4d1a-b0bb-4fc8dde6663c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Krystian137/Resume.git",
+    "accountId": "48144a51-88c8-4734-b953-5508c9ec749e"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -151,103 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746527703259</updated>
     </task>
-    <task id="LOCAL-00008" summary="added sections">
+    <task id="LOCAL-00008" summary="updated steamchests.html design">
       <option name="closed" value="true" />
-      <created>1746529066231</created>
+      <created>1746881352874</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1746529066231</updated>
+      <updated>1746881352874</updated>
     </task>
-    <task id="LOCAL-00009" summary="icons and sections updated on steamchests.html">
-      <option name="closed" value="true" />
-      <created>1746700497448</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1746700497448</updated>
-    </task>
-    <task id="LOCAL-00010" summary="just updates">
-      <option name="closed" value="true" />
-      <created>1746702365522</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1746702365522</updated>
-    </task>
-    <task id="LOCAL-00011" summary="finally adding desciptions">
-      <option name="closed" value="true" />
-      <created>1746705220714</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1746705220714</updated>
-    </task>
-    <task id="LOCAL-00012" summary="finished steamchest.html and index.html except footer">
-      <option name="closed" value="true" />
-      <created>1746786299055</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1746786299055</updated>
-    </task>
-    <task id="LOCAL-00013" summary="added fade up to some sections">
-      <option name="closed" value="true" />
-      <created>1746786477477</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1746786477477</updated>
-    </task>
-    <task id="LOCAL-00014" summary="uppdates, updates...">
-      <option name="closed" value="true" />
-      <created>1746792253995</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1746792253995</updated>
-    </task>
-    <task id="LOCAL-00015" summary="visual updates to steamchests.html, and updates to moviereviewers.html">
-      <option name="closed" value="true" />
-      <created>1747134320070</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1747134320071</updated>
-    </task>
-    <task id="LOCAL-00016" summary="updates to moviereviewers.html">
-      <option name="closed" value="true" />
-      <created>1747137200952</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1747137200952</updated>
-    </task>
-    <task id="LOCAL-00017" summary="finished moviereviewers.html">
-      <option name="closed" value="true" />
-      <created>1747389439745</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1747389439745</updated>
-    </task>
-    <task id="LOCAL-00018" summary="added otherprojects.html">
-      <option name="closed" value="true" />
-      <created>1748001454747</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1748001454747</updated>
-    </task>
-    <task id="LOCAL-00019" summary="visual changes in otherprojects.html, fixed fade up in steamchests.html">
-      <option name="closed" value="true" />
-      <created>1748260344022</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1748260344022</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,18 +165,8 @@
     <MESSAGE value="Technologies updated, projects updated" />
     <MESSAGE value="added steamchests.html and moviereviewers.html" />
     <MESSAGE value="updated steamchests.html" />
-    <MESSAGE value="added sections" />
-    <MESSAGE value="icons and sections updated on steamchests.html" />
-    <MESSAGE value="just updates" />
-    <MESSAGE value="finally adding desciptions" />
-    <MESSAGE value="finished steamchest.html and index.html except footer" />
-    <MESSAGE value="added fade up to some sections" />
-    <MESSAGE value="uppdates, updates..." />
-    <MESSAGE value="visual updates to steamchests.html, and updates to moviereviewers.html" />
-    <MESSAGE value="updates to moviereviewers.html" />
-    <MESSAGE value="finished moviereviewers.html" />
-    <MESSAGE value="added otherprojects.html" />
-    <MESSAGE value="visual changes in otherprojects.html, fixed fade up in steamchests.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="visual changes in otherprojects.html, fixed fade up in steamchests.html" />
+    <MESSAGE value="movie reviewers pngs" />
+    <MESSAGE value="updated steamchests.html design" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated steamchests.html design" />
   </component>
 </project>

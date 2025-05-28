@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-27 10:49+0200\n"
+"POT-Creation-Date: 2025-05-28 18:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,4 +16,290 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:33 templates/index.html:64 templates/index.html:118
+msgid "Resume"
+msgstr ""
+
+#: templates/index.html:36 templates/index.html:65 templates/index.html:263
+msgid "Projects"
+msgstr ""
+
+#: templates/index.html:39 templates/index.html:66 templates/index.html:443
+msgid "Contact"
+msgstr ""
+
+#: templates/index.html:54 templates/index.html:55
+msgid "Hello!"
+msgstr ""
+
+#: templates/index.html:57
+msgid ""
+"IT student (3rd year) focused on Web Engineering, with a strong interest "
+"in front-end and back-end\n"
+"                    development. Comfortable working with Python. Looking"
+" for my first opportunity to apply my skills\n"
+"                    in a real-world development environment."
+msgstr ""
+
+#: templates/index.html:78
+msgid "Technologies"
+msgstr ""
+
+#: templates/index.html:79
+msgid "Technologies I know:"
+msgstr ""
+
+#: templates/index.html:125
+msgid "Education"
+msgstr ""
+
+#: templates/index.html:132
+msgid "Present"
+msgstr ""
+
+#: templates/index.html:135
+msgid "Wroclaw Business University of Applied Sciences"
+msgstr ""
+
+#: templates/index.html:137
+msgid ""
+"Bachelor's degree in Computer Science,\n"
+"                            specializing in Web Engineering. Gained "
+"practical\n"
+"                            knowledge in programming, database design and"
+" integration, computer networks, and IT project\n"
+"                            management. Covered full-stack web "
+"development — from front-end technologies and frameworks\n"
+"                            to back-end solutions and database "
+"connectivity. Additional focus on web application documentation,\n"
+"                            understanding copyright and licensing, and "
+"development best practices."
+msgstr ""
+
+#: templates/index.html:152
+msgid "Technical Secondary School No. 1 (Kemal Mustafa Atatürk)"
+msgstr ""
+
+#: templates/index.html:154
+msgid ""
+"Specialized in Computer Science with an extended curriculum in "
+"Mathematics and Physics. Gained\n"
+"                            foundational knowledge in databases, computer"
+" networks, and server management on both Linux\n"
+"                            and Windows systems. Learned the basics of "
+"programming and web development, including building\n"
+"                            and maintaining websites. Developed strong "
+"problem-solving skills and a passion for technology."
+msgstr ""
+
+#: templates/index.html:167
+msgid "Additional Programming Courses (Middle School)"
+msgstr ""
+
+#: templates/index.html:169
+msgid ""
+"Attended extracurricular programming classes during middle school, which "
+"laid the foundation\n"
+"                            for my interest in technology and software "
+"development. Gained early experience with basic\n"
+"                            programming concepts and problem-solving "
+"techniques."
+msgstr ""
+
+#: templates/index.html:178
+msgid "Courses (Udemy)"
+msgstr ""
+
+#: templates/index.html:186
+msgid ""
+"Master Python by Building 100 Projects in 100 Days. Learn Data Science, "
+"Automation,\n"
+"                            Build Websites, Games, and Apps!"
+msgstr ""
+
+#: templates/index.html:189
+msgid ""
+"In this comprehensive course, you'll learn Python by working on 100 "
+"diverse projects over\n"
+"                            100 days. Covering essential topics such as "
+"data science, automation, web development, game\n"
+"                            creation, and app building, this course is "
+"designed to help you gain hands-on experience and\n"
+"                            become proficient in Python. You'll tackle "
+"real-world problems, enhance your coding skills,\n"
+"                            and create a portfolio of projects that "
+"showcase your abilities to potential employers or clients."
+msgstr ""
+
+#: templates/index.html:201
+msgid ""
+"Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, "
+"JavaScript, Node, React,\n"
+"                            PostgreSQL, Web3, and DApps"
+msgstr ""
+
+#: templates/index.html:204
+msgid ""
+"This all-in-one course is your gateway to becoming a full-stack web "
+"developer. Covering a\n"
+"                            wide array of essential technologies such as "
+"HTML, CSS, JavaScript, Node.js, React, and PostgreSQL,\n"
+"                            you'll gain both front-end and back-end "
+"development skills. Learn how to build dynamic, interactive\n"
+"                            websites and apps, while also diving into "
+"modern concepts like Web3 and decentralized applications\n"
+"                            (DApps). Perfect for those looking to master "
+"full-stack development and build real-world projects from scratch."
+msgstr ""
+
+#: templates/index.html:216
+msgid "Build Your First Website from Scratch and Learn the Key Principles of UX"
+msgstr ""
+
+#: templates/index.html:218
+msgid ""
+"Basic UX concepts and principles. Drawing inspiration and the first "
+"stages of the project.\n"
+"                            Designing the layout in Photoshop. Coding the"
+" HTML structure. Further project stages and working\n"
+"                            with CSS. Automating the workflow and "
+"finalizing the project elements."
+msgstr ""
+
+#: templates/index.html:228
+msgid "Learning the Basics of Photoshop CC for Web Design Beginners"
+msgstr ""
+
+#: templates/index.html:230
+msgid ""
+"Understanding the User Interface; Working with Tools and Layers; Creating"
+" Shapes; Organizing\n"
+"                            Layers & Groups; Moving and Resizing "
+"Elements; Zooming and Panning Techniques; Using Blend Modes\n"
+"                            and Adding Effects; Inserting and Styling "
+"Text; Designing with Photoshop."
+msgstr ""
+
+#: templates/index.html:240
+msgid "Get to Know Formats, Resolutions, DPI, and More"
+msgstr ""
+
+#: templates/index.html:242
+msgid ""
+"Screen Basics; Scaling on Devices; Graphic File Formats; Platform "
+"Specifics."
+msgstr ""
+
+#: templates/index.html:250
+msgid ""
+"Everything You Need to Know About Adobe XD to Start Designing & "
+"Prototyping Awesome Apps"
+msgstr ""
+
+#: templates/index.html:252
+msgid "Basic Tools; Advanced Tools; Designing Assets; Prototyping."
+msgstr ""
+
+#: templates/index.html:264
+msgid "Explore some of the exciting projects I have worked on!"
+msgstr ""
+
+#: templates/index.html:274
+msgid ""
+"Movie Reviewers is a learning-focused web application that allows users "
+"to explore community opinions\n"
+"                    on specific movies. The platform fetches movie "
+"details such as title, rating, description, and poster\n"
+"                    via the IMDb API. Users can post their own reviews, "
+"rate movies independently, and engage in conversations\n"
+"                    through comment threads."
+msgstr ""
+
+#: templates/index.html:280 templates/index.html:304 templates/index.html:328
+#: templates/index.html:351
+msgid "See More"
+msgstr ""
+
+#: templates/index.html:296
+msgid "Steam Chest Prices"
+msgstr ""
+
+#: templates/index.html:299
+msgid ""
+"Steam Chest Prices is a web application designed for monitoring the "
+"prices of CS2 (Counter-Strike 2)\n"
+"                    weapon cases on the Steam Market. Users can view "
+"historical price charts for each case and create an\n"
+"                    account to track their own collection. By adding "
+"owned cases to their profile, users can automatically\n"
+"                    calculate the total value of their inventory and see "
+"daily price changes."
+msgstr ""
+
+#: templates/index.html:319
+msgid "Technical Practice Projects"
+msgstr ""
+
+#: templates/index.html:322
+msgid ""
+"A selection of smaller projects developed to enhance my\n"
+"                    proficiency in Python and gain hands-on experience "
+"with a variety of technologies. Each project\n"
+"                    served as a learning opportunity, allowing me to "
+"explore new tools, frameworks, and programming\n"
+"                    paradigms in a practical context."
+msgstr ""
+
+#: templates/index.html:343
+msgid "Data Science Practice"
+msgstr ""
+
+#: templates/index.html:346
+msgid ""
+"A curated collection of exercises, notebooks, and projects created during"
+" my journey of learning data science.\n"
+"                    This section highlights key concepts such as data "
+"cleaning, visualization, statistical modeling, and\n"
+"                    machine learning — all approached through practical, "
+"hands-on experimentation using real-world datasets."
+msgstr ""
+
+#: templates/index.html:367
+msgid "Contact Me"
+msgstr ""
+
+#: templates/index.html:369
+msgid ""
+"Want to get in touch? Fill out the form below and I'll respond as soon as"
+" possible!"
+msgstr ""
+
+#: templates/index.html:386
+msgid "Name"
+msgstr ""
+
+#: templates/index.html:398
+msgid "Email address"
+msgstr ""
+
+#: templates/index.html:410
+msgid "Phone Number"
+msgstr ""
+
+#: templates/index.html:422
+msgid "Message"
+msgstr ""
+
+#: templates/index.html:431
+msgid "Send"
+msgstr ""
+
+#: templates/index.html:465
+msgid "Socials"
+msgstr ""
+
+#: templates/index.html:499
+msgid "All rights reserved."
+msgstr ""
 
