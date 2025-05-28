@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="updated steamchests.html design">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" beforeDir="false" />
-    </list>
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="finished translating for index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +19,12 @@
     &quot;assignee&quot;: &quot;Krystian137&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Krystian137/Resume.git",
-    "accountId": "48144a51-88c8-4734-b953-5508c9ec749e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Krystian137/Resume.git&quot;,
+    &quot;accountId&quot;: &quot;48144a51-88c8-4734-b953-5508c9ec749e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -157,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746881352874</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finished translating for index.html">
+      <option name="closed" value="true" />
+      <created>1748450517061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748450517061</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +170,7 @@
     <MESSAGE value="updated steamchests.html" />
     <MESSAGE value="movie reviewers pngs" />
     <MESSAGE value="updated steamchests.html design" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated steamchests.html design" />
+    <MESSAGE value="finished translating for index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished translating for index.html" />
   </component>
 </project>
