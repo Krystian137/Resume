@@ -315,10 +315,11 @@
                     <h3>{{ _('Steam Chest Prices') }}</h3>
                 </a>
                 <p class="lead" style="text-align: justify;">
-                    {{ _('Steam Chest Prices is a web application designed for monitoring the prices of CS2 (Counter-Strike 2)
-                    weapon cases on the Steam Market. Users can view historical price charts for each case and create an
-                    account to track their own collection. By adding owned cases to their profile, users can automatically
-                    calculate the total value of their inventory and see daily price changes.') }}</p>
+                    {{ _('Steam Chest Prices is a web application focused on data analysis of CS2 (Counter-Strike 2) weapon
+                    case prices from the Steam Market. It offers historical price charts, percentage change calculations over
+                    time, and dynamic value tracking. Users can create accounts to monitor their own collection and gain insights
+                    into market trends through visualizations and automated value summaries.') }}
+                </p>
                 <a href="{{ url_for('main.steam_chests') }}" class="text-decoration-none link-hover">
                     {{ _('See More') }}
                 </a>
@@ -349,7 +350,7 @@
             </div>
             <div class="col-md-6 text-center">
                 <a href="{{ url_for('main.other_projects') }}">
-                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/checklist.png') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
                 </a>
@@ -372,7 +373,7 @@
             </div>
             <div class="col-md-6 text-center">
                 <a href="{{ url_for('main.data_science') }}">
-                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/analytics.png') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
                 </a>
