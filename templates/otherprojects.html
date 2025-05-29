@@ -45,10 +45,10 @@
                         <a class="nav-link text-dark px-3 fw-semibold" href="#snakeTurtle">Snake Game (Turtle)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#quiz">Quiz Game</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#turtleCrossing">Turtle Crossing Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#turtleCrossing">Turtle Crossing Game</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#quiz">Quiz Game</a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
                     <a href="#snakeFlask" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
                             <img src="{{ url_for('static', filename='assets/img/otherProjects/snakeGameFlask.png') }}"
-                                 class="card-img-top" alt="Snake Flask">
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Snake Flask">
                             <div class="card-body">
                                 <h5 class="card-title">Snake Game (Flask)</h5>
                                 <p class="card-text text-muted small">Snake Game made in flask</p>
@@ -75,9 +75,9 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#usStates" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
-                                 class="card-img-top" alt="US States Game">
-                            <div class="card-body">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/UsStates.png') }}"
+                                class="card-img-top" style="height: 200px; object-fit: cover;" alt="US States Game">
+                            <div class="card-body custom-img">
                                 <h5 class="card-title">US States Game</h5>
                                 <p class="card-text text-muted small">Memory game: type U.S. states to fill the map</p>
                             </div>
@@ -88,8 +88,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#pong" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}"
-                                 class="card-img-top" alt="Pong Game">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/pongGame.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Pong Game">
                             <div class="card-body">
                                 <h5 class="card-title">Pong Game</h5>
                                 <p class="card-text text-muted small">Pong game built in Python using Turtle and Pandas</p>
@@ -101,8 +101,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#snakeTurtle" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}"
-                                 class="card-img-top" alt="Snake (Turtle)">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/snake(turtle).png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Snake (Turtle)">
                             <div class="card-body">
                                 <h5 class="card-title">Snake Game (Turtle)</h5>
                                 <p class="card-text text-muted small">Snake game in Python with Turtle</p>
@@ -114,8 +114,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#turtleCrossing" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}"
-                                 class="card-img-top" alt="Turtle Crossing Game">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/turtleCrossing.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Turtle Crossing Game">
                             <div class="card-body">
                                 <h5 class="card-title">Turtle Crossing Game</h5>
                                 <p class="card-text text-muted small">Cross a road as a turtle</p>
@@ -125,12 +125,13 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <a href="#login" class="text-decoration-none">
+                    <a href="#quiz" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}" class="card-img-top" alt="Login">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/quizGame.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Quiz Game">
                             <div class="card-body">
-                                <h5 class="card-title">Login and Register</h5>
-                                <p class="card-text text-muted small">Login or Register new account</p>
+                                <h5 class="card-title">Quiz Game</h5>
+                                <p class="card-text text-muted small">A simple terminal game that tests your knowledge.</p>
                             </div>
                         </div>
                     </a>
@@ -152,10 +153,12 @@
                 </div>
                 <div class="col-md-6 order-md-1 fade-up">
                     <p class="lead" style="text-align: justify;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore
+                        I created these projects as a way to learn through practice. Building games, apps, and tools allowed
+                        me to apply concepts like <strong>object-oriented programming</strong>, <strong>working with APIs
+                        </strong>, <strong>data management</strong>, and <strong>user interface development</strong> in real
+                        scenarios. Each project helped me grow both technically and creatively, and gave me a better understanding
+                        of how to connect different technologies into complete, functional solutions. This hands-on approach
+                        has been the most effective way for me to develop as a programmer.
                     </p>
                 </div>
             </div>
@@ -178,10 +181,11 @@
                 <div class="col-md-6">
                     <h2 class="text-primary">Snake Game (Flask)</h2>
                     <p class="lead">
-                        Klasyczny Snake w nowoczesnym wydaniu – gra stworzona przy użyciu <strong>Flaska</strong> i <strong>JavaScriptu</strong>,
-                        z systemem poziomów trudności, zapisem wyników i lokalną bazą danych w formacie JSON.
-                        Gracz podaje swój nick, a najlepsze wyniki trafiają na tablicę top 10.
-                        Cała logika rozgrywki działa po stronie przeglądarki, co zapewnia płynne i dynamiczne doświadczenie.
+                        A modern take on the classic Snake game – built with <strong>Flask</strong> and <strong>JavaScript</strong>.
+                        The game features multiple difficulty levels, a nickname-based scoring system, and local score saving using
+                        a <strong>JSON-based database</strong>. All gameplay logic runs entirely in the browser, providing
+                        a smooth and responsive experience. Players can compete for a spot in the top 10 leaderboard.
+                        The project also demonstrates full integration between the frontend and a lightweight Python backend.
                     </p>
                     <div class="mb-2">
                         <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
@@ -190,7 +194,141 @@
                         <i class="devicon-javascript-plain colored fs-4 me-2" title="JavaScript"></i>
                     </div>
                     <a href="#" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> Zobacz na GitHubie
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="usStates" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/UsStates.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="US States Game">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">US States Game</h2>
+                    <p class="lead">
+                        An interactive geographical quiz built with <strong>Python</strong> and the <strong>Turtle</strong> graphics library.
+                        The goal is to correctly name all 50 U.S. states, which are then dynamically labeled on a blank map.
+                        The application loads and processes a <strong>CSV file</strong> containing state names and their coordinates,
+                        and uses <strong>Pandas</strong> to manage data input, filtering, and output.
+                        If the player chooses to exit early, the program automatically generates a new CSV file — <code>states_to_learn.csv</code> —
+                        listing the states that were missed, allowing for personalized review and improvement.
+                        As a light introduction to data-driven applications, this project demonstrates how basic <strong>data science tools</strong>
+                        can be applied in an interactive and visual context.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pong" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/pongGame.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Pong Game">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">Pong Game</h2>
+                    <p class="lead">
+                        A modern take on the classic Pong game, developed using <strong>Python</strong> and the <strong>Turtle</strong> graphics library.
+                        The project is structured in an object-oriented way, with separate classes for the paddles, ball, and scoreboard.
+                        It features real-time input handling for smooth two-player gameplay, dynamic collision detection, score tracking, and a gradually increasing ball speed.
+                        I built this project as a personal exercise to better understand <strong>object-oriented programming</strong> and <strong>basic game mechanics</strong>, while experimenting with simple animation and user interaction in Python.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on Github
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="snakeTurtle" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/snake(turtle).png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Snake Game">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">Snake Game</h2>
+                    <p class="lead">
+                        A classic <strong>Snake</strong> game built in <strong>Python</strong> using the <strong>Turtle</strong> graphics library.
+                        The project is structured in an object-oriented manner, with separate classes handling the snake's behavior, food spawning, and scorekeeping.
+                        It features real-time input handling, collision detection with walls, food, and the snake’s own body, as well as persistent high score tracking using a local file.
+                        I created this project to strengthen my understanding of <strong>object-oriented programming</strong>, <strong>collision logic</strong>, and working with persistent data.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="turtleCrossing" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/turtleCrossing.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Turtle Crossing Game">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">Turtle Crossing Game</h2>
+                    <p class="lead">
+                        A <strong>Frogger-style game</strong> developed in <strong>Python</strong> with the <strong>Turtle</strong> graphics module.
+                        The player controls a turtle trying to cross a busy road without getting hit by randomly generated cars.
+                        Each successful crossing increases the game level and the speed of oncoming traffic, making the game progressively more challenging.
+                        This project helped me improve my skills in <strong>event-driven programming</strong>, <strong>object-oriented design</strong>, and handling <strong>dynamic difficulty scaling</strong>.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/quizGame.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Quiz Game">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">Quiz Game</h2>
+                    <p class="lead">
+                        A simple <strong>True/False quiz game</strong> written in <strong>Python</strong>, based on object-oriented programming principles.
+                        The questions are pulled from a structured data source and displayed one by one in the terminal.
+                        The game keeps track of the user's score and gives immediate feedback after each answer.
+                        This project improved my understanding of <strong>data encapsulation</strong>, <strong>input validation</strong>, and <strong>managing program state</strong> using class instances.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on GitHub
                     </a>
                 </div>
             </div>
