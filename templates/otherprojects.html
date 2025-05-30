@@ -33,22 +33,31 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#snakeFlask">Snake Game (Flask)</a>
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#snakeFlask">Snake(Flask)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#usStates">US States Game</a>
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#usStates">US States</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#pong">Pong Game</a>
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#pong">Pong</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#snakeTurtle">Snake Game (Turtle)</a>
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#snakeTurtle">Snake(Turtle)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#turtleCrossing">Turtle Crossing Game</a>
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#turtleCrossing">Turtle Crossing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#quiz">Quiz Game</a>
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#quiz">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#pricesDataScraping">Prices Scraping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#cookieClickerBot">Cookie Clicker Bot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-2 fw-semibold" href="#top100songs">Top 100 Songs</a>
                     </li>
                 </ul>
             </div>
@@ -132,6 +141,45 @@
                             <div class="card-body">
                                 <h5 class="card-title">Quiz Game</h5>
                                 <p class="card-text text-muted small">A simple terminal game that tests your knowledge.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#pricesDataScraping" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/PricesDataScraping.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Data Prices Scraping">
+                            <div class="card-body">
+                                <h5 class="card-title">Data Prices Scraping</h5>
+                                <p class="card-text text-muted small">Fetches price data from external APIs</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="cookieClickerBot" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/cookieClickerBot.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Cookie Clicker Bot">
+                            <div class="card-body">
+                                <h5 class="card-title">Cookie Clicker Bot</h5>
+                                <p class="card-text text-muted small">An automation bot that plays Cookie Clicker using Selenium.</p></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#top100songs" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
+                            <img src="{{ url_for('static', filename='assets/img/otherProjects/top100songs.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Top 100 Songs">
+                            <div class="card-body">
+                                <h5 class="card-title">Top 100 Songs</h5>
+                                <p class="card-text text-muted small">Generates Spotify playlists from Billboard Hot 100 charts.</p>
                             </div>
                         </div>
                     </a>
@@ -323,6 +371,86 @@
                         The questions are pulled from a structured data source and displayed one by one in the terminal.
                         The game keeps track of the user's score and gives immediate feedback after each answer.
                         This project improved my understanding of <strong>data encapsulation</strong>, <strong>input validation</strong>, and <strong>managing program state</strong> using class instances.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricesDataScraping" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/pricesDataScraping.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Prices Scarping">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">Prices Data Scraping</h2>
+                    <p class="lead">
+                        A data scraping project focused on collecting rental property information (price, address, and link)
+                        from a Zillow-like website using BeautifulSoup and Selenium. Extracted data is then automatically
+                        submitted to a Google Form, simulating data entry automation. This project demonstrates practical
+                        use of web scraping, data parsing, and browser automation — useful skills in data analysis pipelines
+                        and web data integration.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cookieClickerBot" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/cookieClickerBot.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Prices Scarping">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">Cookie Clicker Bot</h2>
+                    <p class="lead">
+                        A Selenium-based automation project showcasing browser interaction skills through multiple mini-tasks.
+                        The main focus is a bot for the Cookie Clicker game that automates cookie generation and intelligently
+                        purchases upgrades to optimize efficiency. Additional scripts demonstrate how to scrape event data
+                        from python.org, automate form submissions, and interact with Wikipedia. This project highlights
+                        practical web automation techniques and real-time decision-making in dynamic web environments.
+                    </p>
+                    <div class="mb-2">
+                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="top100songs" class="py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='assets/img/otherProjects/top100songs.png') }}"
+                         class="img-fluid rounded shadow img-zoom" alt="Top 100 Songs">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-primary">Top 100 Songs</h2>
+                    <p class="lead">
+                        Built a Python application that scrapes the Billboard Hot 100 chart for a user-specified date (using
+                        BeautifulSoup), searches for each track on Spotify via the Spotipy API, and automatically creates
+                        a private Spotify playlist with the found songs. Utilized OAuth for user authentication and integrated
+                        data from multiple external sources (Billboard and Spotify APIs).
                     </p>
                     <div class="mb-2">
                         <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
