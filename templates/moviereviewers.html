@@ -64,15 +64,15 @@
         </div>
     </nav>
 
-    <section id="pages-preview" class="py-5 animate-section mt-5 fade-up">
+    <section id="pages-preview" class="py-5 animate-section mt-5" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
             <h2 class="text-center mb-5 display-4 text-primary">Movie Reviewers</h2>
-            <div class="row g-4 fade-up">
+            <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <a href="#about" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
                             <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/feedback.png') }}"
-                                 class="card-img-top" alt="About Project">
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="About Project">
                             <div class="card-body">
                                 <h5 class="card-title">About Project</h5>
                                 <p class="card-text text-muted small">Technologies behind it and the idea that started it all.</p>
@@ -85,7 +85,7 @@
                     <a href="#home" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
                             <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieReviewersRepresentative.png') }}"
-                                 class="card-img-top" alt="home">
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="home">
                             <div class="card-body">
                                 <h5 class="card-title">Home</h5>
                                 <p class="card-text text-muted small">Overview of all available movies.</p>
@@ -97,7 +97,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#movie-site" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/movieSiteTop.png') }}" class="card-img-top" alt="Movie Site">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/movieSiteTop.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Movie Site">
                             <div class="card-body">
                                 <h5 class="card-title">Movie Site</h5>
                                 <p class="card-text text-muted small">All informations about movie and comments</p>
@@ -109,7 +110,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#add-movie" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/addingAMovie.png') }}" class="card-img-top" alt="Add Movie">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/addingAMovie.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Add Movie">
                             <div class="card-body">
                                 <h5 class="card-title">Add and edit movies</h5>
                                 <p class="card-text text-muted small">Adding and editing on a site</p>
@@ -121,7 +123,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#user-profile" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/userProfile.png') }}" class="card-img-top" alt="User Profile">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/userProfile.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="User Profile">
                             <div class="card-body">
                                 <h5 class="card-title">User Profile</h5>
                                 <p class="card-text text-muted small">Monitoring user activity</p>
@@ -133,7 +136,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#admin" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/allUsers.png') }}" class="card-img-top" alt="All Users">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/allUsers.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="All Users">
                             <div class="card-body">
                                 <h5 class="card-title">Admin and moderator page</h5>
                                 <p class="card-text text-muted small">Deleting users and adding roles</p>
@@ -145,7 +149,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#aboutme" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/aboutMe.png') }}" class="card-img-top" alt="About Me">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/aboutMe.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="About Me">
                             <div class="card-body">
                                 <h5 class="card-title">About me and contact</h5>
                                 <p class="card-text text-muted small">Informations for other users about author, and contact</p>
@@ -157,7 +162,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#comments" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieCommentSection.png') }}" class="card-img-top" alt="Contact Me">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieCommentSection.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Contact Me">
                             <div class="card-body">
                                 <h5 class="card-title">Comments</h5>
                                 <p class="card-text text-muted small">Comment sections for users opinion</p>
@@ -169,7 +175,8 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#login" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/login.png') }}" class="card-img-top" alt="Login">
+                            <img src="{{ url_for('static', filename='assets/img/movieReviewers/login.png') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="Login">
                             <div class="card-body">
                                 <h5 class="card-title">Login and Register</h5>
                                 <p class="card-text text-muted small">Login or Register new account</p>
@@ -181,15 +188,15 @@
         </div>
     </section>
 
-    <section id="about" class="py-5 fade-up">
+    <section id="about" class="py-5">
         <div class="container">
             <div class="row mt-5">
-                <div class="col text-center fade-up">
+                <div class="col text-center" data-aos="fade-up" data-aos-duration="800">
                     <h1 class="display-3 text-primary">Technologies</h1>
                     <p>Technologies used:</p>
                 </div>
             </div>
-            <div class="row justify-content-center fade-up">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800">
                 <div class="col-md-10">
                     <ul class="list-unstyled d-flex flex-wrap justify-content-center">
                         <li class="m-3 tech-icon"><i class="fab fa-html5 fa-3x"></i><br>HTML5</li>
@@ -209,11 +216,11 @@
                 </div>
             </div>
 
-            <div class="row align-items-center my-5">
-                <div class="col-md-6 text-center order-md-2 fade-up">
+            <div class="row align-items-center my-5" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-6 text-center order-md-2">
                     <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/idea.png') }}" alt="Idea" class="img-fluid w-75 rounded shadow img-zoom">
                 </div>
-                <div class="col-md-6 order-md-1 fade-up">
+                <div class="col-md-6 order-md-1">
                     <h2 class="display-5 mb-3 text-primary">Idea that started the project</h2>
                     <p class="lead" style="text-align: justify;">
                         I wanted to create a project that would help me develop more practical programming skills. Initially,
@@ -226,8 +233,8 @@
 
             <div class="row align-items-center my-5">
                 <div class="row align-items-center my-5">
-                    <div class="row my-5 fade-up">
-                        <div class="col-md-12 text-center">
+                    <div class="row my-5">
+                        <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="800">
                             <h2 class="display-5 mb-3 text-primary">More about the project</h2>
                             <p>Overview<p>
                             <p class="lead" style="text-align: justify;">
@@ -257,15 +264,14 @@
                     </div>
 
                     <div class="container my-5">
-                        <div class="row align-items-center mb-5">
-                            <div class="col-md-5 text-center fade-up">
+                        <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="800">
+                            <div class="col-md-5 text-center">
                                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}"
                                      alt="More About Project"
                                      class="img-fluid rounded shadow img-zoom w-100">
                             </div>
 
-                            <div class="col-md-7 fade-up">
-                                <p>Technologies Used</p>
+                            <div class="col-md-7" data-aos="fade-up" data-aos-duration="800">
                                 <div class="row g-3">
                                     <div class="row g-3">
                                         <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
@@ -297,8 +303,10 @@
                             </div>
                         </div>
 
-                        <h2 class="display-5 mb-3 text-primary text-center">Key Features</h2>
-                        <div class="row text-center g-4">
+                        <h2 class="display-5 mb-3 text-primary text-center" data-aos="fade-up" data-aos-duration="800">
+                            Key Features
+                        </h2>
+                        <div class="row text-center g-4" data-aos="fade-up" data-aos-duration="800">
                             <div class="row g-4">
                                 <div class="col-md-4">
                                     <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
@@ -350,7 +358,7 @@
         </div>
     </section>
 
-    <section id="home" class="container py-5 fade-up">
+    <section id="home" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">Home</h3>
@@ -379,7 +387,7 @@
         </div>
     </section>
 
-    <section id="movie-site" class="container py-5 fade-up">
+    <section id="movie-site" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Movie Site</h3>
@@ -401,7 +409,7 @@
         </div>
     </section>
 
-    <section id="comments" class="container py-5 fade-up">
+    <section id="comments" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">Comment Section</h3>
@@ -433,7 +441,7 @@
         </div>
     </section>
 
-    <section id="add-movie" class="container py-5 fade-up">
+    <section id="add-movie" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Add & Edit Movie</h3>
@@ -464,7 +472,7 @@
         </div>
     </section>
 
-    <section id="user-profile" class="container py-5 fade-up">
+    <section id="user-profile" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">User Profile</h3>
@@ -485,7 +493,7 @@
         </div>
     </section>
 
-    <section id="admin" class="container py-5 fade-up">
+    <section id="admin" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Admin and moderator</h3>
@@ -506,7 +514,7 @@
         </div>
     </section>
 
-    <section id="aboutme" class="container py-5 fade-up">
+    <section id="aboutme" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
                 <h3 class="display-4 mb-4 text-primary">About me and contact</h3>
@@ -540,7 +548,7 @@
         </div>
     </section>
 
-    <section id="login" class="container py-5 fade-up">
+    <section id="login" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Login/Register</h3>
