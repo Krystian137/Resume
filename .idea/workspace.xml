@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="updated requirements.txt">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="updated texts on index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/moviereviewers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moviereviewers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748604139600</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated texts on index.html">
+      <option name="closed" value="true" />
+      <created>1748607561136</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1748607561136</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,6 +316,7 @@
     <MESSAGE value="added projects to otherprojects.html" />
     <MESSAGE value="updated fade up in moviereviewers.html" />
     <MESSAGE value="updated requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated requirements.txt" />
+    <MESSAGE value="updated texts on index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated texts on index.html" />
   </component>
 </project>
