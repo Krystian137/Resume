@@ -294,9 +294,10 @@
                 <h3 class="display-4 mb-4 text-primary">Home</h3>
                 <p class="lead" style="text-align: justify;">The homepage displays a dynamically generated list of all
                     Counter-Strike 2 cases available on the Steam Market, each represented by a card containing the case
-                    name, image fetched from the Steam API, and the latest market price. Clicking on a case redirects
+                    name, image fetched from the Steam API, and market price. Clicking on a case redirects
                     the user to a detailed subpage showing a historical price chart and metadata. Data is regularly fetched
-                    and stored in JSON format for performance optimization and to demonstrate API handling and data processing.</p>
+                    and stored in JSON format as part of my learning process with JSON handling. To improve performance,
+                    I created a separate JSON file that stores only the latest prices for each case.</p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
