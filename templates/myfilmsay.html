@@ -147,11 +147,11 @@
                         <li class="m-3 tech-icon"><i class="fab fa-bootstrap fa-3x"></i><br>Bootstrap</li>
                         <li class="m-3 tech-icon"><i class="fab fa-git fa-3x"></i><br>Git</li>
                         <li class="m-3 tech-icon text-center">
-                            <i class="devicon-flask-original-wordmark fa-3x"></i><br>Flask
+                            <i class="devicon-django-plain fa-3x"></i><br>Django
                         </li>
                         <li class="m-3 tech-icon text-center">
-                        <i class="devicon-sqlalchemy-plain fa-3x"></i><br>SQLAlchemy
-                    </li>
+                            <i class="devicon-postgresql-plain fa-3x"></i><br>PostgreSQL
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -178,7 +178,7 @@
                             <h2 class="display-5 mb-3 text-primary">More about the project</h2>
                             <p>Overview<p>
                             <p class="lead" style="text-align: justify;">
-                                <strong>Movie Reviewers</strong> is a <strong>full-stack web application</strong> inspired
+                                <strong>My Film Say</strong> is a <strong>full-stack web application</strong> inspired
                                 by platforms like <strong>TMDB</strong> and <strong>Filmweb</strong>, created as part of a
                                 personal development initiative to explor web technologies. The platform
                                 allows users to browse a <strong>curated selection of movies</strong>, with <strong>interactive
@@ -186,11 +186,12 @@
                                 </strong> showcasing random featured films.
                                 <br><br>
                                 Each movie has a dedicated page containing <strong>key details, ratings, and a comment
-                                section</strong>, where registered users can <strong>engage in discussion</strong>, reply to
-                                other comments, and <strong>vote on their usefulness</strong>. The project implements a
-                                <strong>role-based access control system</strong> with three roles: <strong>admin, moderator
-                                </strong>, and <strong>standard user</strong>. Admins and moderators can <strong>add, edit, or delete movies
-                                </strong>, manage comments, <strong>moderate user profiles</strong>, and assign roles within
+                                section</strong>, where registered users can <strong>engage in discussion</strong>, <strong>
+                                reply</strong> to other <strong>comments</strong>, and <strong>vote on their usefulness</strong>.
+                                The project implements a
+                                <strong>role-based access control system</strong> with roles: <strong>admin, moderator,
+                                </strong> and <strong>standard user</strong>. Admins and moderators can <strong>add, edit,
+                                or delete movies, manage comments, moderate user profiles,</strong> and assign roles within
                                 the platform.
                                 <br><br>
                                 All movie data is <strong>fetched from the TMDB API</strong> to ensure accurate information.
@@ -216,7 +217,7 @@
                                     <div class="row g-3">
                                         <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                             <i class="fas fa-server text-primary fs-4 me-3"></i>
-                                            <span><strong>Backend:</strong> Python (Flask)</span>
+                                            <span><strong>Backend:</strong> Python (Django)</span>
                                         </div>
                                         <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                             <i class="fas fa-desktop text-info fs-4 me-3"></i>
@@ -224,15 +225,11 @@
                                         </div>
                                         <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                             <i class="fas fa-database text-success fs-4 me-3"></i>
-                                            <span><strong>Database:</strong> SQLAlchemy, Alembic</span>
+                                            <span><strong>Database:</strong> PostgreSQL</span>
                                         </div>
                                         <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                             <i class="fas fa-lock text-danger fs-4 me-3"></i>
-                                            <span><strong>Authentication:</strong> Flask-Login, Flask-WTF</span>
-                                        </div>
-                                        <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                            <i class="fas fa-pencil-alt text-warning fs-4 me-3"></i>
-                                            <span><strong>Forms & Input:</strong> WTForms, Flask-WTF, Flask-CKEditor</span>
+                                            <span><strong>Authentication:</strong> Django Auth</span>
                                         </div>
                                         <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                             <i class="fas fa-cloud-download-alt text-secondary fs-4 me-3"></i>
@@ -336,7 +333,8 @@
                     a <strong>progress circle</strong> that fills up according to the movie's rating, the percentage
                     value is displayed at the center of the circle, movie details such as the <strong>title</strong>,
                     <strong>release year</strong>, <strong>genre</strong>, <strong>director</strong>, <strong>writer</strong>,
-                    and <strong>overview</strong> retrieved from the <strong>TMDB API</strong> and stored in the database.
+                    and <strong>overview</strong> retrieved from the <strong>TMDB API</strong> and stored in the <strong>
+                    PostgreSQL</strong> database.
                     Additionally, if the user is an <strong>admin</strong> or <strong>moderator</strong>, they are given
                     the option to <strong>edit</strong> the movie details.
                 </p>
@@ -386,7 +384,8 @@
             <div class="col-md-6 text-md-start order-md-2">
                 <h3 class="display-4 mb-4 text-primary">Add & Edit Movie</h3>
                 <p class="lead" style="text-align: justify;">
-                    This section is dedicated to <strong>adding and editing movies</strong> in the database and is accessible
+                    This section is dedicated to <strong>adding and editing movies</strong> in the <strong>PostgreSQL</strong>
+                    database and is accessible
                     only to users with <strong>admin</strong> or <strong>moderator</strong> privileges.
                     <br><br>
                     The process starts on the <strong>Add Movie</strong> page, where an authorized user can enter a film
