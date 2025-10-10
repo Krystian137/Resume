@@ -283,24 +283,24 @@
 
         <div class="row mb-5">
             <div class="col-md-6 text-md-start">
-                <a href="{{ url_for('main.movie_reviewers') }}" class="text-decoration-none link-hover">
-                    <h3>Movie Reviewers</h3>
+                <a href="{{ url_for('main.myfilmsay') }}" class="text-decoration-none link-hover">
+                    <h3>My Film Say</h3>
                 </a>
                 <p class="lead" style="text-align: justify;">
-                    {{ _('Movie Reviewers is a learning-focused web application that allows users to explore community opinions
+                    {{ _('My Film Say is a learning-focused web application that allows users to explore community opinions
                     on specific movies. The platform fetches movie details such as title, rating, description, and poster
                     via the IMDb API. Users can post their own reviews, rate movies independently, and engage in conversations
                     through comment threads.') }}</p>
                 <div>
-                    <a href="{{ url_for('main.movie_reviewers') }}" class="text-decoration-none link-hover">
+                    <a href="{{ url_for('main.myfilmsay') }}" class="text-decoration-none link-hover">
                         {{ _('See More') }}
                     </a>
                 </div>
             </div>
             <div class="col-md-6 text-center">
-                <a href="{{ url_for('main.movie_reviewers') }}">
+                <a href="{{ url_for('main.myfilmsay') }}">
                 <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieReviewersRepresentative.png') }}"
-                     alt="Movie Reviewers Project"
+                     alt="My Film Say Project"
                      class="img-fluid rounded shadow-lg img-zoom">
                 </a>
             </div>

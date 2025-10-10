@@ -21,6 +21,10 @@ def index():
 def movie_reviewers():
     return render_template("moviereviewers.html")
 
+@main.route('/myfilmsay')
+def myfilmsay():
+    return render_template("myfilmsay.html")
+
 
 @main.route('/steamchests')
 def steam_chests():
