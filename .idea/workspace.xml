@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="new screenshots for myfilmsay.html">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_10_2025_13_15_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_10_2025_13_15__Changes_.xml" beforeDir="false" />
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="updated images and descriptions for myfilmsay.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/myfilmsay.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myfilmsay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760181862742</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="updated images and descriptions for myfilmsay.html">
+      <option name="closed" value="true" />
+      <created>1760187379900</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1760187379900</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -283,6 +289,7 @@
     <MESSAGE value="visual changes in otherprojects.html, fixed fade up in steamchests.html" />
     <MESSAGE value="updated otherprojects.html" />
     <MESSAGE value="new screenshots for myfilmsay.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="new screenshots for myfilmsay.html" />
+    <MESSAGE value="updated images and descriptions for myfilmsay.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated images and descriptions for myfilmsay.html" />
   </component>
 </project>
