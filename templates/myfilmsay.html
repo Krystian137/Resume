@@ -314,7 +314,7 @@
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/homeTop.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_main.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom mb-3">
                 <img src="{{ url_for('static', filename='assets/img/movieReviewers/movieCards.png') }}"
@@ -340,7 +340,7 @@
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/movieSiteTop.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_movie.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
@@ -368,12 +368,8 @@
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieCommentSection.png') }}"
-                     alt="Movie Reviewers Project"
-                     class="img-fluid rounded shadow-lg img-zoom mb-3">
-
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/comments.png') }}"
-                     alt="Movie Reviewers Project"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_comments.jpg') }}"
+                     alt="My Film Say Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
         </div>
@@ -382,29 +378,75 @@
     <section id="add-movie" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Add & Edit Movie</h3>
+                <h3 class="display-4 mb-4 text-primary">Add Movie</h3>
                 <p class="lead" style="text-align: justify;">
-                    This section is dedicated to <strong>adding and editing movies</strong> in the <strong>PostgreSQL</strong>
-                    database and is accessible
-                    only to users with <strong>admin</strong> or <strong>moderator</strong> privileges.
+                    This section allows <strong>authorized users</strong> to add new movies to the <strong>PostgreSQL</strong>
+                    database.
                     <br><br>
                     The process starts on the <strong>Add Movie</strong> page, where an authorized user can enter a film
-                    title into the search bar. A list of matching and similar titles is displayed, allowing the user to
-                    <strong>select the correct movie</strong> from the results.
+                    title into the search bar. A list of matching and similar titles from TMDb API is displayed, allowing the user to
+                    <strong>select the correct movie</strong> from the results, and add it into web application database.
                     <br><br>
-                    Upon selection, the user is redirected to a shared interface that also serves as the <strong>Edit Movie
-                    </strong> page. Here, a form is pre-filled with all relevant movie data, <strong>fetched dynamically from
-                    the TMDB API</strong> — including title, release year, genres, director, writer, poster, rating, and overview.
+                    Before final submission, the user has the opportunity to <strong>review and correct the information</strong>
+                    to ensure accuracy. Once confirmed, the movie is <strong>added to the platform</strong> and becomes accessible
+                    to all users on the main page and in search results.
                     <br><br>
-                    Before final submission, the user has the opportunity to <strong>review and correct the information</strong> to ensure accuracy. Once confirmed, the movie is <strong>added to the platform</strong> and becomes accessible to all users on the main page and in search results.
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/addingAMovie.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_add.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom mb-3">
 
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/editingMovie.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_selecting.jpg') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom">
+            </div>
+        </div>
+    </section>
+
+    <section id="edit-movie" class="container py-5" data-aos="fade-up" data-aos-duration="800">
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-end order-md-1">
+                <h3 class="display-4 mb-4 text-primary">Edit Movie</h3>
+                <p class="lead" style="text-align: justify;">
+
+                    Upon selecting a new movie, the user is redirected to a shared interface that also serves as the <strong>Edit Movie
+                    </strong> page, which is also accessible from home page, and movie page. Here, a form is pre-filled
+                    with all relevant movie data, <strong>fetched dynamically from the TMDB API</strong> — including title,
+                    release year, genres, director, writer, poster, rating, and overview
+                    <br><br>
+                    If the user is <strong>editing</strong> an existing movie, the form is pre-filled with its previously
+                    stored data, which can then be updated as needed.
+                </p>
+            </div>
+            <div class="col-md-6 text-center order-md-2">
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_editing.jpg') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom mb-3">
+            </div>
+        </div>
+    </section>
+
+    <section id="seo" class="container py-5" data-aos="fade-up" data-aos-duration="800">
+        <div class="row mb-5">
+            <div class="col-md-6 text-md-primary order-md-2">
+                <h3 class="display-4 mb-4 text-primary">SEO</h3>
+                <p class="lead" style="text-align: justify;">
+                    The <strong>FAQ</strong> subpage demonstrates structured content optimization using <strong>JSON-LD
+                    (schema.org)</strong> for SEO and accessibility.
+                    <br><br>
+                    It includes frequently asked questions about the platform’s features, showcasing a practical understanding of semantic HTML
+                    <br><br>
+                    Implemented with Django templates and <strong>schema.org</strong> markup, it improves discoverability while showcasing
+                    my focus on usability, accessibility, and web performance.
+            </p>
+            </div>
+            <div class="col-md-6 text-center order-md-1">
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_seo.jpg') }}"
+                     alt="Movie Reviewers Project"
+                     class="img-fluid rounded shadow-lg img-zoom mb-3">
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_seo_faq.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
@@ -425,7 +467,7 @@
             </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/userProfile.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_user_profile.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
@@ -446,7 +488,7 @@
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/allUsers.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_administration.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
@@ -456,29 +498,18 @@
     <section id="aboutme" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">About me and contact</h3>
+                <h3 class="display-4 mb-4 text-primary">About me</h3>
                 <p class="lead" style="text-align: justify;">
-                    The <strong>About Me</strong> page offers an overview of the <strong>Movie Reviewers</strong>.
-                    This section is optimized as a <strong>SEO-friendly subpage</strong> to enhance discoverability and
-                    answer common user questions, such as how the site works, where data is sourced from, and who manages
-                    content and moderation.
-                <br><br>
-                    The <strong>Contact Me</strong> page provides a direct line of communication for <strong>users and
-                    potential collaborators</strong> to reach out to the site administrators. Whether it's for reporting
-                    bugs, sharing feedback, business inquiries, or collaboration proposals, this form allows messages to
-                    be sent securely and efficiently via email. It reinforces transparency and keeps the community engaged
-                    and connected with the development team.
-                <br><br>
-                    Both sections are designed to strengthen user trust, provide transparency, and foster community
-                    interaction around the project.
+                    The <strong>About Me</strong> page offers an overview of the <strong>My Film Say</strong> project -
+                    a web application for discovering and reviewing movies.
+                    It can also serve as a <strong>regulations or policy page</strong>, offering users important information about the platform.
+                    <br><br>
+                    Section is designed to strengthen <strong>user trust, provide transparency, and foster community
+                    interaction</strong> around the project.
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/aboutMe.png') }}"
-                     alt="Movie Reviewers Project"
-                     class="img-fluid rounded shadow-lg img-zoom mb-3">
-
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/contact.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_about.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
@@ -495,7 +526,7 @@
                     </strong> before being stored in the database, ensuring data protection and user privacy.
                 <br><br>
                     Once logged in, users unlock full access to interactive features such as <strong>writing and replying
-                    to comments</strong>, <strong>rating movies</strong>, and voting on the usefulness of other users
+                    to comments</strong>, <strong>rating movies</strong>, and <strong>voting</strong> on the usefulness of other users
                     opinions. This authentication layer helps maintain the quality of content and fosters meaningful
                     discussions by holding users accountable for their activity.
                 <br><br>
@@ -504,11 +535,11 @@
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/login.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_login.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom mb-3">
 
-                <img src="{{ url_for('static', filename='assets/img/movieReviewers/register.png') }}"
+                <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_register.jpg') }}"
                      alt="Movie Reviewers Project"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
