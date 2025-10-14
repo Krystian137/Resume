@@ -36,11 +36,6 @@ def other_projects():
     return render_template("otherprojects.html")
 
 
-@main.route('/datascience')
-def data_science():
-    return render_template("datascience.html")
-
-
 MAIL_ADDRESS = os.environ.get("EMAIL_KEY")
 MAIL_main_PW = os.environ.get("PASSWORD_KEY")
 

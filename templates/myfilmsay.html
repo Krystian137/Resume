@@ -4,23 +4,10 @@
 
 {% block content %}
 
-    <section id="pages-preview" class="py-5 animate-section" data-aos="fade-up" data-aos-duration="800">
+    <section id="pages-preview" class="animate-section" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
             <h2 class="text-center mb-5 display-4 text-primary">MyFilmSay</h2>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <a href="#seo" class="text-decoration-none">
-                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_seo.jpg') }}"
-                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="SEO">
-                            <div class="card-body">
-                                <h5 class="card-title">SEO</h5>
-                                <p class="card-text text-muted small">Better site ranking</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
                 <div class="col-md-6 col-lg-4">
                     <a href="#home" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
@@ -55,6 +42,19 @@
                             <div class="card-body">
                                 <h5 class="card-title">Add and edit movies</h5>
                                 <p class="card-text text-muted small">Adding and editing on a site</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="#seo" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
+                            <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_seo.jpg') }}"
+                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="SEO">
+                            <div class="card-body">
+                                <h5 class="card-title">SEO</h5>
+                                <p class="card-text text-muted small">Better site ranking</p>
                             </div>
                         </div>
                     </a>
@@ -126,36 +126,8 @@
                 </div>
             </div>
         </div>
-    </section>
 
-    <section id="about" class="py-5">
         <div class="container">
-            <div class="row mt-5">
-                <div class="col text-center" data-aos="fade-up" data-aos-duration="800">
-                    <h1 class="display-3 text-primary">Technologies</h1>
-                    <p>Technologies used:</p>
-                </div>
-            </div>
-            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800">
-                <div class="col-md-10">
-                    <ul class="list-unstyled d-flex flex-wrap justify-content-center">
-                        <li class="m-3 tech-icon"><i class="fab fa-html5 fa-3x"></i><br>HTML5</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-css3-alt fa-3x"></i><br>CSS3</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-js fa-3x"></i><br>JavaScript</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-python fa-3x"></i><br>Python</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-github fa-3x"></i><br>GitHub</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-bootstrap fa-3x"></i><br>Bootstrap</li>
-                        <li class="m-3 tech-icon"><i class="fab fa-git fa-3x"></i><br>Git</li>
-                        <li class="m-3 tech-icon text-center">
-                            <i class="devicon-django-plain fa-3x"></i><br>Django
-                        </li>
-                        <li class="m-3 tech-icon text-center">
-                            <i class="devicon-postgresql-plain fa-3x"></i><br>PostgreSQL
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
             <div class="row align-items-center my-5" data-aos="fade-up" data-aos-duration="800">
                 <div class="col-md-6 text-center order-md-2">
                     <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/idea.png') }}" alt="Idea" class="img-fluid w-75 rounded shadow img-zoom">
@@ -171,9 +143,9 @@
                 </div>
             </div>
 
-            <div class="row align-items-center my-5">
-                <div class="row align-items-center my-5">
-                    <div class="row my-5">
+            <div class="row align-items-center">
+                <div class="row align-items-center">
+                    <div class="row">
                         <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="800">
                             <h2 class="display-5 mb-3 text-primary">More about the project</h2>
                             <p>Overview<p>
@@ -203,90 +175,120 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <div class="container my-5">
-                        <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="800">
-                            <div class="col-md-5 text-center">
-                                <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}"
-                                     alt="More About Project"
-                                     class="img-fluid rounded shadow img-zoom w-100">
-                            </div>
+    <section id="technologies" class="py-5 animate-section" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col text-center" data-aos="fade-up" data-aos-duration="800">
+                    <h1 class="display-3 text-primary">Technologies</h1>
+                    <p>Technologies used:</p>
+                </div>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800">
+                <div class="col-md-10">
+                    <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+                        <li class="m-3 tech-icon"><i class="fab fa-html5 fa-3x"></i><br>HTML5</li>
+                        <li class="m-3 tech-icon"><i class="fab fa-css3-alt fa-3x"></i><br>CSS3</li>
+                        <li class="m-3 tech-icon"><i class="fab fa-js fa-3x"></i><br>JavaScript</li>
+                        <li class="m-3 tech-icon"><i class="fab fa-python fa-3x"></i><br>Python</li>
+                        <li class="m-3 tech-icon"><i class="fab fa-github fa-3x"></i><br>GitHub</li>
+                        <li class="m-3 tech-icon"><i class="fab fa-bootstrap fa-3x"></i><br>Bootstrap</li>
+                        <li class="m-3 tech-icon"><i class="fab fa-git fa-3x"></i><br>Git</li>
+                        <li class="m-3 tech-icon text-center">
+                            <i class="devicon-django-plain fa-3x"></i><br>Django
+                        </li>
+                        <li class="m-3 tech-icon text-center">
+                            <i class="devicon-postgresql-plain fa-3x"></i><br>PostgreSQL
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                            <div class="col-md-7" data-aos="fade-up" data-aos-duration="800">
-                                <div class="row g-3">
-                                    <div class="row g-3">
-                                        <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                            <i class="fas fa-server text-primary fs-4 me-3"></i>
-                                            <span><strong>Backend:</strong> Python (Django)</span>
-                                        </div>
-                                        <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                            <i class="fas fa-desktop text-info fs-4 me-3"></i>
-                                            <span><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap</span>
-                                        </div>
-                                        <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                            <i class="fas fa-database text-success fs-4 me-3"></i>
-                                            <span><strong>Database:</strong> PostgreSQL</span>
-                                        </div>
-                                        <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                            <i class="fas fa-lock text-danger fs-4 me-3"></i>
-                                            <span><strong>Authentication:</strong> Django Auth</span>
-                                        </div>
-                                        <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
-                                            <i class="fas fa-cloud-download-alt text-secondary fs-4 me-3"></i>
-                                            <span><strong>Data:</strong> TMDB API</span>
-                                        </div>
-                                    </div>
+            <div class="container my-5">
+                <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="800">
+                    <div class="col-md-5 text-center">
+                        <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/more.png') }}"
+                             alt="More About Project"
+                             class="img-fluid rounded shadow img-zoom w-100">
+                    </div>
+
+                    <div class="col-md-7" data-aos="fade-up" data-aos-duration="800">
+                        <div class="row g-3">
+                            <div class="row g-3">
+                                <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                    <i class="fas fa-server text-primary fs-4 me-3"></i>
+                                    <span><strong>Backend:</strong> Python (Django)</span>
+                                </div>
+                                <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                    <i class="fas fa-desktop text-info fs-4 me-3"></i>
+                                    <span><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap</span>
+                                </div>
+                                <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                    <i class="fas fa-database text-success fs-4 me-3"></i>
+                                    <span><strong>Database:</strong> PostgreSQL</span>
+                                </div>
+                                <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                    <i class="fas fa-lock text-danger fs-4 me-3"></i>
+                                    <span><strong>Authentication:</strong> Django Auth</span>
+                                </div>
+                                <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
+                                    <i class="fas fa-cloud-download-alt text-secondary fs-4 me-3"></i>
+                                    <span><strong>Data:</strong> TMDB API</span>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <h2 class="display-5 mb-3 text-primary text-center" data-aos="fade-up" data-aos-duration="800">
-                            Key Features
-                        </h2>
-                        <div class="row text-center g-4" data-aos="fade-up" data-aos-duration="800">
-                            <div class="row g-4">
-                                <div class="col-md-4">
-                                    <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                        <i class="fas fa-film text-primary fs-2 mb-3"></i>
-                                        <h6>Interactive Movie Cards</h6>
-                                        <p class="text-muted small">Flip-style cards showing posters and movie details on hover.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                        <i class="fas fa-sliders-h text-info fs-2 mb-3"></i>
-                                        <h6>Random Carousel</h6>
-                                        <p class="text-muted small">Dynamic carousel with random movies and key information.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                        <i class="fas fa-comments text-success fs-2 mb-3"></i>
-                                        <h6>User Comments</h6>
-                                        <p class="text-muted small">Add, reply to, and rate comments with upvotes and downvotes.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                        <i class="fas fa-user-shield text-warning fs-2 mb-3"></i>
-                                        <h6>Role-Based System</h6>
-                                        <p class="text-muted small">Admin, moderator, and user roles with different permissions.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                        <i class="fas fa-user-edit text-danger fs-2 mb-3"></i>
-                                        <h6>User Management</h6>
-                                        <p class="text-muted small">Admins can manage users, comments, and edit movie data.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
-                                        <i class="fas fa-database text-secondary fs-2 mb-3"></i>
-                                        <h6>External Data</h6>
-                                        <p class="text-muted small">Movie details fetched directly from the TMDB API.</p>
-                                    </div>
-                                </div>
+                <h2 class="display-5 mb-3 text-primary text-center" data-aos="fade-up" data-aos-duration="800">
+                    Key Features
+                </h2>
+                <div class="row text-center g-4" data-aos="fade-up" data-aos-duration="800">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                <i class="fas fa-film text-primary fs-2 mb-3"></i>
+                                <h6>Interactive Movie Cards</h6>
+                                <p class="text-muted small">Flip-style cards showing posters and movie details on hover.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                <i class="fas fa-sliders-h text-info fs-2 mb-3"></i>
+                                <h6>Random Carousel</h6>
+                                <p class="text-muted small">Dynamic carousel with random movies and key information.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                <i class="fas fa-comments text-success fs-2 mb-3"></i>
+                                <h6>User Comments</h6>
+                                <p class="text-muted small">Add, reply to, and rate comments with upvotes and downvotes.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                <i class="fas fa-user-shield text-warning fs-2 mb-3"></i>
+                                <h6>Role-Based System</h6>
+                                <p class="text-muted small">Admin, moderator, and user roles with different permissions.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                <i class="fas fa-user-edit text-danger fs-2 mb-3"></i>
+                                <h6>User Management</h6>
+                                <p class="text-muted small">Admins can manage users, comments, and edit movie data.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
+                                <i class="fas fa-database text-secondary fs-2 mb-3"></i>
+                                <h6>External Data</h6>
+                                <p class="text-muted small">Movie details fetched directly from the TMDB API.</p>
                             </div>
                         </div>
                     </div>
