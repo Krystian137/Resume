@@ -43,14 +43,14 @@ MAIL_main_PW = os.environ.get("PASSWORD_KEY")
 def contact():
     if request.method == "POST":
         data = request.form
-        send_email(data["name"], data["email"], data["phone"], data["message"])
+        send_email(data["name"], data["email"], data["message"])
         return render_template("contact.html", msg_sent=True)
     return render_template("contact.html", msg_sent=False)
 
 
-def send_email(name, email, phone, message):
-    email_message = f"Subject:New Message\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nMessage:{message}"
-    with smtplib.SMTP("smtp.gmail.com") as connection:
+def send_email(name, email, message):
+    email_message = f"Subject:New Message\n\nName: {name}\nEmail: {email}\nMessage:{message}"
+    with smtplib.SMTP("smtp.gmail.com", 587) as connection:
         connection.starttls()
         connection.login(MAIL_ADDRESS, MAIL_main_PW)
-        connection.sendmail(MAIL_ADDRESS, MAIL_main_PW, email_message)
+        connection.sendmail(MAIL_ADDRESS, MAIL_ADDRESS, email_message)
