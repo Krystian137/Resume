@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="removed contact">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/moviereviewers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moviereviewers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movies_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies_project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/myfilmsay.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myfilmsay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/otherprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/otherprojects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/steamchests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/steamchests.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1761040236369</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs">
+      <option name="closed" value="true" />
+      <created>1761042990165</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1761042990165</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Technologies updated, projects updated" />
     <MESSAGE value="added steamchests.html and moviereviewers.html" />
     <MESSAGE value="updated steamchests.html" />
     <MESSAGE value="added sections" />
@@ -364,6 +370,7 @@
     <MESSAGE value="changed moviereviewers.html into 2 versions, django and flask" />
     <MESSAGE value="changes in index.html" />
     <MESSAGE value="removed contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed contact" />
+    <MESSAGE value="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs" />
   </component>
 </project>

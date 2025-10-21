@@ -33,13 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#pages-preview">Preview</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#pages-preview">{{ _('Preview') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#technologies">Technologies</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#technologies">{{ _('Technologies') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#home">More</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#home">{{ _('More') }}</a>
                     </li>
                 </ul>
             </div>
@@ -49,8 +49,8 @@
     <main class="mt-5" style="padding-top: 50px;">
         <div class="text-center mb-4">
             <div class="btn-group btn-group-lg gap-3" role="group">
-                <a href="{{ url_for('main.myfilmsay') }}" class="btn btn-primary px-4 py-2 rounded-pill"> Django Version</a>
-                <a href="{{ url_for('main.movie_reviewers') }}" class="btn btn-secondary px-4 py-2 rounded-pill">Flask Version</a>
+                <a href="{{ url_for('main.myfilmsay') }}" class="btn btn-primary px-4 py-2 rounded-pill"> {{ _('Django Version') }}</a>
+                <a href="{{ url_for('main.movie_reviewers') }}" class="btn btn-secondary px-4 py-2 rounded-pill">{{ _('Flask Version') }}</a>
             </div>
         </div>
 
@@ -88,7 +88,8 @@
                     <h5 class="mb-3">{{ _('Socials') }}</h5>
                     <ul class="list-inline">
                         <li class="list-inline-item mx-2">
-                            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="text-dark text-decoration-none">
+                            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                               target="_blank" class="text-dark text-decoration-none">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>

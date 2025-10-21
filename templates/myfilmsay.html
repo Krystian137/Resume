@@ -9,7 +9,7 @@
             <h2 class="text-center mb-5 display-4 text-primary">MyFilmSay</h2>
             <div class="d-flex justify-content-center">
                 <a href="#" target="_blank" class="btn btn-outline-dark btn-sm mb-5">
-                    <i class="fab fa-github"></i> View on GitHub
+                    <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                 </a>
             </div>
             <div class="row g-4">
@@ -19,8 +19,8 @@
                             <img src="{{ url_for('static', filename='assets/img/movieReviewers/MovieReviewersRepresentative.png') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="home">
                             <div class="card-body">
-                                <h5 class="card-title">Home</h5>
-                                <p class="card-text text-muted small">Overview of all available movies.</p>
+                                <h5 class="card-title">{{ _('Home') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Overview of all available movies.') }}</p>
                             </div>
                         </div>
                     </a>
@@ -32,8 +32,8 @@
                             <img src="{{ url_for('static', filename='assets/img/movieReviewers/movieSiteTop.png') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Movie Site">
                             <div class="card-body">
-                                <h5 class="card-title">Movie Site</h5>
-                                <p class="card-text text-muted small">All informations about movie and comments</p>
+                                <h5 class="card-title">{{ _('Movie Site') }}</h5>
+                                <p class="card-text text-muted small">{{ _('All information about movie and comments') }}</p>
                             </div>
                         </div>
                     </a>
@@ -45,8 +45,8 @@
                             <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_editing.jpg') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Add Movie">
                             <div class="card-body">
-                                <h5 class="card-title">Add and edit movies</h5>
-                                <p class="card-text text-muted small">Adding and editing on a site</p>
+                                <h5 class="card-title">{{ _('Add and edit movies') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Adding and editing on a site') }}</p>
                             </div>
                         </div>
                     </a>
@@ -59,7 +59,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="SEO">
                             <div class="card-body">
                                 <h5 class="card-title">SEO</h5>
-                                <p class="card-text text-muted small">Better site ranking</p>
+                                <p class="card-text text-muted small">{{ _('Better site ranking') }}</p>
                             </div>
                         </div>
                     </a>
@@ -71,8 +71,8 @@
                             <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_user_profile.jpg') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="User Profile">
                             <div class="card-body">
-                                <h5 class="card-title">User Profile</h5>
-                                <p class="card-text text-muted small">Monitoring user activity</p>
+                                <h5 class="card-title">{{ _('User Profile') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Monitoring user activity') }}</p>
                             </div>
                         </div>
                     </a>
@@ -84,8 +84,8 @@
                             <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_administration.jpg') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="All Users">
                             <div class="card-body">
-                                <h5 class="card-title">Admin and moderator page</h5>
-                                <p class="card-text text-muted small">Deleting users and adding roles</p>
+                                <h5 class="card-title">{{ _('Admin and moderator page') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Deleting users and adding roles') }}</p>
                             </div>
                         </div>
                     </a>
@@ -97,8 +97,8 @@
                             <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_about.jpg') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="About Me">
                             <div class="card-body">
-                                <h5 class="card-title">About me</h5>
-                                <p class="card-text text-muted small">Informations for other users about author</p>
+                                <h5 class="card-title">{{ _('About me') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Information for other users about author') }}</p>
                             </div>
                         </div>
                     </a>
@@ -110,8 +110,8 @@
                             <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_comments.jpg') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Contact Me">
                             <div class="card-body">
-                                <h5 class="card-title">Comments</h5>
-                                <p class="card-text text-muted small">Comment sections for users opinion</p>
+                                <h5 class="card-title">{{ _('Comments') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Comment sections for users opinion') }}</p>
                             </div>
                         </div>
                     </a>
@@ -123,8 +123,8 @@
                             <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_login.jpg') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Login">
                             <div class="card-body">
-                                <h5 class="card-title">Login and Register</h5>
-                                <p class="card-text text-muted small">Login or Register new account</p>
+                                <h5 class="card-title">{{ _('Login and Register') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Login or Register new account') }}</p>
                             </div>
                         </div>
                     </a>
@@ -138,12 +138,12 @@
                     <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/idea.png') }}" alt="Idea" class="img-fluid w-75 rounded shadow img-zoom">
                 </div>
                 <div class="col-md-6 order-md-1">
-                    <h2 class="display-5 mb-3 text-primary">Idea that started the project</h2>
+                    <h2 class="display-5 mb-3 text-primary">{{ _('Idea that started the project') }}</h2>
                     <p class="lead" style="text-align: justify;">
-                        I wanted to create a project that would help me develop more practical programming skills. Initially,
+                        {{ _('I wanted to create a project that would help me develop more practical programming skills. Initially,
                         the idea was based on concepts I had learned during courses, and the website was intended
                         to be a small learning exercise. Over time, it evolved into a more advanced platform as
-                        I continued to use it as a workspace for experimenting with new technologies.
+                        I continued to use it as a workspace for experimenting with new technologies.') }}
                     </p>
                 </div>
             </div>
@@ -152,31 +152,37 @@
                 <div class="row align-items-center">
                     <div class="row">
                         <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="800">
-                            <h2 class="display-5 mb-3 text-primary">More about the project</h2>
-                            <p>Overview<p>
+                            <h2 class="display-5 mb-3 text-primary">{{ _('More about the project') }}</h2>
+                            <p>{{ _('Overview') }}<p>
                             <p class="lead" style="text-align: justify;">
-                                <strong>My Film Say</strong> is a <strong>full-stack web application</strong> inspired
-                                by platforms like <strong>TMDB</strong> and <strong>Filmweb</strong>, created as part of a
-                                personal development initiative to explor web technologies. The platform
-                                allows users to browse a <strong>curated selection of movies</strong>, with <strong>interactive
-                                poster cards</strong> that reveal detailed information on hover and a <strong>dynamic carousel
-                                </strong> showcasing random featured films.
+                                <strong>{{ _('My Film Say') }}</strong> {{ _('is a') }} <strong>{{ _('full-stack web application') }}
+                                </strong> {{ _('inspired by platforms like') }}
+                                <strong>TMDB</strong> {{ _('and') }} <strong>Filmweb</strong>, {{ _('created as part of a
+                                personal development initiative to explore web technologies.') }}
+                                {{ _('The platform allows users to browse a') }} <strong>{{ _('curated selection of movies') }}</strong>, {{ _('with') }}
+                                <strong>{{ _('interactive poster cards') }}</strong> {{ _('that reveal detailed information on hover and a') }}
+                                <strong>{{ _('dynamic carousel') }}</strong> {{ _('showcasing random featured films.') }}
+
                                 <br><br>
-                                Each movie has a dedicated page containing <strong>key details, ratings, and a comment
-                                section</strong>, where registered users can <strong>engage in discussion</strong>, <strong>
-                                reply</strong> to other <strong>comments</strong>, and <strong>vote on their usefulness</strong>.
-                                The project implements a
-                                <strong>role-based access control system</strong> with roles: <strong>admin, moderator,
-                                </strong> and <strong>standard user</strong>. Admins and moderators can <strong>add, edit,
-                                or delete movies, manage comments, moderate user profiles,</strong> and assign roles within
-                                the platform.
+
+                                {{ _('Each movie has a dedicated page containing') }} <strong>{{ _('key details, ratings,
+                                and a comment section') }}</strong>, {{ _('where registered users can') }}
+                                <strong>{{ _('engage in discussion') }}</strong>, <strong>{{ _('reply') }}</strong>
+                                {{ _('to other') }} <strong>{{ _('comments') }}</strong>, {{ _('and') }}
+                                <strong>{{ _('vote on their usefulness') }}</strong>. {{ _('The project implements a') }}
+                                <strong>{{ _('role-based access control system') }}</strong> {{ _('with roles:') }}
+                                <strong>{{ _('admin, moderator') }}</strong> {{ _('and') }} <strong>{{ _('standard user') }}</strong>.
+                                {{ _('Admins and moderators can') }} <strong>{{ _('add, edit, or delete movies, manage
+                                comments, moderate user profiles') }}</strong>, {{ _('and assign roles within the platform.') }}
+
                                 <br><br>
-                                All movie data is <strong>fetched from the TMDB API</strong> to ensure accurate information.
-                                The platform integrates <strong>authentication</strong>, <strong>user management</strong>,
-                                <strong>form handling</strong>, and <strong>real-time feedback
-                                </strong> features to deliver a <strong>responsive and user-friendly experience</strong>.
-                                The project serves both as a <strong>movie review system</strong> and a <strong>
-                                learning ground for full-stack development practices</strong>.
+
+                                {{ _('All movie data is') }} <strong>{{ _('fetched from the TMDB API') }}</strong> {{ _('to ensure accurate information.') }}
+                                {{ _('The platform integrates') }} <strong>{{ _('authentication') }}</strong>, <strong>{{ _('user management') }}</strong>,
+                                <strong>{{ _('form handling') }}</strong>, {{ _('and') }} <strong>{{ _('real-time feedback') }}</strong> {{ _('features to deliver a') }}
+                                <strong>{{ _('responsive and user-friendly experience') }}</strong>.
+                                {{ _('The project serves both as a') }} <strong>{{ _('movie review system') }}</strong> {{ _('and a') }}
+                                <strong>{{ _('learning ground for full-stack development practices') }}</strong>.
                             </p>
                         </div>
                     </div>
@@ -189,8 +195,8 @@
         <div class="container">
             <div class="row mt-5">
                 <div class="col text-center" data-aos="fade-up" data-aos-duration="800">
-                    <h1 class="display-3 text-primary">Technologies</h1>
-                    <p>Technologies used:</p>
+                    <h1 class="display-3 text-primary">{{ _('Technologies') }}</h1>
+                    <p>{{ _('Technologies used:') }}</p>
                 </div>
             </div>
             <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800">
@@ -234,15 +240,15 @@
                                 </div>
                                 <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                     <i class="fas fa-database text-success fs-4 me-3"></i>
-                                    <span><strong>Database:</strong> PostgreSQL</span>
+                                    <span><strong>{{ _('Database:') }}</strong> PostgreSQL</span>
                                 </div>
                                 <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                     <i class="fas fa-lock text-danger fs-4 me-3"></i>
-                                    <span><strong>Authentication:</strong> Django Auth</span>
+                                    <span><strong>{{ _('Authentication:') }}</strong> Django Auth</span>
                                 </div>
                                 <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                     <i class="fas fa-cloud-download-alt text-secondary fs-4 me-3"></i>
-                                    <span><strong>Data:</strong> TMDB API</span>
+                                    <span><strong>{{ _('Data:') }}</strong> TMDB API</span>
                                 </div>
                             </div>
                         </div>
@@ -250,50 +256,50 @@
                 </div>
 
                 <h2 class="display-5 mb-3 text-primary text-center" data-aos="fade-up" data-aos-duration="800">
-                    Key Features
+                    {{ _('Key Features') }}
                 </h2>
                 <div class="row text-center g-4" data-aos="fade-up" data-aos-duration="800">
                     <div class="row g-4">
                         <div class="col-md-4">
                             <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                 <i class="fas fa-film text-primary fs-2 mb-3"></i>
-                                <h6>Interactive Movie Cards</h6>
-                                <p class="text-muted small">Flip-style cards showing posters and movie details on hover.</p>
+                                <h6>{{ _('Interactive Movie Cards') }}</h6>
+                                <p class="text-muted small">{{ _('Flip-style cards showing posters and movie details on hover.') }}</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                 <i class="fas fa-sliders-h text-info fs-2 mb-3"></i>
-                                <h6>Random Carousel</h6>
-                                <p class="text-muted small">Dynamic carousel with random movies and key information.</p>
+                                <h6>{{ _('Random Carousel') }}</h6>
+                                <p class="text-muted small">{{ _('Dynamic carousel with random movies and key information.') }}</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                 <i class="fas fa-comments text-success fs-2 mb-3"></i>
-                                <h6>User Comments</h6>
-                                <p class="text-muted small">Add, reply to, and rate comments with upvotes and downvotes.</p>
+                                <h6>{{ _('User Comments') }}</h6>
+                                <p class="text-muted small">{{ _('Add, reply to, and rate comments with upvotes and downvotes.') }}</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                 <i class="fas fa-user-shield text-warning fs-2 mb-3"></i>
-                                <h6>Role-Based System</h6>
-                                <p class="text-muted small">Admin, moderator, and user roles with different permissions.</p>
+                                <h6>{{ _('Role-Based System') }}</h6>
+                                <p class="text-muted small">{{ _('Admin, moderator, and user roles with different permissions.') }}</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                 <i class="fas fa-user-edit text-danger fs-2 mb-3"></i>
-                                <h6>User Management</h6>
-                                <p class="text-muted small">Admins can manage users, comments, and edit movie data.</p>
+                                <h6>{{ _('User Management') }}</h6>
+                                <p class="text-muted small">{{ _('Admins can manage users, comments, and edit movie data.') }}</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                 <i class="fas fa-database text-secondary fs-2 mb-3"></i>
-                                <h6>External Data</h6>
-                                <p class="text-muted small">Movie details fetched directly from the TMDB API.</p>
+                                <h6>{{ _('External Data') }}</h6>
+                                <p class="text-muted small">{{ _('Movie details fetched directly from the TMDB API.') }}</p>
                             </div>
                         </div>
                     </div>
@@ -305,19 +311,26 @@
     <section id="home" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Home</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Home') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    The homepage serves as the main entry point to the platform, offering an engaging and dynamic presentation of movie content.
-                    It features a <strong>carousel</strong> that displays three randomly selected featured films, each enriched with key information
-                    fetched from the <strong>TMDB API</strong>. Below the carousel, users are presented with a grid of
-                    <strong>interactive movie cards</strong>, which utilize <strong>CSS transitions</strong> to flip on hover, revealing details
-                    like title, release year, and rating. Additionally, movies can be <strong>sorted</strong> by various parameters like rating
-                    or release year, allowing for easy browsing.
+                    {{ _('The homepage serves as the main entry point to the platform, offering an engaging and dynamic
+                    presentation of movie content.') }}
+                    {{ _('It features a') }} <strong>{{ _('carousel') }}</strong> {{ _('that displays three randomly selected
+                    featured films, each enriched with key information fetched from the') }}
+                    <strong>TMDB API</strong>. {{ _('Below the carousel, users are presented with a grid of') }}
+                    <strong>{{ _('interactive movie cards') }}</strong>, {{ _('which utilize') }} <strong>{{ _('CSS transitions') }}</strong>
+                    {{ _('to flip on hover, revealing details like title, release year, and rating.') }}
+                    {{ _('Additionally, movies can be') }} <strong>{{ _('sorted') }}</strong> {{ _('by various parameters
+                    like rating or release year, allowing for easy browsing.') }}
+
                     <br><br>
-                    The layout is built with <strong>Bootstrap</strong> for responsiveness, while <strong>JavaScript</strong> dynamically manages
-                    the content rendering and API data integration to ensure smooth and modern user interaction. A special feature visible only
-                    to <strong>moderators</strong> and <strong>admins</strong> is the <strong>add movie button</strong>, enabling them to add
-                    new films to the platform with ease.
+
+                    {{ _('The layout is built with') }} <strong>{{ _('Bootstrap') }}</strong> {{ _('for responsiveness, while') }}
+                    <strong>{{ _('JavaScript') }}</strong> {{ _('dynamically manages the content rendering and API data integration
+                    to ensure smooth and modern user interaction.') }}
+                    {{ _('A special feature visible only to') }} <strong>{{ _('moderators') }}</strong> {{ _('and') }}
+                    <strong>{{ _('admins') }}</strong> {{ _('is the') }} <strong>{{ _('add movie button') }}</strong>,
+                    {{ _('enabling them to add new films to the platform with ease.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
@@ -334,16 +347,19 @@
     <section id="movie-site" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Movie Site</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Movie Site') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    Provides a comprehensive view of a selected film. It features the <strong>movie poster</strong>, alongside
-                    a <strong>progress circle</strong> that fills up according to the movie's rating, the percentage
-                    value is displayed at the center of the circle, movie details such as the <strong>title</strong>,
-                    <strong>release year</strong>, <strong>genre</strong>, <strong>director</strong>, <strong>writer</strong>,
-                    and <strong>overview</strong> retrieved from the <strong>TMDB API</strong> and stored in the <strong>
-                    PostgreSQL</strong> database.
-                    Additionally, if the user is an <strong>admin</strong> or <strong>moderator</strong>, they are given
-                    the option to <strong>edit</strong> the movie details.
+                    {{ _('Provides a comprehensive view of a selected film.') }}
+                    {{ _('It features the') }} <strong>{{ _('movie poster') }}</strong>, {{ _('alongside a') }}
+                    <strong>{{ _('progress circle') }}</strong> {{ _('that fills up according to the movie\'s rating, the
+                    percentage value is displayed at the center of the circle, movie details such as the') }}
+                    <strong>{{ _('title') }}</strong>, <strong>{{ _('release year') }}</strong>, <strong>{{ _('genre') }}</strong>,
+                    <strong>{{ _('director') }}</strong>, <strong>{{ _('writer') }}</strong>, {{ _('and') }}
+                    <strong>{{ _('overview') }}</strong> {{ _('retrieved from the') }} <strong>TMDB API</strong> {{ _('and stored in the') }}
+                    <strong>PostgreSQL</strong> {{ _('database.') }}
+
+                    {{ _('Additionally, if the user is an') }} <strong>{{ _('admin') }}</strong> {{ _('or') }} <strong>{{ _('moderator') }}</strong>,
+                    {{ _('they are given the option to') }} <strong>{{ _('edit') }}</strong> {{ _('the movie details.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
@@ -357,21 +373,30 @@
     <section id="comments" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Comment Section</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Comment Section') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    Allows users to engage with others by leaving feedback on the movie. Each comment displays the <strong>
-                    author's rating</strong> and the <strong>date and time</strong> it was posted. Additionally, users can
-                    see the <strong>upvotes</strong> and <strong>downvotes</strong> each comment has received from other
-                    logged-in users.
-                    Registered users can <strong>post comments</strong> and <strong>rate</strong> them based on their
-                    experience, giving a numerical score that reflects their opinion.
-                    Users are also able to <strong>respond</strong> to other comments, creating a threaded discussion that
-                    allows for deeper engagement and conversation. This encourages active participation and the sharing of thoughts on the movie.
+                    {{ _('Allows users to engage with others by leaving feedback on the movie.') }}
+                    {{ _('Each comment displays the') }} <strong>{{ _('author\'s rating') }}</strong> {{ _('and the') }}
+                    <strong>{{ _('date and time') }}</strong> {{ _('it was posted.') }}
+                    {{ _('Additionally, users can see the') }} <strong>{{ _('upvotes') }}</strong> {{ _('and') }}
+                    <strong>{{ _('downvotes') }}</strong> {{ _('each comment has received from other logged-in users.') }}
+
+                    {{ _('Registered users can') }} <strong>{{ _('post comments') }}</strong> {{ _('and') }}
+                    <strong>{{ _('rate') }}</strong> {{ _('them based on their experience, giving a numerical score that reflects their opinion.') }}
+
+                    {{ _('Users are also able to') }} <strong>{{ _('respond') }}</strong> {{ _('to other comments, creating a
+                    threaded discussion that allows for deeper engagement and conversation.') }}
+                    {{ _('This encourages active participation and the sharing of thoughts on the movie.') }}
+
                     <br><br>
-                    The <strong>author</strong> of a comment has the ability to <strong>edit</strong> or <strong>delete</strong>
-                    their own comment at any time, providing control over their contributions. However, <strong>admins and
-                    moderators</strong> have the privilege to <strong>delete any comment</strong>, regardless of its author,
-                    to maintain the integrity of the platform and ensure the conversation stays respectful.
+
+                    {{ _('The') }} <strong>{{ _('author') }}</strong> {{ _('of a comment has the ability to') }}
+                    <strong>{{ _('edit') }}</strong> {{ _('or') }} <strong>{{ _('delete') }}</strong> {{ _('their own comment
+                    at any time, providing control over their contributions.') }}
+
+                    {{ _('However,') }} <strong>{{ _('admins and moderators') }}</strong> {{ _('have the privilege to') }}
+                    <strong>{{ _('delete any comment') }}</strong>, {{ _('regardless of its author, to maintain the integrity
+                    of the platform and ensure the conversation stays respectful.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
@@ -385,18 +410,25 @@
     <section id="add-movie" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Add Movie</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Add Movie') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    This section allows <strong>authorized users</strong> to add new movies to the <strong>PostgreSQL</strong>
-                    database.
+                    {{ _('This section allows') }} <strong>{{ _('authorized users') }}</strong> {{ _('to add new movies to the') }}
+                    <strong>PostgreSQL</strong> {{ _('database.') }}
+
                     <br><br>
-                    The process starts on the <strong>Add Movie</strong> page, where an authorized user can enter a film
-                    title into the search bar. A list of matching and similar titles from TMDb API is displayed, allowing the user to
-                    <strong>select the correct movie</strong> from the results, and add it into web application database.
+
+                    {{ _('The process starts on the') }} <strong>{{ _('Add Movie') }}</strong> {{ _('page, where an
+                    authorized user can enter a film title into the search bar.') }}
+                    {{ _('A list of matching and similar titles from TMDb API is displayed, allowing the user to') }}
+                    <strong>{{ _('select the correct movie') }}</strong> {{ _('from the results, and add it into web application database.') }}
+
                     <br><br>
-                    Before final submission, the user has the opportunity to <strong>review and correct the information</strong>
-                    to ensure accuracy. Once confirmed, the movie is <strong>added to the platform</strong> and becomes accessible
-                    to all users on the main page and in search results.
+
+                    {{ _('Before final submission, the user has the opportunity to') }}
+                    <strong>{{ _('review and correct the information') }}</strong> {{ _('to ensure accuracy.') }}
+                    {{ _('Once confirmed, the movie is') }} <strong>{{ _('added to the platform') }}</strong> {{ _('and
+                    becomes accessible to all users on the main page and in search results.') }}
+
                     <br><br>
                 </p>
             </div>
