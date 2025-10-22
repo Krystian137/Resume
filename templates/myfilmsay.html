@@ -447,16 +447,18 @@
     <section id="edit-movie" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Edit Movie</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Edit Movie') }}</h3>
                 <p class="lead" style="text-align: justify;">
+                    {{ _('Upon selecting a new movie, the user is redirected to a shared interface that also serves as the') }}
+                    <strong>{{ _('Edit Movie') }}</strong> {{ _('page, which is also accessible from home page, and movie page.') }}
+                    {{ _('Here, a form is pre-filled with all relevant movie data,') }}
+                    <strong>{{ _('fetched dynamically from the TMDB API') }}</strong> {{ _('— including title, release year,
+                    genres, director, writer, poster, rating, and overview') }}
 
-                    Upon selecting a new movie, the user is redirected to a shared interface that also serves as the <strong>Edit Movie
-                    </strong> page, which is also accessible from home page, and movie page. Here, a form is pre-filled
-                    with all relevant movie data, <strong>fetched dynamically from the TMDB API</strong> — including title,
-                    release year, genres, director, writer, poster, rating, and overview
                     <br><br>
-                    If the user is <strong>editing</strong> an existing movie, the form is pre-filled with its previously
-                    stored data, which can then be updated as needed.
+
+                    {{ _('If the user is') }} <strong>{{ _('editing') }}</strong> {{ _('an existing movie, the form is
+                    pre-filled with its previously stored data, which can then be updated as needed.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
@@ -472,14 +474,19 @@
             <div class="col-md-6 text-md-primary order-md-2">
                 <h3 class="display-4 mb-4 text-primary">SEO</h3>
                 <p class="lead" style="text-align: justify;">
-                    The <strong>FAQ</strong> subpage demonstrates structured content optimization using <strong>JSON-LD
-                    (schema.org)</strong> for SEO and accessibility.
+                    {{ _('The') }} <strong>{{ _('FAQ') }}</strong> {{ _('subpage demonstrates structured content optimization using') }}
+                    <strong>{{ _('JSON-LD (schema.org)') }}</strong> {{ _('for SEO and accessibility.') }}
+
                     <br><br>
-                    It includes frequently asked questions about the platform’s features, showcasing a practical understanding of semantic HTML
+
+                    {{ _('It includes frequently asked questions about the platform’s features, showcasing a practical
+                    understanding of semantic HTML') }}
+
                     <br><br>
-                    Implemented with Django templates and <strong>schema.org</strong> markup, it improves discoverability while showcasing
-                    my focus on usability, accessibility, and web performance.
-            </p>
+
+                    {{ _('Implemented with Django templates and') }} <strong>{{ _('schema.org') }}</strong> {{ _('markup,
+                    it improves discoverability while showcasing my focus on usability, accessibility, and web performance.') }}
+                </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
                 <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_seo.jpg') }}"
@@ -495,15 +502,18 @@
     <section id="user-profile" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">User Profile</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('User Profile') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    <strong>Admins</strong> and <strong>moderators</strong> have access to user profile pages in order
-                    to <strong>monitor user activity</strong> within the comment sections. This includes reviewing all
-                    comments posted by a user and assessing their behavior on the platform.
-                    If necessary, they can <strong>remove any inappropriate or disruptive comments</strong> directly from
-                    the user’s profile view. This functionality ensures a <strong>safe and respectful environment</strong>
-                    for all users and gives moderators the tools needed to enforce community standards.
-            </p>
+                    <strong>{{ _('Admins') }}</strong> {{ _('and') }} <strong>{{ _('moderators') }}</strong> {{ _('have
+                    access to user profile pages in order to') }}
+                    <strong>{{ _('monitor user activity') }}</strong> {{ _('within the comment sections.') }}
+                    {{ _('This includes reviewing all comments posted by a user and assessing their behavior on the platform.') }}
+
+                    {{ _('If necessary, they can') }} <strong>{{ _('remove any inappropriate or disruptive comments') }}</strong>
+                    {{ _('directly from the user’s profile view.') }}
+                    {{ _('This functionality ensures a') }} <strong>{{ _('safe and respectful environment') }}</strong> {{ _('for
+                    all users and gives moderators the tools needed to enforce community standards.') }}
+                </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/MyFilmSay/myfilmsay_user_profile.jpg') }}"
@@ -516,14 +526,16 @@
     <section id="admin" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Admin and moderator</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Admin and moderator') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    <strong>Admins</strong> and <strong>moderators</strong> have access to a dedicated user management
-                    page, where they can view a complete list of registered accounts. From this panel, they can <strong>
-                    promote or demote user roles</strong>, <strong>remove users</strong> from the platform, and <strong>
-                    access individual user profiles</strong> to monitor activity or take necessary moderation actions.
-                    This feature provides full control over user administration, ensuring that only trusted members hold
-                    higher privileges and that the platform remains well-moderated.
+                    <strong>{{ _('Admins') }}</strong> {{ _('and') }} <strong>{{ _('moderators') }}</strong> {{ _('have
+                    access to a dedicated user management page, where they can view a complete list of registered accounts.') }}
+                    {{ _('From this panel, they can') }} <strong>{{ _('promote or demote user roles') }}</strong>,
+                    <strong>{{ _('remove users') }}</strong> {{ _('from the platform, and') }}
+                    <strong>{{ _('access individual user profiles') }}</strong> {{ _('to monitor activity or take necessary
+                    moderation actions.') }}
+                    {{ _('This feature provides full control over user administration, ensuring that only trusted members
+                    hold higher privileges and that the platform remains well-moderated.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
@@ -537,14 +549,17 @@
     <section id="aboutme" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">About me</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('About me') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    The <strong>About Me</strong> page offers an overview of the <strong>My Film Say</strong> project -
-                    a web application for discovering and reviewing movies.
-                    It can also serve as a <strong>regulations or policy page</strong>, offering users important information about the platform.
+                    {{ _('The') }} <strong>{{ _('About Me') }}</strong> {{ _('page offers an overview of the') }}
+                    <strong>{{ _('My Film Say') }}</strong> {{ _('project – a web application for discovering and reviewing movies.') }}
+                    {{ _('It can also serve as a') }} <strong>{{ _('regulations or policy page') }}</strong>, {{ _('offering
+                    users important information about the platform.') }}
+
                     <br><br>
-                    Section is designed to strengthen <strong>user trust, provide transparency, and foster community
-                    interaction</strong> around the project.
+
+                    {{ _('Section is designed to strengthen') }} <strong>{{ _('user trust, provide transparency, and foster
+                    community interaction') }}</strong> {{ _('around the project.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
@@ -558,19 +573,25 @@
     <section id="login" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Login/Register</h3>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Login/Register') }}</h3>
                 <p class="lead" style="text-align: justify;">
-                    The platform includes a secure <strong>login</strong> and <strong>registration</strong> system that allows
-                    users to create personalized accounts. Upon registration, user passwords are <strong>safely hashed
-                    </strong> before being stored in the database, ensuring data protection and user privacy.
-                <br><br>
-                    Once logged in, users unlock full access to interactive features such as <strong>writing and replying
-                    to comments</strong>, <strong>rating movies</strong>, and <strong>voting</strong> on the usefulness of other users
-                    opinions. This authentication layer helps maintain the quality of content and fosters meaningful
-                    discussions by holding users accountable for their activity.
-                <br><br>
-                    The system lays the groundwork for role-based access control, ensuring that only authenticated users
-                    can engage with content and that higher privileges are granted only to moderators and administrators.
+                    {{ _('The platform includes a secure') }} <strong>{{ _('login') }}</strong> {{ _('and') }}
+                    <strong>{{ _('registration') }}</strong> {{ _('system that allows users to create personalized accounts.') }}
+                    {{ _('Upon registration, user passwords are') }} <strong>{{ _('safely hashed') }}</strong>
+                    {{ _('before being stored in the database, ensuring data protection and user privacy.') }}
+
+                    <br><br>
+
+                    {{ _('Once logged in, users unlock full access to interactive features such as') }}
+                    <strong>{{ _('writing and replying to comments') }}</strong>, <strong>{{ _('rating movies') }}</strong>,
+                    {{ _('and') }} <strong>{{ _('voting') }}</strong> {{ _('on the usefulness of other users opinions.') }}
+                    {{ _('This authentication layer helps maintain the quality of content and fosters meaningful discussions
+                    by holding users accountable for their activity.') }}
+
+                    <br><br>
+
+                    {{ _('The system lays the groundwork for role-based access control, ensuring that only authenticated
+                    users can engage with content and that higher privileges are granted only to moderators and administrators.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-1">

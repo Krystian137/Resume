@@ -16,7 +16,7 @@
 <body class="celeste">
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="{{ url_for('main.index') }}"><i class="fa-solid fa-arrow-left"></i> Go back</a>
+            <a class="navbar-brand" href="{{ url_for('main.index') }}"><i class="fa-solid fa-arrow-left"></i> {{ _('Go back') }}</a>
             <a class="navbar-brand fw-bold text-primary" href="{{ url_for('main.index') }}">Krystian Puch</a>
             <button
                 class="navbar-toggler"
@@ -33,22 +33,22 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#about">About Project</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#about">{{ _('About Project') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#home">Home</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#home">{{ _('Home') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#user-chests">User Chests</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#user-chests">{{ _('User Chests') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#chest-page">Chest Page</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#chest-page">{{ _('Chest Page') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#calculator">Calculator</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#calculator">{{ _('Calculator') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark px-3 fw-semibold" href="#login">Login/Register</a>
+                        <a class="nav-link text-dark px-3 fw-semibold" href="#login">{{ _('Login/Register') }}</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@
             <h2 class="text-center mb-5 display-4 text-primary">Steam Chests Prices</h2>
             <div class="d-flex justify-content-center">
                 <a href="https://github.com/Krystian137/SteamChestPrices" target="_blank" class="btn btn-outline-dark btn-sm mb-5">
-                    <i class="fab fa-github"></i> View on GitHub
+                    <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                 </a>
             </div>
             <div class="row g-4 fade-up">
@@ -70,8 +70,8 @@
                             <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/feedback.png') }}"
                                  class="card-img-top" alt="About Project">
                             <div class="card-body">
-                                <h5 class="card-title">About Project</h5>
-                                <p class="card-text text-muted small">Technologies behind it and the idea that started it all.</p>
+                                <h5 class="card-title">{{ _('About Project') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Technologies behind it and the idea that started it all') }}</p>
                             </div>
                         </div>
                     </a>
@@ -83,8 +83,8 @@
                             <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
                                  class="card-img-top" alt="All chests">
                             <div class="card-body">
-                                <h5 class="card-title">Home</h5>
-                                <p class="card-text text-muted small">Overview of all available cases and their latest prices.</p>
+                                <h5 class="card-title">{{ _('Home') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Overview of all available cases and their latest prices.') }}</p>
                             </div>
                         </div>
                     </a>
@@ -93,10 +93,11 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#user-chests" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}" class="card-img-top" alt="User Chests">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}"
+                                 class="card-img-top" alt="User Chests">
                             <div class="card-body">
-                                <h5 class="card-title">User Chests</h5>
-                                <p class="card-text text-muted small">List of user chests and their price</p>
+                                <h5 class="card-title">{{ _('User Chests') }}</h5>
+                                <p class="card-text text-muted small">{{ _('List of user chests and their price') }}</p>
                             </div>
                         </div>
                     </a>
@@ -105,10 +106,11 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#chest-page" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}" class="card-img-top" alt="Chest Page">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}"
+                                 class="card-img-top" alt="Chest Page">
                             <div class="card-body">
-                                <h5 class="card-title">Chest Page</h5>
-                                <p class="card-text text-muted small">Track price history, spot trends, and see percentage changes.</p>
+                                <h5 class="card-title">{{ _('Chest Page') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Track price history, spot trends, and see percentage changes.') }}</p>
                             </div>
                         </div>
                     </a>
@@ -117,10 +119,11 @@
                 <div class="col-md-6 col-lg-4">
                     <a href="#calculator" class="text-decoration-none">
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
-                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}" class="card-img-top" alt="Calculator">
+                            <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}"
+                                 class="card-img-top" alt="Calculator">
                             <div class="card-body">
-                                <h5 class="card-title">Calculator</h5>
-                                <p class="card-text text-muted small">Use the calculator without the need for an account.</p>
+                                <h5 class="card-title">{{ _('Calculator') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Use the calculator without the need for an account.') }}</p>
                             </div>
                         </div>
                     </a>
@@ -131,8 +134,8 @@
                         <div class="card h-100 shadow-sm rounded-4 overflow-hidden img-zoom">
                             <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}" class="card-img-top" alt="Login">
                             <div class="card-body">
-                                <h5 class="card-title">Login and Register</h5>
-                                <p class="card-text text-muted small">Login or Register new account</p>
+                                <h5 class="card-title">{{ _('Login and Register') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Login or Register new account') }}</p>
                             </div>
                         </div>
                     </a>
@@ -145,8 +148,8 @@
         <div class="container">
             <div class="row mt-5" data-aos="fade-up" data-aos-duration="800">
                 <div class="col text-center">
-                    <h1 class="display-3 text-primary">Technologies</h1>
-                    <p>Technologies used:</p>
+                    <h1 class="display-3 text-primary">{{ _('Technologies') }}</h1>
+                    <p>{{ _('Technologies used:') }}</p>
                 </div>
             </div>
             <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800">
@@ -174,13 +177,13 @@
                     <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/idea.png') }}" alt="Idea" class="img-fluid w-75 rounded shadow img-zoom">
                 </div>
                 <div class="col-md-6 order-md-1">
-                    <h2 class="display-5 mb-3 text-primary">Idea that started the project</h2>
+                    <h2 class="display-5 mb-3 text-primary">{{ _('Idea that started the project') }}</h2>
                     <p class="lead" style="text-align: justify;">
-                        My friends and I used to play a lot of Counter-Strike 2, and during that time we purchased various
+                        {{ _('My friends and I used to play a lot of Counter-Strike 2, and during that time we purchased various
                         in-game cases, which could later be sold for profit. I wanted to create a platform where we could
                         track the value of our inventories, monitor price changes over time, and determine the best moment
                         to sell. This project also served as a valuable opportunity for me to improve my development skills
-                        and learn new technologies.
+                        and learn new technologies.') }}
                     </p>
                 </div>
             </div>
@@ -189,14 +192,14 @@
                 <div class="row align-items-center my-5">
                     <div class="row my-5" data-aos="fade-up" data-aos-duration="800">
                         <div class="col-md-12 text-center">
-                            <h2 class="display-5 mb-3 text-primary">More about the project</h2>
+                            <h2 class="display-5 mb-3 text-primary">{{ _('More about the project') }}</h2>
                             <p>Overview<p>
                             <p class="lead" style="text-align: justify;">
-                                This web application was developed using the <strong>Flask</strong> framework and provides tools
+                                {{ _('This web application was developed using the ') }}<strong>{{ _('Flask') }}</strong> {{ _('framework and provides tools
                                 for tracking the prices of CS2 in-game cases listed on the Steam market. Users can view historical
                                 price charts, monitor daily, weekly, monthly, and total value changes, and create accounts to manage
                                 their personal inventories. The system automatically calculates the total value of owned cases and
-                                visualizes market trends to help identify optimal selling moments.
+                                visualizes market trends to help identify optimal selling moments.') }}
                             </p>
                         </div>
                     </div>
@@ -210,7 +213,7 @@
                             </div>
 
                             <div class="col-md-7">
-                                <p class="mb-3">Technologies Used</p>
+                                <p class="mb-3">{{ _('Technologies Used') }}</p>
                                 <div class="row g-3">
                                     <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                         <i class="fas fa-server text-primary fs-4 me-3"></i>
@@ -218,7 +221,7 @@
                                     </div>
                                     <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                         <i class="fas fa-database text-success fs-4 me-3"></i>
-                                        <span><strong>Database:</strong> SQLAlchemy</span>
+                                        <span><strong>{{ _('Database:') }}</strong> SQLAlchemy</span>
                                     </div>
                                     <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                         <i class="fas fa-desktop text-info fs-4 me-3"></i>
@@ -226,64 +229,64 @@
                                     </div>
                                     <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                         <i class="fas fa-lock text-danger fs-4 me-3"></i>
-                                        <span><strong>Authentication:</strong> Flask-Login, Flask-WTF</span>
+                                        <span><strong>{{ _('Authentication:') }}</strong> Flask-Login, Flask-WTF</span>
                                     </div>
                                     <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                         <i class="fas fa-chart-line text-warning fs-4 me-3"></i>
-                                        <span><strong>Charts:</strong> Chart.js</span>
+                                        <span><strong>{{ _('Charts:') }}</strong> Chart.js</span>
                                     </div>
                                     <div class="col-12 bg-light rounded p-3 shadow-sm d-flex align-items-center img-zoom">
                                         <i class="fas fa-cloud-download-alt text-secondary fs-4 me-3"></i>
-                                        <span><strong>Data:</strong> Steam Marketplace API, JSON</span>
+                                        <span><strong>{{ _('Data:') }}</strong> Steam Marketplace API, JSON</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <h2 class="display-5 mb-3 text-primary text-center" data-aos="fade-up" data-aos-duration="800">
-                            Key Features
+                            {{ _('Key Features') }}
                         </h2>
                         <div class="row text-center g-4" data-aos="fade-up" data-aos-duration="800">
                             <div class="col-md-4">
                                 <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                     <i class="fas fa-user-lock text-primary fs-2 mb-3"></i>
-                                    <h6>User Authentication</h6>
-                                    <p class="text-muted small">Secure registration, login, and password hashing</p>
+                                    <h6>{{ _('User Authentication') }}</h6>
+                                    <p class="text-muted small">{{ _('Secure registration, login, and password hashing') }}</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                     <i class="fas fa-clipboard-list text-success fs-2 mb-3"></i>
-                                    <h6>Inventory Forms</h6>
-                                    <p class="text-muted small">Manage case quantities and view value changes</p>
+                                    <h6>{{ _('Inventory Forms') }}</h6>
+                                    <p class="text-muted small">{{ _('Manage case quantities and view value changes') }}</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                     <i class="fas fa-history text-warning fs-2 mb-3"></i>
-                                    <h6>Daily Updates</h6>
-                                    <p class="text-muted small">Automated updates using GitHub Actions</p>
+                                    <h6>{{ _('Daily Updates') }}</h6>
+                                    <p class="text-muted small">{{ _('Automated updates using GitHub Actions') }}</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                     <i class="fab fa-git-alt text-danger fs-2 mb-3"></i>
-                                    <h6>Git Integration</h6>
-                                    <p class="text-muted small">Version control and GitHub hosting</p>
+                                    <h6>{{ _('Git Integration') }}</h6>
+                                    <p class="text-muted small">{{ _('Version control and GitHub hosting') }}</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                     <i class="fas fa-layer-group text-info fs-2 mb-3"></i>
-                                    <h6>Full-Stack Project</h6>
-                                    <p class="text-muted small">Real-world stack for modern web apps</p>
+                                    <h6>{{ _('Full-Stack Project') }}</h6>
+                                    <p class="text-muted small">{{ _('Real-world stack for modern web apps') }}</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="bg-white rounded shadow-sm p-4 h-100 img-zoom">
                                     <i class="fas fa-chart-line text-info fs-2 mb-3"></i>
-                                    <h6>Case Value Charts</h6>
-                                    <p class="text-muted small">Visualize price fluctuations over time</p>
+                                    <h6>{{ _('Case Value Charts') }}</h6>
+                                    <p class="text-muted small">{{ _('Visualize price fluctuations over time') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -296,17 +299,18 @@
     <section id="home" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Home</h3>
-                <p class="lead" style="text-align: justify;">The homepage displays a dynamically generated list of all
-                    Counter-Strike 2 cases available on the Steam Market, each represented by a card containing the case
-                    name, image fetched from the Steam API, and market price. Clicking on a case redirects
-                    the user to a detailed subpage showing a historical price chart and metadata. Data is regularly fetched
-                    and stored in JSON format as part of my learning process with JSON handling. To improve performance,
-                    I created a separate JSON file that stores only the latest prices for each case.</p>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Home') }}</h3>
+                <p class="lead" style="text-align: justify;">
+                    {{ _('The homepage displays a dynamically generated list of all Counter-Strike 2 cases available on
+                    the Steam Market, each represented by a card containing the case name, image fetched from the Steam API, and market price.') }}
+                    {{ _('Clicking on a case redirects the user to a detailed subpage showing a historical price chart and metadata.') }}
+                    {{ _('Data is regularly fetched and stored in JSON format as part of my learning process with JSON handling.') }}
+                    {{ _('To improve performance, I created a separate JSON file that stores only the latest prices for each case.') }}
+                </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/SteamChestsRepresentative.png') }}"
-                     alt="Movie Reviewers Project"
+                     alt="{{ _('Steam Chests Overview') }}"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
         </div>
@@ -315,17 +319,20 @@
     <section id="user-chests" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">User Chests</h3>
-                <p class="lead" style="text-align: justify;">The user dashboard enables authenticated users to input and
-                    manage their owned Counter-Strike 2 cases along with quantities. Each entry is displayed in a dynamic,
-                    responsive table that includes the case’s latest market price, total value (with and without Steam
-                    transaction fees), and percentage change from the previous day. Users can update or remove individual
-                    case records. Below the table, the application calculates and displays the cumulative value of all
-                    listed cases, both pre- and post-tax.</p>
+                <h3 class="display-4 mb-4 text-primary">{{ _('User Chests') }}</h3>
+                <p class="lead" style="text-align: justify;">
+                    {{ _('The user dashboard enables authenticated users to input and manage their owned Counter-Strike
+                    2 cases along with quantities.') }}
+                    {{ _('Each entry is displayed in a dynamic, responsive table that includes the case’s latest market
+                    price, total value (with and without Steam transaction fees), and percentage change from the previous day.') }}
+                    {{ _('Users can update or remove individual case records.') }}
+                    {{ _('Below the table, the application calculates and displays the cumulative value of all listed
+                    cases, both pre- and post-tax.') }}
+                </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/user-page.png') }}"
-                     alt="Movie Reviewers Project"
+                     alt="{{ _('User Inventory Page') }}"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
         </div>
@@ -334,16 +341,18 @@
     <section id="chest-page" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Chest Page</h3>
-                <p class="lead" style="text-align: justify;">The chest detail page presents an interactive price history
-                    chart powered by Chart.js, allowing users to analyze case price fluctuations over various time ranges,
-                    including the past week, month, year, and all-time. Users can dynamically select the desired time frame.
-                    Below the chart, a data table displays historical prices by date along with the corresponding percentage
-                    change compared to the previous recorded value.</p>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Chest Page') }}</h3>
+                <p class="lead" style="text-align: justify;">
+                    {{ _('The chest detail page presents an interactive price history chart powered by Chart.js, allowing
+                    users to analyze case price fluctuations over various time ranges, including the past week, month, year, and all-time.') }}
+                    {{ _('Users can dynamically select the desired time frame.') }}
+                    {{ _('Below the chart, a data table displays historical prices by date along with the corresponding
+                    percentage change compared to the previous recorded value.') }}
+                </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/chest-page.png') }}"
-                     alt="Movie Reviewers Project"
+                     alt="{{ _('Chest Detail Page') }}"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
         </div>
@@ -352,16 +361,20 @@
     <section id="calculator" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-start order-md-2">
-                <h3 class="display-4 mb-4 text-primary">Calculator</h3>
-                <p class="lead" style="text-align: justify;">The calculator is designed for users who prefer not to create
-                    an account. It offers similar functionality to the user inventory page, allowing users to input the
-                    cases they own and their respective quantities. However, it does not persist any data — once the session
-                    ends or the page is refreshed, all information is cleared. This tool provides a quick way to estimate
-                    the total value of owned cases, both before and after Steam transaction fees.</p>
+                <h3 class="display-4 mb-4 text-primary">{{ _('Calculator') }}</h3>
+                <p class="lead" style="text-align: justify;">
+                    {{ _('The calculator is designed for users who prefer not to create an account.') }}
+                    {{ _('It offers similar functionality to the user inventory page, allowing users to input the cases
+                    they own and their respective quantities.') }}
+                    {{ _('However, it does not persist any data — once the session ends or the page is refreshed, all
+                    information is cleared.') }}
+                    {{ _('This tool provides a quick way to estimate the total value of owned cases, both before and after
+                    Steam transaction fees.') }}
+                </p>
             </div>
             <div class="col-md-6 text-center order-md-1">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/calculator.png') }}"
-                     alt="Movie Reviewers Project"
+                     alt="{{ _('Calculator Tool') }}"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
         </div>
@@ -370,17 +383,19 @@
     <section id="login" class="container py-5" data-aos="fade-up" data-aos-duration="800">
         <div class="row mb-5">
             <div class="col-md-6 text-md-end order-md-1">
-                <h3 class="display-4 mb-4 text-primary">Login/Register</h3>
-                <p class="lead" style="text-align: justify;">The project includes a secure user authentication system featuring
-                    user registration and login functionality. During registration, user credentials are validated and
-                    passwords are securely hashed using industry-standard techniques before being stored in the database.
-                    Upon logging in, users gain access to personalized features such as managing their own case inventory.
-                    Session management is handled via Flask’s session mechanism to maintain user state throughout the visit.
+                <h3 class="display-4 mb-4 text-primary">{{ _('Login/Register') }}</h3>
+                <p class="lead" style="text-align: justify;">
+                    {{ _('The project includes a secure user authentication system featuring user registration and login
+                    functionality.') }}
+                    {{ _('During registration, user credentials are validated and passwords are securely hashed using
+                    industry-standard techniques before being stored in the database.') }}
+                    {{ _('Upon logging in, users gain access to personalized features such as managing their own case inventory.') }}
+                    {{ _('Session management is handled via Flask’s session mechanism to maintain user state throughout the visit.') }}
                 </p>
             </div>
             <div class="col-md-6 text-center order-md-2">
                 <img src="{{ url_for('static', filename='assets/img/SteamChestsPrices/login.png') }}"
-                     alt="Movie Reviewers Project"
+                     alt="{{ _('Login and Registration') }}"
                      class="img-fluid rounded shadow-lg img-zoom">
             </div>
         </div>

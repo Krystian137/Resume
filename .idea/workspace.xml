@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="preparing for translation">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2025_17_51_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2025_17_51__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moviereviewers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moviereviewers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/movies_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies_project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/myfilmsay.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myfilmsay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/otherprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/otherprojects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/steamchests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/steamchests.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1761042990165</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="preparing for translation">
+      <option name="closed" value="true" />
+      <created>1761048068881</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1761048068881</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added steamchests.html and moviereviewers.html" />
     <MESSAGE value="updated steamchests.html" />
     <MESSAGE value="added sections" />
     <MESSAGE value="icons and sections updated on steamchests.html" />
@@ -371,6 +381,7 @@
     <MESSAGE value="changes in index.html" />
     <MESSAGE value="removed contact" />
     <MESSAGE value="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs" />
+    <MESSAGE value="preparing for translation" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparing for translation" />
   </component>
 </project>

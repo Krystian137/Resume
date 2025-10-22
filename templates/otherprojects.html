@@ -16,7 +16,7 @@
 <body class="celeste">
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="{{ url_for('main.index') }}"><i class="fa-solid fa-arrow-left"></i> Go back</a>
+            <a class="navbar-brand" href="{{ url_for('main.index') }}"><i class="fa-solid fa-arrow-left"></i>{{ _('Go back') }}</a>
             <a class="navbar-brand fw-bold text-primary" href="{{ url_for('main.index') }}">Krystian Puch</a>
             <button
                 class="navbar-toggler"
@@ -66,7 +66,7 @@
 
     <section id="pages-preview" class="py-5 animate-section mt-5" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
-            <h2 class="text-center mb-5 display-4 text-primary">Technical Practice Projects</h2>
+            <h2 class="text-center mb-5 display-4 text-primary">{{ _('Technical Practice Projects') }}</h2>
             <div class="row g-4 fade-up">
                 <div class="col-md-6 col-lg-4">
                     <a href="#snakeFlask" class="text-decoration-none">
@@ -75,7 +75,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Snake Flask">
                             <div class="card-body">
                                 <h5 class="card-title">Snake Game (Flask)</h5>
-                                <p class="card-text text-muted small">Snake Game made in flask</p>
+                                <p class="card-text text-muted small">Snake Game {{ _('made in flask') }}</p>
                             </div>
                         </div>
                     </a>
@@ -88,7 +88,7 @@
                                 class="card-img-top" style="height: 200px; object-fit: cover;" alt="US States Game">
                             <div class="card-body custom-img">
                                 <h5 class="card-title">US States Game</h5>
-                                <p class="card-text text-muted small">Memory game: type U.S. states to fill the map</p>
+                                <p class="card-text text-muted small">{{ _('Memory game: type U.S. states to fill the map') }}</p>
                             </div>
                         </div>
                     </a>
@@ -101,7 +101,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Pong Game">
                             <div class="card-body">
                                 <h5 class="card-title">Pong Game</h5>
-                                <p class="card-text text-muted small">Pong game built in Python using Turtle and Pandas</p>
+                                <p class="card-text text-muted small">Pong game {{ _('built in Python using Turtle and Pandas') }}</p>
                             </div>
                         </div>
                     </a>
@@ -114,7 +114,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Snake (Turtle)">
                             <div class="card-body">
                                 <h5 class="card-title">Snake Game (Turtle)</h5>
-                                <p class="card-text text-muted small">Snake game in Python with Turtle</p>
+                                <p class="card-text text-muted small">Snake game {{ _('in Python with Turtle') }}</p>
                             </div>
                         </div>
                     </a>
@@ -127,7 +127,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Turtle Crossing Game">
                             <div class="card-body">
                                 <h5 class="card-title">Turtle Crossing Game</h5>
-                                <p class="card-text text-muted small">Cross a road as a turtle</p>
+                                <p class="card-text text-muted small">{{ _('Cross a road as a turtle') }}</p>
                             </div>
                         </div>
                     </a>
@@ -140,7 +140,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Quiz Game">
                             <div class="card-body">
                                 <h5 class="card-title">Quiz Game</h5>
-                                <p class="card-text text-muted small">A simple terminal game that tests your knowledge.</p>
+                                <p class="card-text text-muted small">{{ _('A simple terminal game that tests your knowledge') }}</p>
                             </div>
                         </div>
                     </a>
@@ -152,8 +152,8 @@
                             <img src="{{ url_for('static', filename='assets/img/otherProjects/PricesDataScraping.png') }}"
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Data Prices Scraping">
                             <div class="card-body">
-                                <h5 class="card-title">Data Prices Scraping</h5>
-                                <p class="card-text text-muted small">Fetches price data from external APIs</p>
+                                <h5 class="card-title">{{ _('Data Prices Scraping') }}</h5>
+                                <p class="card-text text-muted small">{{ _('Fetches price data from external APIs') }}</p>
                             </div>
                         </div>
                     </a>
@@ -166,7 +166,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Cookie Clicker Bot">
                             <div class="card-body">
                                 <h5 class="card-title">Cookie Clicker Bot</h5>
-                                <p class="card-text text-muted small">An automation bot that plays Cookie Clicker using Selenium.</p></p>
+                                <p class="card-text text-muted small">{{ _('An automation bot that plays Cookie Clicker using Selenium') }}</p>
                             </div>
                         </div>
                     </a>
@@ -179,7 +179,7 @@
                                  class="card-img-top" style="height: 200px; object-fit: cover;" alt="Top 100 Songs">
                             <div class="card-body">
                                 <h5 class="card-title">Top 100 Songs</h5>
-                                <p class="card-text text-muted small">Generates Spotify playlists from Billboard Hot 100 charts.</p>
+                                <p class="card-text text-muted small">{{ _('Generates Spotify playlists from Billboard Hot 100 charts') }}</p>
                             </div>
                         </div>
                     </a>
@@ -192,7 +192,7 @@
         <div class="container">
             <div class="row mt-5">
                 <div class="col text-center fade-up">
-                    <h1 class="display-3 text-primary">Why I made this projects?</h1>
+                    <h1 class="display-3 text-primary">{{ _('Why I made this projects?') }}</h1>
                 </div>
             </div>
             <div class="row align-items-center my-5">
@@ -201,12 +201,14 @@
                 </div>
                 <div class="col-md-6 order-md-1 fade-up">
                     <p class="lead" style="text-align: justify;">
-                        I created these projects as a way to learn through practice. Building games, apps, and tools allowed
-                        me to apply concepts like <strong>object-oriented programming</strong>, <strong>working with APIs
-                        </strong>, <strong>data management</strong>, and <strong>user interface development</strong> in real
-                        scenarios. Each project helped me grow both technically and creatively, and gave me a better understanding
-                        of how to connect different technologies into complete, functional solutions. This hands-on approach
-                        has been the most effective way for me to develop as a programmer.
+                        {{ _('I created these projects as a way to learn through practice.') }}
+                        {{ _('Building games, apps, and tools allowed me to apply concepts like') }}
+                        <strong>{{ _('object-oriented programming') }}</strong>, <strong>{{ _('working with APIs') }}</strong>,
+                        <strong>{{ _('data management') }}</strong>, {{ _('and') }} <strong>{{ _('user interface development') }}</strong>
+                        {{ _('in real scenarios.') }}
+                        {{ _('Each project helped me grow both technically and creatively, and gave me a better understanding
+                        of how to connect different technologies into complete, functional solutions.') }}
+                        {{ _('This hands-on approach has been the most effective way for me to develop as a programmer.') }}
                     </p>
                 </div>
             </div>
@@ -215,7 +217,7 @@
 
     <div class="row mt-5 my-5" data-aos="fade-up" data-aos-duration="800">
         <div class="col text-center fade-up">
-            <h1 class="display-3 text-primary">All Projects</h1>
+            <h1 class="display-3 text-primary">{{ _('All Projects') }}</h1>
         </div>
     </div>
 
@@ -229,11 +231,14 @@
                 <div class="col-md-6">
                     <h2 class="text-primary">Snake Game (Flask)</h2>
                     <p class="lead">
-                        A modern take on the classic Snake game – built with <strong>Flask</strong> and <strong>JavaScript</strong>.
-                        The game features multiple difficulty levels, a nickname-based scoring system, and local score saving using
-                        a <strong>JSON-based database</strong>. All gameplay logic runs entirely in the browser, providing
-                        a smooth and responsive experience. Players can compete for a spot in the top 10 leaderboard.
-                        The project also demonstrates full integration between the frontend and a lightweight Python backend.
+                        {{ _('A modern take on the classic Snake game – built with') }} <strong>{{ _('Flask') }}</strong>
+                        {{ _('and') }} <strong>{{ _('JavaScript') }}</strong>.
+                        {{ _('The game features multiple difficulty levels, a nickname-based scoring system, and local
+                        score saving using') }}
+                        <strong>{{ _('JSON-based database') }}</strong>. {{ _('All gameplay logic runs entirely in the
+                        browser, providing a smooth and responsive experience.') }}
+                        {{ _('Players can compete for a spot in the top 10 leaderboard.') }}
+                        {{ _('The project also demonstrates full integration between the frontend and a lightweight Python backend.') }}
                     </p>
                     <div class="mb-2">
                         <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
@@ -242,7 +247,7 @@
                         <i class="devicon-javascript-plain colored fs-4 me-2" title="JavaScript"></i>
                     </div>
                     <a href="https://github.com/Krystian137/snake-flask.git" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
@@ -259,20 +264,24 @@
                 <div class="col-md-6">
                     <h2 class="text-primary">US States Game</h2>
                     <p class="lead">
-                        An interactive geographical quiz built with <strong>Python</strong> and the <strong>Turtle</strong> graphics library.
-                        The goal is to correctly name all 50 U.S. states, which are then dynamically labeled on a blank map.
-                        The application loads and processes a <strong>CSV file</strong> containing state names and their coordinates,
-                        and uses <strong>Pandas</strong> to manage data input, filtering, and output.
-                        If the player chooses to exit early, the program automatically generates a new CSV file — <code>states_to_learn.csv</code> —
-                        listing the states that were missed, allowing for personalized review and improvement.
-                        As a light introduction to data-driven applications, this project demonstrates how basic <strong>data science tools</strong>
-                        can be applied in an interactive and visual context.
+                        {{ _('An interactive geographical quiz built with') }} <strong>{{ _('Python') }}</strong>
+                        {{ _('and the') }} <strong>{{ _('Turtle') }}</strong> {{ _('graphics library.') }}
+                        {{ _('The goal is to correctly name all 50 U.S. states, which are then dynamically labeled on a blank map.') }}
+                        {{ _('The application loads and processes a') }} <strong>{{ _('CSV file') }}</strong>
+                        {{ _('containing state names and their coordinates, and uses') }}
+                        <strong>{{ _('Pandas') }}</strong> {{ _('to manage data input, filtering, and output.') }}
+                        {{ _('If the player chooses to exit early, the program automatically generates a new CSV file -') }}
+                        <code>states_to_learn.csv</code> -
+                        {{ _('listing the states that were missed, allowing for personalized review and improvement.') }}
+                        {{ _('As a light introduction to data-driven applications, this project demonstrates how basic') }}
+                        <strong>{{ _('data science tools') }}</strong>
+                        {{ _('can be applied in an interactive and visual context.') }}
                     </p>
                     <div class="mb-2">
                         <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
                     </div>
                     <a href="https://github.com/Krystian137/us-states-game" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
@@ -289,16 +298,22 @@
                 <div class="col-md-6">
                     <h2 class="text-primary">Pong Game</h2>
                     <p class="lead">
-                        A modern take on the classic Pong game, developed using <strong>Python</strong> and the <strong>Turtle</strong> graphics library.
-                        The project is structured in an object-oriented way, with separate classes for the paddles, ball, and scoreboard.
-                        It features real-time input handling for smooth two-player gameplay, dynamic collision detection, score tracking, and a gradually increasing ball speed.
-                        I built this project as a personal exercise to better understand <strong>object-oriented programming</strong> and <strong>basic game mechanics</strong>, while experimenting with simple animation and user interaction in Python.
+                        {{ _('A modern take on the classic Pong game, developed using') }} <strong>{{ _('Python') }}</strong>
+                        {{ _('and the') }} <strong>{{ _('Turtle') }}</strong> {{ _('graphics library.') }}
+                        {{ _('The project is structured in an object-oriented way, with separate classes for the paddles, ball,
+                        and scoreboard.') }}
+                        {{ _('It features real-time input handling for smooth two-player gameplay, dynamic collision
+                        detection, score tracking, and a gradually increasing ball speed.') }}
+                        {{ _('I built this project as a personal exercise to better understand') }}
+                        <strong>{{ _('object-oriented programming') }}</strong> {{ _('and') }}
+                        <strong>{{ _('basic game mechanics') }}</strong>, {{ _('while experimenting with simple animation
+                        and user interaction in Python.') }}
                     </p>
                     <div class="mb-2">
                         <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
                     </div>
                     <a href="https://github.com/Krystian137/Pong_Game" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on Github
+                        <i class="fab fa-github"></i> {{ _('View on Github') }}
                     </a>
                 </div>
             </div>
@@ -315,16 +330,21 @@
                 <div class="col-md-6">
                     <h2 class="text-primary">Snake Game</h2>
                     <p class="lead">
-                        A classic <strong>Snake</strong> game built in <strong>Python</strong> using the <strong>Turtle</strong> graphics library.
-                        The project is structured in an object-oriented manner, with separate classes handling the snake's behavior, food spawning, and scorekeeping.
-                        It features real-time input handling, collision detection with walls, food, and the snake’s own body, as well as persistent high score tracking using a local file.
-                        I created this project to strengthen my understanding of <strong>object-oriented programming</strong>, <strong>collision logic</strong>, and working with persistent data.
+                        {{ _('A classic') }} <strong>{{ _('Snake') }}</strong> {{ _('game built in') }}
+                        <strong>{{ _('Python') }}</strong> {{ _('using the') }} <strong>{{ _('Turtle') }}</strong>
+                        {{ _('graphics library.') }}
+                        {{ _('The project is structured in an object-oriented manner, with separate classes handling the
+                        snake\'s behavior, food spawning, and score keeping.') }}
+                        {{ _('It features real-time input handling, collision detection with walls, food, and the snake’s
+                        own body, as well as persistent high score tracking using a local file.') }}
+                        {{ _('I created this project to strengthen my understanding of') }} <strong>{{ _('object-oriented
+                        programming') }}</strong>, <strong>{{ _('collision logic') }}</strong>, {{ _('and working with persistent data.') }}
                     </p>
                     <div class="mb-2">
                         <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
                     </div>
                     <a href="https://github.com/Krystian137/Snake-Game" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
@@ -336,21 +356,26 @@
             <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
                 <div class="col-md-6">
                     <img src="{{ url_for('static', filename='assets/img/otherProjects/turtleCrossing.png') }}"
-                         class="img-fluid rounded shadow img-zoom" alt="Turtle Crossing Game">
+                         class="img-fluid rounded shadow img-zoom" alt="{{ _('Turtle Crossing Game') }}">
                 </div>
                 <div class="col-md-6">
                     <h2 class="text-primary">Turtle Crossing Game</h2>
                     <p class="lead">
-                        A <strong>Frogger-style game</strong> developed in <strong>Python</strong> with the <strong>Turtle</strong> graphics module.
-                        The player controls a turtle trying to cross a busy road without getting hit by randomly generated cars.
-                        Each successful crossing increases the game level and the speed of oncoming traffic, making the game progressively more challenging.
-                        This project helped me improve my skills in <strong>event-driven programming</strong>, <strong>object-oriented design</strong>, and handling <strong>dynamic difficulty scaling</strong>.
+                        {{ _('A') }} <strong>{{ _('Frogger-style game') }}</strong> {{ _('developed in') }}
+                        <strong>{{ _('Python') }}</strong> {{ _('with the') }} <strong>{{ _('Turtle') }}</strong>
+                        {{ _('graphics module.') }}
+                        {{ _('The player controls a turtle trying to cross a busy road without getting hit by randomly generated cars.') }}
+                        {{ _('Each successful crossing increases the game level and the speed of oncoming traffic,
+                        making the game progressively more challenging.') }}
+                        {{ _('This project helped me improve my skills in') }} <strong>{{ _('event-driven programming') }}</strong>,
+                        <strong>{{ _('object-oriented design') }}</strong>, {{ _('and handling') }} <strong>{{ _('dynamic difficulty
+                        scaling') }}</strong>.
                     </p>
                     <div class="mb-2">
-                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                        <i class="devicon-python-plain colored fs-4 me-2" title="{{ _('Python') }}"></i>
                     </div>
                     <a href="https://github.com/Krystian137/turtle-crossing-start" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
@@ -362,21 +387,24 @@
             <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
                 <div class="col-md-6">
                     <img src="{{ url_for('static', filename='assets/img/otherProjects/quizGame.png') }}"
-                         class="img-fluid rounded shadow img-zoom" alt="Quiz Game">
+                         class="img-fluid rounded shadow img-zoom" alt="{{ _('Quiz Game') }}">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="text-primary">Quiz Game</h2>
+                    <h2 class="text-primary">{{ _('Quiz Game') }}</h2>
                     <p class="lead">
-                        A simple <strong>True/False quiz game</strong> written in <strong>Python</strong>, based on object-oriented programming principles.
-                        The questions are pulled from a structured data source and displayed one by one in the terminal.
-                        The game keeps track of the user's score and gives immediate feedback after each answer.
-                        This project improved my understanding of <strong>data encapsulation</strong>, <strong>input validation</strong>, and <strong>managing program state</strong> using class instances.
+                        {{ _('A simple') }} <strong>{{ _('True/False quiz game') }}</strong> {{ _('written in') }}
+                        <strong>{{ _('Python') }}</strong>, {{ _('based on object-oriented programming principles.') }}
+                        {{ _('The questions are pulled from a structured data source and displayed one by one in the terminal.') }}
+                        {{ _('The game keeps track of the user\'s score and gives immediate feedback after each answer.') }}
+                        {{ _('This project improved my understanding of') }} <strong>{{ _('data encapsulation') }}</strong>,
+                        <strong>{{ _('input validation') }}</strong>, {{ _('and') }} <strong>{{ _('managing program state') }}</strong>
+                        {{ _('using class instances.') }}
                     </p>
                     <div class="mb-2">
-                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                        <i class="devicon-python-plain colored fs-4 me-2" title="{{ _('Python') }}"></i>
                     </div>
                     <a href="https://github.com/Krystian137/quiz-game-start" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
@@ -388,22 +416,22 @@
             <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
                 <div class="col-md-6">
                     <img src="{{ url_for('static', filename='assets/img/otherProjects/pricesDataScraping.png') }}"
-                         class="img-fluid rounded shadow img-zoom" alt="Prices Scarping">
+                         class="img-fluid rounded shadow img-zoom" alt="{{ _('Prices Scraping') }}">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="text-primary">Prices Data Scraping</h2>
+                    <h2 class="text-primary">{{ _('Prices Data Scraping') }}</h2>
                     <p class="lead">
-                        A data scraping project focused on collecting rental property information (price, address, and link)
-                        from a Zillow-like website using BeautifulSoup and Selenium. Extracted data is then automatically
-                        submitted to a Google Form, simulating data entry automation. This project demonstrates practical
-                        use of web scraping, data parsing, and browser automation — useful skills in data analysis pipelines
-                        and web data integration.
+                        {{ _('A data scraping project focused on collecting rental property information (price, address,
+                        and link) from a Zillow-like website using BeautifulSoup and Selenium.') }}
+                        {{ _('Extracted data is then automatically submitted to a Google Form, simulating data entry automation.') }}
+                        {{ _('This project demonstrates practical use of web scraping, data parsing, and browser automation -
+                        useful skills in data analysis pipelines and web data integration.') }}
                     </p>
                     <div class="mb-2">
-                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                        <i class="devicon-python-plain colored fs-4 me-2" title="{{ _('Python') }}"></i>
                     </div>
                     <a href="https://github.com/Krystian137/PricesDataScraping" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
@@ -415,22 +443,24 @@
             <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
                 <div class="col-md-6">
                     <img src="{{ url_for('static', filename='assets/img/otherProjects/cookieClickerBot.png') }}"
-                         class="img-fluid rounded shadow img-zoom" alt="Prices Scarping">
+                         class="img-fluid rounded shadow img-zoom" alt="{{ _('Cookie Clicker Bot') }}">
                 </div>
                 <div class="col-md-6">
                     <h2 class="text-primary">Cookie Clicker Bot</h2>
                     <p class="lead">
-                        A Selenium-based automation project showcasing browser interaction skills through multiple mini-tasks.
-                        The main focus is a bot for the Cookie Clicker game that automates cookie generation and intelligently
-                        purchases upgrades to optimize efficiency. Additional scripts demonstrate how to scrape event data
-                        from python.org, automate form submissions, and interact with Wikipedia. This project highlights
-                        practical web automation techniques and real-time decision-making in dynamic web environments.
+                        {{ _('A Selenium-based automation project showcasing browser interaction skills through multiple mini-tasks.') }}
+                        {{ _('The main focus is a bot for the Cookie Clicker game that automates cookie generation and
+                        intelligently purchases upgrades to optimize efficiency.') }}
+                        {{ _('Additional scripts demonstrate how to scrape event data from python.org, automate form
+                        submissions, and interact with Wikipedia.') }}
+                        {{ _('This project highlights practical web automation techniques and real-time decision-making
+                        in dynamic web environments.') }}
                     </p>
                     <div class="mb-2">
-                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                        <i class="devicon-python-plain colored fs-4 me-2" title="{{ _('Python') }}"></i>
                     </div>
                     <a href="https://github.com/Krystian137/CookieClickerBot" target="_blank" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
@@ -442,21 +472,22 @@
             <div class="row align-items-center" data-aos="fade-up" data-aos-duration="800">
                 <div class="col-md-6">
                     <img src="{{ url_for('static', filename='assets/img/otherProjects/top100songs.png') }}"
-                         class="img-fluid rounded shadow img-zoom" alt="Top 100 Songs">
+                         class="img-fluid rounded shadow img-zoom" alt="{{ _('Top 100 Songs') }}">
                 </div>
                 <div class="col-md-6">
                     <h2 class="text-primary">Top 100 Songs</h2>
                     <p class="lead">
-                        Built a Python application that scrapes the Billboard Hot 100 chart for a user-specified date (using
-                        BeautifulSoup), searches for each track on Spotify via the Spotipy API, and automatically creates
-                        a private Spotify playlist with the found songs. Utilized OAuth for user authentication and integrated
-                        data from multiple external sources (Billboard and Spotify APIs).
+                        {{ _('Built a Python application that scrapes the Billboard Hot 100 chart for a user-specified
+                        date (using BeautifulSoup), searches for each track on Spotify via the Spotipy API, and automatically
+                        creates a private Spotify playlist with the found songs.') }}
+                        {{ _('Utilized OAuth for user authentication and integrated data from multiple external sources
+                        (Billboard and Spotify APIs).') }}
                     </p>
                     <div class="mb-2">
-                        <i class="devicon-python-plain colored fs-4 me-2" title="Python"></i>
+                        <i class="devicon-python-plain colored fs-4 me-2" title="{{ _('Python') }}"></i>
                     </div>
                     <a href="#" class="btn btn-outline-dark btn-sm me-2">
-                        <i class="fab fa-github"></i> View on GitHub
+                        <i class="fab fa-github"></i> {{ _('View on GitHub') }}
                     </a>
                 </div>
             </div>
