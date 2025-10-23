@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-28 18:12+0200\n"
+"POT-Creation-Date: 2025-10-23 09:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,56 +17,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: templates/index.html:33 templates/index.html:64 templates/index.html:118
+#: templates/index.html:33 templates/index.html:82 templates/index.html:157
 msgid "Resume"
-msgstr ""
+msgstr "CV"
 
-#: templates/index.html:36 templates/index.html:65 templates/index.html:263
+#: templates/index.html:37 templates/index.html:83 templates/index.html:329
 msgid "Projects"
 msgstr ""
 
-#: templates/index.html:39 templates/index.html:66 templates/index.html:443
+#: templates/index.html:41 templates/index.html:84 templates/index.html:418
+#: templates/movies_project.html:66 templates/otherprojects.html:501
+#: templates/steamchests.html:408
 msgid "Contact"
 msgstr ""
 
-#: templates/index.html:54 templates/index.html:55
+#: templates/index.html:67
 msgid "Hello!"
 msgstr ""
 
-#: templates/index.html:57
+#: templates/index.html:69
 msgid ""
-"IT student (3rd year) focused on Web Engineering, with a strong interest "
-"in front-end and back-end\n"
-"                    development. Comfortable working with Python. Looking"
-" for my first opportunity to apply my skills\n"
-"                    in a real-world development environment."
+"I'm IT student (4rd year) with specialization in Web Engineering. "
+"Actively working in Python, and\n"
+"                    back-end development. I'm also exploring data science"
+" and enjoy working with datasets and\n"
+"                    statistical analysis."
 msgstr ""
 
-#: templates/index.html:78
+#: templates/index.html:96 templates/moviereviewers.html:201
+#: templates/movies_project.html:39 templates/myfilmsay.html:198
+#: templates/steamchests.html:151
 msgid "Technologies"
 msgstr ""
 
-#: templates/index.html:79
+#: templates/index.html:97
 msgid "Technologies I know:"
 msgstr ""
 
-#: templates/index.html:125
-msgid "Education"
+#: templates/index.html:164
+msgid "Experience"
 msgstr ""
 
-#: templates/index.html:132
+#: templates/index.html:171 templates/index.html:199
 msgid "Present"
 msgstr ""
 
-#: templates/index.html:135
+#: templates/index.html:174
+msgid "SEBIT24"
+msgstr ""
+
+#: templates/index.html:176
+msgid ""
+"\n"
+"                            Responsible for implementing updates and "
+"optimizing an existing website, with a focus\n"
+"                            on maintaining consistency with current "
+"design and standards. <br><br>\n"
+"                            Performed comprehensive diagnostics and "
+"independent repairs of computer hardware. Responsible\n"
+"                            for servicing and maintaining equipment, "
+"including troubleshooting and implementing technical\n"
+"                            solutions to ensure continuous device "
+"operation. <br><br>\n"
+"                            Handled operational support for e-commerce "
+"orders, including quality control, order fulfillment,\n"
+"                            and verification of product accuracy prior to"
+" shipment.\n"
+"                            "
+msgstr ""
+
+#: templates/index.html:192
+msgid "Education"
+msgstr ""
+
+#: templates/index.html:202
 msgid "Wroclaw Business University of Applied Sciences"
 msgstr ""
 
-#: templates/index.html:137
+#: templates/index.html:204
 msgid ""
-"Bachelor's degree in Computer Science,\n"
-"                            specializing in Web Engineering. Gained "
-"practical\n"
+"Bachelor of Engineering degree in Computer Science, specializing in Web "
+"Engineering. Gained practical\n"
 "                            knowledge in programming, database design and"
 " integration, computer networks, and IT project\n"
 "                            management. Covered full-stack web "
@@ -77,11 +108,11 @@ msgid ""
 "development best practices."
 msgstr ""
 
-#: templates/index.html:152
+#: templates/index.html:218
 msgid "Technical Secondary School No. 1 (Kemal Mustafa Atatürk)"
 msgstr ""
 
-#: templates/index.html:154
+#: templates/index.html:220
 msgid ""
 "Specialized in Computer Science with an extended curriculum in "
 "Mathematics and Physics. Gained\n"
@@ -89,36 +120,34 @@ msgid ""
 " networks, and server management on both Linux\n"
 "                            and Windows systems. Learned the basics of "
 "programming and web development, including building\n"
-"                            and maintaining websites. Developed strong "
-"problem-solving skills and a passion for technology."
+"                            and maintaining websites. Developed problem-"
+"solving skills and a passion for technology."
 msgstr ""
 
-#: templates/index.html:167
-msgid "Additional Programming Courses (Middle School)"
+#: templates/index.html:233
+msgid "Additional Programming Courses (junior high school)"
 msgstr ""
 
-#: templates/index.html:169
+#: templates/index.html:235
 msgid ""
-"Attended extracurricular programming classes during middle school, which "
-"laid the foundation\n"
-"                            for my interest in technology and software "
-"development. Gained early experience with basic\n"
-"                            programming concepts and problem-solving "
-"techniques."
+"Attended extracurricular programming classes during junior high school. "
+"Gained early experience\n"
+"                            with basic programming, and front-end "
+"development."
 msgstr ""
 
-#: templates/index.html:178
+#: templates/index.html:244
 msgid "Courses (Udemy)"
 msgstr ""
 
-#: templates/index.html:186
+#: templates/index.html:252
 msgid ""
 "Master Python by Building 100 Projects in 100 Days. Learn Data Science, "
 "Automation,\n"
 "                            Build Websites, Games, and Apps!"
 msgstr ""
 
-#: templates/index.html:189
+#: templates/index.html:255
 msgid ""
 "In this comprehensive course, you'll learn Python by working on 100 "
 "diverse projects over\n"
@@ -132,14 +161,14 @@ msgid ""
 "showcase your abilities to potential employers or clients."
 msgstr ""
 
-#: templates/index.html:201
+#: templates/index.html:267
 msgid ""
 "Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, "
 "JavaScript, Node, React,\n"
 "                            PostgreSQL, Web3, and DApps"
 msgstr ""
 
-#: templates/index.html:204
+#: templates/index.html:270
 msgid ""
 "This all-in-one course is your gateway to becoming a full-stack web "
 "developer. Covering a\n"
@@ -153,11 +182,11 @@ msgid ""
 "full-stack development and build real-world projects from scratch."
 msgstr ""
 
-#: templates/index.html:216
+#: templates/index.html:282
 msgid "Build Your First Website from Scratch and Learn the Key Principles of UX"
 msgstr ""
 
-#: templates/index.html:218
+#: templates/index.html:284
 msgid ""
 "Basic UX concepts and principles. Drawing inspiration and the first "
 "stages of the project.\n"
@@ -167,11 +196,11 @@ msgid ""
 "finalizing the project elements."
 msgstr ""
 
-#: templates/index.html:228
+#: templates/index.html:294
 msgid "Learning the Basics of Photoshop CC for Web Design Beginners"
 msgstr ""
 
-#: templates/index.html:230
+#: templates/index.html:296
 msgid ""
 "Understanding the User Interface; Working with Tools and Layers; Creating"
 " Shapes; Organizing\n"
@@ -181,34 +210,34 @@ msgid ""
 "Text; Designing with Photoshop."
 msgstr ""
 
-#: templates/index.html:240
+#: templates/index.html:306
 msgid "Get to Know Formats, Resolutions, DPI, and More"
 msgstr ""
 
-#: templates/index.html:242
+#: templates/index.html:308
 msgid ""
 "Screen Basics; Scaling on Devices; Graphic File Formats; Platform "
 "Specifics."
 msgstr ""
 
-#: templates/index.html:250
+#: templates/index.html:316
 msgid ""
 "Everything You Need to Know About Adobe XD to Start Designing & "
 "Prototyping Awesome Apps"
 msgstr ""
 
-#: templates/index.html:252
+#: templates/index.html:318
 msgid "Basic Tools; Advanced Tools; Designing Assets; Prototyping."
 msgstr ""
 
-#: templates/index.html:264
+#: templates/index.html:330
 msgid "Explore some of the exciting projects I have worked on!"
 msgstr ""
 
-#: templates/index.html:274
+#: templates/index.html:340
 msgid ""
-"Movie Reviewers is a learning-focused web application that allows users "
-"to explore community opinions\n"
+"My Film Say is a learning-focused web application that allows users to "
+"explore community opinions\n"
 "                    on specific movies. The platform fetches movie "
 "details such as title, rating, description, and poster\n"
 "                    via the IMDb API. Users can post their own reviews, "
@@ -216,90 +245,2072 @@ msgid ""
 "                    through comment threads."
 msgstr ""
 
-#: templates/index.html:280 templates/index.html:304 templates/index.html:328
-#: templates/index.html:351
+#: templates/index.html:346 templates/index.html:374
+#: templates/moviereviewers.html:11 templates/myfilmsay.html:12
+#: templates/otherprojects.html:250 templates/otherprojects.html:284
+#: templates/otherprojects.html:347 templates/otherprojects.html:378
+#: templates/otherprojects.html:407 templates/otherprojects.html:434
+#: templates/otherprojects.html:463 templates/otherprojects.html:490
+#: templates/steamchests.html:63
+msgid "View on GitHub"
+msgstr ""
+
+#: templates/index.html:349 templates/index.html:377 templates/index.html:401
 msgid "See More"
 msgstr ""
 
-#: templates/index.html:296
+#: templates/index.html:365
 msgid "Steam Chest Prices"
 msgstr ""
 
-#: templates/index.html:299
+#: templates/index.html:368
 msgid ""
-"Steam Chest Prices is a web application designed for monitoring the "
-"prices of CS2 (Counter-Strike 2)\n"
-"                    weapon cases on the Steam Market. Users can view "
-"historical price charts for each case and create an\n"
-"                    account to track their own collection. By adding "
-"owned cases to their profile, users can automatically\n"
-"                    calculate the total value of their inventory and see "
-"daily price changes."
+"Steam Chest Prices is a web application focused on data analysis of CS2 "
+"(Counter-Strike 2) weapon\n"
+"                    case prices from the Steam Market. It offers "
+"historical price charts, percentage change calculations over\n"
+"                    time, and dynamic value tracking. Users can create "
+"accounts to monitor their own collection and gain insights\n"
+"                    into market trends through visualizations and "
+"automated value summaries."
 msgstr ""
 
-#: templates/index.html:319
+#: templates/index.html:392 templates/otherprojects.html:69
 msgid "Technical Practice Projects"
 msgstr ""
 
-#: templates/index.html:322
+#: templates/index.html:395
 msgid ""
 "A selection of smaller projects developed to enhance my\n"
-"                    proficiency in Python and gain hands-on experience "
-"with a variety of technologies. Each project\n"
+"                    proficiency in Python and gain experience with a "
+"variety of technologies. Each project\n"
 "                    served as a learning opportunity, allowing me to "
 "explore new tools, frameworks, and programming\n"
 "                    paradigms in a practical context."
 msgstr ""
 
-#: templates/index.html:343
-msgid "Data Science Practice"
-msgstr ""
-
-#: templates/index.html:346
-msgid ""
-"A curated collection of exercises, notebooks, and projects created during"
-" my journey of learning data science.\n"
-"                    This section highlights key concepts such as data "
-"cleaning, visualization, statistical modeling, and\n"
-"                    machine learning — all approached through practical, "
-"hands-on experimentation using real-world datasets."
-msgstr ""
-
-#: templates/index.html:367
-msgid "Contact Me"
-msgstr ""
-
-#: templates/index.html:369
-msgid ""
-"Want to get in touch? Fill out the form below and I'll respond as soon as"
-" possible!"
-msgstr ""
-
-#: templates/index.html:386
-msgid "Name"
-msgstr ""
-
-#: templates/index.html:398
-msgid "Email address"
-msgstr ""
-
-#: templates/index.html:410
-msgid "Phone Number"
-msgstr ""
-
-#: templates/index.html:422
-msgid "Message"
-msgstr ""
-
-#: templates/index.html:431
-msgid "Send"
-msgstr ""
-
-#: templates/index.html:465
+#: templates/index.html:440 templates/movies_project.html:88
+#: templates/otherprojects.html:523 templates/steamchests.html:430
 msgid "Socials"
 msgstr ""
 
-#: templates/index.html:499
+#: templates/index.html:466 templates/movies_project.html:115
+#: templates/otherprojects.html:549 templates/steamchests.html:456
 msgid "All rights reserved."
+msgstr ""
+
+#: templates/moviereviewers.html:21 templates/steamchests.html:36
+#: templates/steamchests.html:73
+msgid "About Project"
+msgstr ""
+
+#: templates/moviereviewers.html:22
+msgid "Technologies behind it and the idea that started it all."
+msgstr ""
+
+#: templates/moviereviewers.html:34 templates/moviereviewers.html:321
+#: templates/myfilmsay.html:22 templates/myfilmsay.html:314
+#: templates/steamchests.html:39 templates/steamchests.html:86
+#: templates/steamchests.html:302
+msgid "Home"
+msgstr ""
+
+#: templates/moviereviewers.html:35 templates/myfilmsay.html:23
+msgid "Overview of all available movies."
+msgstr ""
+
+#: templates/moviereviewers.html:47 templates/moviereviewers.html:355
+#: templates/myfilmsay.html:35 templates/myfilmsay.html:350
+msgid "Movie Site"
+msgstr ""
+
+#: templates/moviereviewers.html:48 templates/myfilmsay.html:36
+msgid "All information about movie and comments"
+msgstr ""
+
+#: templates/moviereviewers.html:60 templates/myfilmsay.html:48
+msgid "Add and edit movies"
+msgstr ""
+
+#: templates/moviereviewers.html:61 templates/myfilmsay.html:49
+msgid "Adding and editing on a site"
+msgstr ""
+
+#: templates/moviereviewers.html:73 templates/moviereviewers.html:461
+#: templates/myfilmsay.html:74 templates/myfilmsay.html:505
+msgid "User Profile"
+msgstr ""
+
+#: templates/moviereviewers.html:74 templates/myfilmsay.html:75
+msgid "Monitoring user activity"
+msgstr ""
+
+#: templates/moviereviewers.html:86 templates/myfilmsay.html:87
+msgid "Admin and moderator page"
+msgstr ""
+
+#: templates/moviereviewers.html:87 templates/myfilmsay.html:88
+msgid "Deleting users and adding roles"
+msgstr ""
+
+#: templates/moviereviewers.html:99 templates/moviereviewers.html:507
+msgid "About me and contact"
+msgstr ""
+
+#: templates/moviereviewers.html:100
+msgid "Information for other users about author, and contact"
+msgstr ""
+
+#: templates/moviereviewers.html:112 templates/myfilmsay.html:113
+msgid "Comments"
+msgstr ""
+
+#: templates/moviereviewers.html:113 templates/myfilmsay.html:114
+msgid "Comment sections for users opinion"
+msgstr ""
+
+#: templates/moviereviewers.html:125 templates/myfilmsay.html:126
+#: templates/steamchests.html:137
+msgid "Login and Register"
+msgstr ""
+
+#: templates/moviereviewers.html:126 templates/myfilmsay.html:127
+#: templates/steamchests.html:138
+msgid "Login or Register new account"
+msgstr ""
+
+#: templates/moviereviewers.html:140 templates/myfilmsay.html:141
+#: templates/steamchests.html:180
+msgid "Idea that started the project"
+msgstr ""
+
+#: templates/moviereviewers.html:142 templates/myfilmsay.html:143
+msgid ""
+"I wanted to create a project that would help me develop more practical "
+"programming skills. Initially,\n"
+"                        the idea was based on concepts I had learned "
+"during courses, and the website was intended\n"
+"                        to be a small learning exercise. Over time, it "
+"evolved into a more advanced platform as\n"
+"                        I continued to use it as a workspace for "
+"experimenting with new technologies."
+msgstr ""
+
+#: templates/moviereviewers.html:154 templates/myfilmsay.html:155
+#: templates/steamchests.html:195
+msgid "More about the project"
+msgstr ""
+
+#: templates/moviereviewers.html:155 templates/myfilmsay.html:156
+msgid "Overview"
+msgstr ""
+
+#: templates/moviereviewers.html:157 templates/moviereviewers.html:510
+msgid "Movie Reviewers"
+msgstr ""
+
+#: templates/moviereviewers.html:157 templates/myfilmsay.html:158
+msgid "is a"
+msgstr ""
+
+#: templates/moviereviewers.html:158 templates/myfilmsay.html:158
+msgid "full-stack web application"
+msgstr ""
+
+#: templates/moviereviewers.html:158 templates/myfilmsay.html:159
+msgid "inspired by platforms like"
+msgstr ""
+
+#: templates/moviereviewers.html:159 templates/moviereviewers.html:173
+#: templates/moviereviewers.html:183 templates/moviereviewers.html:336
+#: templates/moviereviewers.html:362 templates/moviereviewers.html:384
+#: templates/moviereviewers.html:387 templates/moviereviewers.html:463
+#: templates/moviereviewers.html:487 templates/moviereviewers.html:545
+#: templates/myfilmsay.html:160 templates/myfilmsay.html:171
+#: templates/myfilmsay.html:174 templates/myfilmsay.html:182
+#: templates/myfilmsay.html:331 templates/myfilmsay.html:357
+#: templates/myfilmsay.html:381 templates/myfilmsay.html:384
+#: templates/myfilmsay.html:507 templates/myfilmsay.html:531
+#: templates/myfilmsay.html:578 templates/myfilmsay.html:587
+#: templates/otherprojects.html:207 templates/otherprojects.html:235
+#: templates/otherprojects.html:308 templates/otherprojects.html:400
+msgid "and"
+msgstr ""
+
+#: templates/moviereviewers.html:159 templates/myfilmsay.html:160
+msgid ""
+"created as part of a\n"
+"                                personal development initiative to "
+"explore web technologies."
+msgstr ""
+
+#: templates/moviereviewers.html:161 templates/myfilmsay.html:162
+msgid "The platform allows users to browse a"
+msgstr ""
+
+#: templates/moviereviewers.html:162 templates/myfilmsay.html:162
+msgid "curated selection of movies"
+msgstr ""
+
+#: templates/moviereviewers.html:162 templates/myfilmsay.html:162
+msgid "with"
+msgstr ""
+
+#: templates/moviereviewers.html:163 templates/myfilmsay.html:163
+msgid "interactive poster cards"
+msgstr ""
+
+#: templates/moviereviewers.html:163 templates/myfilmsay.html:163
+msgid "that reveal detailed information on hover and a"
+msgstr ""
+
+#: templates/moviereviewers.html:164 templates/myfilmsay.html:164
+msgid "dynamic carousel"
+msgstr ""
+
+#: templates/moviereviewers.html:164 templates/myfilmsay.html:164
+msgid "showcasing random featured films."
+msgstr ""
+
+#: templates/moviereviewers.html:168 templates/myfilmsay.html:168
+msgid "Each movie has a dedicated page containing"
+msgstr ""
+
+#: templates/moviereviewers.html:169
+msgid "key details, ratings, and a comment section"
+msgstr ""
+
+#: templates/moviereviewers.html:169 templates/myfilmsay.html:169
+msgid "where registered users can"
+msgstr ""
+
+#: templates/moviereviewers.html:170 templates/myfilmsay.html:170
+msgid "engage in discussion"
+msgstr ""
+
+#: templates/moviereviewers.html:170
+msgid "reply to other comments, and"
+msgstr ""
+
+#: templates/moviereviewers.html:171 templates/myfilmsay.html:172
+msgid "vote on their usefulness"
+msgstr ""
+
+#: templates/moviereviewers.html:171 templates/myfilmsay.html:172
+msgid "The project implements a"
+msgstr ""
+
+#: templates/moviereviewers.html:172 templates/myfilmsay.html:173
+msgid "role-based access control system"
+msgstr ""
+
+#: templates/moviereviewers.html:172
+msgid "with three roles:"
+msgstr ""
+
+#: templates/moviereviewers.html:173 templates/myfilmsay.html:174
+msgid "admin, moderator"
+msgstr ""
+
+#: templates/moviereviewers.html:173 templates/myfilmsay.html:174
+msgid "standard user"
+msgstr ""
+
+#: templates/moviereviewers.html:174 templates/myfilmsay.html:175
+msgid "Admins and moderators can"
+msgstr ""
+
+#: templates/moviereviewers.html:175
+msgid "add, edit, or delete movies"
+msgstr ""
+
+#: templates/moviereviewers.html:175
+msgid "manage comments,"
+msgstr ""
+
+#: templates/moviereviewers.html:176
+msgid "moderate user profiles"
+msgstr ""
+
+#: templates/moviereviewers.html:176 templates/myfilmsay.html:176
+msgid "and assign roles within the platform."
+msgstr ""
+
+#: templates/moviereviewers.html:180 templates/myfilmsay.html:180
+msgid "All movie data is"
+msgstr ""
+
+#: templates/moviereviewers.html:180 templates/myfilmsay.html:180
+msgid "fetched from the TMDB API"
+msgstr ""
+
+#: templates/moviereviewers.html:180 templates/myfilmsay.html:180
+msgid "to ensure accurate information."
+msgstr ""
+
+#: templates/moviereviewers.html:181 templates/myfilmsay.html:181
+msgid "The platform integrates"
+msgstr ""
+
+#: templates/moviereviewers.html:182 templates/myfilmsay.html:181
+msgid "authentication"
+msgstr ""
+
+#: templates/moviereviewers.html:182 templates/myfilmsay.html:181
+msgid "user management"
+msgstr ""
+
+#: templates/moviereviewers.html:183 templates/myfilmsay.html:182
+msgid "form handling"
+msgstr ""
+
+#: templates/moviereviewers.html:184 templates/myfilmsay.html:182
+msgid "real-time feedback"
+msgstr ""
+
+#: templates/moviereviewers.html:184 templates/myfilmsay.html:182
+msgid "features to deliver a"
+msgstr ""
+
+#: templates/moviereviewers.html:185 templates/myfilmsay.html:183
+msgid "responsive and user-friendly experience"
+msgstr ""
+
+#: templates/moviereviewers.html:186 templates/myfilmsay.html:184
+msgid "The project serves both as a"
+msgstr ""
+
+#: templates/moviereviewers.html:187 templates/myfilmsay.html:184
+msgid "movie review system"
+msgstr ""
+
+#: templates/moviereviewers.html:187 templates/myfilmsay.html:184
+msgid "and a"
+msgstr ""
+
+#: templates/moviereviewers.html:188 templates/myfilmsay.html:185
+msgid "learning ground for full-stack development practices"
+msgstr ""
+
+#: templates/moviereviewers.html:202 templates/myfilmsay.html:199
+#: templates/steamchests.html:152
+msgid "Technologies used:"
+msgstr ""
+
+#: templates/moviereviewers.html:246 templates/myfilmsay.html:243
+#: templates/steamchests.html:224
+msgid "Database:"
+msgstr ""
+
+#: templates/moviereviewers.html:250 templates/myfilmsay.html:247
+#: templates/steamchests.html:232
+msgid "Authentication:"
+msgstr ""
+
+#: templates/moviereviewers.html:254
+msgid "Forms & Input:"
+msgstr ""
+
+#: templates/moviereviewers.html:258 templates/myfilmsay.html:251
+#: templates/steamchests.html:240
+msgid "Data:"
+msgstr ""
+
+#: templates/moviereviewers.html:266 templates/myfilmsay.html:259
+#: templates/steamchests.html:247
+msgid "Key Features"
+msgstr ""
+
+#: templates/moviereviewers.html:273 templates/myfilmsay.html:266
+msgid "Interactive Movie Cards"
+msgstr ""
+
+#: templates/moviereviewers.html:274 templates/myfilmsay.html:267
+msgid "Flip-style cards showing posters and movie details on hover."
+msgstr ""
+
+#: templates/moviereviewers.html:280 templates/myfilmsay.html:273
+msgid "Random Carousel"
+msgstr ""
+
+#: templates/moviereviewers.html:281 templates/myfilmsay.html:274
+msgid "Dynamic carousel with random movies and key information."
+msgstr ""
+
+#: templates/moviereviewers.html:287 templates/myfilmsay.html:280
+msgid "User Comments"
+msgstr ""
+
+#: templates/moviereviewers.html:288 templates/myfilmsay.html:281
+msgid "Add, reply to, and rate comments with upvote and downvote."
+msgstr ""
+
+#: templates/moviereviewers.html:294 templates/myfilmsay.html:287
+msgid "Role-Based System"
+msgstr ""
+
+#: templates/moviereviewers.html:295 templates/myfilmsay.html:288
+msgid "Admin, moderator, and user roles with different permissions."
+msgstr ""
+
+#: templates/moviereviewers.html:301 templates/myfilmsay.html:294
+msgid "User Management"
+msgstr ""
+
+#: templates/moviereviewers.html:302 templates/myfilmsay.html:295
+msgid "Admins can manage users, comments, and edit movie data."
+msgstr ""
+
+#: templates/moviereviewers.html:308 templates/myfilmsay.html:301
+msgid "External Data"
+msgstr ""
+
+#: templates/moviereviewers.html:309 templates/myfilmsay.html:302
+msgid "Movie details fetched directly from the TMDB API."
+msgstr ""
+
+#: templates/moviereviewers.html:323 templates/myfilmsay.html:316
+msgid ""
+"The homepage serves as the main entry point to the platform, offering an "
+"engaging and dynamic\n"
+"                    presentation of movie content."
+msgstr ""
+
+#: templates/moviereviewers.html:325 templates/myfilmsay.html:318
+msgid "It features a"
+msgstr ""
+
+#: templates/moviereviewers.html:325 templates/myfilmsay.html:318
+msgid "carousel"
+msgstr ""
+
+#: templates/moviereviewers.html:325 templates/myfilmsay.html:318
+msgid ""
+"that displays three randomly selected\n"
+"                    featured films, each enriched with key information "
+"fetched from the"
+msgstr ""
+
+#: templates/moviereviewers.html:327 templates/myfilmsay.html:320
+msgid "Below the carousel, users are presented with a grid of"
+msgstr ""
+
+#: templates/moviereviewers.html:328 templates/myfilmsay.html:321
+msgid "interactive movie cards"
+msgstr ""
+
+#: templates/moviereviewers.html:328 templates/myfilmsay.html:321
+msgid "which utilize"
+msgstr ""
+
+#: templates/moviereviewers.html:328 templates/myfilmsay.html:321
+msgid "CSS transitions"
+msgstr ""
+
+#: templates/moviereviewers.html:329 templates/myfilmsay.html:322
+msgid "to flip on hover, revealing details like title, release year, and rating."
+msgstr ""
+
+#: templates/moviereviewers.html:330 templates/myfilmsay.html:323
+msgid "Additionally, movies can be"
+msgstr ""
+
+#: templates/moviereviewers.html:330 templates/myfilmsay.html:323
+msgid "sorted"
+msgstr ""
+
+#: templates/moviereviewers.html:330 templates/myfilmsay.html:323
+msgid ""
+"by various parameters\n"
+"                    like rating or release year, allowing for easy "
+"browsing."
+msgstr ""
+
+#: templates/moviereviewers.html:333 templates/myfilmsay.html:328
+msgid "The layout is built with"
+msgstr ""
+
+#: templates/moviereviewers.html:333 templates/myfilmsay.html:328
+msgid "Bootstrap"
+msgstr ""
+
+#: templates/moviereviewers.html:333 templates/myfilmsay.html:328
+msgid "for responsiveness, while"
+msgstr ""
+
+#: templates/moviereviewers.html:334 templates/myfilmsay.html:329
+#: templates/otherprojects.html:235
+msgid "JavaScript"
+msgstr ""
+
+#: templates/moviereviewers.html:334
+msgid ""
+"dynamically manages the content rendering and API data\n"
+"                    integration to ensure smooth and modern user "
+"interaction."
+msgstr ""
+
+#: templates/moviereviewers.html:336 templates/myfilmsay.html:331
+msgid "A special feature visible only to"
+msgstr ""
+
+#: templates/moviereviewers.html:336 templates/moviereviewers.html:463
+#: templates/moviereviewers.html:487 templates/myfilmsay.html:331
+#: templates/myfilmsay.html:507 templates/myfilmsay.html:531
+msgid "moderators"
+msgstr ""
+
+#: templates/moviereviewers.html:337 templates/myfilmsay.html:332
+msgid "admins"
+msgstr ""
+
+#: templates/moviereviewers.html:337 templates/myfilmsay.html:332
+msgid "is the"
+msgstr ""
+
+#: templates/moviereviewers.html:337 templates/myfilmsay.html:332
+msgid "add movie button"
+msgstr ""
+
+#: templates/moviereviewers.html:338 templates/myfilmsay.html:333
+msgid "enabling them to add new films to the platform with ease."
+msgstr ""
+
+#: templates/moviereviewers.html:357 templates/myfilmsay.html:352
+msgid "Provides a comprehensive view of a selected film."
+msgstr ""
+
+#: templates/moviereviewers.html:358 templates/myfilmsay.html:353
+msgid "It features the"
+msgstr ""
+
+#: templates/moviereviewers.html:358 templates/myfilmsay.html:353
+msgid "movie poster"
+msgstr ""
+
+#: templates/moviereviewers.html:358 templates/myfilmsay.html:353
+msgid "alongside a"
+msgstr ""
+
+#: templates/moviereviewers.html:359 templates/myfilmsay.html:354
+msgid "progress circle"
+msgstr ""
+
+#: templates/moviereviewers.html:359 templates/myfilmsay.html:354
+msgid ""
+"that fills up according to the movie's rating, the\n"
+"                    percentage value is displayed at the center of the "
+"circle, movie details such as the"
+msgstr ""
+
+#: templates/moviereviewers.html:361 templates/myfilmsay.html:356
+msgid "title"
+msgstr ""
+
+#: templates/moviereviewers.html:361 templates/myfilmsay.html:356
+msgid "release year"
+msgstr ""
+
+#: templates/moviereviewers.html:361 templates/myfilmsay.html:356
+msgid "genre"
+msgstr ""
+
+#: templates/moviereviewers.html:362 templates/myfilmsay.html:357
+msgid "director"
+msgstr ""
+
+#: templates/moviereviewers.html:362 templates/myfilmsay.html:357
+msgid "writer"
+msgstr ""
+
+#: templates/moviereviewers.html:363 templates/myfilmsay.html:358
+msgid "overview"
+msgstr ""
+
+#: templates/moviereviewers.html:363 templates/myfilmsay.html:358
+msgid "retrieved from the"
+msgstr ""
+
+#: templates/moviereviewers.html:363
+msgid "and stored in the database."
+msgstr ""
+
+#: templates/moviereviewers.html:364 templates/myfilmsay.html:361
+msgid "Additionally, if the user is an"
+msgstr ""
+
+#: templates/moviereviewers.html:364 templates/moviereviewers.html:421
+#: templates/myfilmsay.html:361
+msgid "admin"
+msgstr ""
+
+#: templates/moviereviewers.html:364 templates/moviereviewers.html:398
+#: templates/moviereviewers.html:421 templates/myfilmsay.html:361
+#: templates/myfilmsay.html:394
+msgid "or"
+msgstr ""
+
+#: templates/moviereviewers.html:364 templates/moviereviewers.html:421
+#: templates/myfilmsay.html:361
+msgid "moderator"
+msgstr ""
+
+#: templates/moviereviewers.html:365 templates/myfilmsay.html:362
+msgid "they are given the option to"
+msgstr ""
+
+#: templates/moviereviewers.html:365 templates/moviereviewers.html:398
+#: templates/myfilmsay.html:362 templates/myfilmsay.html:394
+msgid "edit"
+msgstr ""
+
+#: templates/moviereviewers.html:365 templates/myfilmsay.html:362
+msgid "the movie details."
+msgstr ""
+
+#: templates/moviereviewers.html:379 templates/myfilmsay.html:376
+msgid "Comment Section"
+msgstr ""
+
+#: templates/moviereviewers.html:381 templates/myfilmsay.html:378
+msgid "Allows users to engage with others by leaving feedback on the movie."
+msgstr ""
+
+#: templates/moviereviewers.html:382 templates/myfilmsay.html:379
+msgid "Each comment displays the"
+msgstr ""
+
+#: templates/moviereviewers.html:382 templates/myfilmsay.html:379
+msgid "author's rating"
+msgstr ""
+
+#: templates/moviereviewers.html:382 templates/myfilmsay.html:379
+#: templates/otherprojects.html:268 templates/otherprojects.html:302
+msgid "and the"
+msgstr ""
+
+#: templates/moviereviewers.html:383 templates/myfilmsay.html:380
+msgid "date and time"
+msgstr ""
+
+#: templates/moviereviewers.html:383 templates/myfilmsay.html:380
+msgid "it was posted."
+msgstr ""
+
+#: templates/moviereviewers.html:384 templates/myfilmsay.html:381
+msgid "Additionally, users can see the"
+msgstr ""
+
+#: templates/moviereviewers.html:384 templates/myfilmsay.html:381
+msgid "upvotes"
+msgstr ""
+
+#: templates/moviereviewers.html:385 templates/myfilmsay.html:382
+msgid "downvotes"
+msgstr ""
+
+#: templates/moviereviewers.html:385 templates/myfilmsay.html:382
+msgid "each comment has received from other logged-in users."
+msgstr ""
+
+#: templates/moviereviewers.html:387 templates/myfilmsay.html:384
+msgid "Registered users can"
+msgstr ""
+
+#: templates/moviereviewers.html:387 templates/myfilmsay.html:384
+msgid "post comments"
+msgstr ""
+
+#: templates/moviereviewers.html:388 templates/myfilmsay.html:385
+msgid "rate"
+msgstr ""
+
+#: templates/moviereviewers.html:388
+msgid ""
+"them based on their experience, giving a numerical score that\n"
+"                    reflects their opinion."
+msgstr ""
+
+#: templates/moviereviewers.html:391 templates/myfilmsay.html:387
+msgid "Users are also able to"
+msgstr ""
+
+#: templates/moviereviewers.html:391 templates/myfilmsay.html:387
+msgid "respond"
+msgstr ""
+
+#: templates/moviereviewers.html:391 templates/myfilmsay.html:387
+msgid ""
+"to other comments, creating a\n"
+"                    threaded discussion that allows for deeper engagement"
+" and conversation."
+msgstr ""
+
+#: templates/moviereviewers.html:393 templates/myfilmsay.html:389
+msgid ""
+"This encourages active participation and the sharing of thoughts on the "
+"movie."
+msgstr ""
+
+#: templates/moviereviewers.html:397 templates/moviereviewers.html:509
+#: templates/moviereviewers.html:516 templates/myfilmsay.html:393
+#: templates/myfilmsay.html:477 templates/myfilmsay.html:554
+msgid "The"
+msgstr ""
+
+#: templates/moviereviewers.html:397 templates/myfilmsay.html:393
+msgid "author"
+msgstr ""
+
+#: templates/moviereviewers.html:397 templates/myfilmsay.html:393
+msgid "of a comment has the ability to"
+msgstr ""
+
+#: templates/moviereviewers.html:398 templates/myfilmsay.html:394
+msgid "delete"
+msgstr ""
+
+#: templates/moviereviewers.html:398
+msgid ""
+"their own\n"
+"                    comment at any time, providing control over their "
+"contributions."
+msgstr ""
+
+#: templates/moviereviewers.html:401 templates/myfilmsay.html:397
+msgid "However,"
+msgstr ""
+
+#: templates/moviereviewers.html:401 templates/myfilmsay.html:397
+msgid "admins and moderators"
+msgstr ""
+
+#: templates/moviereviewers.html:401 templates/myfilmsay.html:397
+msgid "have the privilege to"
+msgstr ""
+
+#: templates/moviereviewers.html:402 templates/myfilmsay.html:398
+msgid "delete any comment"
+msgstr ""
+
+#: templates/moviereviewers.html:402 templates/myfilmsay.html:398
+msgid ""
+"regardless of its author, to maintain the integrity\n"
+"                    of the platform and ensure the conversation stays "
+"respectful."
+msgstr ""
+
+#: templates/moviereviewers.html:417
+msgid "Add & Edit Movie"
+msgstr ""
+
+#: templates/moviereviewers.html:419
+msgid "This section is dedicated to"
+msgstr ""
+
+#: templates/moviereviewers.html:419
+msgid "adding and editing movies"
+msgstr ""
+
+#: templates/moviereviewers.html:420
+msgid "in the database and is accessible only to users with"
+msgstr ""
+
+#: templates/moviereviewers.html:421
+msgid "privileges."
+msgstr ""
+
+#: templates/moviereviewers.html:425 templates/myfilmsay.html:420
+msgid "The process starts on the"
+msgstr ""
+
+#: templates/moviereviewers.html:425 templates/myfilmsay.html:413
+#: templates/myfilmsay.html:420
+msgid "Add Movie"
+msgstr ""
+
+#: templates/moviereviewers.html:425
+msgid ""
+"page, where an authorized\n"
+"                    user can enter a film title into the search bar."
+msgstr ""
+
+#: templates/moviereviewers.html:427
+msgid "A list of matching and similar titles is displayed, allowing the user to"
+msgstr ""
+
+#: templates/moviereviewers.html:428 templates/myfilmsay.html:423
+msgid "select the correct movie"
+msgstr ""
+
+#: templates/moviereviewers.html:428
+msgid "from the results."
+msgstr ""
+
+#: templates/moviereviewers.html:432
+msgid ""
+"Upon selection, the user is redirected to a shared interface that also "
+"serves as the"
+msgstr ""
+
+#: templates/moviereviewers.html:433 templates/myfilmsay.html:450
+#: templates/myfilmsay.html:453
+msgid "Edit Movie"
+msgstr ""
+
+#: templates/moviereviewers.html:433
+msgid "page."
+msgstr ""
+
+#: templates/moviereviewers.html:434 templates/myfilmsay.html:454
+msgid "Here, a form is pre-filled with all relevant movie data,"
+msgstr ""
+
+#: templates/moviereviewers.html:435 templates/myfilmsay.html:455
+msgid "fetched dynamically from the TMDB API"
+msgstr ""
+
+#: templates/moviereviewers.html:435
+msgid ""
+"— including title, release year,\n"
+"                    genres, director, writer, poster, rating, and "
+"overview."
+msgstr ""
+
+#: templates/moviereviewers.html:440 templates/myfilmsay.html:427
+msgid "Before final submission, the user has the opportunity to"
+msgstr ""
+
+#: templates/moviereviewers.html:441 templates/myfilmsay.html:428
+msgid "review and correct the information"
+msgstr ""
+
+#: templates/moviereviewers.html:441 templates/myfilmsay.html:428
+msgid "to ensure accuracy."
+msgstr ""
+
+#: templates/moviereviewers.html:442 templates/myfilmsay.html:429
+msgid "Once confirmed, the movie is"
+msgstr ""
+
+#: templates/moviereviewers.html:442 templates/myfilmsay.html:429
+msgid "added to the platform"
+msgstr ""
+
+#: templates/moviereviewers.html:442 templates/myfilmsay.html:429
+msgid ""
+"and\n"
+"                    becomes accessible to all users on the main page and "
+"in search results."
+msgstr ""
+
+#: templates/moviereviewers.html:463 templates/moviereviewers.html:487
+#: templates/myfilmsay.html:507 templates/myfilmsay.html:531
+msgid "Admins"
+msgstr ""
+
+#: templates/moviereviewers.html:463 templates/myfilmsay.html:507
+msgid ""
+"have\n"
+"                    access to user profile pages in order to"
+msgstr ""
+
+#: templates/moviereviewers.html:465 templates/myfilmsay.html:509
+msgid "monitor user activity"
+msgstr ""
+
+#: templates/moviereviewers.html:465 templates/myfilmsay.html:509
+msgid "within the comment sections."
+msgstr ""
+
+#: templates/moviereviewers.html:466 templates/myfilmsay.html:510
+msgid ""
+"This includes reviewing all comments posted by a user and assessing their"
+" behavior on the platform."
+msgstr ""
+
+#: templates/moviereviewers.html:468 templates/myfilmsay.html:512
+msgid "If necessary, they can"
+msgstr ""
+
+#: templates/moviereviewers.html:468 templates/myfilmsay.html:512
+msgid "remove any inappropriate or disruptive comments"
+msgstr ""
+
+#: templates/moviereviewers.html:469 templates/myfilmsay.html:513
+msgid "directly from the user’s profile view."
+msgstr ""
+
+#: templates/moviereviewers.html:470 templates/myfilmsay.html:514
+msgid "This functionality ensures a"
+msgstr ""
+
+#: templates/moviereviewers.html:470 templates/myfilmsay.html:514
+msgid "safe and respectful environment"
+msgstr ""
+
+#: templates/moviereviewers.html:471
+msgid ""
+"for all users and gives moderators the tools needed to enforce community "
+"standards."
+msgstr ""
+
+#: templates/moviereviewers.html:485 templates/myfilmsay.html:529
+msgid "Admin and moderator"
+msgstr ""
+
+#: templates/moviereviewers.html:487 templates/myfilmsay.html:531
+msgid ""
+"have\n"
+"                    access to a dedicated user management page, where "
+"they can view a complete list of registered accounts."
+msgstr ""
+
+#: templates/moviereviewers.html:489 templates/myfilmsay.html:533
+msgid "From this panel, they can"
+msgstr ""
+
+#: templates/moviereviewers.html:489 templates/myfilmsay.html:533
+msgid "promote or demote user roles"
+msgstr ""
+
+#: templates/moviereviewers.html:490 templates/myfilmsay.html:534
+msgid "remove users"
+msgstr ""
+
+#: templates/moviereviewers.html:490 templates/myfilmsay.html:534
+msgid "from the platform, and"
+msgstr ""
+
+#: templates/moviereviewers.html:491 templates/myfilmsay.html:535
+msgid "access individual user profiles"
+msgstr ""
+
+#: templates/moviereviewers.html:491
+msgid "to monitor activity or take necessary moderation actions."
+msgstr ""
+
+#: templates/moviereviewers.html:492 templates/myfilmsay.html:537
+msgid ""
+"This feature provides full control over user administration, ensuring "
+"that only trusted members\n"
+"                    hold higher privileges and that the platform remains "
+"well-moderated."
+msgstr ""
+
+#: templates/moviereviewers.html:509 templates/myfilmsay.html:554
+msgid "About Me"
+msgstr ""
+
+#: templates/moviereviewers.html:509 templates/myfilmsay.html:554
+msgid "page offers an overview of the"
+msgstr ""
+
+#: templates/moviereviewers.html:510
+msgid "This section is optimized as a"
+msgstr ""
+
+#: templates/moviereviewers.html:511
+msgid "SEO-friendly subpage"
+msgstr ""
+
+#: templates/moviereviewers.html:511
+msgid ""
+"to enhance discoverability and answer common user\n"
+"                    questions, such as how the site works, where data is "
+"sourced from, and who manages content and moderation."
+msgstr ""
+
+#: templates/moviereviewers.html:516
+msgid "Contact Me"
+msgstr ""
+
+#: templates/moviereviewers.html:516
+msgid "page provides a direct line of communication for"
+msgstr ""
+
+#: templates/moviereviewers.html:517
+msgid "users and potential collaborators"
+msgstr ""
+
+#: templates/moviereviewers.html:517
+msgid "to reach out to the site administrators."
+msgstr ""
+
+#: templates/moviereviewers.html:518
+msgid ""
+"Whether it's for reporting bugs, sharing feedback, business inquiries, or"
+" collaboration proposals, this form\n"
+"                    allows messages to be sent securely and efficiently "
+"via email."
+msgstr ""
+
+#: templates/moviereviewers.html:520
+msgid ""
+"It reinforces transparency and keeps the community engaged and connected "
+"with the development team."
+msgstr ""
+
+#: templates/moviereviewers.html:524
+msgid ""
+"Both sections are designed to strengthen user trust, provide "
+"transparency, and foster community\n"
+"                    interaction around the project."
+msgstr ""
+
+#: templates/moviereviewers.html:543 templates/myfilmsay.html:576
+#: templates/steamchests.html:51 templates/steamchests.html:386
+msgid "Login/Register"
+msgstr ""
+
+#: templates/moviereviewers.html:545 templates/myfilmsay.html:578
+msgid "The platform includes a secure"
+msgstr ""
+
+#: templates/moviereviewers.html:545 templates/myfilmsay.html:578
+msgid "login"
+msgstr ""
+
+#: templates/moviereviewers.html:546 templates/myfilmsay.html:579
+msgid "registration"
+msgstr ""
+
+#: templates/moviereviewers.html:546 templates/myfilmsay.html:579
+msgid "system that allows users to create personalized accounts."
+msgstr ""
+
+#: templates/moviereviewers.html:547 templates/myfilmsay.html:580
+msgid "Upon registration, user passwords are"
+msgstr ""
+
+#: templates/moviereviewers.html:547 templates/myfilmsay.html:580
+msgid "safely hashed"
+msgstr ""
+
+#: templates/moviereviewers.html:548 templates/myfilmsay.html:581
+msgid ""
+"before being stored in the database, ensuring data protection and user "
+"privacy."
+msgstr ""
+
+#: templates/moviereviewers.html:552 templates/myfilmsay.html:585
+msgid "Once logged in, users unlock full access to interactive features such as"
+msgstr ""
+
+#: templates/moviereviewers.html:553 templates/myfilmsay.html:586
+msgid "writing and replying to comments"
+msgstr ""
+
+#: templates/moviereviewers.html:553 templates/myfilmsay.html:586
+msgid "rating movies"
+msgstr ""
+
+#: templates/moviereviewers.html:554
+msgid "and voting on the usefulness of other users opinions."
+msgstr ""
+
+#: templates/moviereviewers.html:555 templates/myfilmsay.html:588
+msgid ""
+"This authentication layer helps maintain the quality of content and "
+"fosters meaningful discussions\n"
+"                    by holding users accountable for their activity."
+msgstr ""
+
+#: templates/moviereviewers.html:560 templates/myfilmsay.html:593
+msgid ""
+"The system lays the groundwork for role-based access control, ensuring "
+"that only authenticated\n"
+"                    users can engage with content and that higher "
+"privileges are granted only to moderators and administrators."
+msgstr ""
+
+#: templates/movies_project.html:19 templates/otherprojects.html:19
+#: templates/steamchests.html:19
+msgid "Go back"
+msgstr ""
+
+#: templates/movies_project.html:36
+msgid "Preview"
+msgstr ""
+
+#: templates/movies_project.html:42
+msgid "More"
+msgstr ""
+
+#: templates/movies_project.html:52
+msgid "Django Version"
+msgstr ""
+
+#: templates/movies_project.html:53
+msgid "Flask Version"
+msgstr ""
+
+#: templates/myfilmsay.html:62
+msgid "Better site ranking"
+msgstr ""
+
+#: templates/myfilmsay.html:100 templates/myfilmsay.html:552
+msgid "About me"
+msgstr ""
+
+#: templates/myfilmsay.html:101
+msgid "Information for other users about author"
+msgstr ""
+
+#: templates/myfilmsay.html:158 templates/myfilmsay.html:555
+msgid "My Film Say"
+msgstr ""
+
+#: templates/myfilmsay.html:168
+msgid ""
+"key details, ratings,\n"
+"                                and a comment section"
+msgstr ""
+
+#: templates/myfilmsay.html:170
+msgid "reply"
+msgstr ""
+
+#: templates/myfilmsay.html:171
+msgid "to other"
+msgstr ""
+
+#: templates/myfilmsay.html:171
+msgid "comments"
+msgstr ""
+
+#: templates/myfilmsay.html:173
+msgid "with roles:"
+msgstr ""
+
+#: templates/myfilmsay.html:175
+msgid ""
+"add, edit, or delete movies, manage\n"
+"                                comments, moderate user profiles"
+msgstr ""
+
+#: templates/myfilmsay.html:329
+msgid ""
+"dynamically manages the content rendering and API data integration\n"
+"                    to ensure smooth and modern user interaction."
+msgstr ""
+
+#: templates/myfilmsay.html:358
+msgid "and stored in the"
+msgstr ""
+
+#: templates/myfilmsay.html:359 templates/myfilmsay.html:416
+msgid "database."
+msgstr ""
+
+#: templates/myfilmsay.html:385
+msgid ""
+"them based on their experience, giving a numerical score that reflects "
+"their opinion."
+msgstr ""
+
+#: templates/myfilmsay.html:394
+msgid ""
+"their own comment\n"
+"                    at any time, providing control over their "
+"contributions."
+msgstr ""
+
+#: templates/myfilmsay.html:415
+msgid "This section allows"
+msgstr ""
+
+#: templates/myfilmsay.html:415
+msgid "authorized users"
+msgstr ""
+
+#: templates/myfilmsay.html:415
+msgid "to add new movies to the"
+msgstr ""
+
+#: templates/myfilmsay.html:420
+msgid ""
+"page, where an\n"
+"                    authorized user can enter a film title into the "
+"search bar."
+msgstr ""
+
+#: templates/myfilmsay.html:422
+msgid ""
+"A list of matching and similar titles from TMDb API is displayed, "
+"allowing the user to"
+msgstr ""
+
+#: templates/myfilmsay.html:423
+msgid "from the results, and add it into web application database."
+msgstr ""
+
+#: templates/myfilmsay.html:452
+msgid ""
+"Upon selecting a new movie, the user is redirected to a shared interface "
+"that also serves as the"
+msgstr ""
+
+#: templates/myfilmsay.html:453
+msgid "page, which is also accessible from home page, and movie page."
+msgstr ""
+
+#: templates/myfilmsay.html:455
+msgid ""
+"— including title, release year,\n"
+"                    genres, director, writer, poster, rating, and overview"
+msgstr ""
+
+#: templates/myfilmsay.html:460
+msgid "If the user is"
+msgstr ""
+
+#: templates/myfilmsay.html:460
+msgid "editing"
+msgstr ""
+
+#: templates/myfilmsay.html:460
+msgid ""
+"an existing movie, the form is\n"
+"                    pre-filled with its previously stored data, which can"
+" then be updated as needed."
+msgstr ""
+
+#: templates/myfilmsay.html:477
+msgid "FAQ"
+msgstr ""
+
+#: templates/myfilmsay.html:477
+msgid "subpage demonstrates structured content optimization using"
+msgstr ""
+
+#: templates/myfilmsay.html:478
+msgid "JSON-LD (schema.org)"
+msgstr ""
+
+#: templates/myfilmsay.html:478
+msgid "for SEO and accessibility."
+msgstr ""
+
+#: templates/myfilmsay.html:482
+msgid ""
+"It includes frequently asked questions about the platform’s features, "
+"showcasing a practical\n"
+"                    understanding of semantic HTML"
+msgstr ""
+
+#: templates/myfilmsay.html:487
+msgid "Implemented with Django templates and"
+msgstr ""
+
+#: templates/myfilmsay.html:487
+msgid "schema.org"
+msgstr ""
+
+#: templates/myfilmsay.html:487
+msgid ""
+"markup,\n"
+"                    it improves discoverability while showcasing my focus"
+" on usability, accessibility, and web performance."
+msgstr ""
+
+#: templates/myfilmsay.html:514
+msgid ""
+"for\n"
+"                    all users and gives moderators the tools needed to "
+"enforce community standards."
+msgstr ""
+
+#: templates/myfilmsay.html:535
+msgid ""
+"to monitor activity or take necessary\n"
+"                    moderation actions."
+msgstr ""
+
+#: templates/myfilmsay.html:555
+msgid "project – a web application for discovering and reviewing movies."
+msgstr ""
+
+#: templates/myfilmsay.html:556
+msgid "It can also serve as a"
+msgstr ""
+
+#: templates/myfilmsay.html:556
+msgid "regulations or policy page"
+msgstr ""
+
+#: templates/myfilmsay.html:556
+msgid ""
+"offering\n"
+"                    users important information about the platform."
+msgstr ""
+
+#: templates/myfilmsay.html:561
+msgid "Section is designed to strengthen"
+msgstr ""
+
+#: templates/myfilmsay.html:561
+msgid ""
+"user trust, provide transparency, and foster\n"
+"                    community interaction"
+msgstr ""
+
+#: templates/myfilmsay.html:562
+msgid "around the project."
+msgstr ""
+
+#: templates/myfilmsay.html:587
+msgid "voting"
+msgstr ""
+
+#: templates/myfilmsay.html:587
+msgid "on the usefulness of other users opinions."
+msgstr ""
+
+#: templates/otherprojects.html:78
+msgid "made in flask"
+msgstr ""
+
+#: templates/otherprojects.html:91
+msgid "Memory game: type U.S. states to fill the map"
+msgstr ""
+
+#: templates/otherprojects.html:104
+msgid "built in Python using Turtle and Pandas"
+msgstr ""
+
+#: templates/otherprojects.html:117
+msgid "in Python with Turtle"
+msgstr ""
+
+#: templates/otherprojects.html:130
+msgid "Cross a road as a turtle"
+msgstr ""
+
+#: templates/otherprojects.html:143
+msgid "A simple terminal game that tests your knowledge"
+msgstr ""
+
+#: templates/otherprojects.html:155
+msgid "Data Prices Scraping"
+msgstr ""
+
+#: templates/otherprojects.html:156
+msgid "Fetches price data from external APIs"
+msgstr ""
+
+#: templates/otherprojects.html:169
+msgid "An automation bot that plays Cookie Clicker using Selenium"
+msgstr ""
+
+#: templates/otherprojects.html:182
+msgid "Generates Spotify playlists from Billboard Hot 100 charts"
+msgstr ""
+
+#: templates/otherprojects.html:195
+msgid "Why I made this projects?"
+msgstr ""
+
+#: templates/otherprojects.html:204
+msgid "I created these projects as a way to learn through practice."
+msgstr ""
+
+#: templates/otherprojects.html:205
+msgid "Building games, apps, and tools allowed me to apply concepts like"
+msgstr ""
+
+#: templates/otherprojects.html:206 templates/otherprojects.html:308
+msgid "object-oriented programming"
+msgstr ""
+
+#: templates/otherprojects.html:206
+msgid "working with APIs"
+msgstr ""
+
+#: templates/otherprojects.html:207
+msgid "data management"
+msgstr ""
+
+#: templates/otherprojects.html:207
+msgid "user interface development"
+msgstr ""
+
+#: templates/otherprojects.html:208
+msgid "in real scenarios."
+msgstr ""
+
+#: templates/otherprojects.html:209
+msgid ""
+"Each project helped me grow both technically and creatively, and gave me "
+"a better understanding\n"
+"                        of how to connect different technologies into "
+"complete, functional solutions."
+msgstr ""
+
+#: templates/otherprojects.html:211
+msgid ""
+"This hands-on approach has been the most effective way for me to develop "
+"as a programmer."
+msgstr ""
+
+#: templates/otherprojects.html:220
+msgid "All Projects"
+msgstr ""
+
+#: templates/otherprojects.html:234
+msgid "A modern take on the classic Snake game – built with"
+msgstr ""
+
+#: templates/otherprojects.html:234 templates/steamchests.html:198
+msgid "Flask"
+msgstr ""
+
+#: templates/otherprojects.html:236
+msgid ""
+"The game features multiple difficulty levels, a nickname-based scoring "
+"system, and local\n"
+"                        score saving using"
+msgstr ""
+
+#: templates/otherprojects.html:238
+msgid "JSON-based database"
+msgstr ""
+
+#: templates/otherprojects.html:238
+msgid ""
+"All gameplay logic runs entirely in the\n"
+"                        browser, providing a smooth and responsive "
+"experience."
+msgstr ""
+
+#: templates/otherprojects.html:240
+msgid "Players can compete for a spot in the top 10 leaderboard."
+msgstr ""
+
+#: templates/otherprojects.html:241
+msgid ""
+"The project also demonstrates full integration between the frontend and a"
+" lightweight Python backend."
+msgstr ""
+
+#: templates/otherprojects.html:267
+msgid "An interactive geographical quiz built with"
+msgstr ""
+
+#: templates/otherprojects.html:267 templates/otherprojects.html:301
+#: templates/otherprojects.html:334 templates/otherprojects.html:365
+#: templates/otherprojects.html:375 templates/otherprojects.html:396
+#: templates/otherprojects.html:404 templates/otherprojects.html:431
+#: templates/otherprojects.html:460 templates/otherprojects.html:487
+msgid "Python"
+msgstr ""
+
+#: templates/otherprojects.html:268 templates/otherprojects.html:302
+#: templates/otherprojects.html:334 templates/otherprojects.html:365
+msgid "Turtle"
+msgstr ""
+
+#: templates/otherprojects.html:268 templates/otherprojects.html:302
+#: templates/otherprojects.html:335
+msgid "graphics library."
+msgstr ""
+
+#: templates/otherprojects.html:269
+msgid ""
+"The goal is to correctly name all 50 U.S. states, which are then "
+"dynamically labeled on a blank map."
+msgstr ""
+
+#: templates/otherprojects.html:270
+msgid "The application loads and processes a"
+msgstr ""
+
+#: templates/otherprojects.html:270
+msgid "CSV file"
+msgstr ""
+
+#: templates/otherprojects.html:271
+msgid "containing state names and their coordinates, and uses"
+msgstr ""
+
+#: templates/otherprojects.html:272
+msgid "Pandas"
+msgstr ""
+
+#: templates/otherprojects.html:272
+msgid "to manage data input, filtering, and output."
+msgstr ""
+
+#: templates/otherprojects.html:273
+msgid ""
+"If the player chooses to exit early, the program automatically generates "
+"a new CSV file -"
+msgstr ""
+
+#: templates/otherprojects.html:275
+msgid ""
+"listing the states that were missed, allowing for personalized review and"
+" improvement."
+msgstr ""
+
+#: templates/otherprojects.html:276
+msgid ""
+"As a light introduction to data-driven applications, this project "
+"demonstrates how basic"
+msgstr ""
+
+#: templates/otherprojects.html:277
+msgid "data science tools"
+msgstr ""
+
+#: templates/otherprojects.html:278
+msgid "can be applied in an interactive and visual context."
+msgstr ""
+
+#: templates/otherprojects.html:301
+msgid "A modern take on the classic Pong game, developed using"
+msgstr ""
+
+#: templates/otherprojects.html:303
+msgid ""
+"The project is structured in an object-oriented way, with separate "
+"classes for the paddles, ball,\n"
+"                        and scoreboard."
+msgstr ""
+
+#: templates/otherprojects.html:305
+msgid ""
+"It features real-time input handling for smooth two-player gameplay, "
+"dynamic collision\n"
+"                        detection, score tracking, and a gradually "
+"increasing ball speed."
+msgstr ""
+
+#: templates/otherprojects.html:307
+msgid "I built this project as a personal exercise to better understand"
+msgstr ""
+
+#: templates/otherprojects.html:309
+msgid "basic game mechanics"
+msgstr ""
+
+#: templates/otherprojects.html:309
+msgid ""
+"while experimenting with simple animation\n"
+"                        and user interaction in Python."
+msgstr ""
+
+#: templates/otherprojects.html:316
+msgid "View on Github"
+msgstr ""
+
+#: templates/otherprojects.html:333
+msgid "A classic"
+msgstr ""
+
+#: templates/otherprojects.html:333
+msgid "Snake"
+msgstr ""
+
+#: templates/otherprojects.html:333
+msgid "game built in"
+msgstr ""
+
+#: templates/otherprojects.html:334
+msgid "using the"
+msgstr ""
+
+#: templates/otherprojects.html:336
+msgid ""
+"The project is structured in an object-oriented manner, with separate "
+"classes handling the\n"
+"                        snake's behavior, food spawning, and score "
+"keeping."
+msgstr ""
+
+#: templates/otherprojects.html:338
+msgid ""
+"It features real-time input handling, collision detection with walls, "
+"food, and the snake’s\n"
+"                        own body, as well as persistent high score "
+"tracking using a local file."
+msgstr ""
+
+#: templates/otherprojects.html:340
+msgid "I created this project to strengthen my understanding of"
+msgstr ""
+
+#: templates/otherprojects.html:340
+msgid ""
+"object-oriented\n"
+"                        programming"
+msgstr ""
+
+#: templates/otherprojects.html:341
+msgid "collision logic"
+msgstr ""
+
+#: templates/otherprojects.html:341
+msgid "and working with persistent data."
+msgstr ""
+
+#: templates/otherprojects.html:359
+msgid "Turtle Crossing Game"
+msgstr ""
+
+#: templates/otherprojects.html:364
+msgid "A"
+msgstr ""
+
+#: templates/otherprojects.html:364
+msgid "Frogger-style game"
+msgstr ""
+
+#: templates/otherprojects.html:364
+msgid "developed in"
+msgstr ""
+
+#: templates/otherprojects.html:365
+msgid "with the"
+msgstr ""
+
+#: templates/otherprojects.html:366
+msgid "graphics module."
+msgstr ""
+
+#: templates/otherprojects.html:367
+msgid ""
+"The player controls a turtle trying to cross a busy road without getting "
+"hit by randomly generated cars."
+msgstr ""
+
+#: templates/otherprojects.html:368
+msgid ""
+"Each successful crossing increases the game level and the speed of "
+"oncoming traffic,\n"
+"                        making the game progressively more challenging."
+msgstr ""
+
+#: templates/otherprojects.html:370
+msgid "This project helped me improve my skills in"
+msgstr ""
+
+#: templates/otherprojects.html:370
+msgid "event-driven programming"
+msgstr ""
+
+#: templates/otherprojects.html:371
+msgid "object-oriented design"
+msgstr ""
+
+#: templates/otherprojects.html:371
+msgid "and handling"
+msgstr ""
+
+#: templates/otherprojects.html:371
+msgid ""
+"dynamic difficulty\n"
+"                        scaling"
+msgstr ""
+
+#: templates/otherprojects.html:390 templates/otherprojects.html:393
+msgid "Quiz Game"
+msgstr ""
+
+#: templates/otherprojects.html:395
+msgid "A simple"
+msgstr ""
+
+#: templates/otherprojects.html:395
+msgid "True/False quiz game"
+msgstr ""
+
+#: templates/otherprojects.html:395
+msgid "written in"
+msgstr ""
+
+#: templates/otherprojects.html:396
+msgid "based on object-oriented programming principles."
+msgstr ""
+
+#: templates/otherprojects.html:397
+msgid ""
+"The questions are pulled from a structured data source and displayed one "
+"by one in the terminal."
+msgstr ""
+
+#: templates/otherprojects.html:398
+msgid ""
+"The game keeps track of the user's score and gives immediate feedback "
+"after each answer."
+msgstr ""
+
+#: templates/otherprojects.html:399
+msgid "This project improved my understanding of"
+msgstr ""
+
+#: templates/otherprojects.html:399
+msgid "data encapsulation"
+msgstr ""
+
+#: templates/otherprojects.html:400
+msgid "input validation"
+msgstr ""
+
+#: templates/otherprojects.html:400
+msgid "managing program state"
+msgstr ""
+
+#: templates/otherprojects.html:401
+msgid "using class instances."
+msgstr ""
+
+#: templates/otherprojects.html:419
+msgid "Prices Scraping"
+msgstr ""
+
+#: templates/otherprojects.html:422
+msgid "Prices Data Scraping"
+msgstr ""
+
+#: templates/otherprojects.html:424
+msgid ""
+"A data scraping project focused on collecting rental property information"
+" (price, address,\n"
+"                        and link) from a Zillow-like website using "
+"BeautifulSoup and Selenium."
+msgstr ""
+
+#: templates/otherprojects.html:426
+msgid ""
+"Extracted data is then automatically submitted to a Google Form, "
+"simulating data entry automation."
+msgstr ""
+
+#: templates/otherprojects.html:427
+msgid ""
+"This project demonstrates practical use of web scraping, data parsing, "
+"and browser automation -\n"
+"                        useful skills in data analysis pipelines and web "
+"data integration."
+msgstr ""
+
+#: templates/otherprojects.html:446
+msgid "Cookie Clicker Bot"
+msgstr ""
+
+#: templates/otherprojects.html:451
+msgid ""
+"A Selenium-based automation project showcasing browser interaction skills"
+" through multiple mini-tasks."
+msgstr ""
+
+#: templates/otherprojects.html:452
+msgid ""
+"The main focus is a bot for the Cookie Clicker game that automates cookie"
+" generation and\n"
+"                        intelligently purchases upgrades to optimize "
+"efficiency."
+msgstr ""
+
+#: templates/otherprojects.html:454
+msgid ""
+"Additional scripts demonstrate how to scrape event data from python.org, "
+"automate form\n"
+"                        submissions, and interact with Wikipedia."
+msgstr ""
+
+#: templates/otherprojects.html:456
+msgid ""
+"This project highlights practical web automation techniques and real-time"
+" decision-making\n"
+"                        in dynamic web environments."
+msgstr ""
+
+#: templates/otherprojects.html:475
+msgid "Top 100 Songs"
+msgstr ""
+
+#: templates/otherprojects.html:480
+msgid ""
+"Built a Python application that scrapes the Billboard Hot 100 chart for a"
+" user-specified\n"
+"                        date (using BeautifulSoup), searches for each "
+"track on Spotify via the Spotipy API, and automatically\n"
+"                        creates a private Spotify playlist with the found"
+" songs."
+msgstr ""
+
+#: templates/otherprojects.html:483
+msgid ""
+"Utilized OAuth for user authentication and integrated data from multiple "
+"external sources\n"
+"                        (Billboard and Spotify APIs)."
+msgstr ""
+
+#: templates/steamchests.html:42 templates/steamchests.html:99
+#: templates/steamchests.html:322
+msgid "User Chests"
+msgstr ""
+
+#: templates/steamchests.html:45 templates/steamchests.html:112
+#: templates/steamchests.html:344
+msgid "Chest Page"
+msgstr ""
+
+#: templates/steamchests.html:48 templates/steamchests.html:125
+#: templates/steamchests.html:364
+msgid "Calculator"
+msgstr ""
+
+#: templates/steamchests.html:74
+msgid "Technologies behind it and the idea that started it all"
+msgstr ""
+
+#: templates/steamchests.html:87
+msgid "Overview of all available cases and their latest prices."
+msgstr ""
+
+#: templates/steamchests.html:100
+msgid "List of user chests and their price"
+msgstr ""
+
+#: templates/steamchests.html:113
+msgid "Track price history, spot trends, and see percentage changes."
+msgstr ""
+
+#: templates/steamchests.html:126
+msgid "Use the calculator without the need for an account."
+msgstr ""
+
+#: templates/steamchests.html:182
+msgid ""
+"My friends and I used to play a lot of Counter-Strike 2, and during that "
+"time we purchased various\n"
+"                        in-game cases, which could later be sold for "
+"profit. I wanted to create a platform where we could\n"
+"                        track the value of our inventories, monitor price"
+" changes over time, and determine the best moment\n"
+"                        to sell. This project also served as a valuable "
+"opportunity for me to improve my development skills\n"
+"                        and learn new technologies."
+msgstr ""
+
+#: templates/steamchests.html:198
+msgid "This web application was developed using the "
+msgstr ""
+
+#: templates/steamchests.html:198
+msgid ""
+"framework and provides tools\n"
+"                                for tracking the prices of CS2 in-game "
+"cases listed on the Steam market. Users can view historical\n"
+"                                price charts, monitor daily, weekly, "
+"monthly, and total value changes, and create accounts to manage\n"
+"                                their personal inventories. The system "
+"automatically calculates the total value of owned cases and\n"
+"                                visualizes market trends to help identify"
+" optimal selling moments."
+msgstr ""
+
+#: templates/steamchests.html:216
+msgid "Technologies Used"
+msgstr ""
+
+#: templates/steamchests.html:236
+msgid "Charts:"
+msgstr ""
+
+#: templates/steamchests.html:253
+msgid "User Authentication"
+msgstr ""
+
+#: templates/steamchests.html:254
+msgid "Secure registration, login, and password hashing"
+msgstr ""
+
+#: templates/steamchests.html:260
+msgid "Inventory Forms"
+msgstr ""
+
+#: templates/steamchests.html:261
+msgid "Manage case quantities and view value changes"
+msgstr ""
+
+#: templates/steamchests.html:267
+msgid "Daily Updates"
+msgstr ""
+
+#: templates/steamchests.html:268
+msgid "Automated updates using GitHub Actions"
+msgstr ""
+
+#: templates/steamchests.html:274
+msgid "Git Integration"
+msgstr ""
+
+#: templates/steamchests.html:275
+msgid "Version control and GitHub hosting"
+msgstr ""
+
+#: templates/steamchests.html:281
+msgid "Full-Stack Project"
+msgstr ""
+
+#: templates/steamchests.html:282
+msgid "Real-world stack for modern web apps"
+msgstr ""
+
+#: templates/steamchests.html:288
+msgid "Case Value Charts"
+msgstr ""
+
+#: templates/steamchests.html:289
+msgid "Visualize price fluctuations over time"
+msgstr ""
+
+#: templates/steamchests.html:304
+msgid ""
+"The homepage displays a dynamically generated list of all Counter-Strike "
+"2 cases available on\n"
+"                    the Steam Market, each represented by a card "
+"containing the case name, image fetched from the Steam API, and market "
+"price."
+msgstr ""
+
+#: templates/steamchests.html:306
+msgid ""
+"Clicking on a case redirects the user to a detailed subpage showing a "
+"historical price chart and metadata."
+msgstr ""
+
+#: templates/steamchests.html:307
+msgid ""
+"Data is regularly fetched and stored in JSON format as part of my "
+"learning process with JSON handling."
+msgstr ""
+
+#: templates/steamchests.html:308
+msgid ""
+"To improve performance, I created a separate JSON file that stores only "
+"the latest prices for each case."
+msgstr ""
+
+#: templates/steamchests.html:313
+msgid "Steam Chests Overview"
+msgstr ""
+
+#: templates/steamchests.html:324
+msgid ""
+"The user dashboard enables authenticated users to input and manage their "
+"owned Counter-Strike\n"
+"                    2 cases along with quantities."
+msgstr ""
+
+#: templates/steamchests.html:326
+msgid ""
+"Each entry is displayed in a dynamic, responsive table that includes the "
+"case’s latest market\n"
+"                    price, total value (with and without Steam "
+"transaction fees), and percentage change from the previous day."
+msgstr ""
+
+#: templates/steamchests.html:328
+msgid "Users can update or remove individual case records."
+msgstr ""
+
+#: templates/steamchests.html:329
+msgid ""
+"Below the table, the application calculates and displays the cumulative "
+"value of all listed\n"
+"                    cases, both pre- and post-tax."
+msgstr ""
+
+#: templates/steamchests.html:335
+msgid "User Inventory Page"
+msgstr ""
+
+#: templates/steamchests.html:346
+msgid ""
+"The chest detail page presents an interactive price history chart powered"
+" by Chart.js, allowing\n"
+"                    users to analyze case price fluctuations over various"
+" time ranges, including the past week, month, year, and all-time."
+msgstr ""
+
+#: templates/steamchests.html:348
+msgid "Users can dynamically select the desired time frame."
+msgstr ""
+
+#: templates/steamchests.html:349
+msgid ""
+"Below the chart, a data table displays historical prices by date along "
+"with the corresponding\n"
+"                    percentage change compared to the previous recorded "
+"value."
+msgstr ""
+
+#: templates/steamchests.html:355
+msgid "Chest Detail Page"
+msgstr ""
+
+#: templates/steamchests.html:366
+msgid "The calculator is designed for users who prefer not to create an account."
+msgstr ""
+
+#: templates/steamchests.html:367
+msgid ""
+"It offers similar functionality to the user inventory page, allowing "
+"users to input the cases\n"
+"                    they own and their respective quantities."
+msgstr ""
+
+#: templates/steamchests.html:369
+msgid ""
+"However, it does not persist any data — once the session ends or the page"
+" is refreshed, all\n"
+"                    information is cleared."
+msgstr ""
+
+#: templates/steamchests.html:371
+msgid ""
+"This tool provides a quick way to estimate the total value of owned "
+"cases, both before and after\n"
+"                    Steam transaction fees."
+msgstr ""
+
+#: templates/steamchests.html:377
+msgid "Calculator Tool"
+msgstr ""
+
+#: templates/steamchests.html:388
+msgid ""
+"The project includes a secure user authentication system featuring user "
+"registration and login\n"
+"                    functionality."
+msgstr ""
+
+#: templates/steamchests.html:390
+msgid ""
+"During registration, user credentials are validated and passwords are "
+"securely hashed using\n"
+"                    industry-standard techniques before being stored in "
+"the database."
+msgstr ""
+
+#: templates/steamchests.html:392
+msgid ""
+"Upon logging in, users gain access to personalized features such as "
+"managing their own case inventory."
+msgstr ""
+
+#: templates/steamchests.html:393
+msgid ""
+"Session management is handled via Flask’s session mechanism to maintain "
+"user state throughout the visit."
+msgstr ""
+
+#: templates/steamchests.html:398
+msgid "Login and Registration"
 msgstr ""
 
