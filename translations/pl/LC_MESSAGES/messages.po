@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-23 09:57+0200\n"
-"PO-Revision-Date: 2025-05-28 18:13+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2025-10-24 12:56+0200\n"
+"Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: templates/index.html:33 templates/index.html:82 templates/index.html:157
 msgid "Resume"
@@ -39,12 +40,17 @@ msgstr "Cześć!"
 
 #: templates/index.html:69
 msgid ""
-"I'm IT student (4rd year) with specialization in Web Engineering. "
-"Actively working in Python, and\n"
-"                    back-end development. I'm also exploring data science"
-" and enjoy working with datasets and\n"
+"I'm IT student (4rd year) with specialization in Web Engineering. Actively "
+"working in Python, and\n"
+"                    back-end development. I'm also exploring data science and "
+"enjoy working with datasets and\n"
 "                    statistical analysis."
 msgstr ""
+"Jestem studentem informatyki (4 rok) ze specjalizacją Inżynieria internetowa. "
+"Aktywnie pracuję w Pythonie i\n"
+"                    back-end . Eksploruję również naukę o danych i lubię "
+"pracować z zestawami danych i\n"
+"                    i analizą statystyczną."
 
 #: templates/index.html:96 templates/moviereviewers.html:201
 #: templates/movies_project.html:39 templates/myfilmsay.html:198
@@ -58,7 +64,7 @@ msgstr "Technologie, które znam:"
 
 #: templates/index.html:164
 msgid "Experience"
-msgstr ""
+msgstr "Doświadczenie"
 
 #: templates/index.html:171 templates/index.html:199
 msgid "Present"
@@ -73,20 +79,29 @@ msgid ""
 "\n"
 "                            Responsible for implementing updates and "
 "optimizing an existing website, with a focus\n"
-"                            on maintaining consistency with current "
-"design and standards. <br><br>\n"
+"                            on maintaining consistency with current design and "
+"standards. <br><br>\n"
 "                            Performed comprehensive diagnostics and "
 "independent repairs of computer hardware. Responsible\n"
-"                            for servicing and maintaining equipment, "
-"including troubleshooting and implementing technical\n"
-"                            solutions to ensure continuous device "
-"operation. <br><br>\n"
-"                            Handled operational support for e-commerce "
-"orders, including quality control, order fulfillment,\n"
-"                            and verification of product accuracy prior to"
-" shipment.\n"
+"                            for servicing and maintaining equipment, including "
+"troubleshooting and implementing technical\n"
+"                            solutions to ensure continuous device operation. "
+"<br><br>\n"
+"                            Handled operational support for e-commerce orders, "
+"including quality control, order fulfillment,\n"
+"                            and verification of product accuracy prior to "
+"shipment.\n"
 "                            "
 msgstr ""
+"\n"
+"Wdrażanie aktualizacji i optymalizacja istniejącej strony internetowej, ze "
+"szczególnym uwzględnieniem spójności i standardami. <br><br> Przeprowadzanie "
+"kompleksowej diagnostyki oraz samodzielne naprawy sprzętu komputerowego. "
+"Serwisowanie i utrzymanie urządzeń, w tym rozwiązywanie problemów technicznych "
+"oraz wdrażanie rozwiązań zapewniających ich nieprzerwaną pracę. <br><br> "
+"Zajmowałem się operacyjnym wsparciem realizacji zamówień e-commerce, w tym "
+"kontrolą jakości, kompletowaniem przesyłek oraz weryfikacją poprawności "
+"produktów przed wysyłką. "
 
 #: templates/index.html:192
 msgid "Education"
@@ -97,63 +112,59 @@ msgid "Wroclaw Business University of Applied Sciences"
 msgstr "Wrocławska Akademia Biznesu w Naukach Stosowanych"
 
 #: templates/index.html:204
-#, fuzzy
 msgid ""
 "Bachelor of Engineering degree in Computer Science, specializing in Web "
 "Engineering. Gained practical\n"
-"                            knowledge in programming, database design and"
-" integration, computer networks, and IT project\n"
-"                            management. Covered full-stack web "
-"development — from front-end technologies and frameworks\n"
-"                            to back-end solutions and database "
-"connectivity. Additional focus on web application documentation,\n"
+"                            knowledge in programming, database design and "
+"integration, computer networks, and IT project\n"
+"                            management. Covered full-stack web development — "
+"from front-end technologies and frameworks\n"
+"                            to back-end solutions and database connectivity. "
+"Additional focus on web application documentation,\n"
 "                            understanding copyright and licensing, and "
 "development best practices."
 msgstr ""
 "Studia licencjackie na kierunku Informatyka ze specjalizacją Inżynieria "
-"Aplikacji Internetowych. Zdobyta wiedza praktyczna z zakresu "
-"programowania, projektowania i integracji baz danych, sieci komputerowych"
-" oraz zarządzania projektami IT. Program obejmował pełny zakres tworzenia"
-" aplikacji webowych — od technologii front-end i frameworków po "
-"rozwiązania back-endowe i łączenie z bazami danych. Dodatkowy nacisk "
-"położono na dokumentację aplikacji, prawa autorskie i licencje oraz dobre"
-" praktyki developerskie."
+"Internetowa. Zdobyta wiedza praktyczna z zakresu programowania, projektowania "
+"i integracji baz danych, sieci komputerowych oraz zarządzania projektami IT. "
+"Program obejmował pełny zakres tworzenia aplikacji webowych — od technologii "
+"front-end i frameworków po rozwiązania back-endowe i łączenie z bazami danych. "
+"Dodatkowy nacisk położono na dokumentację aplikacji, prawa autorskie i "
+"licencje oraz dobre praktyki developerskie."
 
 #: templates/index.html:218
 msgid "Technical Secondary School No. 1 (Kemal Mustafa Atatürk)"
 msgstr "Technikum nr 1 im. Kemala Mustafy Atatürka"
 
 #: templates/index.html:220
-#, fuzzy
 msgid ""
-"Specialized in Computer Science with an extended curriculum in "
-"Mathematics and Physics. Gained\n"
-"                            foundational knowledge in databases, computer"
-" networks, and server management on both Linux\n"
+"Specialized in Computer Science with an extended curriculum in Mathematics and "
+"Physics. Gained\n"
+"                            foundational knowledge in databases, computer "
+"networks, and server management on both Linux\n"
 "                            and Windows systems. Learned the basics of "
 "programming and web development, including building\n"
 "                            and maintaining websites. Developed problem-"
 "solving skills and a passion for technology."
 msgstr ""
-"Kierunek: technik informatyk z rozszerzonym programem matematyki i "
-"fizyki. Zdobyta wiedza podstawowa z zakresu baz danych, sieci "
-"komputerowych i zarządzania serwerami w systemach Linux i Windows. "
-"Opanowane podstawy programowania i tworzenia stron internetowych. "
-"Rozwinięte umiejętności rozwiązywania problemów oraz zamiłowanie do "
-"nowych technologii."
+"Kierunek: technik informatyk z rozszerzonym programem matematyki i fizyki. "
+"Podstawowa wiedza z zakresu baz danych, sieci komputerowych i zarządzania "
+"serwerami w systemach Linux i Windows. Opanowane podstawy programowania i "
+"tworzenia stron internetowych. Rozwinięte umiejętności rozwiązywania problemów "
+"oraz zamiłowanie do nowych technologii."
 
 #: templates/index.html:233
-#, fuzzy
 msgid "Additional Programming Courses (junior high school)"
 msgstr "Dodatkowe zajęcia z programowania (szkoła podstawowa/gimnazjum)"
 
 #: templates/index.html:235
 msgid ""
-"Attended extracurricular programming classes during junior high school. "
-"Gained early experience\n"
-"                            with basic programming, and front-end "
-"development."
+"Attended extracurricular programming classes during junior high school. Gained "
+"early experience\n"
+"                            with basic programming, and front-end development."
 msgstr ""
+"Uczęszczałem na dodatkowe zajęcia z programowania w gimnazjum, zdobywając "
+"wczesne doświadczenie w podstawach programowania oraz tworzeniu front-endu."
 
 #: templates/index.html:244
 msgid "Courses (Udemy)"
@@ -170,51 +181,51 @@ msgstr ""
 
 #: templates/index.html:255
 msgid ""
-"In this comprehensive course, you'll learn Python by working on 100 "
-"diverse projects over\n"
-"                            100 days. Covering essential topics such as "
-"data science, automation, web development, game\n"
+"In this comprehensive course, you'll learn Python by working on 100 diverse "
+"projects over\n"
+"                            100 days. Covering essential topics such as data "
+"science, automation, web development, game\n"
 "                            creation, and app building, this course is "
 "designed to help you gain hands-on experience and\n"
-"                            become proficient in Python. You'll tackle "
-"real-world problems, enhance your coding skills,\n"
-"                            and create a portfolio of projects that "
-"showcase your abilities to potential employers or clients."
+"                            become proficient in Python. You'll tackle real-"
+"world problems, enhance your coding skills,\n"
+"                            and create a portfolio of projects that showcase "
+"your abilities to potential employers or clients."
 msgstr ""
-"Kompleksowy kurs Pythona poprzez realizację 100 zróżnicowanych projektów "
-"w 100 dni. Zakres obejmuje m.in. data science, automatyzację, tworzenie "
-"stron WWW, gier i aplikacji. Kurs nastawiony jest na praktykę — umożliwia"
-" rozwój umiejętności kodowania poprzez rozwiązywanie realnych problemów. "
-"Efektem końcowym jest bogate portfolio, które można zaprezentować "
-"pracodawcy lub klientowi."
+"Kompleksowy kurs Pythona poprzez realizację 100 zróżnicowanych projektów w 100 "
+"dni. Zakres obejmuje m.in. data science, automatyzację, tworzenie stron WWW, "
+"gier i aplikacji. Kurs nastawiony jest na praktykę — umożliwia rozwój "
+"umiejętności kodowania poprzez rozwiązywanie realnych problemów. Efektem "
+"końcowym jest bogate portfolio, które można zaprezentować pracodawcy lub "
+"klientowi."
 
 #: templates/index.html:267
 msgid ""
-"Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, "
-"JavaScript, Node, React,\n"
+"Become a Full-Stack Web Developer with Just ONE Course: HTML, CSS, JavaScript, "
+"Node, React,\n"
 "                            PostgreSQL, Web3, and DApps"
 msgstr ""
-"Zostań full-stack developerem dzięki jednemu kursowi: HTML, CSS, "
-"JavaScript, Node.js, React, PostgreSQL, Web3 i DApps"
+"Zostań full-stack developerem dzięki jednemu kursowi: HTML, CSS, JavaScript, "
+"Node.js, React, PostgreSQL, Web3 i DApps"
 
 #: templates/index.html:270
 msgid ""
-"This all-in-one course is your gateway to becoming a full-stack web "
-"developer. Covering a\n"
-"                            wide array of essential technologies such as "
-"HTML, CSS, JavaScript, Node.js, React, and PostgreSQL,\n"
+"This all-in-one course is your gateway to becoming a full-stack web developer. "
+"Covering a\n"
+"                            wide array of essential technologies such as HTML, "
+"CSS, JavaScript, Node.js, React, and PostgreSQL,\n"
 "                            you'll gain both front-end and back-end "
 "development skills. Learn how to build dynamic, interactive\n"
-"                            websites and apps, while also diving into "
-"modern concepts like Web3 and decentralized applications\n"
-"                            (DApps). Perfect for those looking to master "
-"full-stack development and build real-world projects from scratch."
+"                            websites and apps, while also diving into modern "
+"concepts like Web3 and decentralized applications\n"
+"                            (DApps). Perfect for those looking to master full-"
+"stack development and build real-world projects from scratch."
 msgstr ""
-"Kurs typu „wszystko w jednym”, idealny dla osób dążących do zostania "
-"full-stack developerem. Obejmuje HTML, CSS, JavaScript, Node.js, React, "
-"PostgreSQL oraz zagadnienia związane z Web3 i aplikacjami "
-"zdecentralizowanymi (DApps). Uczy budowy dynamicznych i interaktywnych "
-"stron oraz aplikacji — od podstaw do gotowych projektów."
+"Kurs typu „wszystko w jednym”, idealny dla osób dążących do zostania full-"
+"stack developerem. Obejmuje HTML, CSS, JavaScript, Node.js, React, PostgreSQL "
+"oraz zagadnienia związane z Web3 i aplikacjami zdecentralizowanymi (DApps). "
+"Uczy budowy dynamicznych i interaktywnych stron oraz aplikacji — od podstaw do "
+"gotowych projektów."
 
 #: templates/index.html:282
 msgid "Build Your First Website from Scratch and Learn the Key Principles of UX"
@@ -222,15 +233,15 @@ msgstr "Zbuduj swoją pierwszą stronę od podstaw i poznaj kluczowe zasady UX"
 
 #: templates/index.html:284
 msgid ""
-"Basic UX concepts and principles. Drawing inspiration and the first "
-"stages of the project.\n"
-"                            Designing the layout in Photoshop. Coding the"
-" HTML structure. Further project stages and working\n"
-"                            with CSS. Automating the workflow and "
-"finalizing the project elements."
+"Basic UX concepts and principles. Drawing inspiration and the first stages of "
+"the project.\n"
+"                            Designing the layout in Photoshop. Coding the HTML "
+"structure. Further project stages and working\n"
+"                            with CSS. Automating the workflow and finalizing "
+"the project elements."
 msgstr ""
-"Podstawy UX. Inspiracje i pierwsze etapy projektu. Projektowanie układu w"
-" Photoshopie. Tworzenie struktury HTML, dalsze etapy z użyciem CSS. "
+"Podstawy UX. Inspiracje i pierwsze etapy projektu. Projektowanie układu w "
+"Photoshopie. Tworzenie struktury HTML, dalsze etapy z użyciem CSS. "
 "Automatyzacja pracy i finalizacja elementów projektu."
 
 #: templates/index.html:294
@@ -239,17 +250,17 @@ msgstr "Podstawy Adobe Photoshop CC dla początkujących projektantów stron WWW
 
 #: templates/index.html:296
 msgid ""
-"Understanding the User Interface; Working with Tools and Layers; Creating"
-" Shapes; Organizing\n"
-"                            Layers & Groups; Moving and Resizing "
-"Elements; Zooming and Panning Techniques; Using Blend Modes\n"
-"                            and Adding Effects; Inserting and Styling "
-"Text; Designing with Photoshop."
+"Understanding the User Interface; Working with Tools and Layers; Creating "
+"Shapes; Organizing\n"
+"                            Layers & Groups; Moving and Resizing Elements; "
+"Zooming and Panning Techniques; Using Blend Modes\n"
+"                            and Adding Effects; Inserting and Styling Text; "
+"Designing with Photoshop."
 msgstr ""
-"Zrozumienie interfejsu użytkownika; praca z narzędziami i warstwami; "
-"tworzenie kształtów; organizacja grup i warstw; przemieszczanie i zmiana "
-"rozmiaru elementów; techniki powiększania i przesuwania; tryby mieszania "
-"i efekty; wstawianie i stylizacja tekstu; projektowanie w Photoshopie."
+"Zrozumienie interfejsu użytkownika; praca z narzędziami i warstwami; tworzenie "
+"kształtów; organizacja grup i warstw; przemieszczanie i zmiana rozmiaru "
+"elementów; techniki powiększania i przesuwania; tryby mieszania i efekty; "
+"wstawianie i stylizacja tekstu; projektowanie w Photoshopie."
 
 #: templates/index.html:306
 msgid "Get to Know Formats, Resolutions, DPI, and More"
@@ -257,16 +268,15 @@ msgstr "Poznaj formaty, rozdzielczości, DPI i inne zagadnienia"
 
 #: templates/index.html:308
 msgid ""
-"Screen Basics; Scaling on Devices; Graphic File Formats; Platform "
-"Specifics."
+"Screen Basics; Scaling on Devices; Graphic File Formats; Platform Specifics."
 msgstr ""
 "Podstawy ekranów; skalowanie na różnych urządzeniach; formaty plików "
 "graficznych; specyfika platform."
 
 #: templates/index.html:316
 msgid ""
-"Everything You Need to Know About Adobe XD to Start Designing & "
-"Prototyping Awesome Apps"
+"Everything You Need to Know About Adobe XD to Start Designing & Prototyping "
+"Awesome Apps"
 msgstr ""
 "Wszystko, co musisz wiedzieć o Adobe XD, by rozpocząć projektowanie i "
 "prototypowanie świetnych aplikacji"
@@ -274,29 +284,27 @@ msgstr ""
 #: templates/index.html:318
 msgid "Basic Tools; Advanced Tools; Designing Assets; Prototyping."
 msgstr ""
-"Podstawowe i zaawansowane narzędzia; projektowanie zasobów; "
-"prototypowanie."
+"Podstawowe i zaawansowane narzędzia; projektowanie zasobów; prototypowanie."
 
 #: templates/index.html:330
 msgid "Explore some of the exciting projects I have worked on!"
 msgstr "Poznaj ciekawe projekty, nad którymi pracowałem!"
 
 #: templates/index.html:340
-#, fuzzy
 msgid ""
-"My Film Say is a learning-focused web application that allows users to "
-"explore community opinions\n"
-"                    on specific movies. The platform fetches movie "
-"details such as title, rating, description, and poster\n"
-"                    via the IMDb API. Users can post their own reviews, "
-"rate movies independently, and engage in conversations\n"
+"My Film Say is a learning-focused web application that allows users to explore "
+"community opinions\n"
+"                    on specific movies. The platform fetches movie details "
+"such as title, rating, description, and poster\n"
+"                    via the IMDb API. Users can post their own reviews, rate "
+"movies independently, and engage in conversations\n"
 "                    through comment threads."
 msgstr ""
-"Movie Reviewers to edukacyjna aplikacja webowa umożliwiająca użytkownikom"
-" poznanie opinii społeczności na temat konkretnych filmów. Szczegóły "
-"filmów (tytuł, ocena, opis, plakat) są pobierane za pomocą API IMDb. "
-"Użytkownicy mogą publikować własne recenzje, oceniać filmy i brać udział "
-"w dyskusjach poprzez system komentarzy."
+"My Film Say to aplikacja webowa umożliwiająca użytkownikom poznanie opinii "
+"społeczności na temat konkretnych filmów. Szczegóły filmów (tytuł, ocena, "
+"opis, plakat) są pobierane za pomocą API IMDb. Użytkownicy mogą publikować "
+"własne recenzje, oceniać filmy i brać udział w dyskusjach poprzez system "
+"komentarzy."
 
 #: templates/index.html:346 templates/index.html:374
 #: templates/moviereviewers.html:11 templates/myfilmsay.html:12
@@ -306,7 +314,7 @@ msgstr ""
 #: templates/otherprojects.html:463 templates/otherprojects.html:490
 #: templates/steamchests.html:63
 msgid "View on GitHub"
-msgstr ""
+msgstr "Zobacz na Github"
 
 #: templates/index.html:349 templates/index.html:377 templates/index.html:401
 msgid "See More"
@@ -320,32 +328,37 @@ msgstr "Steam Chest Prices"
 msgid ""
 "Steam Chest Prices is a web application focused on data analysis of CS2 "
 "(Counter-Strike 2) weapon\n"
-"                    case prices from the Steam Market. It offers "
-"historical price charts, percentage change calculations over\n"
+"                    case prices from the Steam Market. It offers historical "
+"price charts, percentage change calculations over\n"
 "                    time, and dynamic value tracking. Users can create "
 "accounts to monitor their own collection and gain insights\n"
-"                    into market trends through visualizations and "
-"automated value summaries."
+"                    into market trends through visualizations and automated "
+"value summaries."
 msgstr ""
+"Steam Chest Prices to aplikacja webowa skoncentrowana na analizie danych "
+"dotyczących cen skrzynek z bronią w grze CS2 (Counter-Strike 2) na rynku "
+"Steam. Oferuje wykresy historycznych cen, obliczenia zmian procentowych w "
+"czasie oraz dynamiczne śledzenie wartości. Użytkownicy mogą zakładać konta, "
+"aby monitorować własną kolekcję i uzyskiwać wgląd w trendy rynkowe dzięki "
+"wizualizacjom oraz automatycznym podsumowaniom wartości."
 
 #: templates/index.html:392 templates/otherprojects.html:69
 msgid "Technical Practice Projects"
 msgstr "Projekty ćwiczeniowe"
 
 #: templates/index.html:395
-#, fuzzy
 msgid ""
 "A selection of smaller projects developed to enhance my\n"
-"                    proficiency in Python and gain experience with a "
-"variety of technologies. Each project\n"
-"                    served as a learning opportunity, allowing me to "
-"explore new tools, frameworks, and programming\n"
+"                    proficiency in Python and gain experience with a variety "
+"of technologies. Each project\n"
+"                    served as a learning opportunity, allowing me to explore "
+"new tools, frameworks, and programming\n"
 "                    paradigms in a practical context."
 msgstr ""
 "Zbiór mniejszych projektów stworzonych w celu rozwinięcia umiejętności "
-"programowania w Pythonie oraz zdobycia praktycznego doświadczenia z "
-"różnymi technologiami. Każdy projekt stanowił okazję do nauki i "
-"eksploracji nowych narzędzi, frameworków oraz paradygmatów programowania."
+"programowania w Pythonie oraz zdobycia praktycznego doświadczenia z różnymi "
+"technologiami. Każdy projekt stanowił okazję do nauki i eksploracji nowych "
+"narzędzi, frameworków oraz paradygmatów programowania."
 
 #: templates/index.html:440 templates/movies_project.html:88
 #: templates/otherprojects.html:523 templates/steamchests.html:430
@@ -359,126 +372,131 @@ msgstr "Wszelkie prawa zastrzeżone."
 
 #: templates/moviereviewers.html:21 templates/steamchests.html:36
 #: templates/steamchests.html:73
-#, fuzzy
 msgid "About Project"
-msgstr "Projekty"
+msgstr "O projekcie"
 
 #: templates/moviereviewers.html:22
 msgid "Technologies behind it and the idea that started it all."
-msgstr ""
+msgstr "Wykorzystane technologie i motywacja."
 
 #: templates/moviereviewers.html:34 templates/moviereviewers.html:321
 #: templates/myfilmsay.html:22 templates/myfilmsay.html:314
 #: templates/steamchests.html:39 templates/steamchests.html:86
 #: templates/steamchests.html:302
 msgid "Home"
-msgstr ""
+msgstr "Strona główna"
 
 #: templates/moviereviewers.html:35 templates/myfilmsay.html:23
 msgid "Overview of all available movies."
-msgstr ""
+msgstr "Podgląd dostępnych filmów."
 
 #: templates/moviereviewers.html:47 templates/moviereviewers.html:355
 #: templates/myfilmsay.html:35 templates/myfilmsay.html:350
 msgid "Movie Site"
-msgstr ""
+msgstr "Strona filmu"
 
 #: templates/moviereviewers.html:48 templates/myfilmsay.html:36
 msgid "All information about movie and comments"
-msgstr ""
+msgstr "Informacje o filmie i komentarze"
 
 #: templates/moviereviewers.html:60 templates/myfilmsay.html:48
 msgid "Add and edit movies"
-msgstr ""
+msgstr "Dodawanie i edycja filmów"
 
 #: templates/moviereviewers.html:61 templates/myfilmsay.html:49
 msgid "Adding and editing on a site"
-msgstr ""
+msgstr "Dodawanie i edycja filmów na stronie"
 
 #: templates/moviereviewers.html:73 templates/moviereviewers.html:461
 #: templates/myfilmsay.html:74 templates/myfilmsay.html:505
 msgid "User Profile"
-msgstr ""
+msgstr "Profil użytkownika"
 
 #: templates/moviereviewers.html:74 templates/myfilmsay.html:75
 msgid "Monitoring user activity"
-msgstr ""
+msgstr "Monitorowanie aktywności użytkowników"
 
 #: templates/moviereviewers.html:86 templates/myfilmsay.html:87
 msgid "Admin and moderator page"
-msgstr ""
+msgstr "Strona administracji"
 
 #: templates/moviereviewers.html:87 templates/myfilmsay.html:88
 msgid "Deleting users and adding roles"
-msgstr ""
+msgstr "Usuwanie użytkowników i nadawanie ról"
 
 #: templates/moviereviewers.html:99 templates/moviereviewers.html:507
 msgid "About me and contact"
-msgstr ""
+msgstr "O mnie oraz kontakt"
 
 #: templates/moviereviewers.html:100
 msgid "Information for other users about author, and contact"
-msgstr ""
+msgstr "Informacje dla użytkowników o autorze i kontakt"
 
 #: templates/moviereviewers.html:112 templates/myfilmsay.html:113
 msgid "Comments"
-msgstr ""
+msgstr "Komentarze"
 
 #: templates/moviereviewers.html:113 templates/myfilmsay.html:114
 msgid "Comment sections for users opinion"
-msgstr ""
+msgstr "Sekcja komentarzy dla opinii użytkowników"
 
 #: templates/moviereviewers.html:125 templates/myfilmsay.html:126
 #: templates/steamchests.html:137
 msgid "Login and Register"
-msgstr ""
+msgstr "Logowanie i rejestracje"
 
 #: templates/moviereviewers.html:126 templates/myfilmsay.html:127
 #: templates/steamchests.html:138
 msgid "Login or Register new account"
-msgstr ""
+msgstr "Logowanie i rejestracja nowego konta"
 
 #: templates/moviereviewers.html:140 templates/myfilmsay.html:141
 #: templates/steamchests.html:180
 msgid "Idea that started the project"
-msgstr ""
+msgstr "Motywacja do rozpoczęcia projektu"
 
 #: templates/moviereviewers.html:142 templates/myfilmsay.html:143
 msgid ""
 "I wanted to create a project that would help me develop more practical "
 "programming skills. Initially,\n"
-"                        the idea was based on concepts I had learned "
-"during courses, and the website was intended\n"
-"                        to be a small learning exercise. Over time, it "
-"evolved into a more advanced platform as\n"
-"                        I continued to use it as a workspace for "
-"experimenting with new technologies."
+"                        the idea was based on concepts I had learned during "
+"courses, and the website was intended\n"
+"                        to be a small learning exercise. Over time, it evolved "
+"into a more advanced platform as\n"
+"                        I continued to use it as a workspace for experimenting "
+"with new technologies."
 msgstr ""
+"Chciałem stworzyć projekt, który pomógłby mi rozwinąć bardziej praktyczne "
+"umiejętności programistyczne. Początkowo pomysł opierał się na koncepcjach "
+"poznanych podczas kursów, a strona miała być niewielkim ćwiczeniem "
+"edukacyjnym. Z czasem przekształciła się w bardziej zaawansowaną platformę, "
+"którą wykorzystywałem jako przestrzeń do eksperymentowania z nowymi "
+"technologiami."
 
 #: templates/moviereviewers.html:154 templates/myfilmsay.html:155
 #: templates/steamchests.html:195
 msgid "More about the project"
-msgstr ""
+msgstr "Więcej o projekcie"
 
 #: templates/moviereviewers.html:155 templates/myfilmsay.html:156
 msgid "Overview"
-msgstr ""
+msgstr "Podgląd"
 
 #: templates/moviereviewers.html:157 templates/moviereviewers.html:510
 msgid "Movie Reviewers"
-msgstr ""
+msgstr "Movie Reviewers"
 
 #: templates/moviereviewers.html:157 templates/myfilmsay.html:158
 msgid "is a"
-msgstr ""
+msgstr "jest"
 
 #: templates/moviereviewers.html:158 templates/myfilmsay.html:158
 msgid "full-stack web application"
-msgstr ""
+msgstr "aplikacją internetową typu full-stack"
 
 #: templates/moviereviewers.html:158 templates/myfilmsay.html:159
 msgid "inspired by platforms like"
-msgstr ""
+msgstr "zainspirowana platformami"
 
 #: templates/moviereviewers.html:159 templates/moviereviewers.html:173
 #: templates/moviereviewers.html:183 templates/moviereviewers.html:336
@@ -494,135 +512,136 @@ msgstr ""
 #: templates/otherprojects.html:207 templates/otherprojects.html:235
 #: templates/otherprojects.html:308 templates/otherprojects.html:400
 msgid "and"
-msgstr ""
+msgstr "oraz"
 
 #: templates/moviereviewers.html:159 templates/myfilmsay.html:160
 msgid ""
 "created as part of a\n"
-"                                personal development initiative to "
-"explore web technologies."
+"                                personal development initiative to explore web "
+"technologies."
 msgstr ""
+"stworzona w ramach inicjatywy rozwojowej, mającej na celu zgłębianie "
+"technologii webowych."
 
 #: templates/moviereviewers.html:161 templates/myfilmsay.html:162
 msgid "The platform allows users to browse a"
-msgstr ""
+msgstr "Platforma pozwala użytkownikom wyszukiwać"
 
 #: templates/moviereviewers.html:162 templates/myfilmsay.html:162
 msgid "curated selection of movies"
-msgstr ""
+msgstr "starannie dobrane filmy"
 
 #: templates/moviereviewers.html:162 templates/myfilmsay.html:162
 msgid "with"
-msgstr ""
+msgstr "z"
 
 #: templates/moviereviewers.html:163 templates/myfilmsay.html:163
 msgid "interactive poster cards"
-msgstr ""
+msgstr "interaktywnymi kartami filmów"
 
 #: templates/moviereviewers.html:163 templates/myfilmsay.html:163
 msgid "that reveal detailed information on hover and a"
-msgstr ""
+msgstr "które pokazują informacje po najechaniu myszką, oraz"
 
 #: templates/moviereviewers.html:164 templates/myfilmsay.html:164
 msgid "dynamic carousel"
-msgstr ""
+msgstr "karuzela"
 
 #: templates/moviereviewers.html:164 templates/myfilmsay.html:164
 msgid "showcasing random featured films."
-msgstr ""
+msgstr "przedstawiająca losowo wybrane filmy z bazy danych."
 
 #: templates/moviereviewers.html:168 templates/myfilmsay.html:168
 msgid "Each movie has a dedicated page containing"
-msgstr ""
+msgstr "Każdy film ma dedykowaną podstronę zawierającą"
 
 #: templates/moviereviewers.html:169
 msgid "key details, ratings, and a comment section"
-msgstr ""
+msgstr "najważniejsze informacje, oraz sekcje komentarzy"
 
 #: templates/moviereviewers.html:169 templates/myfilmsay.html:169
 msgid "where registered users can"
-msgstr ""
+msgstr "w której zalogowani użytkownicy mogą"
 
 #: templates/moviereviewers.html:170 templates/myfilmsay.html:170
 msgid "engage in discussion"
-msgstr ""
+msgstr "wchodzić w dyskusje"
 
 #: templates/moviereviewers.html:170
 msgid "reply to other comments, and"
-msgstr ""
+msgstr "odpowiadając na komentarze innych, oraz"
 
 #: templates/moviereviewers.html:171 templates/myfilmsay.html:172
 msgid "vote on their usefulness"
-msgstr ""
+msgstr "głosować"
 
 #: templates/moviereviewers.html:171 templates/myfilmsay.html:172
 msgid "The project implements a"
-msgstr ""
+msgstr "Projekt posiada"
 
 #: templates/moviereviewers.html:172 templates/myfilmsay.html:173
 msgid "role-based access control system"
-msgstr ""
+msgstr "podział na role"
 
 #: templates/moviereviewers.html:172
 msgid "with three roles:"
-msgstr ""
+msgstr "z trzema dostępnymi rolami:"
 
 #: templates/moviereviewers.html:173 templates/myfilmsay.html:174
 msgid "admin, moderator"
-msgstr ""
+msgstr "admin, moderator"
 
 #: templates/moviereviewers.html:173 templates/myfilmsay.html:174
 msgid "standard user"
-msgstr ""
+msgstr "użytkownik"
 
 #: templates/moviereviewers.html:174 templates/myfilmsay.html:175
 msgid "Admins and moderators can"
-msgstr ""
+msgstr "Admin, oraz moderatorzy mogą"
 
 #: templates/moviereviewers.html:175
 msgid "add, edit, or delete movies"
-msgstr ""
+msgstr "dodawać, edytować, oraz usuwać filmy"
 
 #: templates/moviereviewers.html:175
 msgid "manage comments,"
-msgstr ""
+msgstr "nadzorować sekcje komentarzy,"
 
 #: templates/moviereviewers.html:176
 msgid "moderate user profiles"
-msgstr ""
+msgstr "profile użytkowników"
 
 #: templates/moviereviewers.html:176 templates/myfilmsay.html:176
 msgid "and assign roles within the platform."
-msgstr ""
+msgstr "oraz nadawać role innym."
 
 #: templates/moviereviewers.html:180 templates/myfilmsay.html:180
 msgid "All movie data is"
-msgstr ""
+msgstr "Wszystkie dane filmów są"
 
 #: templates/moviereviewers.html:180 templates/myfilmsay.html:180
 msgid "fetched from the TMDB API"
-msgstr ""
+msgstr "pobierane z TMDB API"
 
 #: templates/moviereviewers.html:180 templates/myfilmsay.html:180
 msgid "to ensure accurate information."
-msgstr ""
+msgstr "w celu pozyskania dokładnych informacji."
 
 #: templates/moviereviewers.html:181 templates/myfilmsay.html:181
 msgid "The platform integrates"
-msgstr ""
+msgstr "Platforma zawiera"
 
 #: templates/moviereviewers.html:182 templates/myfilmsay.html:181
-#, fuzzy
 msgid "authentication"
-msgstr "Wykształcenie"
+msgstr "uwierzytelnianie"
 
 #: templates/moviereviewers.html:182 templates/myfilmsay.html:181
 msgid "user management"
-msgstr ""
+msgstr "nadzorowanie"
 
 #: templates/moviereviewers.html:183 templates/myfilmsay.html:182
 msgid "form handling"
-msgstr ""
+msgstr "obsługę formularzy"
 
 #: templates/moviereviewers.html:184 templates/myfilmsay.html:182
 msgid "real-time feedback"
@@ -674,8 +693,14 @@ msgstr ""
 
 #: templates/moviereviewers.html:258 templates/myfilmsay.html:251
 #: templates/steamchests.html:240
+#, fuzzy
 msgid "Data:"
 msgstr ""
+"Jestem studentem informatyki (4 rok) ze specjalizacją Inżynieria internetowa. "
+"Aktywnie pracuję w Pythonie i\n"
+"                    back-end development. Eksploruję również naukę o danych i "
+"lubię pracować z zestawami danych i\n"
+"                    i analizą statystyczną."
 
 #: templates/moviereviewers.html:266 templates/myfilmsay.html:259
 #: templates/steamchests.html:247
@@ -748,8 +773,8 @@ msgstr ""
 #: templates/moviereviewers.html:325 templates/myfilmsay.html:318
 msgid ""
 "that displays three randomly selected\n"
-"                    featured films, each enriched with key information "
-"fetched from the"
+"                    featured films, each enriched with key information fetched "
+"from the"
 msgstr ""
 
 #: templates/moviereviewers.html:327 templates/myfilmsay.html:320
@@ -784,8 +809,7 @@ msgstr "Wyślij"
 #: templates/moviereviewers.html:330 templates/myfilmsay.html:323
 msgid ""
 "by various parameters\n"
-"                    like rating or release year, allowing for easy "
-"browsing."
+"                    like rating or release year, allowing for easy browsing."
 msgstr ""
 
 #: templates/moviereviewers.html:333 templates/myfilmsay.html:328
@@ -808,8 +832,7 @@ msgstr ""
 #: templates/moviereviewers.html:334
 msgid ""
 "dynamically manages the content rendering and API data\n"
-"                    integration to ensure smooth and modern user "
-"interaction."
+"                    integration to ensure smooth and modern user interaction."
 msgstr ""
 
 #: templates/moviereviewers.html:336 templates/myfilmsay.html:331
@@ -861,8 +884,8 @@ msgstr ""
 #: templates/moviereviewers.html:359 templates/myfilmsay.html:354
 msgid ""
 "that fills up according to the movie's rating, the\n"
-"                    percentage value is displayed at the center of the "
-"circle, movie details such as the"
+"                    percentage value is displayed at the center of the circle, "
+"movie details such as the"
 msgstr ""
 
 #: templates/moviereviewers.html:361 templates/myfilmsay.html:356
@@ -1004,14 +1027,13 @@ msgstr ""
 #: templates/moviereviewers.html:391 templates/myfilmsay.html:387
 msgid ""
 "to other comments, creating a\n"
-"                    threaded discussion that allows for deeper engagement"
-" and conversation."
+"                    threaded discussion that allows for deeper engagement and "
+"conversation."
 msgstr ""
 
 #: templates/moviereviewers.html:393 templates/myfilmsay.html:389
 msgid ""
-"This encourages active participation and the sharing of thoughts on the "
-"movie."
+"This encourages active participation and the sharing of thoughts on the movie."
 msgstr ""
 
 #: templates/moviereviewers.html:397 templates/moviereviewers.html:509
@@ -1111,8 +1133,8 @@ msgstr ""
 
 #: templates/moviereviewers.html:432
 msgid ""
-"Upon selection, the user is redirected to a shared interface that also "
-"serves as the"
+"Upon selection, the user is redirected to a shared interface that also serves "
+"as the"
 msgstr ""
 
 #: templates/moviereviewers.html:433 templates/myfilmsay.html:450
@@ -1135,8 +1157,7 @@ msgstr ""
 #: templates/moviereviewers.html:435
 msgid ""
 "— including title, release year,\n"
-"                    genres, director, writer, poster, rating, and "
-"overview."
+"                    genres, director, writer, poster, rating, and overview."
 msgstr ""
 
 #: templates/moviereviewers.html:440 templates/myfilmsay.html:427
@@ -1162,8 +1183,8 @@ msgstr ""
 #: templates/moviereviewers.html:442 templates/myfilmsay.html:429
 msgid ""
 "and\n"
-"                    becomes accessible to all users on the main page and "
-"in search results."
+"                    becomes accessible to all users on the main page and in "
+"search results."
 msgstr ""
 
 #: templates/moviereviewers.html:463 templates/moviereviewers.html:487
@@ -1187,8 +1208,8 @@ msgstr ""
 
 #: templates/moviereviewers.html:466 templates/myfilmsay.html:510
 msgid ""
-"This includes reviewing all comments posted by a user and assessing their"
-" behavior on the platform."
+"This includes reviewing all comments posted by a user and assessing their "
+"behavior on the platform."
 msgstr ""
 
 #: templates/moviereviewers.html:468 templates/myfilmsay.html:512
@@ -1224,8 +1245,8 @@ msgstr ""
 #: templates/moviereviewers.html:487 templates/myfilmsay.html:531
 msgid ""
 "have\n"
-"                    access to a dedicated user management page, where "
-"they can view a complete list of registered accounts."
+"                    access to a dedicated user management page, where they can "
+"view a complete list of registered accounts."
 msgstr ""
 
 #: templates/moviereviewers.html:489 templates/myfilmsay.html:533
@@ -1254,10 +1275,10 @@ msgstr ""
 
 #: templates/moviereviewers.html:492 templates/myfilmsay.html:537
 msgid ""
-"This feature provides full control over user administration, ensuring "
-"that only trusted members\n"
-"                    hold higher privileges and that the platform remains "
-"well-moderated."
+"This feature provides full control over user administration, ensuring that "
+"only trusted members\n"
+"                    hold higher privileges and that the platform remains well-"
+"moderated."
 msgstr ""
 
 #: templates/moviereviewers.html:509 templates/myfilmsay.html:554
@@ -1301,22 +1322,22 @@ msgstr ""
 
 #: templates/moviereviewers.html:518
 msgid ""
-"Whether it's for reporting bugs, sharing feedback, business inquiries, or"
-" collaboration proposals, this form\n"
-"                    allows messages to be sent securely and efficiently "
-"via email."
+"Whether it's for reporting bugs, sharing feedback, business inquiries, or "
+"collaboration proposals, this form\n"
+"                    allows messages to be sent securely and efficiently via "
+"email."
 msgstr ""
 
 #: templates/moviereviewers.html:520
 msgid ""
-"It reinforces transparency and keeps the community engaged and connected "
-"with the development team."
+"It reinforces transparency and keeps the community engaged and connected with "
+"the development team."
 msgstr ""
 
 #: templates/moviereviewers.html:524
 msgid ""
-"Both sections are designed to strengthen user trust, provide "
-"transparency, and foster community\n"
+"Both sections are designed to strengthen user trust, provide transparency, and "
+"foster community\n"
 "                    interaction around the project."
 msgstr ""
 
@@ -1351,8 +1372,7 @@ msgstr ""
 
 #: templates/moviereviewers.html:548 templates/myfilmsay.html:581
 msgid ""
-"before being stored in the database, ensuring data protection and user "
-"privacy."
+"before being stored in the database, ensuring data protection and user privacy."
 msgstr ""
 
 #: templates/moviereviewers.html:552 templates/myfilmsay.html:585
@@ -1373,17 +1393,17 @@ msgstr ""
 
 #: templates/moviereviewers.html:555 templates/myfilmsay.html:588
 msgid ""
-"This authentication layer helps maintain the quality of content and "
-"fosters meaningful discussions\n"
+"This authentication layer helps maintain the quality of content and fosters "
+"meaningful discussions\n"
 "                    by holding users accountable for their activity."
 msgstr ""
 
 #: templates/moviereviewers.html:560 templates/myfilmsay.html:593
 msgid ""
-"The system lays the groundwork for role-based access control, ensuring "
-"that only authenticated\n"
-"                    users can engage with content and that higher "
-"privileges are granted only to moderators and administrators."
+"The system lays the groundwork for role-based access control, ensuring that "
+"only authenticated\n"
+"                    users can engage with content and that higher privileges "
+"are granted only to moderators and administrators."
 msgstr ""
 
 #: templates/movies_project.html:19 templates/otherprojects.html:19
@@ -1468,15 +1488,14 @@ msgstr ""
 
 #: templates/myfilmsay.html:385
 msgid ""
-"them based on their experience, giving a numerical score that reflects "
-"their opinion."
+"them based on their experience, giving a numerical score that reflects their "
+"opinion."
 msgstr ""
 
 #: templates/myfilmsay.html:394
 msgid ""
 "their own comment\n"
-"                    at any time, providing control over their "
-"contributions."
+"                    at any time, providing control over their contributions."
 msgstr ""
 
 #: templates/myfilmsay.html:415
@@ -1494,14 +1513,13 @@ msgstr ""
 #: templates/myfilmsay.html:420
 msgid ""
 "page, where an\n"
-"                    authorized user can enter a film title into the "
-"search bar."
+"                    authorized user can enter a film title into the search bar."
 msgstr ""
 
 #: templates/myfilmsay.html:422
 msgid ""
-"A list of matching and similar titles from TMDb API is displayed, "
-"allowing the user to"
+"A list of matching and similar titles from TMDb API is displayed, allowing the "
+"user to"
 msgstr ""
 
 #: templates/myfilmsay.html:423
@@ -1510,8 +1528,8 @@ msgstr ""
 
 #: templates/myfilmsay.html:452
 msgid ""
-"Upon selecting a new movie, the user is redirected to a shared interface "
-"that also serves as the"
+"Upon selecting a new movie, the user is redirected to a shared interface that "
+"also serves as the"
 msgstr ""
 
 #: templates/myfilmsay.html:453
@@ -1536,8 +1554,8 @@ msgstr "Wykształcenie"
 #: templates/myfilmsay.html:460
 msgid ""
 "an existing movie, the form is\n"
-"                    pre-filled with its previously stored data, which can"
-" then be updated as needed."
+"                    pre-filled with its previously stored data, which can then "
+"be updated as needed."
 msgstr ""
 
 #: templates/myfilmsay.html:477
@@ -1574,15 +1592,15 @@ msgstr ""
 #: templates/myfilmsay.html:487
 msgid ""
 "markup,\n"
-"                    it improves discoverability while showcasing my focus"
-" on usability, accessibility, and web performance."
+"                    it improves discoverability while showcasing my focus on "
+"usability, accessibility, and web performance."
 msgstr ""
 
 #: templates/myfilmsay.html:514
 msgid ""
 "for\n"
-"                    all users and gives moderators the tools needed to "
-"enforce community standards."
+"                    all users and gives moderators the tools needed to enforce "
+"community standards."
 msgstr ""
 
 #: templates/myfilmsay.html:535
@@ -1705,16 +1723,16 @@ msgstr ""
 
 #: templates/otherprojects.html:209
 msgid ""
-"Each project helped me grow both technically and creatively, and gave me "
-"a better understanding\n"
+"Each project helped me grow both technically and creatively, and gave me a "
+"better understanding\n"
 "                        of how to connect different technologies into "
 "complete, functional solutions."
 msgstr ""
 
 #: templates/otherprojects.html:211
 msgid ""
-"This hands-on approach has been the most effective way for me to develop "
-"as a programmer."
+"This hands-on approach has been the most effective way for me to develop as a "
+"programmer."
 msgstr ""
 
 #: templates/otherprojects.html:220
@@ -1732,8 +1750,8 @@ msgstr ""
 
 #: templates/otherprojects.html:236
 msgid ""
-"The game features multiple difficulty levels, a nickname-based scoring "
-"system, and local\n"
+"The game features multiple difficulty levels, a nickname-based scoring system, "
+"and local\n"
 "                        score saving using"
 msgstr ""
 
@@ -1744,8 +1762,7 @@ msgstr ""
 #: templates/otherprojects.html:238
 msgid ""
 "All gameplay logic runs entirely in the\n"
-"                        browser, providing a smooth and responsive "
-"experience."
+"                        browser, providing a smooth and responsive experience."
 msgstr ""
 
 #: templates/otherprojects.html:240
@@ -1754,8 +1771,8 @@ msgstr ""
 
 #: templates/otherprojects.html:241
 msgid ""
-"The project also demonstrates full integration between the frontend and a"
-" lightweight Python backend."
+"The project also demonstrates full integration between the frontend and a "
+"lightweight Python backend."
 msgstr ""
 
 #: templates/otherprojects.html:267
@@ -1767,8 +1784,14 @@ msgstr ""
 #: templates/otherprojects.html:375 templates/otherprojects.html:396
 #: templates/otherprojects.html:404 templates/otherprojects.html:431
 #: templates/otherprojects.html:460 templates/otherprojects.html:487
+#, fuzzy
 msgid "Python"
 msgstr ""
+"Jestem studentem informatyki (4 rok) ze specjalizacją Inżynieria internetowa. "
+"Aktywnie pracuję w Pythonie i\n"
+"                    back-end development. Eksploruję również naukę o danych i "
+"lubię pracować z zestawami danych i\n"
+"                    i analizą statystyczną."
 
 #: templates/otherprojects.html:268 templates/otherprojects.html:302
 #: templates/otherprojects.html:334 templates/otherprojects.html:365
@@ -1782,8 +1805,8 @@ msgstr ""
 
 #: templates/otherprojects.html:269
 msgid ""
-"The goal is to correctly name all 50 U.S. states, which are then "
-"dynamically labeled on a blank map."
+"The goal is to correctly name all 50 U.S. states, which are then dynamically "
+"labeled on a blank map."
 msgstr ""
 
 #: templates/otherprojects.html:270
@@ -1808,20 +1831,20 @@ msgstr ""
 
 #: templates/otherprojects.html:273
 msgid ""
-"If the player chooses to exit early, the program automatically generates "
-"a new CSV file -"
+"If the player chooses to exit early, the program automatically generates a new "
+"CSV file -"
 msgstr ""
 
 #: templates/otherprojects.html:275
 msgid ""
-"listing the states that were missed, allowing for personalized review and"
-" improvement."
+"listing the states that were missed, allowing for personalized review and "
+"improvement."
 msgstr ""
 
 #: templates/otherprojects.html:276
 msgid ""
-"As a light introduction to data-driven applications, this project "
-"demonstrates how basic"
+"As a light introduction to data-driven applications, this project demonstrates "
+"how basic"
 msgstr ""
 
 #: templates/otherprojects.html:277
@@ -1839,17 +1862,17 @@ msgstr ""
 
 #: templates/otherprojects.html:303
 msgid ""
-"The project is structured in an object-oriented way, with separate "
-"classes for the paddles, ball,\n"
+"The project is structured in an object-oriented way, with separate classes for "
+"the paddles, ball,\n"
 "                        and scoreboard."
 msgstr ""
 
 #: templates/otherprojects.html:305
 msgid ""
-"It features real-time input handling for smooth two-player gameplay, "
-"dynamic collision\n"
-"                        detection, score tracking, and a gradually "
-"increasing ball speed."
+"It features real-time input handling for smooth two-player gameplay, dynamic "
+"collision\n"
+"                        detection, score tracking, and a gradually increasing "
+"ball speed."
 msgstr ""
 
 #: templates/otherprojects.html:307
@@ -1889,18 +1912,17 @@ msgstr ""
 
 #: templates/otherprojects.html:336
 msgid ""
-"The project is structured in an object-oriented manner, with separate "
-"classes handling the\n"
-"                        snake's behavior, food spawning, and score "
-"keeping."
+"The project is structured in an object-oriented manner, with separate classes "
+"handling the\n"
+"                        snake's behavior, food spawning, and score keeping."
 msgstr ""
 
 #: templates/otherprojects.html:338
 msgid ""
-"It features real-time input handling, collision detection with walls, "
-"food, and the snake’s\n"
-"                        own body, as well as persistent high score "
-"tracking using a local file."
+"It features real-time input handling, collision detection with walls, food, "
+"and the snake’s\n"
+"                        own body, as well as persistent high score tracking "
+"using a local file."
 msgstr ""
 
 #: templates/otherprojects.html:340
@@ -1947,14 +1969,14 @@ msgstr ""
 
 #: templates/otherprojects.html:367
 msgid ""
-"The player controls a turtle trying to cross a busy road without getting "
-"hit by randomly generated cars."
+"The player controls a turtle trying to cross a busy road without getting hit "
+"by randomly generated cars."
 msgstr ""
 
 #: templates/otherprojects.html:368
 msgid ""
-"Each successful crossing increases the game level and the speed of "
-"oncoming traffic,\n"
+"Each successful crossing increases the game level and the speed of oncoming "
+"traffic,\n"
 "                        making the game progressively more challenging."
 msgstr ""
 
@@ -2002,14 +2024,14 @@ msgstr ""
 
 #: templates/otherprojects.html:397
 msgid ""
-"The questions are pulled from a structured data source and displayed one "
-"by one in the terminal."
+"The questions are pulled from a structured data source and displayed one by "
+"one in the terminal."
 msgstr ""
 
 #: templates/otherprojects.html:398
 msgid ""
-"The game keeps track of the user's score and gives immediate feedback "
-"after each answer."
+"The game keeps track of the user's score and gives immediate feedback after "
+"each answer."
 msgstr ""
 
 #: templates/otherprojects.html:399
@@ -2043,24 +2065,24 @@ msgstr ""
 
 #: templates/otherprojects.html:424
 msgid ""
-"A data scraping project focused on collecting rental property information"
-" (price, address,\n"
+"A data scraping project focused on collecting rental property information "
+"(price, address,\n"
 "                        and link) from a Zillow-like website using "
 "BeautifulSoup and Selenium."
 msgstr ""
 
 #: templates/otherprojects.html:426
 msgid ""
-"Extracted data is then automatically submitted to a Google Form, "
-"simulating data entry automation."
+"Extracted data is then automatically submitted to a Google Form, simulating "
+"data entry automation."
 msgstr ""
 
 #: templates/otherprojects.html:427
 msgid ""
-"This project demonstrates practical use of web scraping, data parsing, "
-"and browser automation -\n"
-"                        useful skills in data analysis pipelines and web "
-"data integration."
+"This project demonstrates practical use of web scraping, data parsing, and "
+"browser automation -\n"
+"                        useful skills in data analysis pipelines and web data "
+"integration."
 msgstr ""
 
 #: templates/otherprojects.html:446
@@ -2069,14 +2091,14 @@ msgstr ""
 
 #: templates/otherprojects.html:451
 msgid ""
-"A Selenium-based automation project showcasing browser interaction skills"
-" through multiple mini-tasks."
+"A Selenium-based automation project showcasing browser interaction skills "
+"through multiple mini-tasks."
 msgstr ""
 
 #: templates/otherprojects.html:452
 msgid ""
-"The main focus is a bot for the Cookie Clicker game that automates cookie"
-" generation and\n"
+"The main focus is a bot for the Cookie Clicker game that automates cookie "
+"generation and\n"
 "                        intelligently purchases upgrades to optimize "
 "efficiency."
 msgstr ""
@@ -2090,8 +2112,8 @@ msgstr ""
 
 #: templates/otherprojects.html:456
 msgid ""
-"This project highlights practical web automation techniques and real-time"
-" decision-making\n"
+"This project highlights practical web automation techniques and real-time "
+"decision-making\n"
 "                        in dynamic web environments."
 msgstr ""
 
@@ -2101,12 +2123,12 @@ msgstr ""
 
 #: templates/otherprojects.html:480
 msgid ""
-"Built a Python application that scrapes the Billboard Hot 100 chart for a"
-" user-specified\n"
-"                        date (using BeautifulSoup), searches for each "
-"track on Spotify via the Spotipy API, and automatically\n"
-"                        creates a private Spotify playlist with the found"
-" songs."
+"Built a Python application that scrapes the Billboard Hot 100 chart for a user-"
+"specified\n"
+"                        date (using BeautifulSoup), searches for each track on "
+"Spotify via the Spotipy API, and automatically\n"
+"                        creates a private Spotify playlist with the found "
+"songs."
 msgstr ""
 
 #: templates/otherprojects.html:483
@@ -2154,12 +2176,12 @@ msgstr ""
 
 #: templates/steamchests.html:182
 msgid ""
-"My friends and I used to play a lot of Counter-Strike 2, and during that "
-"time we purchased various\n"
-"                        in-game cases, which could later be sold for "
-"profit. I wanted to create a platform where we could\n"
-"                        track the value of our inventories, monitor price"
-" changes over time, and determine the best moment\n"
+"My friends and I used to play a lot of Counter-Strike 2, and during that time "
+"we purchased various\n"
+"                        in-game cases, which could later be sold for profit. I "
+"wanted to create a platform where we could\n"
+"                        track the value of our inventories, monitor price "
+"changes over time, and determine the best moment\n"
 "                        to sell. This project also served as a valuable "
 "opportunity for me to improve my development skills\n"
 "                        and learn new technologies."
@@ -2172,14 +2194,14 @@ msgstr ""
 #: templates/steamchests.html:198
 msgid ""
 "framework and provides tools\n"
-"                                for tracking the prices of CS2 in-game "
-"cases listed on the Steam market. Users can view historical\n"
-"                                price charts, monitor daily, weekly, "
-"monthly, and total value changes, and create accounts to manage\n"
+"                                for tracking the prices of CS2 in-game cases "
+"listed on the Steam market. Users can view historical\n"
+"                                price charts, monitor daily, weekly, monthly, "
+"and total value changes, and create accounts to manage\n"
 "                                their personal inventories. The system "
 "automatically calculates the total value of owned cases and\n"
-"                                visualizes market trends to help identify"
-" optimal selling moments."
+"                                visualizes market trends to help identify "
+"optimal selling moments."
 msgstr ""
 
 #: templates/steamchests.html:216
@@ -2241,11 +2263,10 @@ msgstr ""
 
 #: templates/steamchests.html:304
 msgid ""
-"The homepage displays a dynamically generated list of all Counter-Strike "
-"2 cases available on\n"
-"                    the Steam Market, each represented by a card "
-"containing the case name, image fetched from the Steam API, and market "
-"price."
+"The homepage displays a dynamically generated list of all Counter-Strike 2 "
+"cases available on\n"
+"                    the Steam Market, each represented by a card containing "
+"the case name, image fetched from the Steam API, and market price."
 msgstr ""
 
 #: templates/steamchests.html:306
@@ -2256,14 +2277,14 @@ msgstr ""
 
 #: templates/steamchests.html:307
 msgid ""
-"Data is regularly fetched and stored in JSON format as part of my "
-"learning process with JSON handling."
+"Data is regularly fetched and stored in JSON format as part of my learning "
+"process with JSON handling."
 msgstr ""
 
 #: templates/steamchests.html:308
 msgid ""
-"To improve performance, I created a separate JSON file that stores only "
-"the latest prices for each case."
+"To improve performance, I created a separate JSON file that stores only the "
+"latest prices for each case."
 msgstr ""
 
 #: templates/steamchests.html:313
@@ -2273,8 +2294,8 @@ msgstr "Steam Chest Prices"
 
 #: templates/steamchests.html:324
 msgid ""
-"The user dashboard enables authenticated users to input and manage their "
-"owned Counter-Strike\n"
+"The user dashboard enables authenticated users to input and manage their owned "
+"Counter-Strike\n"
 "                    2 cases along with quantities."
 msgstr ""
 
@@ -2282,8 +2303,8 @@ msgstr ""
 msgid ""
 "Each entry is displayed in a dynamic, responsive table that includes the "
 "case’s latest market\n"
-"                    price, total value (with and without Steam "
-"transaction fees), and percentage change from the previous day."
+"                    price, total value (with and without Steam transaction "
+"fees), and percentage change from the previous day."
 msgstr ""
 
 #: templates/steamchests.html:328
@@ -2292,8 +2313,8 @@ msgstr ""
 
 #: templates/steamchests.html:329
 msgid ""
-"Below the table, the application calculates and displays the cumulative "
-"value of all listed\n"
+"Below the table, the application calculates and displays the cumulative value "
+"of all listed\n"
 "                    cases, both pre- and post-tax."
 msgstr ""
 
@@ -2303,10 +2324,10 @@ msgstr ""
 
 #: templates/steamchests.html:346
 msgid ""
-"The chest detail page presents an interactive price history chart powered"
-" by Chart.js, allowing\n"
-"                    users to analyze case price fluctuations over various"
-" time ranges, including the past week, month, year, and all-time."
+"The chest detail page presents an interactive price history chart powered by "
+"Chart.js, allowing\n"
+"                    users to analyze case price fluctuations over various time "
+"ranges, including the past week, month, year, and all-time."
 msgstr ""
 
 #: templates/steamchests.html:348
@@ -2315,10 +2336,9 @@ msgstr ""
 
 #: templates/steamchests.html:349
 msgid ""
-"Below the chart, a data table displays historical prices by date along "
-"with the corresponding\n"
-"                    percentage change compared to the previous recorded "
-"value."
+"Below the chart, a data table displays historical prices by date along with "
+"the corresponding\n"
+"                    percentage change compared to the previous recorded value."
 msgstr ""
 
 #: templates/steamchests.html:355
@@ -2331,22 +2351,22 @@ msgstr ""
 
 #: templates/steamchests.html:367
 msgid ""
-"It offers similar functionality to the user inventory page, allowing "
-"users to input the cases\n"
+"It offers similar functionality to the user inventory page, allowing users to "
+"input the cases\n"
 "                    they own and their respective quantities."
 msgstr ""
 
 #: templates/steamchests.html:369
 msgid ""
-"However, it does not persist any data — once the session ends or the page"
-" is refreshed, all\n"
+"However, it does not persist any data — once the session ends or the page is "
+"refreshed, all\n"
 "                    information is cleared."
 msgstr ""
 
 #: templates/steamchests.html:371
 msgid ""
-"This tool provides a quick way to estimate the total value of owned "
-"cases, both before and after\n"
+"This tool provides a quick way to estimate the total value of owned cases, "
+"both before and after\n"
 "                    Steam transaction fees."
 msgstr ""
 
@@ -2363,120 +2383,90 @@ msgstr ""
 
 #: templates/steamchests.html:390
 msgid ""
-"During registration, user credentials are validated and passwords are "
-"securely hashed using\n"
-"                    industry-standard techniques before being stored in "
-"the database."
+"During registration, user credentials are validated and passwords are securely "
+"hashed using\n"
+"                    industry-standard techniques before being stored in the "
+"database."
 msgstr ""
 
 #: templates/steamchests.html:392
 msgid ""
-"Upon logging in, users gain access to personalized features such as "
-"managing their own case inventory."
+"Upon logging in, users gain access to personalized features such as managing "
+"their own case inventory."
 msgstr ""
 
 #: templates/steamchests.html:393
 msgid ""
-"Session management is handled via Flask’s session mechanism to maintain "
-"user state throughout the visit."
+"Session management is handled via Flask’s session mechanism to maintain user "
+"state throughout the visit."
 msgstr ""
 
 #: templates/steamchests.html:398
 msgid "Login and Registration"
-msgstr ""
+msgstr "Logowanie i rejestracja"
 
 #~ msgid ""
-#~ "IT student (3rd year) focused on "
-#~ "Web Engineering, with a strong interest"
-#~ " in front-end and back-end\n"
-#~ "                    development. Comfortable working"
-#~ " with Python. Looking for my first"
-#~ " opportunity to apply my skills\n"
+#~ "IT student (3rd year) focused on Web Engineering, with a strong interest in "
+#~ "front-end and back-end\n"
+#~ "                    development. Comfortable working with Python. Looking "
+#~ "for my first opportunity to apply my skills\n"
 #~ "                    in a real-world development environment."
 #~ msgstr ""
-#~ "Student informatyki (3. rok) ze "
-#~ "specjalizacją w inżynierii aplikacji "
-#~ "internetowych, z dużym zainteresowaniem "
-#~ "front-endem i back-endem. Dobrze "
-#~ "odnajduję się w pracy z Pythonem. "
-#~ "Poszukuję pierwszej okazji, by wykorzystać "
-#~ "zdobyte umiejętności w praktycznym środowisku"
-#~ " programistycznym."
+#~ "Student informatyki (3. rok) ze specjalizacją w inżynierii aplikacji "
+#~ "internetowych, z dużym zainteresowaniem front-endem i back-endem. Dobrze "
+#~ "odnajduję się w pracy z Pythonem. Poszukuję pierwszej okazji, by "
+#~ "wykorzystać zdobyte umiejętności w praktycznym środowisku programistycznym."
 
 #~ msgid ""
-#~ "Attended extracurricular programming classes "
-#~ "during middle school, which laid the "
-#~ "foundation\n"
-#~ "                            for my interest in"
-#~ " technology and software development. "
-#~ "Gained early experience with basic\n"
-#~ "                            programming concepts and"
-#~ " problem-solving techniques."
+#~ "Attended extracurricular programming classes during middle school, which "
+#~ "laid the foundation\n"
+#~ "                            for my interest in technology and software "
+#~ "development. Gained early experience with basic\n"
+#~ "                            programming concepts and problem-solving "
+#~ "techniques."
 #~ msgstr ""
-#~ "Uczestniczyłem w zajęciach pozalekcyjnych z"
-#~ " programowania w szkole podstawowej/gimnazjum,"
-#~ " co zapoczątkowało moje zainteresowanie "
-#~ "technologią i tworzeniem oprogramowania. "
-#~ "Zdobyłem wczesne doświadczenie w zakresie "
-#~ "podstawowych pojęć programistycznych i technik"
-#~ " rozwiązywania problemów."
+#~ "Uczestniczyłem w zajęciach pozalekcyjnych z programowania w szkole "
+#~ "podstawowej/gimnazjum, co zapoczątkowało moje zainteresowanie technologią i "
+#~ "tworzeniem oprogramowania. Zdobyłem wczesne doświadczenie w zakresie "
+#~ "podstawowych pojęć programistycznych i technik rozwiązywania problemów."
 
 #~ msgid ""
-#~ "Steam Chest Prices is a web "
-#~ "application designed for monitoring the "
-#~ "prices of CS2 (Counter-Strike 2)\n"
-#~ "                    weapon cases on the "
-#~ "Steam Market. Users can view historical"
-#~ " price charts for each case and "
-#~ "create an\n"
-#~ "                    account to track their "
-#~ "own collection. By adding owned cases"
-#~ " to their profile, users can "
-#~ "automatically\n"
-#~ "                    calculate the total value"
-#~ " of their inventory and see daily "
-#~ "price changes."
+#~ "Steam Chest Prices is a web application designed for monitoring the prices "
+#~ "of CS2 (Counter-Strike 2)\n"
+#~ "                    weapon cases on the Steam Market. Users can view "
+#~ "historical price charts for each case and create an\n"
+#~ "                    account to track their own collection. By adding owned "
+#~ "cases to their profile, users can automatically\n"
+#~ "                    calculate the total value of their inventory and see "
+#~ "daily price changes."
 #~ msgstr ""
-#~ "Steam Chest Prices to aplikacja webowa"
-#~ " służąca do monitorowania cen skrzynek "
-#~ "z bronią z gry CS2 (Counter-Strike"
-#~ " 2) na rynku Steam. Umożliwia "
-#~ "przeglądanie wykresów cenowych oraz tworzenie"
-#~ " kont użytkownika w celu śledzenia "
-#~ "własnej kolekcji. Po dodaniu skrzynek do"
-#~ " profilu użytkownik może automatycznie "
-#~ "obliczyć łączną wartość inwentarza i "
-#~ "obserwować dzienne zmiany cen."
+#~ "Steam Chest Prices to aplikacja webowa służąca do monitorowania cen "
+#~ "skrzynek z bronią z gry CS2 (Counter-Strike 2) na rynku Steam. Umożliwia "
+#~ "przeglądanie wykresów cenowych oraz tworzenie kont użytkownika w celu "
+#~ "śledzenia własnej kolekcji. Po dodaniu skrzynek do profilu użytkownik może "
+#~ "automatycznie obliczyć łączną wartość inwentarza i obserwować dzienne "
+#~ "zmiany cen."
 
 #~ msgid ""
-#~ "A curated collection of exercises, "
-#~ "notebooks, and projects created during "
-#~ "my journey of learning data science."
-#~ "\n"
-#~ "                    This section highlights "
-#~ "key concepts such as data cleaning, "
-#~ "visualization, statistical modeling, and\n"
-#~ "                    machine learning — all "
-#~ "approached through practical, hands-on "
-#~ "experimentation using real-world datasets."
+#~ "A curated collection of exercises, notebooks, and projects created during "
+#~ "my journey of learning data science.\n"
+#~ "                    This section highlights key concepts such as data "
+#~ "cleaning, visualization, statistical modeling, and\n"
+#~ "                    machine learning — all approached through practical, "
+#~ "hands-on experimentation using real-world datasets."
 #~ msgstr ""
-#~ "Wybrane ćwiczenia, notatniki i projekty "
-#~ "stworzone podczas nauki data science. "
-#~ "Sekcja obejmuje najważniejsze zagadnienia, "
-#~ "takie jak czyszczenie danych, wizualizacja,"
-#~ " modelowanie statystyczne oraz uczenie "
-#~ "maszynowe — wszystko w oparciu o "
-#~ "praktyczne eksperymenty z rzeczywistymi "
-#~ "zbiorami danych."
+#~ "Wybrane ćwiczenia, notatniki i projekty stworzone podczas nauki data "
+#~ "science. Sekcja obejmuje najważniejsze zagadnienia, takie jak czyszczenie "
+#~ "danych, wizualizacja, modelowanie statystyczne oraz uczenie maszynowe — "
+#~ "wszystko w oparciu o praktyczne eksperymenty z rzeczywistymi zbiorami "
+#~ "danych."
 
 #~ msgid ""
-#~ "Want to get in touch? Fill out "
-#~ "the form below and I'll respond as"
-#~ " soon as possible!"
+#~ "Want to get in touch? Fill out the form below and I'll respond as soon as "
+#~ "possible!"
 #~ msgstr ""
-#~ "Chcesz się skontaktować? Wypełnij formularz"
-#~ " poniżej — odpowiem najszybciej jak "
-#~ "to możliwe!"
+#~ "Chcesz się skontaktować? Wypełnij formularz poniżej — odpowiem najszybciej "
+#~ "jak to możliwe!"
 
 #~ msgid "Email address"
 #~ msgstr "Adres e-mail"
@@ -2486,4 +2476,3 @@ msgstr ""
 
 #~ msgid "Message"
 #~ msgstr "Wiadomość"
-
