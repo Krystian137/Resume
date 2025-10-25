@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-23 09:57+0200\n"
-"PO-Revision-Date: 2025-10-24 12:56+0200\n"
+"PO-Revision-Date: 2025-10-25 15:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -46,11 +46,11 @@ msgid ""
 "enjoy working with datasets and\n"
 "                    statistical analysis."
 msgstr ""
-"Jestem studentem informatyki (4 rok) ze specjalizacją Inżynieria internetowa. "
-"Aktywnie pracuję w Pythonie i\n"
-"                    back-end . Eksploruję również naukę o danych i lubię "
-"pracować z zestawami danych i\n"
-"                    i analizą statystyczną."
+"Jestem studentem informatyki (4 rok) na specjalizacji Inżynieria internetowa. "
+"Pracuje w Pythonie i zajmuję się\n"
+"                    back-endem, oraz front-endem. Interesuje mnie również "
+"analiza danych i lubię pracować z zestawami danych i\n"
+"                     analizą statystyczną."
 
 #: templates/index.html:96 templates/moviereviewers.html:201
 #: templates/movies_project.html:39 templates/myfilmsay.html:198
@@ -645,115 +645,108 @@ msgstr "obsługę formularzy"
 
 #: templates/moviereviewers.html:184 templates/myfilmsay.html:182
 msgid "real-time feedback"
-msgstr ""
+msgstr "informacja zwrotna w czasie rzeczywistym"
 
 #: templates/moviereviewers.html:184 templates/myfilmsay.html:182
 msgid "features to deliver a"
-msgstr ""
+msgstr "funkcje umożliwiające dostarczanie"
 
 #: templates/moviereviewers.html:185 templates/myfilmsay.html:183
 msgid "responsive and user-friendly experience"
-msgstr ""
+msgstr "responsywnych i przyjaznych dla użytkownika doświadczeń"
 
 #: templates/moviereviewers.html:186 templates/myfilmsay.html:184
 msgid "The project serves both as a"
-msgstr ""
+msgstr "Projekt służy zarówno za"
 
 #: templates/moviereviewers.html:187 templates/myfilmsay.html:184
 msgid "movie review system"
-msgstr ""
+msgstr "aplikacje do oceniania filmów"
 
 #: templates/moviereviewers.html:187 templates/myfilmsay.html:184
 msgid "and a"
-msgstr ""
+msgstr "oraz też"
 
 #: templates/moviereviewers.html:188 templates/myfilmsay.html:185
 msgid "learning ground for full-stack development practices"
-msgstr ""
+msgstr "środowisko do nauki tworzenia aplikacji full-stack"
 
 #: templates/moviereviewers.html:202 templates/myfilmsay.html:199
 #: templates/steamchests.html:152
-#, fuzzy
 msgid "Technologies used:"
-msgstr "Technologie"
+msgstr "Użyte technologie:"
 
 #: templates/moviereviewers.html:246 templates/myfilmsay.html:243
 #: templates/steamchests.html:224
 msgid "Database:"
-msgstr ""
+msgstr "Baza danych:"
 
 #: templates/moviereviewers.html:250 templates/myfilmsay.html:247
 #: templates/steamchests.html:232
 msgid "Authentication:"
-msgstr ""
+msgstr "Uwierzytelnianie:"
 
 #: templates/moviereviewers.html:254
 msgid "Forms & Input:"
-msgstr ""
+msgstr "Formularze i dane wejściowe:"
 
 #: templates/moviereviewers.html:258 templates/myfilmsay.html:251
 #: templates/steamchests.html:240
-#, fuzzy
 msgid "Data:"
-msgstr ""
-"Jestem studentem informatyki (4 rok) ze specjalizacją Inżynieria internetowa. "
-"Aktywnie pracuję w Pythonie i\n"
-"                    back-end development. Eksploruję również naukę o danych i "
-"lubię pracować z zestawami danych i\n"
-"                    i analizą statystyczną."
+msgstr "Dane:"
 
 #: templates/moviereviewers.html:266 templates/myfilmsay.html:259
 #: templates/steamchests.html:247
 msgid "Key Features"
-msgstr ""
+msgstr "Kluczowe funkcje"
 
 #: templates/moviereviewers.html:273 templates/myfilmsay.html:266
 msgid "Interactive Movie Cards"
-msgstr ""
+msgstr "Interaktywne karty filmów"
 
 #: templates/moviereviewers.html:274 templates/myfilmsay.html:267
 msgid "Flip-style cards showing posters and movie details on hover."
-msgstr ""
+msgstr "Dwustronne karty pokazujące detale po najechaniu myszką."
 
 #: templates/moviereviewers.html:280 templates/myfilmsay.html:273
 msgid "Random Carousel"
-msgstr ""
+msgstr "Losowa karuzela"
 
 #: templates/moviereviewers.html:281 templates/myfilmsay.html:274
 msgid "Dynamic carousel with random movies and key information."
-msgstr ""
+msgstr "Dynamicznie karuzela z losowymi filmami i kluczowymi informacjami o nich"
 
 #: templates/moviereviewers.html:287 templates/myfilmsay.html:280
 msgid "User Comments"
-msgstr ""
+msgstr "Komentarze użytkowników"
 
 #: templates/moviereviewers.html:288 templates/myfilmsay.html:281
 msgid "Add, reply to, and rate comments with upvote and downvote."
-msgstr ""
+msgstr "Dodawaj, oceniaj i odpowiadaj na komentarze"
 
 #: templates/moviereviewers.html:294 templates/myfilmsay.html:287
 msgid "Role-Based System"
-msgstr ""
+msgstr "Podział na role"
 
 #: templates/moviereviewers.html:295 templates/myfilmsay.html:288
 msgid "Admin, moderator, and user roles with different permissions."
-msgstr ""
+msgstr "Admin, moderator, oraz użytkownicy z różnymi uprawnieniami"
 
 #: templates/moviereviewers.html:301 templates/myfilmsay.html:294
 msgid "User Management"
-msgstr ""
+msgstr "Zarządzanie użytkownikami"
 
 #: templates/moviereviewers.html:302 templates/myfilmsay.html:295
 msgid "Admins can manage users, comments, and edit movie data."
-msgstr ""
+msgstr "Admini mogą zarządzań użytkownikami, komentarzami, oraz edytować filmy"
 
 #: templates/moviereviewers.html:308 templates/myfilmsay.html:301
 msgid "External Data"
-msgstr ""
+msgstr "Zewnętrzne dane"
 
 #: templates/moviereviewers.html:309 templates/myfilmsay.html:302
 msgid "Movie details fetched directly from the TMDB API."
-msgstr ""
+msgstr "Informacje o filmach są pobierane z TMDB API."
 
 #: templates/moviereviewers.html:323 templates/myfilmsay.html:316
 msgid ""
@@ -761,14 +754,16 @@ msgid ""
 "engaging and dynamic\n"
 "                    presentation of movie content."
 msgstr ""
+"Strona główna pełni rolę głównego punktu wejścia do platformy, oferując "
+"angażującą i dynamiczną prezentację treści filmowych."
 
 #: templates/moviereviewers.html:325 templates/myfilmsay.html:318
 msgid "It features a"
-msgstr ""
+msgstr "Oferuje"
 
 #: templates/moviereviewers.html:325 templates/myfilmsay.html:318
 msgid "carousel"
-msgstr ""
+msgstr "karuzele"
 
 #: templates/moviereviewers.html:325 templates/myfilmsay.html:318
 msgid ""
@@ -776,110 +771,115 @@ msgid ""
 "                    featured films, each enriched with key information fetched "
 "from the"
 msgstr ""
+"przedstawiającą losowo trzy wybrane filmy z najważniejszymi informacjami, "
+"pobranymi z "
 
 #: templates/moviereviewers.html:327 templates/myfilmsay.html:320
 msgid "Below the carousel, users are presented with a grid of"
-msgstr ""
+msgstr "Poniżej karuzeli użytkownikom prezentowana jest siatka"
 
 #: templates/moviereviewers.html:328 templates/myfilmsay.html:321
 msgid "interactive movie cards"
-msgstr ""
+msgstr "interaktywnych kart filmowych"
 
 #: templates/moviereviewers.html:328 templates/myfilmsay.html:321
 msgid "which utilize"
-msgstr ""
+msgstr "które wykorzystują"
 
 #: templates/moviereviewers.html:328 templates/myfilmsay.html:321
 msgid "CSS transitions"
-msgstr ""
+msgstr "przejścia CSS"
 
 #: templates/moviereviewers.html:329 templates/myfilmsay.html:322
 msgid "to flip on hover, revealing details like title, release year, and rating."
 msgstr ""
+"do obrócenia karty po najechaniu na nią myszką, zawiera najważniejsze "
+"informacje."
 
 #: templates/moviereviewers.html:330 templates/myfilmsay.html:323
 msgid "Additionally, movies can be"
-msgstr ""
+msgstr "Dodatkowo filmy mogą być"
 
 #: templates/moviereviewers.html:330 templates/myfilmsay.html:323
-#, fuzzy
 msgid "sorted"
-msgstr "Wyślij"
+msgstr "sortowane"
 
 #: templates/moviereviewers.html:330 templates/myfilmsay.html:323
 msgid ""
 "by various parameters\n"
 "                    like rating or release year, allowing for easy browsing."
-msgstr ""
+msgstr "według parametrów: ocena, data wydania, nazwa."
 
 #: templates/moviereviewers.html:333 templates/myfilmsay.html:328
 msgid "The layout is built with"
-msgstr ""
+msgstr "Układ został zbudowany przy użyciu"
 
 #: templates/moviereviewers.html:333 templates/myfilmsay.html:328
 msgid "Bootstrap"
-msgstr ""
+msgstr "Bootstrap"
 
 #: templates/moviereviewers.html:333 templates/myfilmsay.html:328
 msgid "for responsiveness, while"
-msgstr ""
+msgstr "dla zapewnienia responsywności, podczas gdy"
 
 #: templates/moviereviewers.html:334 templates/myfilmsay.html:329
 #: templates/otherprojects.html:235
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: templates/moviereviewers.html:334
 msgid ""
 "dynamically manages the content rendering and API data\n"
 "                    integration to ensure smooth and modern user interaction."
 msgstr ""
+"dynamicznie zarządza renderowaniem treści oraz integracją danych z API, aby "
+"zapewnić płynną i nowoczesną interakcję z użytkownikiem."
 
 #: templates/moviereviewers.html:336 templates/myfilmsay.html:331
 msgid "A special feature visible only to"
-msgstr ""
+msgstr "Specjalne funkcjonalności dostępne tylko dla"
 
 #: templates/moviereviewers.html:336 templates/moviereviewers.html:463
 #: templates/moviereviewers.html:487 templates/myfilmsay.html:331
 #: templates/myfilmsay.html:507 templates/myfilmsay.html:531
 msgid "moderators"
-msgstr ""
+msgstr "moderatorów"
 
 #: templates/moviereviewers.html:337 templates/myfilmsay.html:332
 msgid "admins"
-msgstr ""
+msgstr "adminów"
 
 #: templates/moviereviewers.html:337 templates/myfilmsay.html:332
 msgid "is the"
-msgstr ""
+msgstr "to"
 
 #: templates/moviereviewers.html:337 templates/myfilmsay.html:332
 msgid "add movie button"
-msgstr ""
+msgstr "przycisk od dodawania filmów"
 
 #: templates/moviereviewers.html:338 templates/myfilmsay.html:333
 msgid "enabling them to add new films to the platform with ease."
-msgstr ""
+msgstr "pozwalający na proste dodawanie nowych filmów na platformę."
 
 #: templates/moviereviewers.html:357 templates/myfilmsay.html:352
 msgid "Provides a comprehensive view of a selected film."
-msgstr ""
+msgstr "Prezentuje pełne informacje o wybranym tytule"
 
 #: templates/moviereviewers.html:358 templates/myfilmsay.html:353
 msgid "It features the"
-msgstr ""
+msgstr "Zawiera"
 
 #: templates/moviereviewers.html:358 templates/myfilmsay.html:353
 msgid "movie poster"
-msgstr ""
+msgstr "plakat filmowy"
 
 #: templates/moviereviewers.html:358 templates/myfilmsay.html:353
 msgid "alongside a"
-msgstr ""
+msgstr "wraz z"
 
 #: templates/moviereviewers.html:359 templates/myfilmsay.html:354
 msgid "progress circle"
-msgstr ""
+msgstr "okrągły wskaźnik postępu"
 
 #: templates/moviereviewers.html:359 templates/myfilmsay.html:354
 msgid ""
@@ -887,22 +887,24 @@ msgid ""
 "                    percentage value is displayed at the center of the circle, "
 "movie details such as the"
 msgstr ""
+"który wypełnia się zgodnie z oceną filmu, a wartość procentowa jest "
+"wyświetlana w centrum okręgu; szczegóły dotyczące filmu, takie jak"
 
 #: templates/moviereviewers.html:361 templates/myfilmsay.html:356
 msgid "title"
-msgstr ""
+msgstr "tytuł"
 
 #: templates/moviereviewers.html:361 templates/myfilmsay.html:356
 msgid "release year"
-msgstr ""
+msgstr "data premiery"
 
 #: templates/moviereviewers.html:361 templates/myfilmsay.html:356
 msgid "genre"
-msgstr ""
+msgstr "gatunek"
 
 #: templates/moviereviewers.html:362 templates/myfilmsay.html:357
 msgid "director"
-msgstr ""
+msgstr "reżyser"
 
 #: templates/moviereviewers.html:362 templates/myfilmsay.html:357
 msgid "writer"

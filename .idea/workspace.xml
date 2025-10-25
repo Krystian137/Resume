@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="messages.pot updated">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="preparing for translation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.mo" beforeDir="false" afterPath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.mo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" beforeDir="false" afterPath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" afterDir="false" />
@@ -44,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RunManager">
@@ -348,34 +348,11 @@
       <option name="project" value="LOCAL" />
       <updated>1761048068881</updated>
     </task>
-    <task id="LOCAL-00033" summary="preparing for translation">
-      <option name="closed" value="true" />
-      <created>1761136216437</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1761136216437</updated>
-    </task>
-    <task id="LOCAL-00034" summary="preparing for translation">
-      <option name="closed" value="true" />
-      <created>1761206109755</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1761206109755</updated>
-    </task>
-    <task id="LOCAL-00035" summary="messages.pot updated">
-      <option name="closed" value="true" />
-      <created>1761222285941</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1761222285941</updated>
-    </task>
-    <option name="localTasksCounter" value="36" />
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated steamchests.html" />
     <MESSAGE value="added sections" />
     <MESSAGE value="icons and sections updated on steamchests.html" />
     <MESSAGE value="just updates" />
@@ -400,7 +377,6 @@
     <MESSAGE value="removed contact" />
     <MESSAGE value="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs" />
     <MESSAGE value="preparing for translation" />
-    <MESSAGE value="messages.pot updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="messages.pot updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparing for translation" />
   </component>
 </project>
