@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="preparing for translation">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="30% of translation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.mo" beforeDir="false" afterPath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.mo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" beforeDir="false" afterPath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" afterDir="false" />
@@ -23,12 +23,12 @@
     &quot;assignee&quot;: &quot;Krystian137&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Krystian137/Resume.git&quot;,
-    &quot;accountId&quot;: &quot;ebf5243b-e080-4d1a-b0bb-4fc8dde6663c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Krystian137/Resume.git",
+    "accountId": "48144a51-88c8-4734-b953-5508c9ec749e"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -348,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1761048068881</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="30% of translation">
+      <option name="closed" value="true" />
+      <created>1761398321217</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1761398321217</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated steamchests.html" />
     <MESSAGE value="added sections" />
     <MESSAGE value="icons and sections updated on steamchests.html" />
     <MESSAGE value="just updates" />
@@ -377,6 +384,7 @@
     <MESSAGE value="removed contact" />
     <MESSAGE value="added links to project, except myfilmsay.html, moviereviewers.html, and 100songs" />
     <MESSAGE value="preparing for translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparing for translation" />
+    <MESSAGE value="30% of translation" />
+    <option name="LAST_COMMIT_MESSAGE" value="30% of translation" />
   </component>
 </project>

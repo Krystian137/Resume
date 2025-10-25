@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-23 09:57+0200\n"
-"PO-Revision-Date: 2025-10-25 15:18+0200\n"
+"PO-Revision-Date: 2025-10-25 21:53+0200\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -72,7 +72,7 @@ msgstr "Obecnie"
 
 #: templates/index.html:174
 msgid "SEBIT24"
-msgstr ""
+msgstr "SEBIT24"
 
 #: templates/index.html:176
 msgid ""
@@ -714,7 +714,8 @@ msgstr "Losowa karuzela"
 
 #: templates/moviereviewers.html:281 templates/myfilmsay.html:274
 msgid "Dynamic carousel with random movies and key information."
-msgstr "Dynamicznie karuzela z losowymi filmami i kluczowymi informacjami o nich"
+msgstr ""
+"Dynamicznie karuzela z losowymi filmami i kluczowymi informacjami o nich."
 
 #: templates/moviereviewers.html:287 templates/myfilmsay.html:280
 msgid "User Comments"
@@ -722,7 +723,7 @@ msgstr "Komentarze użytkowników"
 
 #: templates/moviereviewers.html:288 templates/myfilmsay.html:281
 msgid "Add, reply to, and rate comments with upvote and downvote."
-msgstr "Dodawaj, oceniaj i odpowiadaj na komentarze"
+msgstr "Dodawaj, oceniaj i odpowiadaj na komentarze."
 
 #: templates/moviereviewers.html:294 templates/myfilmsay.html:287
 msgid "Role-Based System"
@@ -730,7 +731,7 @@ msgstr "Podział na role"
 
 #: templates/moviereviewers.html:295 templates/myfilmsay.html:288
 msgid "Admin, moderator, and user roles with different permissions."
-msgstr "Admin, moderator, oraz użytkownicy z różnymi uprawnieniami"
+msgstr "Admin, moderator, oraz użytkownicy z różnymi uprawnieniami."
 
 #: templates/moviereviewers.html:301 templates/myfilmsay.html:294
 msgid "User Management"
@@ -738,7 +739,7 @@ msgstr "Zarządzanie użytkownikami"
 
 #: templates/moviereviewers.html:302 templates/myfilmsay.html:295
 msgid "Admins can manage users, comments, and edit movie data."
-msgstr "Admini mogą zarządzań użytkownikami, komentarzami, oraz edytować filmy"
+msgstr "Admini mogą zarządzań użytkownikami, komentarzami, oraz edytować filmy."
 
 #: templates/moviereviewers.html:308 templates/myfilmsay.html:301
 msgid "External Data"
@@ -772,7 +773,7 @@ msgid ""
 "from the"
 msgstr ""
 "przedstawiającą losowo trzy wybrane filmy z najważniejszymi informacjami, "
-"pobranymi z "
+"pobranymi z"
 
 #: templates/moviereviewers.html:327 templates/myfilmsay.html:320
 msgid "Below the carousel, users are presented with a grid of"
@@ -863,7 +864,7 @@ msgstr "pozwalający na proste dodawanie nowych filmów na platformę."
 
 #: templates/moviereviewers.html:357 templates/myfilmsay.html:352
 msgid "Provides a comprehensive view of a selected film."
-msgstr "Prezentuje pełne informacje o wybranym tytule"
+msgstr "Prezentuje pełne informacje o wybranym tytule."
 
 #: templates/moviereviewers.html:358 templates/myfilmsay.html:353
 msgid "It features the"
@@ -908,28 +909,28 @@ msgstr "reżyser"
 
 #: templates/moviereviewers.html:362 templates/myfilmsay.html:357
 msgid "writer"
-msgstr ""
+msgstr "scenarzysta"
 
 #: templates/moviereviewers.html:363 templates/myfilmsay.html:358
 msgid "overview"
-msgstr ""
+msgstr "opis"
 
 #: templates/moviereviewers.html:363 templates/myfilmsay.html:358
 msgid "retrieved from the"
-msgstr ""
+msgstr "pobrane z"
 
 #: templates/moviereviewers.html:363
 msgid "and stored in the database."
-msgstr ""
+msgstr "i zapisane w bazie danych."
 
 #: templates/moviereviewers.html:364 templates/myfilmsay.html:361
 msgid "Additionally, if the user is an"
-msgstr ""
+msgstr "Dodatkowo, jeśli użytkownik jest"
 
 #: templates/moviereviewers.html:364 templates/moviereviewers.html:421
 #: templates/myfilmsay.html:361
 msgid "admin"
-msgstr ""
+msgstr "adminem"
 
 #: templates/moviereviewers.html:364 templates/moviereviewers.html:398
 #: templates/moviereviewers.html:421 templates/myfilmsay.html:361
@@ -940,103 +941,104 @@ msgstr ""
 #: templates/moviereviewers.html:364 templates/moviereviewers.html:421
 #: templates/myfilmsay.html:361
 msgid "moderator"
-msgstr ""
+msgstr "moderatorem"
 
 #: templates/moviereviewers.html:365 templates/myfilmsay.html:362
 msgid "they are given the option to"
-msgstr ""
+msgstr "mają możliwość"
 
 #: templates/moviereviewers.html:365 templates/moviereviewers.html:398
 #: templates/myfilmsay.html:362 templates/myfilmsay.html:394
 msgid "edit"
-msgstr ""
+msgstr "edytowania"
 
 #: templates/moviereviewers.html:365 templates/myfilmsay.html:362
 msgid "the movie details."
-msgstr ""
+msgstr "informacji o filmie."
 
 #: templates/moviereviewers.html:379 templates/myfilmsay.html:376
 msgid "Comment Section"
-msgstr ""
+msgstr "Sekcja komentarzy"
 
 #: templates/moviereviewers.html:381 templates/myfilmsay.html:378
 msgid "Allows users to engage with others by leaving feedback on the movie."
-msgstr ""
+msgstr "Pozwala użytkownikom dzielić się opiniami na temat filmu."
 
 #: templates/moviereviewers.html:382 templates/myfilmsay.html:379
 msgid "Each comment displays the"
-msgstr ""
+msgstr "Każdy komentarz przedstawia"
 
 #: templates/moviereviewers.html:382 templates/myfilmsay.html:379
 msgid "author's rating"
-msgstr ""
+msgstr "ocenę osoby komentującej"
 
 #: templates/moviereviewers.html:382 templates/myfilmsay.html:379
 #: templates/otherprojects.html:268 templates/otherprojects.html:302
 msgid "and the"
-msgstr ""
+msgstr "oraz"
 
 #: templates/moviereviewers.html:383 templates/myfilmsay.html:380
 msgid "date and time"
-msgstr ""
+msgstr "datę i czas"
 
 #: templates/moviereviewers.html:383 templates/myfilmsay.html:380
 msgid "it was posted."
-msgstr ""
+msgstr "publikacji."
 
 #: templates/moviereviewers.html:384 templates/myfilmsay.html:381
 msgid "Additionally, users can see the"
-msgstr ""
+msgstr "Dodatkowo, użytkownicy widzą"
 
 #: templates/moviereviewers.html:384 templates/myfilmsay.html:381
 msgid "upvotes"
-msgstr ""
+msgstr "polubienia"
 
 #: templates/moviereviewers.html:385 templates/myfilmsay.html:382
 msgid "downvotes"
-msgstr ""
+msgstr "minusy"
 
 #: templates/moviereviewers.html:385 templates/myfilmsay.html:382
 msgid "each comment has received from other logged-in users."
-msgstr ""
+msgstr "każdego komentarza, zostawione przez zalogowanych użytkowników."
 
 #: templates/moviereviewers.html:387 templates/myfilmsay.html:384
 msgid "Registered users can"
-msgstr ""
+msgstr "Zarejestrowani użytkownicy"
 
 #: templates/moviereviewers.html:387 templates/myfilmsay.html:384
 msgid "post comments"
-msgstr ""
+msgstr "zostawiają komentarze"
 
 #: templates/moviereviewers.html:388 templates/myfilmsay.html:385
 msgid "rate"
-msgstr ""
+msgstr "ocenę"
 
 #: templates/moviereviewers.html:388
 msgid ""
 "them based on their experience, giving a numerical score that\n"
 "                    reflects their opinion."
-msgstr ""
+msgstr "zgodną z ich doświadczeniem, przedstawioną w skali numerycznej 1-10."
 
 #: templates/moviereviewers.html:391 templates/myfilmsay.html:387
 msgid "Users are also able to"
-msgstr ""
+msgstr "Użytkownicy mogą także"
 
 #: templates/moviereviewers.html:391 templates/myfilmsay.html:387
 msgid "respond"
-msgstr ""
+msgstr "odpowiadać"
 
 #: templates/moviereviewers.html:391 templates/myfilmsay.html:387
 msgid ""
 "to other comments, creating a\n"
 "                    threaded discussion that allows for deeper engagement and "
 "conversation."
-msgstr ""
+msgstr "na komentarze, tworząc dyskusje, która umożliwia głębsze zaangażowanie."
 
 #: templates/moviereviewers.html:393 templates/myfilmsay.html:389
 msgid ""
 "This encourages active participation and the sharing of thoughts on the movie."
 msgstr ""
+"To zachęca do aktywnego udziału i dzielenia się przemyśleniami na temat filmu."
 
 #: templates/moviereviewers.html:397 templates/moviereviewers.html:509
 #: templates/moviereviewers.html:516 templates/myfilmsay.html:393
@@ -1046,15 +1048,15 @@ msgstr ""
 
 #: templates/moviereviewers.html:397 templates/myfilmsay.html:393
 msgid "author"
-msgstr ""
+msgstr "autor"
 
 #: templates/moviereviewers.html:397 templates/myfilmsay.html:393
 msgid "of a comment has the ability to"
-msgstr ""
+msgstr "komentarzu ma możliwość"
 
 #: templates/moviereviewers.html:398 templates/myfilmsay.html:394
 msgid "delete"
-msgstr ""
+msgstr "usunięcia"
 
 #: templates/moviereviewers.html:398
 msgid ""
@@ -1062,22 +1064,24 @@ msgid ""
 "                    comment at any time, providing control over their "
 "contributions."
 msgstr ""
+"własnych komentarzy w dowolnym momencie, umożliwiając kontrole nad własnymi "
+"wypowiedziami."
 
 #: templates/moviereviewers.html:401 templates/myfilmsay.html:397
 msgid "However,"
-msgstr ""
+msgstr "Jednakże,"
 
 #: templates/moviereviewers.html:401 templates/myfilmsay.html:397
 msgid "admins and moderators"
-msgstr ""
+msgstr "admini i moderatorzy"
 
 #: templates/moviereviewers.html:401 templates/myfilmsay.html:397
 msgid "have the privilege to"
-msgstr ""
+msgstr "mają przywilej do"
 
 #: templates/moviereviewers.html:402 templates/myfilmsay.html:398
 msgid "delete any comment"
-msgstr ""
+msgstr "usuwania wszystkich komentarzy"
 
 #: templates/moviereviewers.html:402 templates/myfilmsay.html:398
 msgid ""
@@ -1085,64 +1089,70 @@ msgid ""
 "                    of the platform and ensure the conversation stays "
 "respectful."
 msgstr ""
+"niezależnie od autora, w celu zachowania integralności platformy i "
+"zapewnieniu, ze rozmowa postanie pełna szacunku."
 
 #: templates/moviereviewers.html:417
 msgid "Add & Edit Movie"
-msgstr ""
+msgstr "Dodawanie i edycja filmu"
 
 #: templates/moviereviewers.html:419
 msgid "This section is dedicated to"
-msgstr ""
+msgstr "Ta sekcja jest dedykowana do"
 
 #: templates/moviereviewers.html:419
 msgid "adding and editing movies"
-msgstr ""
+msgstr "dodawania i edycji filmów"
 
 #: templates/moviereviewers.html:420
 msgid "in the database and is accessible only to users with"
-msgstr ""
+msgstr "w bazie danych i jest dostępna tylko dla użytkowników z"
 
 #: templates/moviereviewers.html:421
 msgid "privileges."
-msgstr ""
+msgstr "przywilejami."
 
 #: templates/moviereviewers.html:425 templates/myfilmsay.html:420
 msgid "The process starts on the"
-msgstr ""
+msgstr "Proces zaczyna się od"
 
 #: templates/moviereviewers.html:425 templates/myfilmsay.html:413
 #: templates/myfilmsay.html:420
 msgid "Add Movie"
-msgstr ""
+msgstr "Add Movie"
 
 #: templates/moviereviewers.html:425
 msgid ""
 "page, where an authorized\n"
 "                    user can enter a film title into the search bar."
 msgstr ""
+"podstronie, gdzie autoryzowani użytkownicy mogą podać tytuł filmu w "
+"wyszukiwarce."
 
 #: templates/moviereviewers.html:427
 msgid "A list of matching and similar titles is displayed, allowing the user to"
 msgstr ""
+"Lista filmów z podobnymi tytułami jest wyświetlana, pozwalając użytkownikom na"
 
 #: templates/moviereviewers.html:428 templates/myfilmsay.html:423
 msgid "select the correct movie"
-msgstr ""
+msgstr "wybranie poprawnego filmu"
 
 #: templates/moviereviewers.html:428
 msgid "from the results."
-msgstr ""
+msgstr "z wielu wyników."
 
 #: templates/moviereviewers.html:432
 msgid ""
 "Upon selection, the user is redirected to a shared interface that also serves "
 "as the"
 msgstr ""
+"Po wyborze, użytkownik jest przenoszony do strony, która także służy jako"
 
 #: templates/moviereviewers.html:433 templates/myfilmsay.html:450
 #: templates/myfilmsay.html:453
 msgid "Edit Movie"
-msgstr ""
+msgstr "edycja filmu."
 
 #: templates/moviereviewers.html:433
 msgid "page."
@@ -1150,37 +1160,39 @@ msgstr ""
 
 #: templates/moviereviewers.html:434 templates/myfilmsay.html:454
 msgid "Here, a form is pre-filled with all relevant movie data,"
-msgstr ""
+msgstr "Tutaj formularze są wypełnione z najnowszymi danymi,"
 
 #: templates/moviereviewers.html:435 templates/myfilmsay.html:455
 msgid "fetched dynamically from the TMDB API"
-msgstr ""
+msgstr "dynamicznie pobranymi z TMDB API"
 
 #: templates/moviereviewers.html:435
 msgid ""
 "— including title, release year,\n"
 "                    genres, director, writer, poster, rating, and overview."
 msgstr ""
+"— zawierające tytuł, datę premiery\n"
+"                    gatunek, reżyser, scenarzysta, plakat, ocenę, oraz opis."
 
 #: templates/moviereviewers.html:440 templates/myfilmsay.html:427
 msgid "Before final submission, the user has the opportunity to"
-msgstr ""
+msgstr "Przed dodaniem filmu na stronę, jest możliwość"
 
 #: templates/moviereviewers.html:441 templates/myfilmsay.html:428
 msgid "review and correct the information"
-msgstr ""
+msgstr "przejrzenia i korekcji informacji"
 
 #: templates/moviereviewers.html:441 templates/myfilmsay.html:428
 msgid "to ensure accuracy."
-msgstr ""
+msgstr "w celu zachowania zgodności."
 
 #: templates/moviereviewers.html:442 templates/myfilmsay.html:429
 msgid "Once confirmed, the movie is"
-msgstr ""
+msgstr "Po potwierdzeniu, film jest"
 
 #: templates/moviereviewers.html:442 templates/myfilmsay.html:429
 msgid "added to the platform"
-msgstr ""
+msgstr "dodawany na platformę"
 
 #: templates/moviereviewers.html:442 templates/myfilmsay.html:429
 msgid ""
@@ -1188,61 +1200,67 @@ msgid ""
 "                    becomes accessible to all users on the main page and in "
 "search results."
 msgstr ""
+"oraz \n"
+"staje się dostępny na stronię głównej dla wszystkich użytkowników."
 
 #: templates/moviereviewers.html:463 templates/moviereviewers.html:487
 #: templates/myfilmsay.html:507 templates/myfilmsay.html:531
 msgid "Admins"
-msgstr ""
+msgstr "Admini"
 
 #: templates/moviereviewers.html:463 templates/myfilmsay.html:507
 msgid ""
 "have\n"
 "                    access to user profile pages in order to"
-msgstr ""
+msgstr "mają dostęp do profili użytkowników w celu"
 
 #: templates/moviereviewers.html:465 templates/myfilmsay.html:509
 msgid "monitor user activity"
-msgstr ""
+msgstr "monitorowania aktywności"
 
 #: templates/moviereviewers.html:465 templates/myfilmsay.html:509
 msgid "within the comment sections."
-msgstr ""
+msgstr "w sekcji komentarzy."
 
 #: templates/moviereviewers.html:466 templates/myfilmsay.html:510
 msgid ""
 "This includes reviewing all comments posted by a user and assessing their "
 "behavior on the platform."
 msgstr ""
+"Obejmuje to przegląd wszystkich komentarzy opublikowanych przez użytkownika "
+"oraz ocenę jego zachowania na platformie."
 
 #: templates/moviereviewers.html:468 templates/myfilmsay.html:512
 msgid "If necessary, they can"
-msgstr ""
+msgstr "W razie konieczności mają możliwość"
 
 #: templates/moviereviewers.html:468 templates/myfilmsay.html:512
 msgid "remove any inappropriate or disruptive comments"
-msgstr ""
+msgstr "usunąć wszelkie niestosowne lub zakłócające komentarze"
 
 #: templates/moviereviewers.html:469 templates/myfilmsay.html:513
 msgid "directly from the user’s profile view."
-msgstr ""
+msgstr "bezpośrednio z poziomu profilu użytkownika."
 
 #: templates/moviereviewers.html:470 templates/myfilmsay.html:514
 msgid "This functionality ensures a"
-msgstr ""
+msgstr "Ta funkcjonalność zapewnia"
 
 #: templates/moviereviewers.html:470 templates/myfilmsay.html:514
 msgid "safe and respectful environment"
-msgstr ""
+msgstr "bezpieczne i pełne szacunku środowisko"
 
 #: templates/moviereviewers.html:471
 msgid ""
 "for all users and gives moderators the tools needed to enforce community "
 "standards."
 msgstr ""
+"dla wszystkich użytkowników, oraz daje moderatorom narzędzia niezbędne do "
+"egzekwowania standardów społeczności."
 
 #: templates/moviereviewers.html:485 templates/myfilmsay.html:529
 msgid "Admin and moderator"
-msgstr ""
+msgstr "Admini i moderatorzy"
 
 #: templates/moviereviewers.html:487 templates/myfilmsay.html:531
 msgid ""
@@ -1250,30 +1268,34 @@ msgid ""
 "                    access to a dedicated user management page, where they can "
 "view a complete list of registered accounts."
 msgstr ""
+"mają\n"
+"dostęp do dedykowanej strony zarządzającej użytkownikami, gdzie znajduje się "
+"lista zarejestrowanych kont."
 
 #: templates/moviereviewers.html:489 templates/myfilmsay.html:533
 msgid "From this panel, they can"
-msgstr ""
+msgstr "Z tego panelu, mogą"
 
 #: templates/moviereviewers.html:489 templates/myfilmsay.html:533
 msgid "promote or demote user roles"
-msgstr ""
+msgstr "nadawać i odbierać role użytkownikom"
 
 #: templates/moviereviewers.html:490 templates/myfilmsay.html:534
 msgid "remove users"
-msgstr ""
+msgstr "usuwać użytkowników"
 
 #: templates/moviereviewers.html:490 templates/myfilmsay.html:534
 msgid "from the platform, and"
-msgstr ""
+msgstr "z aplikacji, oraz"
 
 #: templates/moviereviewers.html:491 templates/myfilmsay.html:535
 msgid "access individual user profiles"
-msgstr ""
+msgstr "zapewnia dostęp do profili użytkowników"
 
 #: templates/moviereviewers.html:491
 msgid "to monitor activity or take necessary moderation actions."
 msgstr ""
+"w celu monitorowania ich aktywności i ewentualnie podjęcia niezbędnych akcji."
 
 #: templates/moviereviewers.html:492 templates/myfilmsay.html:537
 msgid ""
