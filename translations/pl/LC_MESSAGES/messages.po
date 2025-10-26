@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-23 09:57+0200\n"
-"PO-Revision-Date: 2025-10-25 21:53+0200\n"
+"PO-Revision-Date: 2025-10-26 17:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -936,7 +936,7 @@ msgstr "adminem"
 #: templates/moviereviewers.html:421 templates/myfilmsay.html:361
 #: templates/myfilmsay.html:394
 msgid "or"
-msgstr ""
+msgstr "lub"
 
 #: templates/moviereviewers.html:364 templates/moviereviewers.html:421
 #: templates/myfilmsay.html:361
@@ -1048,7 +1048,7 @@ msgstr ""
 
 #: templates/moviereviewers.html:397 templates/myfilmsay.html:393
 msgid "author"
-msgstr "autor"
+msgstr "Autor"
 
 #: templates/moviereviewers.html:397 templates/myfilmsay.html:393
 msgid "of a comment has the ability to"
@@ -1147,7 +1147,7 @@ msgid ""
 "Upon selection, the user is redirected to a shared interface that also serves "
 "as the"
 msgstr ""
-"Po wyborze, użytkownik jest przenoszony do strony, która także służy jako"
+"Po wyborze, użytkownik jest przenoszony do interfejsu, który także służy jako"
 
 #: templates/moviereviewers.html:433 templates/myfilmsay.html:450
 #: templates/myfilmsay.html:453
@@ -1156,7 +1156,7 @@ msgstr "edycja filmu."
 
 #: templates/moviereviewers.html:433
 msgid "page."
-msgstr ""
+msgstr "strona."
 
 #: templates/moviereviewers.html:434 templates/myfilmsay.html:454
 msgid "Here, a form is pre-filled with all relevant movie data,"
@@ -1304,22 +1304,25 @@ msgid ""
 "                    hold higher privileges and that the platform remains well-"
 "moderated."
 msgstr ""
+"Ta funkcja zapewnia pełną kontrolę nad zarządzaniem użytkownikami, "
+"gwarantując, że wyższe uprawnienia otrzymują wyłącznie zaufani członkowie "
+"społeczności, a platforma pozostaje odpowiednio moderowana."
 
 #: templates/moviereviewers.html:509 templates/myfilmsay.html:554
 msgid "About Me"
-msgstr ""
+msgstr "O mnie"
 
 #: templates/moviereviewers.html:509 templates/myfilmsay.html:554
 msgid "page offers an overview of the"
-msgstr ""
+msgstr "podstrona zawiera przegląd"
 
 #: templates/moviereviewers.html:510
 msgid "This section is optimized as a"
-msgstr ""
+msgstr "Ta sekcja jest pomyślana jako"
 
 #: templates/moviereviewers.html:511
 msgid "SEO-friendly subpage"
-msgstr ""
+msgstr "przyjazna SEO podstrona"
 
 #: templates/moviereviewers.html:511
 msgid ""
@@ -1327,6 +1330,9 @@ msgid ""
 "                    questions, such as how the site works, where data is "
 "sourced from, and who manages content and moderation."
 msgstr ""
+"w celu zwiększenia widoczności oraz odpowiedzi na najczęściej zadawane pytania "
+"użytkowników, takie jak: jak działa strona, skąd pochodzą dane oraz kto "
+"zarządza treściami i moderacją."
 
 #: templates/moviereviewers.html:516
 msgid "Contact Me"
@@ -1334,15 +1340,15 @@ msgstr "Skontaktuj się ze mną"
 
 #: templates/moviereviewers.html:516
 msgid "page provides a direct line of communication for"
-msgstr ""
+msgstr "zapewnia bezpośrednią komunikację dla"
 
 #: templates/moviereviewers.html:517
 msgid "users and potential collaborators"
-msgstr ""
+msgstr "użytkowników i potencjalnych współpracowników"
 
 #: templates/moviereviewers.html:517
 msgid "to reach out to the site administrators."
-msgstr ""
+msgstr "z administracją strony."
 
 #: templates/moviereviewers.html:518
 msgid ""
@@ -1351,12 +1357,17 @@ msgid ""
 "                    allows messages to be sent securely and efficiently via "
 "email."
 msgstr ""
+"Niezależnie od tego, czy chodzi o zgłoszenie błędów, przekazanie opinii, "
+"zapytania biznesowe czy propozycje współpracy — formularz umożliwia bezpieczne "
+"i sprawne przesyłanie wiadomości drogą mailową."
 
 #: templates/moviereviewers.html:520
 msgid ""
 "It reinforces transparency and keeps the community engaged and connected with "
 "the development team."
 msgstr ""
+"Wzmacnia przejrzystość i utrzymuje zaangażowanie społeczności, zapewniając "
+"stały kontakt z zespołem deweloperskim."
 
 #: templates/moviereviewers.html:524
 msgid ""
@@ -1364,56 +1375,61 @@ msgid ""
 "foster community\n"
 "                    interaction around the project."
 msgstr ""
+"Obie sekcje zostały zaprojektowane z myślą o budowaniu zaufania użytkowników, "
+"zapewnieniu przejrzystości oraz wspieraniu interakcji społeczności wokół "
+"projektu."
 
 #: templates/moviereviewers.html:543 templates/myfilmsay.html:576
 #: templates/steamchests.html:51 templates/steamchests.html:386
 msgid "Login/Register"
-msgstr ""
+msgstr "Logowanie/Rejestracja"
 
 #: templates/moviereviewers.html:545 templates/myfilmsay.html:578
 msgid "The platform includes a secure"
-msgstr ""
+msgstr "Platforma zawiera bezpieczne"
 
 #: templates/moviereviewers.html:545 templates/myfilmsay.html:578
 msgid "login"
-msgstr ""
+msgstr "logowanie"
 
 #: templates/moviereviewers.html:546 templates/myfilmsay.html:579
 msgid "registration"
-msgstr ""
+msgstr "rejestracje"
 
 #: templates/moviereviewers.html:546 templates/myfilmsay.html:579
 msgid "system that allows users to create personalized accounts."
-msgstr ""
+msgstr "pozwalające na założenie własnego profilu nowym użytkownikom."
 
 #: templates/moviereviewers.html:547 templates/myfilmsay.html:580
 msgid "Upon registration, user passwords are"
-msgstr ""
+msgstr "Po zarejestrowaniu hasła są"
 
 #: templates/moviereviewers.html:547 templates/myfilmsay.html:580
 msgid "safely hashed"
-msgstr ""
+msgstr "bezpiecznie hashowane"
 
 #: templates/moviereviewers.html:548 templates/myfilmsay.html:581
 msgid ""
 "before being stored in the database, ensuring data protection and user privacy."
 msgstr ""
+"przed zapisaniem ich w bazie danych. w celu zachowania bezpieczeństwa i "
+"prywatności użytkowników."
 
 #: templates/moviereviewers.html:552 templates/myfilmsay.html:585
 msgid "Once logged in, users unlock full access to interactive features such as"
-msgstr ""
+msgstr "Po zalogowaniu użytkownicy mają dostęp do funkcji takich jak"
 
 #: templates/moviereviewers.html:553 templates/myfilmsay.html:586
 msgid "writing and replying to comments"
-msgstr ""
+msgstr "pisanie i odpowiadanie komentarzy"
 
 #: templates/moviereviewers.html:553 templates/myfilmsay.html:586
 msgid "rating movies"
-msgstr ""
+msgstr "ocenianie filmów"
 
 #: templates/moviereviewers.html:554
 msgid "and voting on the usefulness of other users opinions."
-msgstr ""
+msgstr "oraz głosowanie za użytecznością komentarzy innych użytkowników."
 
 #: templates/moviereviewers.html:555 templates/myfilmsay.html:588
 msgid ""
@@ -1421,6 +1437,9 @@ msgid ""
 "meaningful discussions\n"
 "                    by holding users accountable for their activity."
 msgstr ""
+"Ta warstwa uwierzytelniania pomaga utrzymać wysoką jakość treści i sprzyja "
+"wartościowym dyskusjom, zapewniając odpowiedzialność użytkowników za ich "
+"aktywność."
 
 #: templates/moviereviewers.html:560 templates/myfilmsay.html:593
 msgid ""
@@ -1429,151 +1448,167 @@ msgid ""
 "                    users can engage with content and that higher privileges "
 "are granted only to moderators and administrators."
 msgstr ""
+"System stanowi podstawę do wdrożenia kontroli dostępu opartej na rolach, "
+"zapewniając, że tylko uwierzytelnieni użytkownicy mogą wchodzić w interakcję z "
+"treściami, a wyższe uprawnienia są przyznawane wyłącznie moderatorom i "
+"administratorom."
 
 #: templates/movies_project.html:19 templates/otherprojects.html:19
 #: templates/steamchests.html:19
 msgid "Go back"
-msgstr ""
+msgstr "Powrót"
 
 #: templates/movies_project.html:36
 msgid "Preview"
-msgstr ""
+msgstr "Podgłąd"
 
 #: templates/movies_project.html:42
-#, fuzzy
 msgid "More"
-msgstr "Zobacz Więcej"
+msgstr "Więcej"
 
 #: templates/movies_project.html:52
 msgid "Django Version"
-msgstr ""
+msgstr "Wersja Django"
 
 #: templates/movies_project.html:53
 msgid "Flask Version"
-msgstr ""
+msgstr "Wersja Flask"
 
 #: templates/myfilmsay.html:62
 msgid "Better site ranking"
-msgstr ""
+msgstr "Lepsze pozycjonowanie strony"
 
 #: templates/myfilmsay.html:100 templates/myfilmsay.html:552
 msgid "About me"
-msgstr ""
+msgstr "O mnie"
 
 #: templates/myfilmsay.html:101
 msgid "Information for other users about author"
-msgstr ""
+msgstr "Informacje dla użytkowników o autorze"
 
 #: templates/myfilmsay.html:158 templates/myfilmsay.html:555
 msgid "My Film Say"
-msgstr ""
+msgstr "My Film Say"
 
 #: templates/myfilmsay.html:168
 msgid ""
 "key details, ratings,\n"
 "                                and a comment section"
-msgstr ""
+msgstr "kluczowe informacje, oceny, oraz sekcja komentarzy"
 
 #: templates/myfilmsay.html:170
 msgid "reply"
-msgstr ""
+msgstr "odpowiadanie"
 
 #: templates/myfilmsay.html:171
 msgid "to other"
-msgstr ""
+msgstr "na"
 
 #: templates/myfilmsay.html:171
 msgid "comments"
-msgstr ""
+msgstr "komentarze innych"
 
 #: templates/myfilmsay.html:173
 msgid "with roles:"
-msgstr ""
+msgstr "z rolami:"
 
 #: templates/myfilmsay.html:175
 msgid ""
 "add, edit, or delete movies, manage\n"
 "                                comments, moderate user profiles"
 msgstr ""
+"dodaj, edytuj, usuń film, zarządzanie komentarzami, oraz nadzorowanie profilów"
 
 #: templates/myfilmsay.html:329
 msgid ""
 "dynamically manages the content rendering and API data integration\n"
 "                    to ensure smooth and modern user interaction."
 msgstr ""
+"dynamicznie zarządza renderowaniem treści oraz integracją danych z API, "
+"zapewniając płynną i nowoczesną interakcję z użytkownikiem."
 
 #: templates/myfilmsay.html:358
 msgid "and stored in the"
-msgstr ""
+msgstr "i zapisana w"
 
 #: templates/myfilmsay.html:359 templates/myfilmsay.html:416
 msgid "database."
-msgstr ""
+msgstr "bazie danych."
 
 #: templates/myfilmsay.html:385
 msgid ""
 "them based on their experience, giving a numerical score that reflects their "
 "opinion."
 msgstr ""
+"na podstawie własnych doświadczeń, przyznając ocenę liczbową odzwierciedlającą "
+"ich opinię."
 
 #: templates/myfilmsay.html:394
 msgid ""
 "their own comment\n"
 "                    at any time, providing control over their contributions."
 msgstr ""
+"swój własny komentarz w dowolnym momencie, co daje im kontrolę nad własnymi "
+"wypowiedziami."
 
 #: templates/myfilmsay.html:415
 msgid "This section allows"
-msgstr ""
+msgstr "Ta sekcja pozwala"
 
 #: templates/myfilmsay.html:415
 msgid "authorized users"
-msgstr ""
+msgstr "autoryzowanym użytkownikom"
 
 #: templates/myfilmsay.html:415
 msgid "to add new movies to the"
-msgstr ""
+msgstr "aby dodać nowy film na"
 
 #: templates/myfilmsay.html:420
 msgid ""
 "page, where an\n"
 "                    authorized user can enter a film title into the search bar."
 msgstr ""
+"stronę, autoryzowany użytkownik musi podać tytuł filmu w oknie wyszukiwania."
 
 #: templates/myfilmsay.html:422
 msgid ""
 "A list of matching and similar titles from TMDb API is displayed, allowing the "
 "user to"
 msgstr ""
+"Lista filmów z podobnymi tytułami z TMDb API zostanie wyświetlana, pozwalając "
+"na"
 
 #: templates/myfilmsay.html:423
 msgid "from the results, and add it into web application database."
-msgstr ""
+msgstr "na podstawie wyników i dodaj do bazy danych aplikacji webowej."
 
 #: templates/myfilmsay.html:452
 msgid ""
 "Upon selecting a new movie, the user is redirected to a shared interface that "
 "also serves as the"
 msgstr ""
+"Po wybraniu nowego filmu użytkownik zostaje przekierowany do wspólnego "
+"interfejsu, który pełni również funkcję"
 
 #: templates/myfilmsay.html:453
 msgid "page, which is also accessible from home page, and movie page."
-msgstr ""
+msgstr "podstrony, dostępnej z strony głównej oraz strony filmu."
 
 #: templates/myfilmsay.html:455
 msgid ""
 "— including title, release year,\n"
 "                    genres, director, writer, poster, rating, and overview"
 msgstr ""
+"— w tym tytuł, rok premiery, gatunki, reżyser, scenarzysta, plakat, ocena oraz "
+"opis"
 
 #: templates/myfilmsay.html:460
 msgid "If the user is"
-msgstr ""
+msgstr "Jeżeli użytkownik jest"
 
 #: templates/myfilmsay.html:460
-#, fuzzy
 msgid "editing"
-msgstr "Wykształcenie"
+msgstr "edytowanie"
 
 #: templates/myfilmsay.html:460
 msgid ""
@@ -1581,22 +1616,24 @@ msgid ""
 "                    pre-filled with its previously stored data, which can then "
 "be updated as needed."
 msgstr ""
+"w przypadku istniejącego filmu formularz zostaje wstępnie wypełniony wcześniej "
+"zapisanymi danymi, które można następnie zaktualizować w razie potrzeby."
 
 #: templates/myfilmsay.html:477
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: templates/myfilmsay.html:477
 msgid "subpage demonstrates structured content optimization using"
-msgstr ""
+msgstr "podstrona prezentuje optymalizację struktury treści z wykorzystaniem"
 
 #: templates/myfilmsay.html:478
 msgid "JSON-LD (schema.org)"
-msgstr ""
+msgstr "JSON-LD (schema.org)"
 
 #: templates/myfilmsay.html:478
 msgid "for SEO and accessibility."
-msgstr ""
+msgstr "z myślą o SEO i dostępności."
 
 #: templates/myfilmsay.html:482
 msgid ""
@@ -1604,14 +1641,16 @@ msgid ""
 "showcasing a practical\n"
 "                    understanding of semantic HTML"
 msgstr ""
+"Zawiera najczęściej zadawane pytania dotyczące funkcji platformy, prezentując "
+"praktyczne zastosowanie semantycznego HTML"
 
 #: templates/myfilmsay.html:487
 msgid "Implemented with Django templates and"
-msgstr ""
+msgstr "Zaimplementowane z Django templates, oraz"
 
 #: templates/myfilmsay.html:487
 msgid "schema.org"
-msgstr ""
+msgstr "schema.org"
 
 #: templates/myfilmsay.html:487
 msgid ""
@@ -1619,6 +1658,8 @@ msgid ""
 "                    it improves discoverability while showcasing my focus on "
 "usability, accessibility, and web performance."
 msgstr ""
+"znaczniki HTML poprawiają wykrywalność treści, jednocześnie podkreślając moje "
+"podejście do użyteczności, dostępności i wydajności strony."
 
 #: templates/myfilmsay.html:514
 msgid ""
@@ -1626,124 +1667,130 @@ msgid ""
 "                    all users and gives moderators the tools needed to enforce "
 "community standards."
 msgstr ""
+"dla wszystkich użytkowników, zapewniając moderatorom narzędzia niezbędne do "
+"egzekwowania zasad społeczności."
 
 #: templates/myfilmsay.html:535
 msgid ""
 "to monitor activity or take necessary\n"
 "                    moderation actions."
-msgstr ""
+msgstr "aby monitorować aktywność lub podejmować niezbędne działania."
 
 #: templates/myfilmsay.html:555
 msgid "project – a web application for discovering and reviewing movies."
-msgstr ""
+msgstr "projekt – aplikacja webowa do odkrywania i recenzowania filmów."
 
 #: templates/myfilmsay.html:556
 msgid "It can also serve as a"
-msgstr ""
+msgstr "Może służyć także jako"
 
 #: templates/myfilmsay.html:556
 msgid "regulations or policy page"
-msgstr ""
+msgstr "zakładka „Regulamin i polityka prywatności”"
 
 #: templates/myfilmsay.html:556
 msgid ""
 "offering\n"
 "                    users important information about the platform."
-msgstr ""
+msgstr "udostępniając użytkownikom istotne informacje o platformie."
 
 #: templates/myfilmsay.html:561
 msgid "Section is designed to strengthen"
-msgstr ""
+msgstr "Celem tej sekcji jest wzmocnienie"
 
 #: templates/myfilmsay.html:561
 msgid ""
 "user trust, provide transparency, and foster\n"
 "                    community interaction"
 msgstr ""
+"zaufanie użytkowników, zapewnienie przejrzystości oraz wspiera interakcje "
+"społeczności"
 
 #: templates/myfilmsay.html:562
 msgid "around the project."
-msgstr ""
+msgstr "wokół projektu."
 
 #: templates/myfilmsay.html:587
 msgid "voting"
-msgstr ""
+msgstr "ocenianie"
 
 #: templates/myfilmsay.html:587
 msgid "on the usefulness of other users opinions."
-msgstr ""
+msgstr "użyteczności opinii innych użytkowników."
 
 #: templates/otherprojects.html:78
 msgid "made in flask"
-msgstr ""
+msgstr "stworzony we flasku"
 
 #: templates/otherprojects.html:91
 msgid "Memory game: type U.S. states to fill the map"
-msgstr ""
+msgstr "Gra pamięciowa: wpisz nazwy stanów w USA"
 
 #: templates/otherprojects.html:104
 msgid "built in Python using Turtle and Pandas"
-msgstr ""
+msgstr "stworzona w Pyton z użyciem Turtle oraz Pandas"
 
 #: templates/otherprojects.html:117
 msgid "in Python with Turtle"
-msgstr ""
+msgstr "w Pyton z użyciem Turtle"
 
 #: templates/otherprojects.html:130
 msgid "Cross a road as a turtle"
-msgstr ""
+msgstr "Przejdź przez drogę jako żółw"
 
 #: templates/otherprojects.html:143
 msgid "A simple terminal game that tests your knowledge"
-msgstr ""
+msgstr "Prosta gra w terminalu do sprawdzania wiedzy"
 
 #: templates/otherprojects.html:155
 msgid "Data Prices Scraping"
-msgstr ""
+msgstr "Data Prices Scraping"
 
 #: templates/otherprojects.html:156
 msgid "Fetches price data from external APIs"
-msgstr ""
+msgstr "Pobiera dane cenowe z zewnętrznego interfejsu API"
 
 #: templates/otherprojects.html:169
 msgid "An automation bot that plays Cookie Clicker using Selenium"
-msgstr ""
+msgstr "Zautomatyzowany bot, który gra w Cookie Clicker z użyciem Selenium"
 
 #: templates/otherprojects.html:182
 msgid "Generates Spotify playlists from Billboard Hot 100 charts"
-msgstr ""
+msgstr "Tworzy playlistę na platformę Spotify w oparciu o Billboard Hot 100"
 
 #: templates/otherprojects.html:195
 msgid "Why I made this projects?"
-msgstr ""
+msgstr "Motywacja stojąca za projektami"
 
 #: templates/otherprojects.html:204
 msgid "I created these projects as a way to learn through practice."
-msgstr ""
+msgstr "Stworzyłem te projekty w formie praktycznej nauki."
 
 #: templates/otherprojects.html:205
 msgid "Building games, apps, and tools allowed me to apply concepts like"
 msgstr ""
+"Tworzenie gier, aplikacji i narzędzi pozwoliło mi zastosować w praktyce takie "
+"koncepcje jak"
 
 #: templates/otherprojects.html:206 templates/otherprojects.html:308
 msgid "object-oriented programming"
-msgstr ""
+msgstr "object-oriented programming"
 
 #: templates/otherprojects.html:206
 msgid "working with APIs"
-msgstr ""
+msgstr "praca z API"
 
 #: templates/otherprojects.html:207
 msgid "data management"
-msgstr ""
+msgstr "zarządzanie danymi"
 
 #: templates/otherprojects.html:207
 msgid "user interface development"
-msgstr ""
+msgstr "tworzenie interfejsu użytkownika"
 
 #: templates/otherprojects.html:208
 msgid "in real scenarios."
-msgstr ""
+msgstr "w praktyce."
 
 #: templates/otherprojects.html:209
 msgid ""
@@ -1752,25 +1799,29 @@ msgid ""
 "                        of how to connect different technologies into "
 "complete, functional solutions."
 msgstr ""
+"Każdy projekt pozwolił mi rozwijać się zarówno technicznie, jak i kreatywnie, "
+"a także lepiej zrozumieć, jak łączyć różne technologie w kompletne, "
+"funkcjonalne rozwiązania."
 
 #: templates/otherprojects.html:211
 msgid ""
 "This hands-on approach has been the most effective way for me to develop as a "
 "programmer."
 msgstr ""
+"Podejście oparte na praktyce okazało się dla mnie najskuteczniejszym sposobem "
+"rozwoju jako programisty."
 
 #: templates/otherprojects.html:220
-#, fuzzy
 msgid "All Projects"
 msgstr "Projekty"
 
 #: templates/otherprojects.html:234
 msgid "A modern take on the classic Snake game – built with"
-msgstr ""
+msgstr "Współczesne podejście do kultowej gry Snake – stworzone przy użyciu"
 
 #: templates/otherprojects.html:234 templates/steamchests.html:198
 msgid "Flask"
-msgstr ""
+msgstr "Flask"
 
 #: templates/otherprojects.html:236
 msgid ""
@@ -1778,111 +1829,118 @@ msgid ""
 "and local\n"
 "                        score saving using"
 msgstr ""
+"Gra oferuje kilka poziomów trudności, system punktacji, pseudonimy graczy, "
+"oraz lokalne zapisywanie wyników przy użyciu"
 
 #: templates/otherprojects.html:238
 msgid "JSON-based database"
-msgstr ""
+msgstr "bazy danych stworzonej na JSON"
 
 #: templates/otherprojects.html:238
 msgid ""
 "All gameplay logic runs entirely in the\n"
 "                        browser, providing a smooth and responsive experience."
 msgstr ""
+"Cała logika rozgrywki działa w przeglądarce, zapewniając płynne i responsywne "
+"działanie."
 
 #: templates/otherprojects.html:240
 msgid "Players can compete for a spot in the top 10 leaderboard."
-msgstr ""
+msgstr "Gracze mogą rywalizować o miejsce w pierwszej 10 najlepszych wyników."
 
 #: templates/otherprojects.html:241
 msgid ""
 "The project also demonstrates full integration between the frontend and a "
 "lightweight Python backend."
 msgstr ""
+"Projekt demonstruje również pełną integrację między front-endem a lekkim back-"
+"endem opartym na Pythonie."
 
 #: templates/otherprojects.html:267
 msgid "An interactive geographical quiz built with"
-msgstr ""
+msgstr "Interaktywny geograficzny quiz stworzony w"
 
 #: templates/otherprojects.html:267 templates/otherprojects.html:301
 #: templates/otherprojects.html:334 templates/otherprojects.html:365
 #: templates/otherprojects.html:375 templates/otherprojects.html:396
 #: templates/otherprojects.html:404 templates/otherprojects.html:431
 #: templates/otherprojects.html:460 templates/otherprojects.html:487
-#, fuzzy
 msgid "Python"
-msgstr ""
-"Jestem studentem informatyki (4 rok) ze specjalizacją Inżynieria internetowa. "
-"Aktywnie pracuję w Pythonie i\n"
-"                    back-end development. Eksploruję również naukę o danych i "
-"lubię pracować z zestawami danych i\n"
-"                    i analizą statystyczną."
+msgstr "Python"
 
 #: templates/otherprojects.html:268 templates/otherprojects.html:302
 #: templates/otherprojects.html:334 templates/otherprojects.html:365
 msgid "Turtle"
-msgstr ""
+msgstr "Turtle"
 
 #: templates/otherprojects.html:268 templates/otherprojects.html:302
 #: templates/otherprojects.html:335
 msgid "graphics library."
-msgstr ""
+msgstr "graficznej bibliotece."
 
 #: templates/otherprojects.html:269
 msgid ""
 "The goal is to correctly name all 50 U.S. states, which are then dynamically "
 "labeled on a blank map."
 msgstr ""
+"Celem gry jest poprawne nazwanie wszystkich 50 stanów USA, które następnie są "
+"dynamicznie oznaczane na pustej mapie."
 
 #: templates/otherprojects.html:270
 msgid "The application loads and processes a"
-msgstr ""
+msgstr "Aplikacja wczytuje oraz przetwarza"
 
 #: templates/otherprojects.html:270
 msgid "CSV file"
-msgstr ""
+msgstr "plik CVS"
 
 #: templates/otherprojects.html:271
 msgid "containing state names and their coordinates, and uses"
-msgstr ""
+msgstr "zawierający nazwy stanów razem z ich koordynatami, oraz używa"
 
 #: templates/otherprojects.html:272
 msgid "Pandas"
-msgstr ""
+msgstr "Pandas"
 
 #: templates/otherprojects.html:272
 msgid "to manage data input, filtering, and output."
-msgstr ""
+msgstr "do przetwarzania, filtrowania i prezentacji danych."
 
 #: templates/otherprojects.html:273
 msgid ""
 "If the player chooses to exit early, the program automatically generates a new "
 "CSV file -"
 msgstr ""
+"Jeśli gracz zdecyduje się zakończyć grę wcześniej, program automatycznie "
+"generuje nowy plik CSV –"
 
 #: templates/otherprojects.html:275
 msgid ""
 "listing the states that were missed, allowing for personalized review and "
 "improvement."
 msgstr ""
+"zawierający listę pominiętych stanów, co umożliwia spersonalizowany przegląd i "
+"dalsze doskonalenie."
 
 #: templates/otherprojects.html:276
 msgid ""
 "As a light introduction to data-driven applications, this project demonstrates "
 "how basic"
 msgstr ""
+"Jako lekkie wprowadzenie do aplikacji opartych na danych, projekt pokazuje, "
+"jak podstawowe"
 
 #: templates/otherprojects.html:277
-#, fuzzy
 msgid "data science tools"
-msgstr "Ćwiczenia z Data Science"
+msgstr "narzędzia analityczne"
 
 #: templates/otherprojects.html:278
 msgid "can be applied in an interactive and visual context."
-msgstr ""
+msgstr "można zastosować w interaktywnym i wizualnym kontekście."
 
 #: templates/otherprojects.html:301
 msgid "A modern take on the classic Pong game, developed using"
-msgstr ""
+msgstr "Wersja klasycznej gry Pong – stworzona przy użyciu"
 
 #: templates/otherprojects.html:303
 msgid ""
@@ -1890,6 +1948,8 @@ msgid ""
 "the paddles, ball,\n"
 "                        and scoreboard."
 msgstr ""
+"Projekt ma strukturę obiektową, z oddzielnymi klasami dla paletek, piłki i "
+"tablicy wyników."
 
 #: templates/otherprojects.html:305
 msgid ""
@@ -1898,41 +1958,45 @@ msgid ""
 "                        detection, score tracking, and a gradually increasing "
 "ball speed."
 msgstr ""
+"Zawiera obsługę danych wejściowych w czasie rzeczywistym, zapewniając płynną "
+"rozgrywkę dla dwóch graczy, dynamiczne wykrywanie kolizji, śledzenie punktacji "
+"oraz stopniowo rosnącą prędkość piłki."
 
 #: templates/otherprojects.html:307
 msgid "I built this project as a personal exercise to better understand"
-msgstr ""
+msgstr "Stworzyłem ten projekt jako ćwiczenie własne, aby lepiej zrozumieć"
 
 #: templates/otherprojects.html:309
 msgid "basic game mechanics"
-msgstr ""
+msgstr "podstawowe mechaniki gry"
 
 #: templates/otherprojects.html:309
 msgid ""
 "while experimenting with simple animation\n"
 "                        and user interaction in Python."
 msgstr ""
+"podczas eksperymentowania z prostą animacją i interakcją z użytkownikiem w "
+"Pythonie."
 
 #: templates/otherprojects.html:316
 msgid "View on Github"
-msgstr ""
+msgstr "Sprawdź na Github"
 
 #: templates/otherprojects.html:333
 msgid "A classic"
-msgstr ""
+msgstr "Klasyczny"
 
 #: templates/otherprojects.html:333
-#, fuzzy
 msgid "Snake"
-msgstr "Imię"
+msgstr "Snake"
 
 #: templates/otherprojects.html:333
 msgid "game built in"
-msgstr ""
+msgstr "stworzony w"
 
 #: templates/otherprojects.html:334
 msgid "using the"
-msgstr ""
+msgstr "przy użyciu"
 
 #: templates/otherprojects.html:336
 msgid ""
@@ -1940,6 +2004,8 @@ msgid ""
 "handling the\n"
 "                        snake's behavior, food spawning, and score keeping."
 msgstr ""
+"Projekt ma strukturę obiektową, z oddzielnymi klasami odpowiedzialnymi za "
+"zachowanie węża, generowanie jedzenia oraz zarządzanie punktacją."
 
 #: templates/otherprojects.html:338
 msgid ""
@@ -1948,28 +2014,31 @@ msgid ""
 "                        own body, as well as persistent high score tracking "
 "using a local file."
 msgstr ""
+"Zawiera obsługę danych wejściowych w czasie rzeczywistym, wykrywanie kolizji "
+"ze ścianami, jedzeniem oraz ciałem węża, a także trwałe śledzenie najlepszego "
+"wyniku z wykorzystaniem lokalnego pliku."
 
 #: templates/otherprojects.html:340
 msgid "I created this project to strengthen my understanding of"
-msgstr ""
+msgstr "Stworzyłem ten projekt aby zwiększyć moje zrozumienie"
 
 #: templates/otherprojects.html:340
 msgid ""
 "object-oriented\n"
 "                        programming"
-msgstr ""
+msgstr "programowania obiektowego"
 
 #: templates/otherprojects.html:341
 msgid "collision logic"
-msgstr ""
+msgstr "logika kolizji"
 
 #: templates/otherprojects.html:341
 msgid "and working with persistent data."
-msgstr ""
+msgstr "oraz pracy z danymi trwałymi."
 
 #: templates/otherprojects.html:359
 msgid "Turtle Crossing Game"
-msgstr ""
+msgstr "Turtle Crossing Game"
 
 #: templates/otherprojects.html:364
 msgid "A"
@@ -1977,25 +2046,27 @@ msgstr ""
 
 #: templates/otherprojects.html:364
 msgid "Frogger-style game"
-msgstr ""
+msgstr "Gra w stylu Froggera"
 
 #: templates/otherprojects.html:364
 msgid "developed in"
-msgstr ""
+msgstr "stworzona w"
 
 #: templates/otherprojects.html:365
 msgid "with the"
-msgstr ""
+msgstr "z"
 
 #: templates/otherprojects.html:366
 msgid "graphics module."
-msgstr ""
+msgstr "modułem graficznym."
 
 #: templates/otherprojects.html:367
 msgid ""
 "The player controls a turtle trying to cross a busy road without getting hit "
 "by randomly generated cars."
 msgstr ""
+"Gracz steruje żółwiem, który próbuje przejść przez ruchliwą drogę, unikając "
+"losowo generowanych samochodów."
 
 #: templates/otherprojects.html:368
 msgid ""
@@ -2003,89 +2074,94 @@ msgid ""
 "traffic,\n"
 "                        making the game progressively more challenging."
 msgstr ""
+"Każde udane przejście zwiększa poziom gry oraz prędkość nadjeżdżających "
+"pojazdów, czyniąc rozgrywkę stopniowo coraz trudniejszą."
 
 #: templates/otherprojects.html:370
 msgid "This project helped me improve my skills in"
-msgstr ""
+msgstr "Ten projekt pomógł mi rozwinąć umiejętności w zakresie programowania"
 
 #: templates/otherprojects.html:370
 msgid "event-driven programming"
-msgstr ""
+msgstr "opartego na zdarzeniach"
 
 #: templates/otherprojects.html:371
 msgid "object-oriented design"
-msgstr ""
+msgstr "projektowanie obiektowe"
 
 #: templates/otherprojects.html:371
 msgid "and handling"
-msgstr ""
+msgstr "i obsługi"
 
 #: templates/otherprojects.html:371
 msgid ""
 "dynamic difficulty\n"
 "                        scaling"
-msgstr ""
+msgstr "dynamiczne skalowanie poziomu trudności"
 
 #: templates/otherprojects.html:390 templates/otherprojects.html:393
 msgid "Quiz Game"
-msgstr ""
+msgstr "Gra quizowa"
 
 #: templates/otherprojects.html:395
 msgid "A simple"
-msgstr ""
+msgstr "Prosta"
 
 #: templates/otherprojects.html:395
 msgid "True/False quiz game"
-msgstr ""
+msgstr "gra Prawda/Fałsz"
 
 #: templates/otherprojects.html:395
 msgid "written in"
-msgstr ""
+msgstr "napisana w"
 
 #: templates/otherprojects.html:396
 msgid "based on object-oriented programming principles."
-msgstr ""
+msgstr "oparta na zasadach programowania obiektowego."
 
 #: templates/otherprojects.html:397
 msgid ""
 "The questions are pulled from a structured data source and displayed one by "
 "one in the terminal."
 msgstr ""
+"Pytania są odczytywane ze zorganizowanego źródła danych i prezentowane "
+"pojedynczo w terminalu."
 
 #: templates/otherprojects.html:398
 msgid ""
 "The game keeps track of the user's score and gives immediate feedback after "
 "each answer."
 msgstr ""
+"Gra śledzi wynik użytkownika i udziela natychmiastowej informacji zwrotnej po "
+"każdej odpowiedzi."
 
 #: templates/otherprojects.html:399
 msgid "This project improved my understanding of"
-msgstr ""
+msgstr "Ten projekt poprawił moje zrozumienie"
 
 #: templates/otherprojects.html:399
-#, fuzzy
 msgid "data encapsulation"
-msgstr "Ćwiczenia z Data Science"
+msgstr "hermetyzacja danych"
 
 #: templates/otherprojects.html:400
 msgid "input validation"
-msgstr ""
+msgstr "sprawdzanie poprawności danych wejściowych"
 
 #: templates/otherprojects.html:400
 msgid "managing program state"
-msgstr ""
+msgstr "zarządzanie stanem programu"
 
 #: templates/otherprojects.html:401
 msgid "using class instances."
-msgstr ""
+msgstr "przy użyciu obiektów klas"
 
 #: templates/otherprojects.html:419
 msgid "Prices Scraping"
-msgstr ""
+msgstr "Prices Scraping"
 
 #: templates/otherprojects.html:422
 msgid "Prices Data Scraping"
-msgstr ""
+msgstr "Prices Data Scraping"
 
 #: templates/otherprojects.html:424
 msgid ""
@@ -2094,12 +2170,17 @@ msgid ""
 "                        and link) from a Zillow-like website using "
 "BeautifulSoup and Selenium."
 msgstr ""
+"Projekt scrapera danych, skoncentrowany na zbieraniu informacji o "
+"nieruchomościach na wynajem (cena, adres i link) z serwisu podobnego do "
+"Zillow, z wykorzystaniem BeautifulSoup i Selenium."
 
 #: templates/otherprojects.html:426
 msgid ""
 "Extracted data is then automatically submitted to a Google Form, simulating "
 "data entry automation."
 msgstr ""
+"Wyodrębnione dane są następnie automatycznie przesyłane do formularza Google, "
+"symulując automatyzację wprowadzania danych."
 
 #: templates/otherprojects.html:427
 msgid ""
