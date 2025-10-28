@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-23 09:57+0200\n"
-"PO-Revision-Date: 2025-10-26 17:41+0100\n"
+"PO-Revision-Date: 2025-10-28 14:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -2153,7 +2153,7 @@ msgstr "zarządzanie stanem programu"
 
 #: templates/otherprojects.html:401
 msgid "using class instances."
-msgstr "przy użyciu obiektów klas"
+msgstr "przy użyciu obiektów klas."
 
 #: templates/otherprojects.html:419
 msgid "Prices Scraping"
@@ -2189,16 +2189,21 @@ msgid ""
 "                        useful skills in data analysis pipelines and web data "
 "integration."
 msgstr ""
+"Projekt ten pokazuje praktyczne zastosowanie web scrapingu, parsowania danych "
+"oraz automatyzacji przeglądarki - umiejętności przydatnych w tworzeniu "
+"pipeline’ów analitycznych oraz integracji danych z sieci."
 
 #: templates/otherprojects.html:446
 msgid "Cookie Clicker Bot"
-msgstr ""
+msgstr "Cookie Clicker Bot"
 
 #: templates/otherprojects.html:451
 msgid ""
 "A Selenium-based automation project showcasing browser interaction skills "
 "through multiple mini-tasks."
 msgstr ""
+"Projekt automatyzacji oparty na Selenium, prezentujący umiejętności interakcji "
+"z przeglądarką poprzez zestaw różnych mini-zadań."
 
 #: templates/otherprojects.html:452
 msgid ""
@@ -2207,6 +2212,8 @@ msgid ""
 "                        intelligently purchases upgrades to optimize "
 "efficiency."
 msgstr ""
+"Automatyzuje zdobywanie ciasteczek oraz inteligentnie kupuje ulepszenia w celu "
+"optymalizacji wydajności."
 
 #: templates/otherprojects.html:454
 msgid ""
@@ -2214,6 +2221,8 @@ msgid ""
 "automate form\n"
 "                        submissions, and interact with Wikipedia."
 msgstr ""
+"Dodatkowe skrypty pokazują, jak pobierać dane o wydarzeniach z python.org, "
+"automatyzować wypełnianie formularzy oraz wchodzić w interakcję z Wikipedią."
 
 #: templates/otherprojects.html:456
 msgid ""
@@ -2221,10 +2230,13 @@ msgid ""
 "decision-making\n"
 "                        in dynamic web environments."
 msgstr ""
+"Projekt podkreśla praktyczne techniki automatyzacji działań w sieci oraz "
+"podejmowanie decyzji w czasie rzeczywistym w dynamicznych środowiskach "
+"webowych."
 
 #: templates/otherprojects.html:475
 msgid "Top 100 Songs"
-msgstr ""
+msgstr "Top 100 Songs"
 
 #: templates/otherprojects.html:480
 msgid ""
@@ -2235,6 +2247,10 @@ msgid ""
 "                        creates a private Spotify playlist with the found "
 "songs."
 msgstr ""
+"Stworzyłem aplikację w Pythonie, która pobiera listę Billboard Hot 100 dla "
+"wskazanej przez użytkownika daty (z użyciem BeautifulSoup), wyszukuje każdy "
+"utwór na Spotify za pomocą API Spotipy i automatycznie tworzy prywatną "
+"playlistę z odnalezionymi piosenkami."
 
 #: templates/otherprojects.html:483
 msgid ""
@@ -2242,42 +2258,43 @@ msgid ""
 "external sources\n"
 "                        (Billboard and Spotify APIs)."
 msgstr ""
+"Wykorzystano OAuth do uwierzytelniania użytkownika oraz zintegrowano dane z "
+"kilku zewnętrznych źródeł (API Billboard i Spotify)."
 
 #: templates/steamchests.html:42 templates/steamchests.html:99
 #: templates/steamchests.html:322
-#, fuzzy
 msgid "User Chests"
-msgstr "Steam Chest Prices"
+msgstr "User Chests"
 
 #: templates/steamchests.html:45 templates/steamchests.html:112
 #: templates/steamchests.html:344
 msgid "Chest Page"
-msgstr ""
+msgstr "Strona skrzyni"
 
 #: templates/steamchests.html:48 templates/steamchests.html:125
 #: templates/steamchests.html:364
 msgid "Calculator"
-msgstr ""
+msgstr "Kalkulator"
 
 #: templates/steamchests.html:74
 msgid "Technologies behind it and the idea that started it all"
-msgstr ""
+msgstr "Technologie wykorzystane w projekcie, oraz motywacja"
 
 #: templates/steamchests.html:87
 msgid "Overview of all available cases and their latest prices."
-msgstr ""
+msgstr "Podgląd wszystkich dostępnych skrzyń z aktualnymi cenami."
 
 #: templates/steamchests.html:100
 msgid "List of user chests and their price"
-msgstr ""
+msgstr "Lista skrzyń użytkownika z ich wartością"
 
 #: templates/steamchests.html:113
 msgid "Track price history, spot trends, and see percentage changes."
-msgstr ""
+msgstr "Sprawdź historię wartości, dostrzegaj trendy, zobacz zmiany procentowe."
 
 #: templates/steamchests.html:126
 msgid "Use the calculator without the need for an account."
-msgstr ""
+msgstr "Używaj kalkulatora bez zakładania konta."
 
 #: templates/steamchests.html:182
 msgid ""
@@ -2291,10 +2308,16 @@ msgid ""
 "opportunity for me to improve my development skills\n"
 "                        and learn new technologies."
 msgstr ""
+"Moi znajomi i ja graliśmy intensywnie w Counter-Strike 2, podczas czego "
+"kupowaliśmy różne skrzynki w grze, które później można było sprzedać z "
+"zyskiem. Chciałem stworzyć platformę, która pozwalałaby nam śledzić wartość "
+"naszych ekwipunków, monitorować zmiany cen w czasie oraz określać najlepszy "
+"moment na sprzedaż. Projekt był również cenną okazją do rozwijania "
+"umiejętności programistycznych i poznawania nowych technologii."
 
 #: templates/steamchests.html:198
 msgid "This web application was developed using the "
-msgstr ""
+msgstr "Ta aplikacja webowa została stworzona z użyciem"
 
 #: templates/steamchests.html:198
 msgid ""
@@ -2308,63 +2331,69 @@ msgid ""
 "                                visualizes market trends to help identify "
 "optimal selling moments."
 msgstr ""
+"framework i udostępnia narzędzia do śledzenia cen skrzynek z gry CS2 "
+"wystawionych na rynku Steam. Użytkownicy mogą przeglądać historyczne wykresy "
+"cen, monitorować dzienne, tygodniowe, miesięczne oraz całkowite zmiany "
+"wartości, a także zakładać konta w celu zarządzania własnym ekwipunkiem. "
+"System automatycznie oblicza łączną wartość posiadanych skrzynek i wizualizuje "
+"trendy rynkowe, aby pomóc w identyfikacji optymalnych momentów sprzedaży."
 
 #: templates/steamchests.html:216
-#, fuzzy
 msgid "Technologies Used"
-msgstr "Technologie"
+msgstr "Użyte technologie"
 
 #: templates/steamchests.html:236
 msgid "Charts:"
-msgstr ""
+msgstr "Wykresy:"
 
 #: templates/steamchests.html:253
 msgid "User Authentication"
-msgstr ""
+msgstr "Uwierzytelnianie użytkowników"
 
 #: templates/steamchests.html:254
 msgid "Secure registration, login, and password hashing"
-msgstr ""
+msgstr "Bezpieczna rejestracja, logowanie, oraz hashowanie hasła"
 
 #: templates/steamchests.html:260
 msgid "Inventory Forms"
-msgstr ""
+msgstr "Formularze ekwipunku"
 
 #: templates/steamchests.html:261
 msgid "Manage case quantities and view value changes"
-msgstr ""
+msgstr "Zarządzaj ilością skrzyń i sprawdzaj ich zmianę wartości"
 
 #: templates/steamchests.html:267
 msgid "Daily Updates"
-msgstr ""
+msgstr "Codzienne aktualizacje"
 
 #: templates/steamchests.html:268
 msgid "Automated updates using GitHub Actions"
-msgstr ""
+msgstr "Automatyczne aktualizacje z użyciem GitHub Actions"
 
 #: templates/steamchests.html:274
 msgid "Git Integration"
-msgstr ""
+msgstr "Integracja z Git"
 
 #: templates/steamchests.html:275
 msgid "Version control and GitHub hosting"
-msgstr ""
+msgstr "Kontrola wersji i hostowanie na GitHubie"
 
 #: templates/steamchests.html:281
 msgid "Full-Stack Project"
-msgstr ""
+msgstr "Projekt Full-Stack"
 
 #: templates/steamchests.html:282
 msgid "Real-world stack for modern web apps"
 msgstr ""
+"Praktyczny stack technologiczny dla współczesnych aplikacji internetowych"
 
 #: templates/steamchests.html:288
 msgid "Case Value Charts"
-msgstr ""
+msgstr "Wykres wartości skrzyni"
 
 #: templates/steamchests.html:289
 msgid "Visualize price fluctuations over time"
-msgstr ""
+msgstr "Wizualizacja zmiany cen w czasie"
 
 #: templates/steamchests.html:304
 msgid ""
@@ -2373,29 +2402,38 @@ msgid ""
 "                    the Steam Market, each represented by a card containing "
 "the case name, image fetched from the Steam API, and market price."
 msgstr ""
+"Strona główna wyświetla dynamicznie generowaną listę wszystkich skrzynek z gry "
+"Counter-Strike 2 dostępnych na rynku Steam, z których każda jest przedstawiona "
+"jako karta zawierająca nazwę skrzynki, obraz pobrany z marketplace Steam oraz "
+"cenę rynkową pobraną z API."
 
 #: templates/steamchests.html:306
 msgid ""
 "Clicking on a case redirects the user to a detailed subpage showing a "
 "historical price chart and metadata."
 msgstr ""
+"Wybranie skrzyni przenosi na podstronę z jej detalami, takimi jak wykres zmian "
+"ceny w czasie."
 
 #: templates/steamchests.html:307
 msgid ""
 "Data is regularly fetched and stored in JSON format as part of my learning "
 "process with JSON handling."
 msgstr ""
+"Dane są regularnie pobierane i przechowywane w formacie JSON, jako proces "
+"mojej nauki z tym formatem."
 
 #: templates/steamchests.html:308
 msgid ""
 "To improve performance, I created a separate JSON file that stores only the "
 "latest prices for each case."
 msgstr ""
+"Dla optymalizacji strony głównej utworzyłem dodatkowy plik JSON zawierający "
+"tylko najnowsze ceny."
 
 #: templates/steamchests.html:313
-#, fuzzy
 msgid "Steam Chests Overview"
-msgstr "Steam Chest Prices"
+msgstr "Podgląd skrzyń"
 
 #: templates/steamchests.html:324
 msgid ""
@@ -2403,6 +2441,8 @@ msgid ""
 "Counter-Strike\n"
 "                    2 cases along with quantities."
 msgstr ""
+"Panel użytkownika umożliwia zalogowanym użytkownikom wprowadzanie i "
+"zarządzanie posiadanymi skrzynkami z gry Counter-Strike 2 wraz z ich ilościami."
 
 #: templates/steamchests.html:326
 msgid ""
@@ -2411,10 +2451,14 @@ msgid ""
 "                    price, total value (with and without Steam transaction "
 "fees), and percentage change from the previous day."
 msgstr ""
+"Każdy wpis jest wyświetlany w dynamicznej, responsywnej tabeli, która zawiera "
+"najnowszą cenę rynkową skrzynki, łączną wartość (z uwzględnieniem i bez "
+"uwzględnienia opłat transakcyjnych Steam) oraz procentową zmianę względem "
+"poprzedniego dnia, tygodnia, miesiąca, oraz łączną."
 
 #: templates/steamchests.html:328
 msgid "Users can update or remove individual case records."
-msgstr ""
+msgstr "Użytkownicy mogą edytować swój stan ekwipunku."
 
 #: templates/steamchests.html:329
 msgid ""
@@ -2422,10 +2466,13 @@ msgid ""
 "of all listed\n"
 "                    cases, both pre- and post-tax."
 msgstr ""
+"Poniżej tabeli aplikacja oblicza i wyświetla łączną wartość wszystkich "
+"wymienionych skrzynek - zarówno przed opodatkowaniem, jak i po jego "
+"uwzględnieniu."
 
 #: templates/steamchests.html:335
 msgid "User Inventory Page"
-msgstr ""
+msgstr "Ekwipunek Użytkownika"
 
 #: templates/steamchests.html:346
 msgid ""
@@ -2434,10 +2481,14 @@ msgid ""
 "                    users to analyze case price fluctuations over various time "
 "ranges, including the past week, month, year, and all-time."
 msgstr ""
+"Strona szczegółów skrzynki prezentuje interaktywny wykres historii cen oparty "
+"na Chart.js, umożliwiający użytkownikom analizę wahań cen skrzynki w różnych "
+"przedziałach czasowych -w tym z ostatniego tygodnia, miesiąca, roku oraz "
+"całego okresu."
 
 #: templates/steamchests.html:348
 msgid "Users can dynamically select the desired time frame."
-msgstr ""
+msgstr "Użytkownicy mogą dynamicznie wybierać preferowany przedział czasowy."
 
 #: templates/steamchests.html:349
 msgid ""
@@ -2445,14 +2496,19 @@ msgid ""
 "the corresponding\n"
 "                    percentage change compared to the previous recorded value."
 msgstr ""
+"Poniżej wykresu znajduje się tabela danych, która wyświetla historyczne ceny "
+"według daty wraz z odpowiadającą im procentową zmianą względem poprzednio "
+"zarejestrowanej wartości."
 
 #: templates/steamchests.html:355
 msgid "Chest Detail Page"
-msgstr ""
+msgstr "Strona szczegółów skrzynki"
 
 #: templates/steamchests.html:366
 msgid "The calculator is designed for users who prefer not to create an account."
 msgstr ""
+"Kalkulator został zaprojektowany z myślą o użytkownikach, którzy wolą nie "
+"zakładać konta."
 
 #: templates/steamchests.html:367
 msgid ""
@@ -2460,6 +2516,8 @@ msgid ""
 "input the cases\n"
 "                    they own and their respective quantities."
 msgstr ""
+"Oferuje podobną funkcjonalność do strony ekwipunku użytkownika, umożliwiając "
+"wprowadzanie posiadanych skrzynek oraz ich ilości."
 
 #: templates/steamchests.html:369
 msgid ""
@@ -2467,6 +2525,8 @@ msgid ""
 "refreshed, all\n"
 "                    information is cleared."
 msgstr ""
+"Jednak dane nie są zapisywane — po zakończeniu sesji lub odświeżeniu strony "
+"wszystkie informacje zostają usunięte."
 
 #: templates/steamchests.html:371
 msgid ""
@@ -2474,10 +2534,12 @@ msgid ""
 "both before and after\n"
 "                    Steam transaction fees."
 msgstr ""
+"To narzędzie umożliwia szybkie oszacowanie łącznej wartości posiadanych "
+"skrzynek — zarówno przed, jak i po uwzględnieniu opłat transakcyjnych Steam."
 
 #: templates/steamchests.html:377
 msgid "Calculator Tool"
-msgstr ""
+msgstr "Kalkulator"
 
 #: templates/steamchests.html:388
 msgid ""
@@ -2485,6 +2547,8 @@ msgid ""
 "registration and login\n"
 "                    functionality."
 msgstr ""
+"Projekt zawiera bezpieczny system uwierzytelniania użytkowników, obejmujący "
+"funkcjonalność rejestracji oraz logowania."
 
 #: templates/steamchests.html:390
 msgid ""
@@ -2493,18 +2557,25 @@ msgid ""
 "                    industry-standard techniques before being stored in the "
 "database."
 msgstr ""
+"Podczas rejestracji dane uwierzytelniające użytkownika są weryfikowane, a "
+"hasła bezpiecznie haszowane z wykorzystaniem technik zgodnych ze standardami "
+"branżowymi, zanim zostaną zapisane w bazie danych."
 
 #: templates/steamchests.html:392
 msgid ""
 "Upon logging in, users gain access to personalized features such as managing "
 "their own case inventory."
 msgstr ""
+"Po zalogowaniu użytkownicy uzyskują dostęp do spersonalizowanych funkcji, "
+"takich jak zarządzanie własnym ekwipunkiem skrzynek."
 
 #: templates/steamchests.html:393
 msgid ""
 "Session management is handled via Flask’s session mechanism to maintain user "
 "state throughout the visit."
 msgstr ""
+"Zarządzanie sesją odbywa się za pomocą mechanizmu sesji Flask, co pozwala na "
+"utrzymanie stanu użytkownika przez cały czas trwania wizyty."
 
 #: templates/steamchests.html:398
 msgid "Login and Registration"
