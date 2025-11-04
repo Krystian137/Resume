@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-23 09:57+0200\n"
-"PO-Revision-Date: 2025-10-28 14:30+0100\n"
+"PO-Revision-Date: 2025-11-04 20:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -453,7 +453,7 @@ msgstr "Logowanie i rejestracja nowego konta"
 #: templates/moviereviewers.html:140 templates/myfilmsay.html:141
 #: templates/steamchests.html:180
 msgid "Idea that started the project"
-msgstr "Motywacja do rozpoczęcia projektu"
+msgstr "Motywacja"
 
 #: templates/moviereviewers.html:142 templates/myfilmsay.html:143
 msgid ""
@@ -880,7 +880,7 @@ msgstr "wraz z"
 
 #: templates/moviereviewers.html:359 templates/myfilmsay.html:354
 msgid "progress circle"
-msgstr "okrągły wskaźnik postępu"
+msgstr "okrągłym wskaźnikiem postępu"
 
 #: templates/moviereviewers.html:359 templates/myfilmsay.html:354
 msgid ""
@@ -1044,7 +1044,7 @@ msgstr ""
 #: templates/moviereviewers.html:516 templates/myfilmsay.html:393
 #: templates/myfilmsay.html:477 templates/myfilmsay.html:554
 msgid "The"
-msgstr ""
+msgstr "  "
 
 #: templates/moviereviewers.html:397 templates/myfilmsay.html:393
 msgid "author"
@@ -1119,7 +1119,7 @@ msgstr "Proces zaczyna się od"
 #: templates/moviereviewers.html:425 templates/myfilmsay.html:413
 #: templates/myfilmsay.html:420
 msgid "Add Movie"
-msgstr "Add Movie"
+msgstr "Dodaj Film"
 
 #: templates/moviereviewers.html:425
 msgid ""
@@ -1152,7 +1152,7 @@ msgstr ""
 #: templates/moviereviewers.html:433 templates/myfilmsay.html:450
 #: templates/myfilmsay.html:453
 msgid "Edit Movie"
-msgstr "edycja filmu."
+msgstr "Edycja filmu"
 
 #: templates/moviereviewers.html:433
 msgid "page."
@@ -1517,7 +1517,8 @@ msgid ""
 "add, edit, or delete movies, manage\n"
 "                                comments, moderate user profiles"
 msgstr ""
-"dodaj, edytuj, usuń film, zarządzanie komentarzami, oraz nadzorowanie profilów"
+"dodawać, edytować, usuwać filmy, zarządzać komentarzami, oraz nadzorować "
+"profile"
 
 #: templates/myfilmsay.html:329
 msgid ""
@@ -1604,11 +1605,11 @@ msgstr ""
 
 #: templates/myfilmsay.html:460
 msgid "If the user is"
-msgstr "Jeżeli użytkownik jest"
+msgstr "Jeżeli użytkownik jest w"
 
 #: templates/myfilmsay.html:460
 msgid "editing"
-msgstr "edytowanie"
+msgstr "edycji"
 
 #: templates/myfilmsay.html:460
 msgid ""
@@ -1678,7 +1679,7 @@ msgstr "aby monitorować aktywność lub podejmować niezbędne działania."
 
 #: templates/myfilmsay.html:555
 msgid "project – a web application for discovering and reviewing movies."
-msgstr "projekt – aplikacja webowa do odkrywania i recenzowania filmów."
+msgstr "projektu – aplikacji webowej do odkrywania i recenzowania filmów."
 
 #: templates/myfilmsay.html:556
 msgid "It can also serve as a"
@@ -2317,7 +2318,7 @@ msgstr ""
 
 #: templates/steamchests.html:198
 msgid "This web application was developed using the "
-msgstr "Ta aplikacja webowa została stworzona z użyciem"
+msgstr "Ta aplikacja webowa została stworzona z użyciem "
 
 #: templates/steamchests.html:198
 msgid ""

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="51% of translation">
+    <list default="true" id="94431330-04f6-4413-9f99-69b4e3baaaed" name="Changes" comment="links to github">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2025_11_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_10_2025_11_54__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.mo" beforeDir="false" afterPath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.mo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" beforeDir="false" afterPath="$PROJECT_DIR$/translations/pl/LC_MESSAGES/messages.po" afterDir="false" />
     </list>
@@ -364,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1761422235645</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="links to github">
+      <option name="closed" value="true" />
+      <created>1762196870901</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1762196870901</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="icons and sections updated on steamchests.html" />
     <MESSAGE value="just updates" />
     <MESSAGE value="finally adding desciptions" />
     <MESSAGE value="finished steamchest.html and index.html except footer" />
@@ -393,6 +403,7 @@
     <MESSAGE value="preparing for translation" />
     <MESSAGE value="30% of translation" />
     <MESSAGE value="51% of translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="51% of translation" />
+    <MESSAGE value="links to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="links to github" />
   </component>
 </project>
